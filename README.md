@@ -5,7 +5,7 @@ https://github.com/naklecha/llama3-from-scratch; this repo of mine has like 15k 
 
 (this repo is currently wip)
 
-note: this is not production quality code, and it will never be, it's just for educational purposes. i like single file, no functions, no classes, codebases that are easy to understand. also, they are alot more aesthetic.
+note: this is not production quality code, and it will never be, it's just for educational purposes. i like single file, no functions, no classes, codebases that are easy to understand. also, writing code this way is alot more aesthetic.
 
 #### what i have so far, in order of increasing complexity:
 - 0.py (15 tokens per second, single prompt) similar to my llama3-from-scratch repo
