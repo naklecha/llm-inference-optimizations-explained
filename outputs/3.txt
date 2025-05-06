@@ -1,6 +1,6 @@
 [BATCH] 50 prompt(s) will be processed together.
 Loading model and tokenizer...
-Loading took 0.922s
+Loading took 1.014s
 [PREFILL] Longest prompt length: 25 tokens
 Finished generation for prompt 3
 Finished generation for prompt 22
@@ -50,7 +50,7 @@ Finished generation for prompt 7
 Finished generation for prompt 46
 Finished generation for prompt 29
 Finished generation for prompt 41
-[GENERATION TIME]  24.093390703201294
+[GENERATION TIME]  24.220597743988037
 [TOTAL TOKENS GENERATED]  32732
-[OUTPUT TOKENS PER SECOND]  1358.5468481051482
+[OUTPUT TOKENS PER SECOND]  1351.4117341767355
 [END] Generation complete

@@ -64,6 +64,8 @@ with torch.no_grad():
     k_cache = [torch.empty((0, batch_size, n_heads, head_dim), dtype=torch.bfloat16, device=device) for _ in range(n_layers)]
     v_cache = [torch.empty((0, batch_size, n_heads, head_dim), dtype=torch.bfloat16, device=device) for _ in range(n_layers)]
 
+    generation_start = time.time()
+    
     for position in range(max_prompt_len):
         tok_step = prompt_tokens[:, position]
         x = embedding_layer(tok_step).to(torch.bfloat16)
@@ -110,7 +112,6 @@ with torch.no_grad():
     finished = torch.zeros(batch_size, dtype=torch.bool, device=device)
 
     output_tokens = [[] for _ in range(batch_size)]
-    generation_start = time.time()
     step = 0
 
     while step < MAX_TOKENS_TO_GENERATE and not torch.all(finished):
