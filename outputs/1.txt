@@ -1,0 +1,1006 @@
+Loading model and tokenizer...
+Loading took 0.929s
+[TOKEN 1] 'What' -- 0.116s
+[TOKEN 2] ' a' -- 0.006s
+[TOKEN 3] ' profound' -- 0.005s
+[TOKEN 4] ' and' -- 0.005s
+[TOKEN 5] ' complex' -- 0.005s
+[TOKEN 6] ' question' -- 0.005s
+[TOKEN 7] '!' -- 0.005s
+[TOKEN 8] ' Here' -- 0.005s
+[TOKEN 9] ' are' -- 0.006s
+[TOKEN 10] ' ' -- 0.006s
+[TOKEN 11] '100' -- 0.006s
+[TOKEN 12] '0' -- 0.005s
+[TOKEN 13] ' different' -- 0.005s
+[TOKEN 14] ' possible' -- 0.005s
+[TOKEN 15] ' answers' -- 0.005s
+[TOKEN 16] ' to' -- 0.005s
+[TOKEN 17] ' the' -- 0.005s
+[TOKEN 18] ' meaning' -- 0.005s
+[TOKEN 19] ' of' -- 0.005s
+[TOKEN 20] ' life' -- 0.005s
+[TOKEN 21] ':\n\n' -- 0.005s
+[TOKEN 22] '**' -- 0.005s
+[TOKEN 23] 'Phil' -- 0.005s
+[TOKEN 24] 'osoph' -- 0.005s
+[TOKEN 25] 'ical' -- 0.005s
+[TOKEN 26] ' and' -- 0.005s
+[TOKEN 27] ' Exist' -- 0.005s
+[TOKEN 28] 'ential' -- 0.005s
+[TOKEN 29] '**\n\n' -- 0.005s
+[TOKEN 30] '1' -- 0.005s
+[TOKEN 31] '.' -- 0.005s
+[TOKEN 32] ' To' -- 0.005s
+[TOKEN 33] ' find' -- 0.005s
+[TOKEN 34] ' purpose' -- 0.005s
+[TOKEN 35] ' and' -- 0.005s
+[TOKEN 36] ' fulfillment' -- 0.005s
+[TOKEN 37] ' in' -- 0.005s
+[TOKEN 38] ' a' -- 0.005s
+[TOKEN 39] ' seemingly' -- 0.005s
+[TOKEN 40] ' meaningless' -- 0.005s
+[TOKEN 41] ' world' -- 0.006s
+[TOKEN 42] '.\n' -- 0.005s
+[TOKEN 43] '2' -- 0.005s
+[TOKEN 44] '.' -- 0.005s
+[TOKEN 45] ' To' -- 0.005s
+[TOKEN 46] ' experience' -- 0.005s
+[TOKEN 47] ' joy' -- 0.005s
+[TOKEN 48] ',' -- 0.005s
+[TOKEN 49] ' love' -- 0.005s
+[TOKEN 50] ',' -- 0.005s
+[TOKEN 51] ' and' -- 0.005s
+[TOKEN 52] ' happiness' -- 0.005s
+[TOKEN 53] '.\n' -- 0.005s
+[TOKEN 54] '3' -- 0.005s
+[TOKEN 55] '.' -- 0.005s
+[TOKEN 56] ' To' -- 0.005s
+[TOKEN 57] ' understand' -- 0.005s
+[TOKEN 58] ' the' -- 0.005s
+[TOKEN 59] ' nature' -- 0.005s
+[TOKEN 60] ' of' -- 0.005s
+[TOKEN 61] ' reality' -- 0.005s
+[TOKEN 62] ' and' -- 0.005s
+[TOKEN 63] ' the' -- 0.005s
+[TOKEN 64] ' universe' -- 0.005s
+[TOKEN 65] '.\n' -- 0.005s
+[TOKEN 66] '4' -- 0.005s
+[TOKEN 67] '.' -- 0.005s
+[TOKEN 68] ' To' -- 0.005s
+[TOKEN 69] ' transcend' -- 0.005s
+[TOKEN 70] ' mortality' -- 0.005s
+[TOKEN 71] ' and' -- 0.005s
+[TOKEN 72] ' achieve' -- 0.005s
+[TOKEN 73] ' imm' -- 0.005s
+[TOKEN 74] 'ortality' -- 0.005s
+[TOKEN 75] '.\n' -- 0.005s
+[TOKEN 76] '5' -- 0.005s
+[TOKEN 77] '.' -- 0.005s
+[TOKEN 78] ' To' -- 0.005s
+[TOKEN 79] ' create' -- 0.005s
+[TOKEN 80] ' and' -- 0.005s
+[TOKEN 81] ' leave' -- 0.005s
+[TOKEN 82] ' a' -- 0.005s
+[TOKEN 83] ' lasting' -- 0.005s
+[TOKEN 84] ' legacy' -- 0.005s
+[TOKEN 85] '.\n' -- 0.005s
+[TOKEN 86] '6' -- 0.005s
+[TOKEN 87] '.' -- 0.005s
+[TOKEN 88] ' To' -- 0.005s
+[TOKEN 89] ' find' -- 0.005s
+[TOKEN 90] ' meaning' -- 0.005s
+[TOKEN 91] ' in' -- 0.005s
+[TOKEN 92] ' the' -- 0.005s
+[TOKEN 93] ' present' -- 0.005s
+[TOKEN 94] ' moment' -- 0.005s
+[TOKEN 95] '.\n' -- 0.005s
+[TOKEN 96] '7' -- 0.005s
+[TOKEN 97] '.' -- 0.005s
+[TOKEN 98] ' To' -- 0.005s
+[TOKEN 99] ' discover' -- 0.005s
+[TOKEN 100] ' one' -- 0.005s
+[TOKEN 101] "'s" -- 0.005s
+[TOKEN 102] ' true' -- 0.005s
+[TOKEN 103] ' identity' -- 0.005s
+[TOKEN 104] ' and' -- 0.005s
+[TOKEN 105] ' purpose' -- 0.006s
+[TOKEN 106] '.\n' -- 0.006s
+[TOKEN 107] '8' -- 0.006s
+[TOKEN 108] '.' -- 0.006s
+[TOKEN 109] ' To' -- 0.006s
+[TOKEN 110] ' experience' -- 0.006s
+[TOKEN 111] ' the' -- 0.006s
+[TOKEN 112] ' beauty' -- 0.006s
+[TOKEN 113] ' and' -- 0.006s
+[TOKEN 114] ' wonder' -- 0.006s
+[TOKEN 115] ' of' -- 0.006s
+[TOKEN 116] ' life' -- 0.006s
+[TOKEN 117] '.\n' -- 0.006s
+[TOKEN 118] '9' -- 0.006s
+[TOKEN 119] '.' -- 0.006s
+[TOKEN 120] ' To' -- 0.006s
+[TOKEN 121] ' overcome' -- 0.006s
+[TOKEN 122] ' fear' -- 0.006s
+[TOKEN 123] ',' -- 0.006s
+[TOKEN 124] ' anxiety' -- 0.006s
+[TOKEN 125] ',' -- 0.006s
+[TOKEN 126] ' and' -- 0.006s
+[TOKEN 127] ' doubt' -- 0.006s
+[TOKEN 128] '.\n' -- 0.006s
+[TOKEN 129] '10' -- 0.006s
+[TOKEN 130] '.' -- 0.006s
+[TOKEN 131] ' To' -- 0.006s
+[TOKEN 132] ' find' -- 0.006s
+[TOKEN 133] ' inner' -- 0.006s
+[TOKEN 134] ' peace' -- 0.006s
+[TOKEN 135] ' and' -- 0.006s
+[TOKEN 136] ' content' -- 0.006s
+[TOKEN 137] 'ment' -- 0.006s
+[TOKEN 138] '.\n\n' -- 0.006s
+[TOKEN 139] '**' -- 0.006s
+[TOKEN 140] 'Rel' -- 0.006s
+[TOKEN 141] 'igious' -- 0.006s
+[TOKEN 142] ' and' -- 0.006s
+[TOKEN 143] ' Spiritual' -- 0.006s
+[TOKEN 144] '**\n\n' -- 0.006s
+[TOKEN 145] '11' -- 0.006s
+[TOKEN 146] '.' -- 0.006s
+[TOKEN 147] ' To' -- 0.006s
+[TOKEN 148] ' follow' -- 0.006s
+[TOKEN 149] ' the' -- 0.006s
+[TOKEN 150] ' teachings' -- 0.006s
+[TOKEN 151] ' of' -- 0.006s
+[TOKEN 152] ' a' -- 0.006s
+[TOKEN 153] ' higher' -- 0.006s
+[TOKEN 154] ' power' -- 0.006s
+[TOKEN 155] ' or' -- 0.006s
+[TOKEN 156] ' deity' -- 0.006s
+[TOKEN 157] '.\n' -- 0.006s
+[TOKEN 158] '12' -- 0.006s
+[TOKEN 159] '.' -- 0.006s
+[TOKEN 160] ' To' -- 0.006s
+[TOKEN 161] ' seek' -- 0.006s
+[TOKEN 162] ' enlightenment' -- 0.006s
+[TOKEN 163] ' and' -- 0.006s
+[TOKEN 164] ' spiritual' -- 0.006s
+[TOKEN 165] ' awakening' -- 0.006s
+[TOKEN 166] '.\n' -- 0.006s
+[TOKEN 167] '13' -- 0.006s
+[TOKEN 168] '.' -- 0.006s
+[TOKEN 169] ' To' -- 0.006s
+[TOKEN 170] ' connect' -- 0.006s
+[TOKEN 171] ' with' -- 0.006s
+[TOKEN 172] ' a' -- 0.006s
+[TOKEN 173] ' higher' -- 0.006s
+[TOKEN 174] ' self' -- 0.006s
+[TOKEN 175] ' or' -- 0.006s
+[TOKEN 176] ' the' -- 0.006s
+[TOKEN 177] ' divine' -- 0.006s
+[TOKEN 178] '.\n' -- 0.006s
+[TOKEN 179] '14' -- 0.006s
+[TOKEN 180] '.' -- 0.006s
+[TOKEN 181] ' To' -- 0.006s
+[TOKEN 182] ' fulfill' -- 0.006s
+[TOKEN 183] ' a' -- 0.006s
+[TOKEN 184] ' divine' -- 0.006s
+[TOKEN 185] ' mission' -- 0.006s
+[TOKEN 186] ' or' -- 0.006s
+[TOKEN 187] ' purpose' -- 0.006s
+[TOKEN 188] '.\n' -- 0.006s
+[TOKEN 189] '15' -- 0.006s
+[TOKEN 190] '.' -- 0.006s
+[TOKEN 191] ' To' -- 0.006s
+[TOKEN 192] ' experience' -- 0.006s
+[TOKEN 193] ' a' -- 0.006s
+[TOKEN 194] ' sense' -- 0.006s
+[TOKEN 195] ' of' -- 0.006s
+[TOKEN 196] ' on' -- 0.006s
+[TOKEN 197] 'eness' -- 0.006s
+[TOKEN 198] ' with' -- 0.006s
+[TOKEN 199] ' the' -- 0.006s
+[TOKEN 200] ' universe' -- 0.006s
+[TOKEN 201] '.\n' -- 0.006s
+[TOKEN 202] '16' -- 0.006s
+[TOKEN 203] '.' -- 0.006s
+[TOKEN 204] ' To' -- 0.006s
+[TOKEN 205] ' find' -- 0.006s
+[TOKEN 206] ' sol' -- 0.006s
+[TOKEN 207] 'ace' -- 0.006s
+[TOKEN 208] ' and' -- 0.006s
+[TOKEN 209] ' comfort' -- 0.006s
+[TOKEN 210] ' in' -- 0.006s
+[TOKEN 211] ' faith' -- 0.006s
+[TOKEN 212] '.\n' -- 0.006s
+[TOKEN 213] '17' -- 0.006s
+[TOKEN 214] '.' -- 0.006s
+[TOKEN 215] ' To' -- 0.006s
+[TOKEN 216] ' follow' -- 0.006s
+[TOKEN 217] ' the' -- 0.007s
+[TOKEN 218] ' path' -- 0.006s
+[TOKEN 219] ' of' -- 0.007s
+[TOKEN 220] ' righteousness' -- 0.006s
+[TOKEN 221] ' and' -- 0.007s
+[TOKEN 222] ' morality' -- 0.007s
+[TOKEN 223] '.\n' -- 0.007s
+[TOKEN 224] '18' -- 0.006s
+[TOKEN 225] '.' -- 0.007s
+[TOKEN 226] ' To' -- 0.006s
+[TOKEN 227] ' seek' -- 0.007s
+[TOKEN 228] ' forgiveness' -- 0.006s
+[TOKEN 229] ' and' -- 0.007s
+[TOKEN 230] ' redemption' -- 0.006s
+[TOKEN 231] '.\n' -- 0.007s
+[TOKEN 232] '19' -- 0.006s
+[TOKEN 233] '.' -- 0.007s
+[TOKEN 234] ' To' -- 0.008s
+[TOKEN 235] ' experience' -- 0.007s
+[TOKEN 236] ' a' -- 0.007s
+[TOKEN 237] ' sense' -- 0.008s
+[TOKEN 238] ' of' -- 0.008s
+[TOKEN 239] ' awe' -- 0.008s
+[TOKEN 240] ' and' -- 0.008s
+[TOKEN 241] ' wonder' -- 0.008s
+[TOKEN 242] '.\n' -- 0.008s
+[TOKEN 243] '20' -- 0.008s
+[TOKEN 244] '.' -- 0.008s
+[TOKEN 245] ' To' -- 0.008s
+[TOKEN 246] ' find' -- 0.008s
+[TOKEN 247] ' peace' -- 0.008s
+[TOKEN 248] ' and' -- 0.008s
+[TOKEN 249] ' tranqu' -- 0.008s
+[TOKEN 250] 'ility' -- 0.008s
+[TOKEN 251] ' in' -- 0.008s
+[TOKEN 252] ' a' -- 0.008s
+[TOKEN 253] ' chaotic' -- 0.008s
+[TOKEN 254] ' world' -- 0.009s
+[TOKEN 255] '.\n\n' -- 0.008s
+[TOKEN 256] '**' -- 0.009s
+[TOKEN 257] 'Scient' -- 0.008s
+[TOKEN 258] 'ific' -- 0.009s
+[TOKEN 259] ' and' -- 0.008s
+[TOKEN 260] ' Rational' -- 0.009s
+[TOKEN 261] '**\n\n' -- 0.008s
+[TOKEN 262] '21' -- 0.009s
+[TOKEN 263] '.' -- 0.008s
+[TOKEN 264] ' To' -- 0.009s
+[TOKEN 265] ' understand' -- 0.009s
+[TOKEN 266] ' the' -- 0.009s
+[TOKEN 267] ' laws' -- 0.008s
+[TOKEN 268] ' of' -- 0.008s
+[TOKEN 269] ' physics' -- 0.008s
+[TOKEN 270] ' and' -- 0.008s
+[TOKEN 271] ' the' -- 0.009s
+[TOKEN 272] ' universe' -- 0.008s
+[TOKEN 273] '.\n' -- 0.009s
+[TOKEN 274] '22' -- 0.009s
+[TOKEN 275] '.' -- 0.009s
+[TOKEN 276] ' To' -- 0.008s
+[TOKEN 277] ' discover' -- 0.009s
+[TOKEN 278] ' new' -- 0.009s
+[TOKEN 279] ' knowledge' -- 0.009s
+[TOKEN 280] ' and' -- 0.009s
+[TOKEN 281] ' insights' -- 0.008s
+[TOKEN 282] '.\n' -- 0.009s
+[TOKEN 283] '23' -- 0.009s
+[TOKEN 284] '.' -- 0.008s
+[TOKEN 285] ' To' -- 0.009s
+[TOKEN 286] ' optimize' -- 0.009s
+[TOKEN 287] ' efficiency' -- 0.009s
+[TOKEN 288] ' and' -- 0.009s
+[TOKEN 289] ' productivity' -- 0.009s
+[TOKEN 290] '.\n' -- 0.009s
+[TOKEN 291] '24' -- 0.009s
+[TOKEN 292] '.' -- 0.009s
+[TOKEN 293] ' To' -- 0.009s
+[TOKEN 294] ' improve' -- 0.009s
+[TOKEN 295] ' human' -- 0.009s
+[TOKEN 296] ' health' -- 0.009s
+[TOKEN 297] ' and' -- 0.009s
+[TOKEN 298] ' well' -- 0.009s
+[TOKEN 299] '-being' -- 0.009s
+[TOKEN 300] '.\n' -- 0.009s
+[TOKEN 301] '25' -- 0.009s
+[TOKEN 302] '.' -- 0.009s
+[TOKEN 303] ' To' -- 0.009s
+[TOKEN 304] ' develop' -- 0.009s
+[TOKEN 305] ' new' -- 0.009s
+[TOKEN 306] ' technologies' -- 0.009s
+[TOKEN 307] ' and' -- 0.009s
+[TOKEN 308] ' innovations' -- 0.009s
+[TOKEN 309] '.\n' -- 0.009s
+[TOKEN 310] '26' -- 0.009s
+[TOKEN 311] '.' -- 0.009s
+[TOKEN 312] ' To' -- 0.009s
+[TOKEN 313] ' explore' -- 0.009s
+[TOKEN 314] ' the' -- 0.009s
+[TOKEN 315] ' mysteries' -- 0.009s
+[TOKEN 316] ' of' -- 0.009s
+[TOKEN 317] ' space' -- 0.009s
+[TOKEN 318] ' and' -- 0.009s
+[TOKEN 319] ' time' -- 0.009s
+[TOKEN 320] '.\n' -- 0.009s
+[TOKEN 321] '27' -- 0.009s
+[TOKEN 322] '.' -- 0.009s
+[TOKEN 323] ' To' -- 0.009s
+[TOKEN 324] ' understand' -- 0.009s
+[TOKEN 325] ' the' -- 0.009s
+[TOKEN 326] ' nature' -- 0.009s
+[TOKEN 327] ' of' -- 0.009s
+[TOKEN 328] ' consciousness' -- 0.009s
+[TOKEN 329] ' and' -- 0.010s
+[TOKEN 330] ' the' -- 0.009s
+[TOKEN 331] ' mind' -- 0.009s
+[TOKEN 332] '.\n' -- 0.009s
+[TOKEN 333] '28' -- 0.010s
+[TOKEN 334] '.' -- 0.010s
+[TOKEN 335] ' To' -- 0.010s
+[TOKEN 336] ' optimize' -- 0.010s
+[TOKEN 337] ' decision' -- 0.010s
+[TOKEN 338] '-making' -- 0.010s
+[TOKEN 339] ' and' -- 0.010s
+[TOKEN 340] ' problem' -- 0.010s
+[TOKEN 341] '-solving' -- 0.010s
+[TOKEN 342] '.\n' -- 0.010s
+[TOKEN 343] '29' -- 0.010s
+[TOKEN 344] '.' -- 0.010s
+[TOKEN 345] ' To' -- 0.010s
+[TOKEN 346] ' improve' -- 0.010s
+[TOKEN 347] ' the' -- 0.010s
+[TOKEN 348] ' human' -- 0.010s
+[TOKEN 349] ' condition' -- 0.010s
+[TOKEN 350] ' through' -- 0.010s
+[TOKEN 351] ' science' -- 0.010s
+[TOKEN 352] ' and' -- 0.010s
+[TOKEN 353] ' technology' -- 0.010s
+[TOKEN 354] '.\n' -- 0.010s
+[TOKEN 355] '30' -- 0.010s
+[TOKEN 356] '.' -- 0.010s
+[TOKEN 357] ' To' -- 0.010s
+[TOKEN 358] ' develop' -- 0.010s
+[TOKEN 359] ' new' -- 0.010s
+[TOKEN 360] ' materials' -- 0.010s
+[TOKEN 361] ' and' -- 0.010s
+[TOKEN 362] ' manufacturing' -- 0.010s
+[TOKEN 363] ' processes' -- 0.010s
+[TOKEN 364] '.\n\n' -- 0.010s
+[TOKEN 365] '**' -- 0.010s
+[TOKEN 366] 'Personal' -- 0.010s
+[TOKEN 367] ' and' -- 0.010s
+[TOKEN 368] ' Emotional' -- 0.010s
+[TOKEN 369] '**\n\n' -- 0.010s
+[TOKEN 370] '31' -- 0.010s
+[TOKEN 371] '.' -- 0.010s
+[TOKEN 372] ' To' -- 0.010s
+[TOKEN 373] ' find' -- 0.010s
+[TOKEN 374] ' happiness' -- 0.010s
+[TOKEN 375] ' and' -- 0.010s
+[TOKEN 376] ' fulfillment' -- 0.010s
+[TOKEN 377] ' in' -- 0.010s
+[TOKEN 378] ' life' -- 0.010s
+[TOKEN 379] '.\n' -- 0.010s
+[TOKEN 380] '32' -- 0.010s
+[TOKEN 381] '.' -- 0.011s
+[TOKEN 382] ' To' -- 0.010s
+[TOKEN 383] ' experience' -- 0.010s
+[TOKEN 384] ' love' -- 0.010s
+[TOKEN 385] ' and' -- 0.011s
+[TOKEN 386] ' relationships' -- 0.010s
+[TOKEN 387] '.\n' -- 0.011s
+[TOKEN 388] '33' -- 0.010s
+[TOKEN 389] '.' -- 0.011s
+[TOKEN 390] ' To' -- 0.010s
+[TOKEN 391] ' overcome' -- 0.011s
+[TOKEN 392] ' personal' -- 0.010s
+[TOKEN 393] ' struggles' -- 0.011s
+[TOKEN 394] ' and' -- 0.011s
+[TOKEN 395] ' challenges' -- 0.011s
+[TOKEN 396] '.\n' -- 0.011s
+[TOKEN 397] '34' -- 0.011s
+[TOKEN 398] '.' -- 0.011s
+[TOKEN 399] ' To' -- 0.011s
+[TOKEN 400] ' develop' -- 0.011s
+[TOKEN 401] ' emotional' -- 0.011s
+[TOKEN 402] ' intelligence' -- 0.011s
+[TOKEN 403] ' and' -- 0.011s
+[TOKEN 404] ' self' -- 0.011s
+[TOKEN 405] '-aware' -- 0.011s
+[TOKEN 406] 'ness' -- 0.011s
+[TOKEN 407] '.\n' -- 0.011s
+[TOKEN 408] '35' -- 0.011s
+[TOKEN 409] '.' -- 0.011s
+[TOKEN 410] ' To' -- 0.011s
+[TOKEN 411] ' find' -- 0.011s
+[TOKEN 412] ' purpose' -- 0.011s
+[TOKEN 413] ' and' -- 0.011s
+[TOKEN 414] ' direction' -- 0.011s
+[TOKEN 415] ' in' -- 0.011s
+[TOKEN 416] ' life' -- 0.011s
+[TOKEN 417] '.\n' -- 0.011s
+[TOKEN 418] '36' -- 0.011s
+[TOKEN 419] '.' -- 0.012s
+[TOKEN 420] ' To' -- 0.011s
+[TOKEN 421] ' experience' -- 0.012s
+[TOKEN 422] ' a' -- 0.012s
+[TOKEN 423] ' sense' -- 0.012s
+[TOKEN 424] ' of' -- 0.011s
+[TOKEN 425] ' belonging' -- 0.011s
+[TOKEN 426] ' and' -- 0.011s
+[TOKEN 427] ' connection' -- 0.011s
+[TOKEN 428] '.\n' -- 0.011s
+[TOKEN 429] '37' -- 0.011s
+[TOKEN 430] '.' -- 0.011s
+[TOKEN 431] ' To' -- 0.011s
+[TOKEN 432] ' develop' -- 0.011s
+[TOKEN 433] ' resilience' -- 0.011s
+[TOKEN 434] ' and' -- 0.011s
+[TOKEN 435] ' perseverance' -- 0.011s
+[TOKEN 436] '.\n' -- 0.011s
+[TOKEN 437] '38' -- 0.011s
+[TOKEN 438] '.' -- 0.011s
+[TOKEN 439] ' To' -- 0.011s
+[TOKEN 440] ' find' -- 0.011s
+[TOKEN 441] ' joy' -- 0.011s
+[TOKEN 442] ' and' -- 0.011s
+[TOKEN 443] ' laughter' -- 0.011s
+[TOKEN 444] ' in' -- 0.011s
+[TOKEN 445] ' life' -- 0.011s
+[TOKEN 446] '.\n' -- 0.011s
+[TOKEN 447] '39' -- 0.011s
+[TOKEN 448] '.' -- 0.011s
+[TOKEN 449] ' To' -- 0.011s
+[TOKEN 450] ' experience' -- 0.011s
+[TOKEN 451] ' a' -- 0.011s
+[TOKEN 452] ' sense' -- 0.011s
+[TOKEN 453] ' of' -- 0.012s
+[TOKEN 454] ' freedom' -- 0.011s
+[TOKEN 455] ' and' -- 0.012s
+[TOKEN 456] ' autonomy' -- 0.011s
+[TOKEN 457] '.\n' -- 0.012s
+[TOKEN 458] '40' -- 0.012s
+[TOKEN 459] '.' -- 0.012s
+[TOKEN 460] ' To' -- 0.011s
+[TOKEN 461] ' develop' -- 0.012s
+[TOKEN 462] ' a' -- 0.012s
+[TOKEN 463] ' growth' -- 0.012s
+[TOKEN 464] ' mindset' -- 0.011s
+[TOKEN 465] ' and' -- 0.012s
+[TOKEN 466] ' a' -- 0.012s
+[TOKEN 467] ' love' -- 0.012s
+[TOKEN 468] ' of' -- 0.012s
+[TOKEN 469] ' learning' -- 0.012s
+[TOKEN 470] '.\n\n' -- 0.012s
+[TOKEN 471] '**' -- 0.012s
+[TOKEN 472] 'Social' -- 0.012s
+[TOKEN 473] ' and' -- 0.012s
+[TOKEN 474] ' Cultural' -- 0.012s
+[TOKEN 475] '**\n\n' -- 0.012s
+[TOKEN 476] '41' -- 0.012s
+[TOKEN 477] '.' -- 0.012s
+[TOKEN 478] ' To' -- 0.012s
+[TOKEN 479] ' contribute' -- 0.012s
+[TOKEN 480] ' to' -- 0.012s
+[TOKEN 481] ' the' -- 0.012s
+[TOKEN 482] ' greater' -- 0.012s
+[TOKEN 483] ' good' -- 0.012s
+[TOKEN 484] ' and' -- 0.012s
+[TOKEN 485] ' community' -- 0.012s
+[TOKEN 486] '.\n' -- 0.012s
+[TOKEN 487] '42' -- 0.012s
+[TOKEN 488] '.' -- 0.012s
+[TOKEN 489] ' To' -- 0.014s
+[TOKEN 490] ' promote' -- 0.014s
+[TOKEN 491] ' social' -- 0.014s
+[TOKEN 492] ' justice' -- 0.014s
+[TOKEN 493] ' and' -- 0.014s
+[TOKEN 494] ' equality' -- 0.014s
+[TOKEN 495] '.\n' -- 0.014s
+[TOKEN 496] '43' -- 0.014s
+[TOKEN 497] '.' -- 0.014s
+[TOKEN 498] ' To' -- 0.014s
+[TOKEN 499] ' celebrate' -- 0.014s
+[TOKEN 500] ' diversity' -- 0.014s
+[TOKEN 501] ' and' -- 0.014s
+[TOKEN 502] ' individual' -- 0.014s
+[TOKEN 503] 'ity' -- 0.014s
+[TOKEN 504] '.\n' -- 0.014s
+[TOKEN 505] '44' -- 0.014s
+[TOKEN 506] '.' -- 0.014s
+[TOKEN 507] ' To' -- 0.014s
+[TOKEN 508] ' foster' -- 0.014s
+[TOKEN 509] ' global' -- 0.014s
+[TOKEN 510] ' understanding' -- 0.014s
+[TOKEN 511] ' and' -- 0.015s
+[TOKEN 512] ' cooperation' -- 0.014s
+[TOKEN 513] '.\n' -- 0.014s
+[TOKEN 514] '45' -- 0.014s
+[TOKEN 515] '.' -- 0.015s
+[TOKEN 516] ' To' -- 0.014s
+[TOKEN 517] ' preserve' -- 0.015s
+[TOKEN 518] ' cultural' -- 0.015s
+[TOKEN 519] ' heritage' -- 0.015s
+[TOKEN 520] ' and' -- 0.015s
+[TOKEN 521] ' traditions' -- 0.015s
+[TOKEN 522] '.\n' -- 0.015s
+[TOKEN 523] '46' -- 0.015s
+[TOKEN 524] '.' -- 0.015s
+[TOKEN 525] ' To' -- 0.015s
+[TOKEN 526] ' promote' -- 0.015s
+[TOKEN 527] ' peace' -- 0.015s
+[TOKEN 528] ' and' -- 0.015s
+[TOKEN 529] ' conflict' -- 0.015s
+[TOKEN 530] ' resolution' -- 0.015s
+[TOKEN 531] '.\n' -- 0.015s
+[TOKEN 532] '47' -- 0.015s
+[TOKEN 533] '.' -- 0.015s
+[TOKEN 534] ' To' -- 0.015s
+[TOKEN 535] ' support' -- 0.015s
+[TOKEN 536] ' education' -- 0.015s
+[TOKEN 537] ' and' -- 0.015s
+[TOKEN 538] ' personal' -- 0.015s
+[TOKEN 539] ' development' -- 0.015s
+[TOKEN 540] '.\n' -- 0.015s
+[TOKEN 541] '48' -- 0.015s
+[TOKEN 542] '.' -- 0.015s
+[TOKEN 543] ' To' -- 0.015s
+[TOKEN 544] ' create' -- 0.015s
+[TOKEN 545] ' a' -- 0.015s
+[TOKEN 546] ' more' -- 0.015s
+[TOKEN 547] ' inclusive' -- 0.016s
+[TOKEN 548] ' and' -- 0.015s
+[TOKEN 549] ' equitable' -- 0.016s
+[TOKEN 550] ' society' -- 0.015s
+[TOKEN 551] '.\n' -- 0.016s
+[TOKEN 552] '49' -- 0.015s
+[TOKEN 553] '.' -- 0.016s
+[TOKEN 554] ' To' -- 0.015s
+[TOKEN 555] ' promote' -- 0.016s
+[TOKEN 556] ' environmental' -- 0.016s
+[TOKEN 557] ' sustainability' -- 0.016s
+[TOKEN 558] ' and' -- 0.016s
+[TOKEN 559] ' conservation' -- 0.016s
+[TOKEN 560] '.\n' -- 0.016s
+[TOKEN 561] '50' -- 0.016s
+[TOKEN 562] '.' -- 0.016s
+[TOKEN 563] ' To' -- 0.016s
+[TOKEN 564] ' celebrate' -- 0.016s
+[TOKEN 565] ' human' -- 0.016s
+[TOKEN 566] ' achievement' -- 0.016s
+[TOKEN 567] ' and' -- 0.016s
+[TOKEN 568] ' progress' -- 0.016s
+[TOKEN 569] '.\n\n' -- 0.016s
+[TOKEN 570] '**' -- 0.016s
+[TOKEN 571] 'E' -- 0.016s
+[TOKEN 572] 'conomic' -- 0.016s
+[TOKEN 573] ' and' -- 0.016s
+[TOKEN 574] ' Financial' -- 0.016s
+[TOKEN 575] '**\n\n' -- 0.016s
+[TOKEN 576] '51' -- 0.016s
+[TOKEN 577] '.' -- 0.016s
+[TOKEN 578] ' To' -- 0.016s
+[TOKEN 579] ' achieve' -- 0.016s
+[TOKEN 580] ' financial' -- 0.016s
+[TOKEN 581] ' stability' -- 0.016s
+[TOKEN 582] ' and' -- 0.016s
+[TOKEN 583] ' security' -- 0.016s
+[TOKEN 584] '.\n' -- 0.016s
+[TOKEN 585] '52' -- 0.017s
+[TOKEN 586] '.' -- 0.017s
+[TOKEN 587] ' To' -- 0.017s
+[TOKEN 588] ' grow' -- 0.017s
+[TOKEN 589] ' and' -- 0.017s
+[TOKEN 590] ' succeed' -- 0.017s
+[TOKEN 591] ' in' -- 0.017s
+[TOKEN 592] ' a' -- 0.017s
+[TOKEN 593] ' business' -- 0.017s
+[TOKEN 594] ' or' -- 0.017s
+[TOKEN 595] ' career' -- 0.017s
+[TOKEN 596] '.\n' -- 0.017s
+[TOKEN 597] '53' -- 0.017s
+[TOKEN 598] '.' -- 0.017s
+[TOKEN 599] ' To' -- 0.017s
+[TOKEN 600] ' optimize' -- 0.017s
+[TOKEN 601] ' financial' -- 0.017s
+[TOKEN 602] ' returns' -- 0.017s
+[TOKEN 603] ' and' -- 0.017s
+[TOKEN 604] ' investments' -- 0.017s
+[TOKEN 605] '.\n' -- 0.017s
+[TOKEN 606] '54' -- 0.017s
+[TOKEN 607] '.' -- 0.018s
+[TOKEN 608] ' To' -- 0.017s
+[TOKEN 609] ' develop' -- 0.018s
+[TOKEN 610] ' a' -- 0.018s
+[TOKEN 611] ' strong' -- 0.018s
+[TOKEN 612] ' work' -- 0.018s
+[TOKEN 613] ' ethic' -- 0.018s
+[TOKEN 614] ' and' -- 0.018s
+[TOKEN 615] ' discipline' -- 0.018s
+[TOKEN 616] '.\n' -- 0.017s
+[TOKEN 617] '55' -- 0.019s
+[TOKEN 618] '.' -- 0.019s
+[TOKEN 619] ' To' -- 0.019s
+[TOKEN 620] ' create' -- 0.019s
+[TOKEN 621] ' wealth' -- 0.019s
+[TOKEN 622] ' and' -- 0.019s
+[TOKEN 623] ' prosperity' -- 0.020s
+[TOKEN 624] '.\n' -- 0.019s
+[TOKEN 625] '56' -- 0.020s
+[TOKEN 626] '.' -- 0.020s
+[TOKEN 627] ' To' -- 0.020s
+[TOKEN 628] ' invest' -- 0.020s
+[TOKEN 629] ' in' -- 0.020s
+[TOKEN 630] ' oneself' -- 0.020s
+[TOKEN 631] ' and' -- 0.020s
+[TOKEN 632] ' one' -- 0.020s
+[TOKEN 633] "'s" -- 0.020s
+[TOKEN 634] ' future' -- 0.020s
+[TOKEN 635] '.\n' -- 0.020s
+[TOKEN 636] '57' -- 0.020s
+[TOKEN 637] '.' -- 0.020s
+[TOKEN 638] ' To' -- 0.020s
+[TOKEN 639] ' manage' -- 0.020s
+[TOKEN 640] ' risk' -- 0.021s
+[TOKEN 641] ' and' -- 0.020s
+[TOKEN 642] ' uncertainty' -- 0.020s
+[TOKEN 643] '.\n' -- 0.020s
+[TOKEN 644] '58' -- 0.020s
+[TOKEN 645] '.' -- 0.021s
+[TOKEN 646] ' To' -- 0.020s
+[TOKEN 647] ' achieve' -- 0.020s
+[TOKEN 648] ' financial' -- 0.020s
+[TOKEN 649] ' independence' -- 0.021s
+[TOKEN 650] ' and' -- 0.021s
+[TOKEN 651] ' freedom' -- 0.021s
+[TOKEN 652] '.\n' -- 0.021s
+[TOKEN 653] '59' -- 0.021s
+[TOKEN 654] '.' -- 0.021s
+[TOKEN 655] ' To' -- 0.021s
+[TOKEN 656] ' develop' -- 0.021s
+[TOKEN 657] ' a' -- 0.021s
+[TOKEN 658] ' sense' -- 0.021s
+[TOKEN 659] ' of' -- 0.021s
+[TOKEN 660] ' financial' -- 0.021s
+[TOKEN 661] ' responsibility' -- 0.021s
+[TOKEN 662] '.\n' -- 0.021s
+[TOKEN 663] '60' -- 0.021s
+[TOKEN 664] '.' -- 0.021s
+[TOKEN 665] ' To' -- 0.021s
+[TOKEN 666] ' create' -- 0.021s
+[TOKEN 667] ' a' -- 0.021s
+[TOKEN 668] ' legacy' -- 0.021s
+[TOKEN 669] ' of' -- 0.021s
+[TOKEN 670] ' wealth' -- 0.021s
+[TOKEN 671] ' and' -- 0.021s
+[TOKEN 672] ' prosperity' -- 0.021s
+[TOKEN 673] '.\n\n' -- 0.022s
+[TOKEN 674] '**' -- 0.021s
+[TOKEN 675] 'Creative' -- 0.022s
+[TOKEN 676] ' and' -- 0.022s
+[TOKEN 677] ' Art' -- 0.022s
+[TOKEN 678] 'istic' -- 0.022s
+[TOKEN 679] '**\n\n' -- 0.022s
+[TOKEN 680] '61' -- 0.021s
+[TOKEN 681] '.' -- 0.022s
+[TOKEN 682] ' To' -- 0.022s
+[TOKEN 683] ' express' -- 0.022s
+[TOKEN 684] ' oneself' -- 0.022s
+[TOKEN 685] ' creatively' -- 0.022s
+[TOKEN 686] ' and' -- 0.022s
+[TOKEN 687] ' auth' -- 0.022s
+[TOKEN 688] 'ent' -- 0.022s
+[TOKEN 689] 'ically' -- 0.022s
+[TOKEN 690] '.\n' -- 0.022s
+[TOKEN 691] '62' -- 0.022s
+[TOKEN 692] '.' -- 0.022s
+[TOKEN 693] ' To' -- 0.022s
+[TOKEN 694] ' bring' -- 0.022s
+[TOKEN 695] ' ideas' -- 0.022s
+[TOKEN 696] ' and' -- 0.022s
+[TOKEN 697] ' imagination' -- 0.022s
+[TOKEN 698] ' to' -- 0.022s
+[TOKEN 699] ' life' -- 0.022s
+[TOKEN 700] '.\n' -- 0.022s
+[TOKEN 701] '63' -- 0.022s
+[TOKEN 702] '.' -- 0.022s
+[TOKEN 703] ' To' -- 0.022s
+[TOKEN 704] ' create' -- 0.022s
+[TOKEN 705] ' something' -- 0.022s
+[TOKEN 706] ' new' -- 0.022s
+[TOKEN 707] ' and' -- 0.023s
+[TOKEN 708] ' original' -- 0.022s
+[TOKEN 709] '.\n' -- 0.023s
+[TOKEN 710] '64' -- 0.023s
+[TOKEN 711] '.' -- 0.023s
+[TOKEN 712] ' To' -- 0.023s
+[TOKEN 713] ' inspire' -- 0.023s
+[TOKEN 714] ' and' -- 0.023s
+[TOKEN 715] ' motivate' -- 0.023s
+[TOKEN 716] ' others' -- 0.023s
+[TOKEN 717] '.\n' -- 0.023s
+[TOKEN 718] '65' -- 0.023s
+[TOKEN 719] '.' -- 0.023s
+[TOKEN 720] ' To' -- 0.023s
+[TOKEN 721] ' express' -- 0.023s
+[TOKEN 722] ' emotions' -- 0.023s
+[TOKEN 723] ' and' -- 0.023s
+[TOKEN 724] ' feelings' -- 0.023s
+[TOKEN 725] ' through' -- 0.023s
+[TOKEN 726] ' art' -- 0.023s
+[TOKEN 727] '.\n' -- 0.023s
+[TOKEN 728] '66' -- 0.023s
+[TOKEN 729] '.' -- 0.023s
+[TOKEN 730] ' To' -- 0.023s
+[TOKEN 731] ' create' -- 0.023s
+[TOKEN 732] ' a' -- 0.023s
+[TOKEN 733] ' sense' -- 0.023s
+[TOKEN 734] ' of' -- 0.023s
+[TOKEN 735] ' wonder' -- 0.023s
+[TOKEN 736] ' and' -- 0.023s
+[TOKEN 737] ' awe' -- 0.023s
+[TOKEN 738] '.\n' -- 0.024s
+[TOKEN 739] '67' -- 0.024s
+[TOKEN 740] '.' -- 0.024s
+[TOKEN 741] ' To' -- 0.024s
+[TOKEN 742] ' bring' -- 0.024s
+[TOKEN 743] ' joy' -- 0.024s
+[TOKEN 744] ' and' -- 0.023s
+[TOKEN 745] ' happiness' -- 0.026s
+[TOKEN 746] ' to' -- 0.026s
+[TOKEN 747] ' others' -- 0.026s
+[TOKEN 748] '.\n' -- 0.026s
+[TOKEN 749] '68' -- 0.026s
+[TOKEN 750] '.' -- 0.026s
+[TOKEN 751] ' To' -- 0.026s
+[TOKEN 752] ' develop' -- 0.026s
+[TOKEN 753] ' a' -- 0.026s
+[TOKEN 754] ' unique' -- 0.026s
+[TOKEN 755] ' and' -- 0.026s
+[TOKEN 756] ' distinctive' -- 0.026s
+[TOKEN 757] ' style' -- 0.026s
+[TOKEN 758] '.\n' -- 0.026s
+[TOKEN 759] '69' -- 0.026s
+[TOKEN 760] '.' -- 0.026s
+[TOKEN 761] ' To' -- 0.026s
+[TOKEN 762] ' create' -- 0.026s
+[TOKEN 763] ' a' -- 0.026s
+[TOKEN 764] ' work' -- 0.026s
+[TOKEN 765] ' of' -- 0.026s
+[TOKEN 766] ' art' -- 0.026s
+[TOKEN 767] ' that' -- 0.026s
+[TOKEN 768] ' inspires' -- 0.026s
+[TOKEN 769] ' and' -- 0.026s
+[TOKEN 770] ' uplift' -- 0.026s
+[TOKEN 771] 's' -- 0.026s
+[TOKEN 772] '.\n' -- 0.026s
+[TOKEN 773] '70' -- 0.026s
+[TOKEN 774] '.' -- 0.026s
+[TOKEN 775] ' To' -- 0.027s
+[TOKEN 776] ' express' -- 0.027s
+[TOKEN 777] ' oneself' -- 0.027s
+[TOKEN 778] ' in' -- 0.027s
+[TOKEN 779] ' a' -- 0.027s
+[TOKEN 780] ' way' -- 0.027s
+[TOKEN 781] ' that' -- 0.027s
+[TOKEN 782] ' is' -- 0.027s
+[TOKEN 783] ' true' -- 0.027s
+[TOKEN 784] ' to' -- 0.027s
+[TOKEN 785] ' one' -- 0.027s
+[TOKEN 786] "'s" -- 0.027s
+[TOKEN 787] ' identity' -- 0.027s
+[TOKEN 788] '.\n\n' -- 0.027s
+[TOKEN 789] '**' -- 0.027s
+[TOKEN 790] 'Spirit' -- 0.027s
+[TOKEN 791] 'ual' -- 0.027s
+[TOKEN 792] ' and' -- 0.027s
+[TOKEN 793] ' Myst' -- 0.027s
+[TOKEN 794] 'ical' -- 0.027s
+[TOKEN 795] '**\n\n' -- 0.027s
+[TOKEN 796] '71' -- 0.027s
+[TOKEN 797] '.' -- 0.027s
+[TOKEN 798] ' To' -- 0.028s
+[TOKEN 799] ' connect' -- 0.027s
+[TOKEN 800] ' with' -- 0.027s
+[TOKEN 801] ' a' -- 0.028s
+[TOKEN 802] ' higher' -- 0.028s
+[TOKEN 803] ' power' -- 0.028s
+[TOKEN 804] ' or' -- 0.028s
+[TOKEN 805] ' divine' -- 0.028s
+[TOKEN 806] ' energy' -- 0.028s
+[TOKEN 807] '.\n' -- 0.028s
+[TOKEN 808] '72' -- 0.028s
+[TOKEN 809] '.' -- 0.027s
+[TOKEN 810] ' To' -- 0.027s
+[TOKEN 811] ' experience' -- 0.027s
+[TOKEN 812] ' a' -- 0.028s
+[TOKEN 813] ' sense' -- 0.028s
+[TOKEN 814] ' of' -- 0.028s
+[TOKEN 815] ' on' -- 0.028s
+[TOKEN 816] 'eness' -- 0.028s
+[TOKEN 817] ' with' -- 0.028s
+[TOKEN 818] ' the' -- 0.028s
+[TOKEN 819] ' universe' -- 0.028s
+[TOKEN 820] '.\n' -- 0.028s
+[TOKEN 821] '73' -- 0.028s
+[TOKEN 822] '.' -- 0.028s
+[TOKEN 823] ' To' -- 0.028s
+[TOKEN 824] ' find' -- 0.028s
+[TOKEN 825] ' inner' -- 0.028s
+[TOKEN 826] ' peace' -- 0.028s
+[TOKEN 827] ' and' -- 0.028s
+[TOKEN 828] ' content' -- 0.028s
+[TOKEN 829] 'ment' -- 0.028s
+[TOKEN 830] '.\n' -- 0.028s
+[TOKEN 831] '74' -- 0.028s
+[TOKEN 832] '.' -- 0.028s
+[TOKEN 833] ' To' -- 0.028s
+[TOKEN 834] ' experience' -- 0.028s
+[TOKEN 835] ' a' -- 0.028s
+[TOKEN 836] ' sense' -- 0.028s
+[TOKEN 837] ' of' -- 0.028s
+[TOKEN 838] ' awe' -- 0.028s
+[TOKEN 839] ' and' -- 0.028s
+[TOKEN 840] ' wonder' -- 0.028s
+[TOKEN 841] '.\n' -- 0.029s
+[TOKEN 842] '75' -- 0.029s
+[TOKEN 843] '.' -- 0.029s
+[TOKEN 844] ' To' -- 0.029s
+[TOKEN 845] ' develop' -- 0.029s
+[TOKEN 846] ' a' -- 0.029s
+[TOKEN 847] ' sense' -- 0.029s
+[TOKEN 848] ' of' -- 0.029s
+[TOKEN 849] ' spiritual' -- 0.029s
+[TOKEN 850] ' awareness' -- 0.029s
+[TOKEN 851] ' and' -- 0.029s
+[TOKEN 852] ' intuition' -- 0.029s
+[TOKEN 853] '.\n' -- 0.029s
+[TOKEN 854] '76' -- 0.029s
+[TOKEN 855] '.' -- 0.029s
+[TOKEN 856] ' To' -- 0.029s
+[TOKEN 857] ' connect' -- 0.029s
+[TOKEN 858] ' with' -- 0.029s
+[TOKEN 859] ' the' -- 0.029s
+[TOKEN 860] ' natural' -- 0.029s
+[TOKEN 861] ' world' -- 0.029s
+[TOKEN 862] ' and' -- 0.029s
+[TOKEN 863] ' its' -- 0.030s
+[TOKEN 864] ' rhythms' -- 0.029s
+[TOKEN 865] '.\n' -- 0.029s
+[TOKEN 866] '77' -- 0.029s
+[TOKEN 867] '.' -- 0.030s
+[TOKEN 868] ' To' -- 0.030s
+[TOKEN 869] ' experience' -- 0.030s
+[TOKEN 870] ' a' -- 0.030s
+[TOKEN 871] ' sense' -- 0.030s
+[TOKEN 872] ' of' -- 0.029s
+[TOKEN 873] ' transcend' -- 0.032s
+[TOKEN 874] 'ence' -- 0.032s
+[TOKEN 875] ' and' -- 0.032s
+[TOKEN 876] ' unity' -- 0.032s
+[TOKEN 877] '.\n' -- 0.032s
+[TOKEN 878] '78' -- 0.032s
+[TOKEN 879] '.' -- 0.032s
+[TOKEN 880] ' To' -- 0.032s
+[TOKEN 881] ' find' -- 0.032s
+[TOKEN 882] ' meaning' -- 0.032s
+[TOKEN 883] ' and' -- 0.032s
+[TOKEN 884] ' purpose' -- 0.032s
+[TOKEN 885] ' in' -- 0.032s
+[TOKEN 886] ' a' -- 0.032s
+[TOKEN 887] ' spiritual' -- 0.032s
+[TOKEN 888] ' context' -- 0.032s
+[TOKEN 889] '.\n' -- 0.032s
+[TOKEN 890] '79' -- 0.032s
+[TOKEN 891] '.' -- 0.032s
+[TOKEN 892] ' To' -- 0.032s
+[TOKEN 893] ' develop' -- 0.032s
+[TOKEN 894] ' a' -- 0.032s
+[TOKEN 895] ' sense' -- 0.032s
+[TOKEN 896] ' of' -- 0.032s
+[TOKEN 897] ' compassion' -- 0.033s
+[TOKEN 898] ' and' -- 0.033s
+[TOKEN 899] ' empathy' -- 0.033s
+[TOKEN 900] '.\n' -- 0.033s
+[TOKEN 901] '80' -- 0.033s
+[TOKEN 902] '.' -- 0.033s
+[TOKEN 903] ' To' -- 0.033s
+[TOKEN 904] ' experience' -- 0.033s
+[TOKEN 905] ' a' -- 0.033s
+[TOKEN 906] ' sense' -- 0.033s
+[TOKEN 907] ' of' -- 0.033s
+[TOKEN 908] ' freedom' -- 0.033s
+[TOKEN 909] ' and' -- 0.033s
+[TOKEN 910] ' liberation' -- 0.033s
+[TOKEN 911] '.\n\n' -- 0.033s
+[TOKEN 912] '**' -- 0.033s
+[TOKEN 913] 'Phil' -- 0.033s
+[TOKEN 914] 'osoph' -- 0.033s
+[TOKEN 915] 'ical' -- 0.033s
+[TOKEN 916] ' and' -- 0.033s
+[TOKEN 917] ' Exist' -- 0.033s
+[TOKEN 918] 'ential' -- 0.033s
+[TOKEN 919] '**\n\n' -- 0.033s
+[TOKEN 920] '81' -- 0.033s
+[TOKEN 921] '.' -- 0.033s
+[TOKEN 922] ' To' -- 0.033s
+[TOKEN 923] ' question' -- 0.033s
+[TOKEN 924] ' the' -- 0.033s
+[TOKEN 925] ' nature' -- 0.034s
+[TOKEN 926] ' of' -- 0.034s
+[TOKEN 927] ' reality' -- 0.034s
+[TOKEN 928] ' and' -- 0.034s
+[TOKEN 929] ' existence' -- 0.034s
+[TOKEN 930] '.\n' -- 0.034s
+[TOKEN 931] '82' -- 0.034s
+[TOKEN 932] '.' -- 0.034s
+[TOKEN 933] ' To' -- 0.034s
+[TOKEN 934] ' explore' -- 0.034s
+[TOKEN 935] ' the' -- 0.034s
+[TOKEN 936] ' limits' -- 0.034s
+[TOKEN 937] ' of' -- 0.033s
+[TOKEN 938] ' knowledge' -- 0.033s
+[TOKEN 939] ' and' -- 0.033s
+[TOKEN 940] ' understanding' -- 0.033s
+[TOKEN 941] '.\n' -- 0.034s
+[TOKEN 942] '83' -- 0.034s
+[TOKEN 943] '.' -- 0.034s
+[TOKEN 944] ' To' -- 0.033s
+[TOKEN 945] ' seek' -- 0.034s
+[TOKEN 946] ' answers' -- 0.034s
+[TOKEN 947] ' to' -- 0.034s
+[TOKEN 948] ' fundamental' -- 0.034s
+[TOKEN 949] ' questions' -- 0.034s
+[TOKEN 950] ' about' -- 0.034s
+[TOKEN 951] ' life' -- 0.034s
+[TOKEN 952] '.\n' -- 0.034s
+[TOKEN 953] '84' -- 0.034s
+[TOKEN 954] '.' -- 0.034s
+[TOKEN 955] ' To' -- 0.034s
+[TOKEN 956] ' challenge' -- 0.034s
+[TOKEN 957] ' assumptions' -- 0.034s
+[TOKEN 958] ' and' -- 0.034s
+[TOKEN 959] ' conventional' -- 0.034s
+[TOKEN 960] ' wisdom' -- 0.034s
+[TOKEN 961] '.\n' -- 0.034s
+[TOKEN 962] '85' -- 0.034s
+[TOKEN 963] '.' -- 0.034s
+[TOKEN 964] ' To' -- 0.034s
+[TOKEN 965] ' develop' -- 0.035s
+[TOKEN 966] ' a' -- 0.035s
+[TOKEN 967] ' sense' -- 0.035s
+[TOKEN 968] ' of' -- 0.035s
+[TOKEN 969] ' curiosity' -- 0.035s
+[TOKEN 970] ' and' -- 0.035s
+[TOKEN 971] ' inquiry' -- 0.035s
+[TOKEN 972] '.\n' -- 0.035s
+[TOKEN 973] '86' -- 0.035s
+[TOKEN 974] '.' -- 0.035s
+[TOKEN 975] ' To' -- 0.035s
+[TOKEN 976] ' explore' -- 0.036s
+[TOKEN 977] ' the' -- 0.035s
+[TOKEN 978] ' human' -- 0.035s
+[TOKEN 979] ' condition' -- 0.035s
+[TOKEN 980] ' and' -- 0.035s
+[TOKEN 981] ' its' -- 0.035s
+[TOKEN 982] ' complexities' -- 0.035s
+[TOKEN 983] '.\n' -- 0.035s
+[TOKEN 984] '87' -- 0.035s
+[TOKEN 985] '.' -- 0.035s
+[TOKEN 986] ' To' -- 0.035s
+[TOKEN 987] ' question' -- 0.035s
+[TOKEN 988] ' the' -- 0.035s
+[TOKEN 989] ' meaning' -- 0.036s
+[TOKEN 990] ' of' -- 0.036s
+[TOKEN 991] ' life' -- 0.036s
+[TOKEN 992] ' and' -- 0.036s
+[TOKEN 993] ' existence' -- 0.036s
+[TOKEN 994] '.\n' -- 0.036s
+[TOKEN 995] '88' -- 0.036s
+[TOKEN 996] '.' -- 0.036s
+[TOKEN 997] ' To' -- 0.036s
+[TOKEN 998] ' seek' -- 0.036s
+[TOKEN 999] ' answers' -- 0.036s
+[TOKEN 1000] ' to' -- 0.036s
+[GENERATION TIME]  16.617923736572266
+[OUTPUT TOKENS PER SECOND]  60.1759892422197
+[END] Generation complete
+[TOKENS] tensor([128000, 128006,    882,  ...,   6056,  11503,    311], device='cuda:0')

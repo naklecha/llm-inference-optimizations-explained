@@ -1,0 +1,56 @@
+[BATCH] 50 prompt(s) will be processed together.
+Loading model and tokenizer...
+Loading took 0.922s
+[PREFILL] Longest prompt length: 25 tokens
+Finished generation for prompt 3
+Finished generation for prompt 22
+Finished generation for prompt 40
+Finished generation for prompt 10
+Finished generation for prompt 37
+Finished generation for prompt 5
+Finished generation for prompt 30
+Finished generation for prompt 17
+Finished generation for prompt 1
+Finished generation for prompt 33
+Finished generation for prompt 47
+Finished generation for prompt 28
+Finished generation for prompt 43
+Finished generation for prompt 27
+Finished generation for prompt 14
+Finished generation for prompt 18
+Finished generation for prompt 32
+Finished generation for prompt 9
+Finished generation for prompt 48
+Finished generation for prompt 8
+Finished generation for prompt 0
+Finished generation for prompt 34
+Finished generation for prompt 25
+Finished generation for prompt 2
+Finished generation for prompt 6
+Finished generation for prompt 31
+Finished generation for prompt 15
+Finished generation for prompt 36
+Finished generation for prompt 38
+Finished generation for prompt 21
+Finished generation for prompt 39
+Finished generation for prompt 11
+Finished generation for prompt 26
+Finished generation for prompt 24
+Finished generation for prompt 23
+Finished generation for prompt 35
+Finished generation for prompt 42
+Finished generation for prompt 16
+Finished generation for prompt 19
+Finished generation for prompt 20
+Finished generation for prompt 45
+Finished generation for prompt 44
+Finished generation for prompt 13
+Finished generation for prompt 49
+Finished generation for prompt 7
+Finished generation for prompt 46
+Finished generation for prompt 29
+Finished generation for prompt 41
+[GENERATION TIME]  24.093390703201294
+[TOTAL TOKENS GENERATED]  32732
+[OUTPUT TOKENS PER SECOND]  1358.5468481051482
+[END] Generation complete
