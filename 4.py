@@ -131,5 +131,5 @@ with torch.no_grad():
         print(tokenizer.decode(full))
         
     total_new = sum(len(lst) for lst in generated)
-    print(f"[PREFILL] Done in {prefill_end - prefill_start:.2f}s")
-    print(f"\n\n[GENERATION] Produced {total_new} tokens in {gen_time:.2f}s — {total_new / gen_time:.1f} tok/s")
+    print(f"\n\n[PREFILL] Done in {prefill_end - prefill_start:.2f}s")
+    print(f"[GENERATION] Produced {total_new} tokens in {gen_time:.2f}s — {total_new / gen_time:.1f} tok/s")
