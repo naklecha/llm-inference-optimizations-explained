@@ -1,347 +1,121 @@
-Loading model and tokenizer...
-Loading took 0.952s
-Input tokens: tensor([128000, 128006,    882, 128007,    198,   1820,   4320,    311,    279,
-         17139,   3488,     11,    279,  15861,    323,   4395,    374,     30,
-        128009, 128006,  78191, 128007,    198], device='cuda:0')
-[TOKEN 1] 'The' -- 0.175s
-[TOKEN 2] ' answer' -- 0.061s
-[TOKEN 3] ' to' -- 0.062s
-[TOKEN 4] ' the' -- 0.061s
-[TOKEN 5] ' ultimate' -- 0.061s
-[TOKEN 6] ' question' -- 0.062s
-[TOKEN 7] ',' -- 0.062s
-[TOKEN 8] ' the' -- 0.061s
-[TOKEN 9] ' universe' -- 0.063s
-[TOKEN 10] ',' -- 0.061s
-[TOKEN 11] ' and' -- 0.061s
-[TOKEN 12] ' everything' -- 0.061s
-[TOKEN 13] ' is' -- 0.061s
-[TOKEN 14] '...' -- 0.063s
-[TOKEN 15] ' "' -- 0.062s
-[TOKEN 16] 'Nothing' -- 0.061s
-[TOKEN 17] '."\n\n' -- 0.062s
-[TOKEN 18] 'In' -- 0.062s
-[TOKEN 19] ' a' -- 0.062s
-[TOKEN 20] ' sense' -- 0.064s
-[TOKEN 21] ',' -- 0.062s
-[TOKEN 22] ' the' -- 0.062s
-[TOKEN 23] ' ultimate' -- 0.061s
-[TOKEN 24] ' question' -- 0.061s
-[TOKEN 25] ' is' -- 0.060s
-[TOKEN 26] ' "' -- 0.061s
-[TOKEN 27] 'What' -- 0.061s
-[TOKEN 28] ' is' -- 0.061s
-[TOKEN 29] ' the' -- 0.062s
-[TOKEN 30] ' nature' -- 0.061s
-[TOKEN 31] ' of' -- 0.061s
-[TOKEN 32] ' reality' -- 0.061s
-[TOKEN 33] '?"' -- 0.061s
-[TOKEN 34] ' and' -- 0.061s
-[TOKEN 35] ' the' -- 0.061s
-[TOKEN 36] ' answer' -- 0.061s
-[TOKEN 37] ' is' -- 0.061s
-[TOKEN 38] ' "' -- 0.060s
-[TOKEN 39] 'Nothing' -- 0.061s
-[TOKEN 40] '."' -- 0.063s
-[TOKEN 41] ' This' -- 0.060s
-[TOKEN 42] ' is' -- 0.061s
-[TOKEN 43] ' because' -- 0.061s
-[TOKEN 44] ' the' -- 0.061s
-[TOKEN 45] ' universe' -- 0.062s
-[TOKEN 46] ' is' -- 0.061s
-[TOKEN 47] ' a' -- 0.061s
-[TOKEN 48] ' vast' -- 0.061s
-[TOKEN 49] ' and' -- 0.061s
-[TOKEN 50] ' complex' -- 0.061s
-[TOKEN 51] ' system' -- 0.061s
-[TOKEN 52] ',' -- 0.062s
-[TOKEN 53] ' and' -- 0.063s
-[TOKEN 54] ' the' -- 0.062s
-[TOKEN 55] ' laws' -- 0.064s
-[TOKEN 56] ' of' -- 0.062s
-[TOKEN 57] ' physics' -- 0.061s
-[TOKEN 58] ' that' -- 0.061s
-[TOKEN 59] ' govern' -- 0.061s
-[TOKEN 60] ' it' -- 0.061s
-[TOKEN 61] ' are' -- 0.064s
-[TOKEN 62] ' based' -- 0.065s
-[TOKEN 63] ' on' -- 0.064s
-[TOKEN 64] ' the' -- 0.064s
-[TOKEN 65] ' concept' -- 0.064s
-[TOKEN 66] ' of' -- 0.067s
-[TOKEN 67] ' nothing' -- 0.069s
-[TOKEN 68] 'ness' -- 0.067s
-[TOKEN 69] '.\n\n' -- 0.067s
-[TOKEN 70] 'In' -- 0.068s
-[TOKEN 71] ' other' -- 0.068s
-[TOKEN 72] ' words' -- 0.069s
-[TOKEN 73] ',' -- 0.066s
-[TOKEN 74] ' the' -- 0.066s
-[TOKEN 75] ' universe' -- 0.068s
-[TOKEN 76] ' is' -- 0.068s
-[TOKEN 77] ' not' -- 0.067s
-[TOKEN 78] ' something' -- 0.067s
-[TOKEN 79] ' that' -- 0.068s
-[TOKEN 80] ' exists' -- 0.067s
-[TOKEN 81] ' in' -- 0.068s
-[TOKEN 82] ' a' -- 0.067s
-[TOKEN 83] ' state' -- 0.067s
-[TOKEN 84] ' of' -- 0.065s
-[TOKEN 85] ' being' -- 0.068s
-[TOKEN 86] ',' -- 0.068s
-[TOKEN 87] ' but' -- 0.068s
-[TOKEN 88] ' rather' -- 0.067s
-[TOKEN 89] ' it' -- 0.064s
-[TOKEN 90] ' is' -- 0.065s
-[TOKEN 91] ' the' -- 0.066s
-[TOKEN 92] ' absence' -- 0.068s
-[TOKEN 93] ' of' -- 0.071s
-[TOKEN 94] ' being' -- 0.073s
-[TOKEN 95] '.' -- 0.062s
-[TOKEN 96] ' This' -- 0.063s
-[TOKEN 97] ' is' -- 0.063s
-[TOKEN 98] ' often' -- 0.065s
-[TOKEN 99] ' referred' -- 0.064s
-[TOKEN 100] ' to' -- 0.061s
-[TOKEN 101] ' as' -- 0.062s
-[TOKEN 102] ' the' -- 0.061s
-[TOKEN 103] ' "' -- 0.062s
-[TOKEN 104] 'nothing' -- 0.064s
-[TOKEN 105] 'ness' -- 0.063s
-[TOKEN 106] '"' -- 0.065s
-[TOKEN 107] ' or' -- 0.065s
-[TOKEN 108] ' "' -- 0.067s
-[TOKEN 109] 'empt' -- 0.066s
-[TOKEN 110] 'iness' -- 0.064s
-[TOKEN 111] '"' -- 0.061s
-[TOKEN 112] ' of' -- 0.061s
-[TOKEN 113] ' the' -- 0.061s
-[TOKEN 114] ' universe' -- 0.061s
-[TOKEN 115] '.\n\n' -- 0.062s
-[TOKEN 116] 'This' -- 0.061s
-[TOKEN 117] ' idea' -- 0.063s
-[TOKEN 118] ' is' -- 0.061s
-[TOKEN 119] ' often' -- 0.065s
-[TOKEN 120] ' referred' -- 0.062s
-[TOKEN 121] ' to' -- 0.062s
-[TOKEN 122] ' as' -- 0.062s
-[TOKEN 123] ' the' -- 0.062s
-[TOKEN 124] ' "' -- 0.062s
-[TOKEN 125] 'nothing' -- 0.062s
-[TOKEN 126] 'ness' -- 0.062s
-[TOKEN 127] '"' -- 0.064s
-[TOKEN 128] ' or' -- 0.065s
-[TOKEN 129] ' "' -- 0.064s
-[TOKEN 130] 'empt' -- 0.064s
-[TOKEN 131] 'iness' -- 0.065s
-[TOKEN 132] '"' -- 0.064s
-[TOKEN 133] ' of' -- 0.064s
-[TOKEN 134] ' the' -- 0.064s
-[TOKEN 135] ' universe' -- 0.063s
-[TOKEN 136] ',' -- 0.065s
-[TOKEN 137] ' and' -- 0.064s
-[TOKEN 138] ' it' -- 0.064s
-[TOKEN 139] ' is' -- 0.064s
-[TOKEN 140] ' a' -- 0.064s
-[TOKEN 141] ' concept' -- 0.064s
-[TOKEN 142] ' that' -- 0.064s
-[TOKEN 143] ' has' -- 0.064s
-[TOKEN 144] ' been' -- 0.064s
-[TOKEN 145] ' explored' -- 0.064s
-[TOKEN 146] ' by' -- 0.062s
-[TOKEN 147] ' philosophers' -- 0.061s
-[TOKEN 148] ',' -- 0.063s
-[TOKEN 149] ' scientists' -- 0.061s
-[TOKEN 150] ',' -- 0.061s
-[TOKEN 151] ' and' -- 0.061s
-[TOKEN 152] ' thinkers' -- 0.061s
-[TOKEN 153] ' throughout' -- 0.061s
-[TOKEN 154] ' history' -- 0.062s
-[TOKEN 155] '.\n\n' -- 0.062s
-[TOKEN 156] 'Some' -- 0.062s
-[TOKEN 157] ' of' -- 0.061s
-[TOKEN 158] ' the' -- 0.064s
-[TOKEN 159] ' key' -- 0.065s
-[TOKEN 160] ' concepts' -- 0.064s
-[TOKEN 161] ' that' -- 0.065s
-[TOKEN 162] ' under' -- 0.064s
-[TOKEN 163] 'lie' -- 0.065s
-[TOKEN 164] ' this' -- 0.064s
-[TOKEN 165] ' idea' -- 0.064s
-[TOKEN 166] ' include' -- 0.062s
-[TOKEN 167] ':\n\n' -- 0.064s
-[TOKEN 168] '*' -- 0.064s
-[TOKEN 169] ' The' -- 0.064s
-[TOKEN 170] ' concept' -- 0.065s
-[TOKEN 171] ' of' -- 0.065s
-[TOKEN 172] ' nothing' -- 0.065s
-[TOKEN 173] 'ness' -- 0.064s
-[TOKEN 174] ':' -- 0.061s
-[TOKEN 175] ' This' -- 0.062s
-[TOKEN 176] ' is' -- 0.061s
-[TOKEN 177] ' the' -- 0.064s
-[TOKEN 178] ' idea' -- 0.067s
-[TOKEN 179] ' that' -- 0.062s
-[TOKEN 180] ' the' -- 0.061s
-[TOKEN 181] ' universe' -- 0.061s
-[TOKEN 182] ' is' -- 0.061s
-[TOKEN 183] ' not' -- 0.061s
-[TOKEN 184] ' something' -- 0.060s
-[TOKEN 185] ' that' -- 0.061s
-[TOKEN 186] ' exists' -- 0.064s
-[TOKEN 187] ' in' -- 0.062s
-[TOKEN 188] ' a' -- 0.061s
-[TOKEN 189] ' state' -- 0.061s
-[TOKEN 190] ' of' -- 0.060s
-[TOKEN 191] ' being' -- 0.061s
-[TOKEN 192] ',' -- 0.061s
-[TOKEN 193] ' but' -- 0.062s
-[TOKEN 194] ' rather' -- 0.060s
-[TOKEN 195] ' it' -- 0.061s
-[TOKEN 196] ' is' -- 0.060s
-[TOKEN 197] ' the' -- 0.061s
-[TOKEN 198] ' absence' -- 0.061s
-[TOKEN 199] ' of' -- 0.061s
-[TOKEN 200] ' being' -- 0.061s
-[TOKEN 201] '.\n' -- 0.061s
-[TOKEN 202] '*' -- 0.061s
-[TOKEN 203] ' The' -- 0.064s
-[TOKEN 204] ' concept' -- 0.065s
-[TOKEN 205] ' of' -- 0.064s
-[TOKEN 206] ' empt' -- 0.064s
-[TOKEN 207] 'iness' -- 0.064s
-[TOKEN 208] ':' -- 0.064s
-[TOKEN 209] ' This' -- 0.064s
-[TOKEN 210] ' is' -- 0.063s
-[TOKEN 211] ' the' -- 0.065s
-[TOKEN 212] ' idea' -- 0.063s
-[TOKEN 213] ' that' -- 0.062s
-[TOKEN 214] ' the' -- 0.062s
-[TOKEN 215] ' universe' -- 0.062s
-[TOKEN 216] ' is' -- 0.064s
-[TOKEN 217] ' not' -- 0.064s
-[TOKEN 218] ' something' -- 0.064s
-[TOKEN 219] ' that' -- 0.064s
-[TOKEN 220] ' exists' -- 0.064s
-[TOKEN 221] ' in' -- 0.061s
-[TOKEN 222] ' a' -- 0.061s
-[TOKEN 223] ' state' -- 0.061s
-[TOKEN 224] ' of' -- 0.062s
-[TOKEN 225] ' being' -- 0.061s
-[TOKEN 226] ',' -- 0.060s
-[TOKEN 227] ' but' -- 0.061s
-[TOKEN 228] ' rather' -- 0.061s
-[TOKEN 229] ' it' -- 0.061s
-[TOKEN 230] ' is' -- 0.061s
-[TOKEN 231] ' the' -- 0.061s
-[TOKEN 232] ' absence' -- 0.062s
-[TOKEN 233] ' of' -- 0.061s
-[TOKEN 234] ' being' -- 0.060s
-[TOKEN 235] '.\n' -- 0.061s
-[TOKEN 236] '*' -- 0.061s
-[TOKEN 237] ' The' -- 0.061s
-[TOKEN 238] ' concept' -- 0.061s
-[TOKEN 239] ' of' -- 0.061s
-[TOKEN 240] ' nothing' -- 0.061s
-[TOKEN 241] 'ness' -- 0.061s
-[TOKEN 242] ':' -- 0.060s
-[TOKEN 243] ' This' -- 0.061s
-[TOKEN 244] ' is' -- 0.064s
-[TOKEN 245] ' the' -- 0.064s
-[TOKEN 246] ' idea' -- 0.063s
-[TOKEN 247] ' that' -- 0.064s
-[TOKEN 248] ' the' -- 0.064s
-[TOKEN 249] ' universe' -- 0.063s
-[TOKEN 250] ' is' -- 0.064s
-[TOKEN 251] ' not' -- 0.064s
-[TOKEN 252] ' something' -- 0.064s
-[TOKEN 253] ' that' -- 0.063s
-[TOKEN 254] ' exists' -- 0.061s
-[TOKEN 255] ' in' -- 0.062s
-[TOKEN 256] ' a' -- 0.061s
-[TOKEN 257] ' state' -- 0.075s
-[TOKEN 258] ' of' -- 0.060s
-[TOKEN 259] ' being' -- 0.061s
-[TOKEN 260] ',' -- 0.061s
-[TOKEN 261] ' but' -- 0.061s
-[TOKEN 262] ' rather' -- 0.061s
-[TOKEN 263] ' it' -- 0.061s
-[TOKEN 264] ' is' -- 0.063s
-[TOKEN 265] ' the' -- 0.064s
-[TOKEN 266] ' absence' -- 0.064s
-[TOKEN 267] ' of' -- 0.064s
-[TOKEN 268] ' being' -- 0.064s
-[TOKEN 269] '.\n\n' -- 0.064s
-[TOKEN 270] 'Overall' -- 0.064s
-[TOKEN 271] ',' -- 0.064s
-[TOKEN 272] ' the' -- 0.063s
-[TOKEN 273] ' idea' -- 0.063s
-[TOKEN 274] ' that' -- 0.063s
-[TOKEN 275] ' the' -- 0.063s
-[TOKEN 276] ' universe' -- 0.064s
-[TOKEN 277] ' is' -- 0.063s
-[TOKEN 278] ' nothing' -- 0.064s
-[TOKEN 279] ' is' -- 0.064s
-[TOKEN 280] ' a' -- 0.063s
-[TOKEN 281] ' complex' -- 0.064s
-[TOKEN 282] ' and' -- 0.063s
-[TOKEN 283] ' multif' -- 0.062s
-[TOKEN 284] 'ac' -- 0.061s
-[TOKEN 285] 'eted' -- 0.061s
-[TOKEN 286] ' concept' -- 0.063s
-[TOKEN 287] ' that' -- 0.064s
-[TOKEN 288] ' has' -- 0.064s
-[TOKEN 289] ' been' -- 0.064s
-[TOKEN 290] ' explored' -- 0.064s
-[TOKEN 291] ' by' -- 0.063s
-[TOKEN 292] ' philosophers' -- 0.064s
-[TOKEN 293] ',' -- 0.065s
-[TOKEN 294] ' scientists' -- 0.064s
-[TOKEN 295] ',' -- 0.064s
-[TOKEN 296] ' and' -- 0.063s
-[TOKEN 297] ' thinkers' -- 0.064s
-[TOKEN 298] ' throughout' -- 0.075s
-[TOKEN 299] ' history' -- 0.067s
-[TOKEN 300] '.' -- 0.065s
-[TOKEN 301] '<|eot_id|>' -- 0.065s
-TOTOAL TOKENS GENERATED 301
-[GENERATION TIME]  19.09041452407837
-[OUTPUT TOKENS PER SECOND]  15.767075126648221
+Input tokens: tensor([128000, 128006,    882, 128007,    271,   3923,    374,    279,   7438,
+           315,   2324,     30, 128009, 128006,  78191, 128007,    271],
+       device='cuda:0')
+[PROMPT TOKEN 1] 'The' -- 0.171sec -- 5.8tps
+[PROMPT TOKEN 2] ' question' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 3] ' of' -- 0.063sec -- 15.9tps
+[PROMPT TOKEN 4] ' the' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 5] ' meaning' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 6] ' of' -- 0.063sec -- 15.9tps
+[PROMPT TOKEN 7] ' life' -- 0.062sec -- 16.1tps
+[PROMPT TOKEN 8] ' is' -- 0.061sec -- 16.4tps
+[PROMPT TOKEN 9] ' a' -- 0.061sec -- 16.4tps
+[PROMPT TOKEN 10] ' profound' -- 0.063sec -- 16.0tps
+[PROMPT TOKEN 11] ' and' -- 0.061sec -- 16.5tps
+[PROMPT TOKEN 12] ' complex' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 13] ' question' -- 0.062sec -- 16.0tps
+[PROMPT TOKEN 14] ' that' -- 0.063sec -- 15.8tps
+[PROMPT TOKEN 15] ' has' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 16] ' been' -- 0.061sec -- 16.5tps
+[PROMPT TOKEN 17] ' debated' -- 0.063sec -- 15.9tps
+[PROMPT TOKEN 18] ' and' -- 0.063sec -- 16.0tps
+[PROMPT TOKEN 19] ' explored' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 20] ' by' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 21] ' philosophers' -- 0.062sec -- 16.1tps
+[PROMPT TOKEN 22] ',' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 23] ' theolog' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 24] 'ians' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 25] ',' -- 0.063sec -- 15.8tps
+[PROMPT TOKEN 26] ' scientists' -- 0.065sec -- 15.4tps
+[PROMPT TOKEN 27] ',' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 28] ' and' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 29] ' thinkers' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 30] ' across' -- 0.063sec -- 16.0tps
+[PROMPT TOKEN 31] ' cultures' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 32] ' and' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 33] ' throughout' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 34] ' history' -- 0.062sec -- 16.3tps
+[PROMPT TOKEN 35] '.\n\n' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 36] 'There' -- 0.064sec -- 15.6tps
+[PROMPT TOKEN 37] ' is' -- 0.062sec -- 16.1tps
+[PROMPT TOKEN 38] ' no' -- 0.063sec -- 15.8tps
+[PROMPT TOKEN 39] ' one' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 40] ' definitive' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 41] ' answer' -- 0.062sec -- 16.0tps
+[PROMPT TOKEN 42] ' to' -- 0.064sec -- 15.7tps
+[PROMPT TOKEN 43] ' this' -- 0.064sec -- 15.7tps
+[PROMPT TOKEN 44] ' question' -- 0.065sec -- 15.4tps
+[PROMPT TOKEN 45] ',' -- 0.064sec -- 15.5tps
+[PROMPT TOKEN 46] ' as' -- 0.063sec -- 15.8tps
+[PROMPT TOKEN 47] ' the' -- 0.063sec -- 15.9tps
+[PROMPT TOKEN 48] ' meaning' -- 0.063sec -- 15.9tps
+[PROMPT TOKEN 49] ' of' -- 0.062sec -- 16.1tps
+[PROMPT TOKEN 50] ' life' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 51] ' can' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 52] ' vary' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 53] ' greatly' -- 0.062sec -- 16.1tps
+[PROMPT TOKEN 54] ' depending' -- 0.063sec -- 16.0tps
+[PROMPT TOKEN 55] ' on' -- 0.063sec -- 15.9tps
+[PROMPT TOKEN 56] ' individual' -- 0.063sec -- 15.9tps
+[PROMPT TOKEN 57] ' perspectives' -- 0.064sec -- 15.7tps
+[PROMPT TOKEN 58] ',' -- 0.063sec -- 15.8tps
+[PROMPT TOKEN 59] ' cultural' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 60] ' backgrounds' -- 0.062sec -- 16.1tps
+[PROMPT TOKEN 61] ',' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 62] ' and' -- 0.062sec -- 16.1tps
+[PROMPT TOKEN 63] ' personal' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 64] ' experiences' -- 0.062sec -- 16.1tps
+[PROMPT TOKEN 65] '.' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 66] ' However' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 67] ',' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 68] ' here' -- 0.062sec -- 16.1tps
+[PROMPT TOKEN 69] ' are' -- 0.063sec -- 15.9tps
+[PROMPT TOKEN 70] ' some' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 71] ' possible' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 72] ' perspectives' -- 0.063sec -- 16.0tps
+[PROMPT TOKEN 73] ':\n\n' -- 0.064sec -- 15.6tps
+[PROMPT TOKEN 74] '1' -- 0.062sec -- 16.1tps
+[PROMPT TOKEN 75] '.' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 76] ' **' -- 0.062sec -- 16.3tps
+[PROMPT TOKEN 77] 'Rel' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 78] 'igious' -- 0.061sec -- 16.3tps
+[PROMPT TOKEN 79] ' and' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 80] ' spiritual' -- 0.064sec -- 15.7tps
+[PROMPT TOKEN 81] ' perspectives' -- 0.063sec -- 15.8tps
+[PROMPT TOKEN 82] '**:' -- 0.063sec -- 15.9tps
+[PROMPT TOKEN 83] ' Many' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 84] ' people' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 85] ' find' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 86] ' meaning' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 87] ' in' -- 0.062sec -- 16.0tps
+[PROMPT TOKEN 88] ' life' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 89] ' through' -- 0.062sec -- 16.1tps
+[PROMPT TOKEN 90] ' their' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 91] ' faith' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 92] ',' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 93] ' spirituality' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 94] ',' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 95] ' or' -- 0.062sec -- 16.1tps
+[PROMPT TOKEN 96] ' a' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 97] ' higher' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 98] ' power' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 99] '.' -- 0.062sec -- 16.2tps
+[PROMPT TOKEN 100] ' This' -- 0.062sec -- 16.2tps
+TOTAL TOKENS GENERATED 99
+[GENERATION TIME]  6.326324224472046
+[OUTPUT TOKENS PER SECOND]  15.648897604242201
 [END] Generation complete
-[TOKENS] tensor([128000, 128006,    882, 128007,    198,   1820,   4320,    311,    279,
-         17139,   3488,     11,    279,  15861,    323,   4395,    374,     30,
-        128009, 128006,  78191, 128007,    198,    791,   4320,    311,    279,
-         17139,   3488,     11,    279,  15861,     11,    323,   4395,    374,
-          1131,    330,  24714,   2266,    644,    264,   5647,     11,    279,
-         17139,   3488,    374,    330,   3923,    374,    279,   7138,    315,
-          8903,   7673,    323,    279,   4320,    374,    330,  24714,   1210,
-          1115,    374,   1606,    279,  15861,    374,    264,  13057,    323,
-          6485,   1887,     11,    323,    279,   7016,    315,  22027,    430,
-          2633,    433,    527,   3196,    389,    279,   7434,    315,   4400,
-          2136,    382,    644,   1023,   4339,     11,    279,  15861,    374,
-           539,   2555,    430,   6866,    304,    264,   1614,    315,   1694,
-            11,    719,   4856,    433,    374,    279,  19821,    315,   1694,
-            13,   1115,    374,   3629,  14183,    311,    439,    279,    330,
-         42312,   2136,      1,    477,    330,  21643,   1918,      1,    315,
-           279,  15861,    382,   2028,   4623,    374,   3629,  14183,    311,
-           439,    279,    330,  42312,   2136,      1,    477,    330,  21643,
-          1918,      1,    315,    279,  15861,     11,    323,    433,    374,
-           264,   7434,    430,    706,   1027,  36131,    555,  61787,     11,
-         14248,     11,    323,  69122,   6957,   3925,    382,   8538,    315,
-           279,   1401,  19476,    430,   1234,  11828,    420,   4623,   2997,
-          1473,      9,    578,   7434,    315,   4400,   2136,     25,   1115,
-           374,    279,   4623,    430,    279,  15861,    374,    539,   2555,
-           430,   6866,    304,    264,   1614,    315,   1694,     11,    719,
-          4856,    433,    374,    279,  19821,    315,   1694,    627,      9,
-           578,   7434,    315,  54169,   1918,     25,   1115,    374,    279,
-          4623,    430,    279,  15861,    374,    539,   2555,    430,   6866,
-           304,    264,   1614,    315,   1694,     11,    719,   4856,    433,
-           374,    279,  19821,    315,   1694,    627,      9,    578,   7434,
-           315,   4400,   2136,     25,   1115,    374,    279,   4623,    430,
-           279,  15861,    374,    539,   2555,    430,   6866,    304,    264,
-          1614,    315,   1694,     11,    719,   4856,    433,    374,    279,
-         19821,    315,   1694,    382,  28589,     11,    279,   4623,    430,
-           279,  15861,    374,   4400,    374,    264,   6485,    323,  62387,
-           582,  25489,   7434,    430,    706,   1027,  36131,    555,  61787,
-            11,  14248,     11,    323,  69122,   6957,   3925,     13, 128009],
+[TOKENS] tensor([128000, 128006,    882, 128007,    271,   3923,    374,    279,   7438,
+           315,   2324,     30, 128009, 128006,  78191, 128007,    271,    791,
+          3488,    315,    279,   7438,    315,   2324,    374,    264,  28254,
+           323,   6485,   3488,    430,    706,   1027,  59674,    323,  36131,
+           555,  61787,     11,  90602,   5493,     11,  14248,     11,    323,
+         69122,   4028,  27833,    323,   6957,   3925,    382,   3947,    374,
+           912,    832,  45813,   4320,    311,    420,   3488,     11,    439,
+           279,   7438,    315,   2324,    649,  13592,  19407,  11911,    389,
+          3927,  39555,     11,  13042,  36576,     11,    323,   4443,  11704,
+            13,   4452,     11,   1618,    527,   1063,   3284,  39555,   1473,
+            16,     13,   3146,   6882,  22941,    323,  18330,  39555,  96618,
+          9176,   1274,   1505,   7438,    304,   2324,   1555,    872,  10082,
+            11,  75456,     11,    477,    264,   5190,   2410,     13,   1115],
        device='cuda:0')

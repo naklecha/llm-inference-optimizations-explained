@@ -1,1008 +1,2574 @@
-Loading model and tokenizer...
-Loading took 0.964s
-[TOKEN 1] 'What' -- 0.000s
-[TOKEN 2] ' a' -- 0.001s
-[TOKEN 3] ' profound' -- 0.001s
-[TOKEN 4] ' and' -- 0.001s
-[TOKEN 5] ' complex' -- 0.001s
-[TOKEN 6] ' question' -- 0.001s
-[TOKEN 7] '!' -- 0.001s
-[TOKEN 8] ' Here' -- 0.001s
-[TOKEN 9] ' are' -- 0.001s
-[TOKEN 10] ' ' -- 0.001s
-[TOKEN 11] '100' -- 0.001s
-[TOKEN 12] '0' -- 0.001s
-[TOKEN 13] ' different' -- 0.001s
-[TOKEN 14] ' possible' -- 0.001s
-[TOKEN 15] ' answers' -- 0.001s
-[TOKEN 16] ' to' -- 0.001s
-[TOKEN 17] ' the' -- 0.001s
-[TOKEN 18] ' meaning' -- 0.001s
-[TOKEN 19] ' of' -- 0.001s
-[TOKEN 20] ' life' -- 0.001s
-[TOKEN 21] ':\n\n' -- 0.001s
-[TOKEN 22] '**' -- 0.001s
-[TOKEN 23] 'Phil' -- 0.001s
-[TOKEN 24] 'osoph' -- 0.001s
-[TOKEN 25] 'ical' -- 0.001s
-[TOKEN 26] ' and' -- 0.001s
-[TOKEN 27] ' Exist' -- 0.001s
-[TOKEN 28] 'ential' -- 0.001s
-[TOKEN 29] '**\n\n' -- 0.001s
-[TOKEN 30] '1' -- 0.001s
-[TOKEN 31] '.' -- 0.001s
-[TOKEN 32] ' To' -- 0.001s
-[TOKEN 33] ' find' -- 0.001s
-[TOKEN 34] ' purpose' -- 0.001s
-[TOKEN 35] ' and' -- 0.001s
-[TOKEN 36] ' fulfillment' -- 0.001s
-[TOKEN 37] ' in' -- 0.001s
-[TOKEN 38] ' a' -- 0.001s
-[TOKEN 39] ' seemingly' -- 0.001s
-[TOKEN 40] ' meaningless' -- 0.001s
-[TOKEN 41] ' world' -- 0.001s
-[TOKEN 42] '.\n' -- 0.001s
-[TOKEN 43] '2' -- 0.001s
-[TOKEN 44] '.' -- 0.001s
-[TOKEN 45] ' To' -- 0.001s
-[TOKEN 46] ' experience' -- 0.001s
-[TOKEN 47] ' joy' -- 0.001s
-[TOKEN 48] ',' -- 0.001s
-[TOKEN 49] ' love' -- 0.001s
-[TOKEN 50] ',' -- 0.001s
-[TOKEN 51] ' and' -- 0.001s
-[TOKEN 52] ' happiness' -- 0.001s
-[TOKEN 53] '.\n' -- 0.001s
-[TOKEN 54] '3' -- 0.001s
-[TOKEN 55] '.' -- 0.001s
-[TOKEN 56] ' To' -- 0.001s
-[TOKEN 57] ' understand' -- 0.001s
-[TOKEN 58] ' the' -- 0.001s
-[TOKEN 59] ' nature' -- 0.001s
-[TOKEN 60] ' of' -- 0.001s
-[TOKEN 61] ' reality' -- 0.001s
-[TOKEN 62] ' and' -- 0.001s
-[TOKEN 63] ' the' -- 0.001s
-[TOKEN 64] ' universe' -- 0.001s
-[TOKEN 65] '.\n' -- 0.001s
-[TOKEN 66] '4' -- 0.001s
-[TOKEN 67] '.' -- 0.001s
-[TOKEN 68] ' To' -- 0.001s
-[TOKEN 69] ' transcend' -- 0.001s
-[TOKEN 70] ' mortality' -- 0.001s
-[TOKEN 71] ' and' -- 0.001s
-[TOKEN 72] ' achieve' -- 0.001s
-[TOKEN 73] ' imm' -- 0.001s
-[TOKEN 74] 'ortality' -- 0.001s
-[TOKEN 75] '.\n' -- 0.001s
-[TOKEN 76] '5' -- 0.001s
-[TOKEN 77] '.' -- 0.001s
-[TOKEN 78] ' To' -- 0.001s
-[TOKEN 79] ' create' -- 0.001s
-[TOKEN 80] ' and' -- 0.001s
-[TOKEN 81] ' leave' -- 0.001s
-[TOKEN 82] ' a' -- 0.001s
-[TOKEN 83] ' lasting' -- 0.001s
-[TOKEN 84] ' legacy' -- 0.001s
-[TOKEN 85] '.\n' -- 0.001s
-[TOKEN 86] '6' -- 0.001s
-[TOKEN 87] '.' -- 0.001s
-[TOKEN 88] ' To' -- 0.001s
-[TOKEN 89] ' find' -- 0.001s
-[TOKEN 90] ' meaning' -- 0.001s
-[TOKEN 91] ' in' -- 0.001s
-[TOKEN 92] ' the' -- 0.001s
-[TOKEN 93] ' present' -- 0.001s
-[TOKEN 94] ' moment' -- 0.001s
-[TOKEN 95] '.\n' -- 0.001s
-[TOKEN 96] '7' -- 0.001s
-[TOKEN 97] '.' -- 0.001s
-[TOKEN 98] ' To' -- 0.001s
-[TOKEN 99] ' discover' -- 0.001s
-[TOKEN 100] ' one' -- 0.001s
-[TOKEN 101] "'s" -- 0.001s
-[TOKEN 102] ' true' -- 0.001s
-[TOKEN 103] ' identity' -- 0.001s
-[TOKEN 104] ' and' -- 0.001s
-[TOKEN 105] ' purpose' -- 0.001s
-[TOKEN 106] '.\n' -- 0.001s
-[TOKEN 107] '8' -- 0.001s
-[TOKEN 108] '.' -- 0.001s
-[TOKEN 109] ' To' -- 0.001s
-[TOKEN 110] ' experience' -- 0.001s
-[TOKEN 111] ' the' -- 0.001s
-[TOKEN 112] ' beauty' -- 0.001s
-[TOKEN 113] ' and' -- 0.001s
-[TOKEN 114] ' wonder' -- 0.001s
-[TOKEN 115] ' of' -- 0.001s
-[TOKEN 116] ' life' -- 0.001s
-[TOKEN 117] '.\n' -- 0.001s
-[TOKEN 118] '9' -- 0.001s
-[TOKEN 119] '.' -- 0.001s
-[TOKEN 120] ' To' -- 0.001s
-[TOKEN 121] ' overcome' -- 0.001s
-[TOKEN 122] ' fear' -- 0.001s
-[TOKEN 123] ',' -- 0.001s
-[TOKEN 124] ' anxiety' -- 0.001s
-[TOKEN 125] ',' -- 0.001s
-[TOKEN 126] ' and' -- 0.001s
-[TOKEN 127] ' doubt' -- 0.001s
-[TOKEN 128] '.\n' -- 0.001s
-[TOKEN 129] '10' -- 0.001s
-[TOKEN 130] '.' -- 0.001s
-[TOKEN 131] ' To' -- 0.001s
-[TOKEN 132] ' find' -- 0.001s
-[TOKEN 133] ' inner' -- 0.001s
-[TOKEN 134] ' peace' -- 0.001s
-[TOKEN 135] ' and' -- 0.001s
-[TOKEN 136] ' content' -- 0.001s
-[TOKEN 137] 'ment' -- 0.001s
-[TOKEN 138] '.\n\n' -- 0.001s
-[TOKEN 139] '**' -- 0.001s
-[TOKEN 140] 'Rel' -- 0.001s
-[TOKEN 141] 'igious' -- 0.001s
-[TOKEN 142] ' and' -- 0.001s
-[TOKEN 143] ' Spiritual' -- 0.001s
-[TOKEN 144] '**\n\n' -- 0.001s
-[TOKEN 145] '11' -- 0.001s
-[TOKEN 146] '.' -- 0.001s
-[TOKEN 147] ' To' -- 0.001s
-[TOKEN 148] ' follow' -- 0.001s
-[TOKEN 149] ' the' -- 0.001s
-[TOKEN 150] ' teachings' -- 0.001s
-[TOKEN 151] ' of' -- 0.001s
-[TOKEN 152] ' a' -- 0.001s
-[TOKEN 153] ' higher' -- 0.001s
-[TOKEN 154] ' power' -- 0.001s
-[TOKEN 155] ' or' -- 0.001s
-[TOKEN 156] ' deity' -- 0.001s
-[TOKEN 157] '.\n' -- 0.001s
-[TOKEN 158] '12' -- 0.001s
-[TOKEN 159] '.' -- 0.001s
-[TOKEN 160] ' To' -- 0.001s
-[TOKEN 161] ' seek' -- 0.001s
-[TOKEN 162] ' enlightenment' -- 0.001s
-[TOKEN 163] ' and' -- 0.001s
-[TOKEN 164] ' spiritual' -- 0.001s
-[TOKEN 165] ' awakening' -- 0.001s
-[TOKEN 166] '.\n' -- 0.001s
-[TOKEN 167] '13' -- 0.001s
-[TOKEN 168] '.' -- 0.001s
-[TOKEN 169] ' To' -- 0.001s
-[TOKEN 170] ' connect' -- 0.001s
-[TOKEN 171] ' with' -- 0.001s
-[TOKEN 172] ' a' -- 0.001s
-[TOKEN 173] ' higher' -- 0.001s
-[TOKEN 174] ' self' -- 0.001s
-[TOKEN 175] ' or' -- 0.001s
-[TOKEN 176] ' the' -- 0.001s
-[TOKEN 177] ' divine' -- 0.001s
-[TOKEN 178] '.\n' -- 0.001s
-[TOKEN 179] '14' -- 0.001s
-[TOKEN 180] '.' -- 0.001s
-[TOKEN 181] ' To' -- 0.001s
-[TOKEN 182] ' fulfill' -- 0.001s
-[TOKEN 183] ' a' -- 0.001s
-[TOKEN 184] ' divine' -- 0.001s
-[TOKEN 185] ' mission' -- 0.001s
-[TOKEN 186] ' or' -- 0.001s
-[TOKEN 187] ' purpose' -- 0.001s
-[TOKEN 188] '.\n' -- 0.001s
-[TOKEN 189] '15' -- 0.001s
-[TOKEN 190] '.' -- 0.001s
-[TOKEN 191] ' To' -- 0.001s
-[TOKEN 192] ' experience' -- 0.001s
-[TOKEN 193] ' a' -- 0.001s
-[TOKEN 194] ' sense' -- 0.001s
-[TOKEN 195] ' of' -- 0.001s
-[TOKEN 196] ' on' -- 0.001s
-[TOKEN 197] 'eness' -- 0.001s
-[TOKEN 198] ' with' -- 0.001s
-[TOKEN 199] ' the' -- 0.001s
-[TOKEN 200] ' universe' -- 0.001s
-[TOKEN 201] '.\n' -- 0.001s
-[TOKEN 202] '16' -- 0.001s
-[TOKEN 203] '.' -- 0.001s
-[TOKEN 204] ' To' -- 0.001s
-[TOKEN 205] ' find' -- 0.001s
-[TOKEN 206] ' sol' -- 0.001s
-[TOKEN 207] 'ace' -- 0.001s
-[TOKEN 208] ' and' -- 0.001s
-[TOKEN 209] ' comfort' -- 0.001s
-[TOKEN 210] ' in' -- 0.001s
-[TOKEN 211] ' a' -- 0.001s
-[TOKEN 212] ' loving' -- 0.001s
-[TOKEN 213] ' God' -- 0.001s
-[TOKEN 214] '.\n' -- 0.001s
-[TOKEN 215] '17' -- 0.001s
-[TOKEN 216] '.' -- 0.001s
-[TOKEN 217] ' To' -- 0.001s
-[TOKEN 218] ' follow' -- 0.001s
-[TOKEN 219] ' the' -- 0.001s
-[TOKEN 220] ' path' -- 0.001s
-[TOKEN 221] ' of' -- 0.001s
-[TOKEN 222] ' righteousness' -- 0.001s
-[TOKEN 223] ' and' -- 0.001s
-[TOKEN 224] ' morality' -- 0.001s
-[TOKEN 225] '.\n' -- 0.001s
-[TOKEN 226] '18' -- 0.001s
-[TOKEN 227] '.' -- 0.001s
-[TOKEN 228] ' To' -- 0.001s
-[TOKEN 229] ' experience' -- 0.001s
-[TOKEN 230] ' a' -- 0.001s
-[TOKEN 231] ' sense' -- 0.001s
-[TOKEN 232] ' of' -- 0.001s
-[TOKEN 233] ' transcend' -- 0.001s
-[TOKEN 234] 'ence' -- 0.001s
-[TOKEN 235] ' and' -- 0.001s
-[TOKEN 236] ' unity' -- 0.001s
-[TOKEN 237] '.\n' -- 0.001s
-[TOKEN 238] '19' -- 0.001s
-[TOKEN 239] '.' -- 0.001s
-[TOKEN 240] ' To' -- 0.001s
-[TOKEN 241] ' find' -- 0.001s
-[TOKEN 242] ' forgiveness' -- 0.001s
-[TOKEN 243] ' and' -- 0.001s
-[TOKEN 244] ' redemption' -- 0.001s
-[TOKEN 245] '.\n' -- 0.001s
-[TOKEN 246] '20' -- 0.001s
-[TOKEN 247] '.' -- 0.001s
-[TOKEN 248] ' To' -- 0.001s
-[TOKEN 249] ' experience' -- 0.001s
-[TOKEN 250] ' a' -- 0.001s
-[TOKEN 251] ' sense' -- 0.001s
-[TOKEN 252] ' of' -- 0.001s
-[TOKEN 253] ' awe' -- 0.001s
-[TOKEN 254] ' and' -- 0.001s
-[TOKEN 255] ' wonder' -- 0.001s
-[TOKEN 256] '.\n\n' -- 0.001s
-[TOKEN 257] '**' -- 0.001s
-[TOKEN 258] 'Scient' -- 0.001s
-[TOKEN 259] 'ific' -- 0.001s
-[TOKEN 260] ' and' -- 0.001s
-[TOKEN 261] ' Rational' -- 0.001s
-[TOKEN 262] '**\n\n' -- 0.001s
-[TOKEN 263] '21' -- 0.001s
-[TOKEN 264] '.' -- 0.001s
-[TOKEN 265] ' To' -- 0.001s
-[TOKEN 266] ' understand' -- 0.001s
-[TOKEN 267] ' the' -- 0.001s
-[TOKEN 268] ' laws' -- 0.001s
-[TOKEN 269] ' of' -- 0.001s
-[TOKEN 270] ' physics' -- 0.001s
-[TOKEN 271] ' and' -- 0.001s
-[TOKEN 272] ' the' -- 0.001s
-[TOKEN 273] ' universe' -- 0.001s
-[TOKEN 274] '.\n' -- 0.001s
-[TOKEN 275] '22' -- 0.001s
-[TOKEN 276] '.' -- 0.001s
-[TOKEN 277] ' To' -- 0.001s
-[TOKEN 278] ' discover' -- 0.001s
-[TOKEN 279] ' new' -- 0.001s
-[TOKEN 280] ' knowledge' -- 0.001s
-[TOKEN 281] ' and' -- 0.001s
-[TOKEN 282] ' insights' -- 0.001s
-[TOKEN 283] '.\n' -- 0.001s
-[TOKEN 284] '23' -- 0.001s
-[TOKEN 285] '.' -- 0.001s
-[TOKEN 286] ' To' -- 0.001s
-[TOKEN 287] ' develop' -- 0.001s
-[TOKEN 288] ' a' -- 0.001s
-[TOKEN 289] ' deeper' -- 0.001s
-[TOKEN 290] ' understanding' -- 0.001s
-[TOKEN 291] ' of' -- 0.001s
-[TOKEN 292] ' the' -- 0.001s
-[TOKEN 293] ' human' -- 0.001s
-[TOKEN 294] ' brain' -- 0.001s
-[TOKEN 295] ' and' -- 0.001s
-[TOKEN 296] ' behavior' -- 0.001s
-[TOKEN 297] '.\n' -- 0.001s
-[TOKEN 298] '24' -- 0.001s
-[TOKEN 299] '.' -- 0.001s
-[TOKEN 300] ' To' -- 0.001s
-[TOKEN 301] ' improve' -- 0.001s
-[TOKEN 302] ' human' -- 0.001s
-[TOKEN 303] ' health' -- 0.001s
-[TOKEN 304] ' and' -- 0.001s
-[TOKEN 305] ' well' -- 0.001s
-[TOKEN 306] '-being' -- 0.001s
-[TOKEN 307] '.\n' -- 0.001s
-[TOKEN 308] '25' -- 0.001s
-[TOKEN 309] '.' -- 0.001s
-[TOKEN 310] ' To' -- 0.001s
-[TOKEN 311] ' advance' -- 0.001s
-[TOKEN 312] ' technology' -- 0.001s
-[TOKEN 313] ' and' -- 0.001s
-[TOKEN 314] ' innovation' -- 0.001s
-[TOKEN 315] '.\n' -- 0.001s
-[TOKEN 316] '26' -- 0.001s
-[TOKEN 317] '.' -- 0.001s
-[TOKEN 318] ' To' -- 0.001s
-[TOKEN 319] ' explore' -- 0.001s
-[TOKEN 320] ' the' -- 0.001s
-[TOKEN 321] ' mysteries' -- 0.001s
-[TOKEN 322] ' of' -- 0.001s
-[TOKEN 323] ' space' -- 0.001s
-[TOKEN 324] ' and' -- 0.001s
-[TOKEN 325] ' time' -- 0.001s
-[TOKEN 326] '.\n' -- 0.001s
-[TOKEN 327] '27' -- 0.001s
-[TOKEN 328] '.' -- 0.001s
-[TOKEN 329] ' To' -- 0.001s
-[TOKEN 330] ' develop' -- 0.001s
-[TOKEN 331] ' a' -- 0.001s
-[TOKEN 332] ' more' -- 0.001s
-[TOKEN 333] ' efficient' -- 0.001s
-[TOKEN 334] ' and' -- 0.001s
-[TOKEN 335] ' sustainable' -- 0.001s
-[TOKEN 336] ' way' -- 0.001s
-[TOKEN 337] ' of' -- 0.001s
-[TOKEN 338] ' life' -- 0.001s
-[TOKEN 339] '.\n' -- 0.001s
-[TOKEN 340] '28' -- 0.001s
-[TOKEN 341] '.' -- 0.001s
-[TOKEN 342] ' To' -- 0.001s
-[TOKEN 343] ' improve' -- 0.001s
-[TOKEN 344] ' the' -- 0.001s
-[TOKEN 345] ' quality' -- 0.001s
-[TOKEN 346] ' of' -- 0.001s
-[TOKEN 347] ' life' -- 0.001s
-[TOKEN 348] ' for' -- 0.001s
-[TOKEN 349] ' all' -- 0.001s
-[TOKEN 350] ' people' -- 0.001s
-[TOKEN 351] '.\n' -- 0.001s
-[TOKEN 352] '29' -- 0.001s
-[TOKEN 353] '.' -- 0.001s
-[TOKEN 354] ' To' -- 0.001s
-[TOKEN 355] ' reduce' -- 0.001s
-[TOKEN 356] ' suffering' -- 0.001s
-[TOKEN 357] ' and' -- 0.001s
-[TOKEN 358] ' pain' -- 0.001s
-[TOKEN 359] '.\n' -- 0.001s
-[TOKEN 360] '30' -- 0.001s
-[TOKEN 361] '.' -- 0.001s
-[TOKEN 362] ' To' -- 0.001s
-[TOKEN 363] ' increase' -- 0.001s
-[TOKEN 364] ' human' -- 0.001s
-[TOKEN 365] ' lifespan' -- 0.001s
-[TOKEN 366] ' and' -- 0.001s
-[TOKEN 367] ' longevity' -- 0.001s
-[TOKEN 368] '.\n\n' -- 0.001s
-[TOKEN 369] '**' -- 0.001s
-[TOKEN 370] 'Personal' -- 0.001s
-[TOKEN 371] ' and' -- 0.001s
-[TOKEN 372] ' Emotional' -- 0.001s
-[TOKEN 373] '**\n\n' -- 0.001s
-[TOKEN 374] '31' -- 0.001s
-[TOKEN 375] '.' -- 0.001s
-[TOKEN 376] ' To' -- 0.001s
-[TOKEN 377] ' find' -- 0.001s
-[TOKEN 378] ' happiness' -- 0.001s
-[TOKEN 379] ' and' -- 0.001s
-[TOKEN 380] ' fulfillment' -- 0.001s
-[TOKEN 381] ' in' -- 0.001s
-[TOKEN 382] ' life' -- 0.001s
-[TOKEN 383] '.\n' -- 0.001s
-[TOKEN 384] '32' -- 0.001s
-[TOKEN 385] '.' -- 0.001s
-[TOKEN 386] ' To' -- 0.001s
-[TOKEN 387] ' experience' -- 0.001s
-[TOKEN 388] ' love' -- 0.001s
-[TOKEN 389] ' and' -- 0.001s
-[TOKEN 390] ' relationships' -- 0.001s
-[TOKEN 391] '.\n' -- 0.001s
-[TOKEN 392] '33' -- 0.001s
-[TOKEN 393] '.' -- 0.001s
-[TOKEN 394] ' To' -- 0.001s
-[TOKEN 395] ' develop' -- 0.001s
-[TOKEN 396] ' emotional' -- 0.001s
-[TOKEN 397] ' intelligence' -- 0.001s
-[TOKEN 398] ' and' -- 0.001s
-[TOKEN 399] ' self' -- 0.001s
-[TOKEN 400] '-aware' -- 0.001s
-[TOKEN 401] 'ness' -- 0.001s
-[TOKEN 402] '.\n' -- 0.001s
-[TOKEN 403] '34' -- 0.001s
-[TOKEN 404] '.' -- 0.001s
-[TOKEN 405] ' To' -- 0.001s
-[TOKEN 406] ' overcome' -- 0.001s
-[TOKEN 407] ' personal' -- 0.001s
-[TOKEN 408] ' struggles' -- 0.001s
-[TOKEN 409] ' and' -- 0.001s
-[TOKEN 410] ' challenges' -- 0.001s
-[TOKEN 411] '.\n' -- 0.001s
-[TOKEN 412] '35' -- 0.001s
-[TOKEN 413] '.' -- 0.001s
-[TOKEN 414] ' To' -- 0.001s
-[TOKEN 415] ' find' -- 0.001s
-[TOKEN 416] ' purpose' -- 0.001s
-[TOKEN 417] ' and' -- 0.001s
-[TOKEN 418] ' direction' -- 0.001s
-[TOKEN 419] ' in' -- 0.001s
-[TOKEN 420] ' life' -- 0.001s
-[TOKEN 421] '.\n' -- 0.001s
-[TOKEN 422] '36' -- 0.001s
-[TOKEN 423] '.' -- 0.001s
-[TOKEN 424] ' To' -- 0.001s
-[TOKEN 425] ' experience' -- 0.001s
-[TOKEN 426] ' a' -- 0.001s
-[TOKEN 427] ' sense' -- 0.001s
-[TOKEN 428] ' of' -- 0.001s
-[TOKEN 429] ' belonging' -- 0.001s
-[TOKEN 430] ' and' -- 0.001s
-[TOKEN 431] ' connection' -- 0.001s
-[TOKEN 432] '.\n' -- 0.001s
-[TOKEN 433] '37' -- 0.001s
-[TOKEN 434] '.' -- 0.001s
-[TOKEN 435] ' To' -- 0.001s
-[TOKEN 436] ' develop' -- 0.001s
-[TOKEN 437] ' a' -- 0.001s
-[TOKEN 438] ' growth' -- 0.001s
-[TOKEN 439] ' mindset' -- 0.001s
-[TOKEN 440] ' and' -- 0.001s
-[TOKEN 441] ' resilience' -- 0.001s
-[TOKEN 442] '.\n' -- 0.001s
-[TOKEN 443] '38' -- 0.001s
-[TOKEN 444] '.' -- 0.001s
-[TOKEN 445] ' To' -- 0.001s
-[TOKEN 446] ' find' -- 0.001s
-[TOKEN 447] ' joy' -- 0.001s
-[TOKEN 448] ' and' -- 0.001s
-[TOKEN 449] ' laughter' -- 0.001s
-[TOKEN 450] ' in' -- 0.001s
-[TOKEN 451] ' life' -- 0.001s
-[TOKEN 452] '.\n' -- 0.001s
-[TOKEN 453] '39' -- 0.001s
-[TOKEN 454] '.' -- 0.001s
-[TOKEN 455] ' To' -- 0.001s
-[TOKEN 456] ' experience' -- 0.001s
-[TOKEN 457] ' a' -- 0.001s
-[TOKEN 458] ' sense' -- 0.001s
-[TOKEN 459] ' of' -- 0.001s
-[TOKEN 460] ' freedom' -- 0.001s
-[TOKEN 461] ' and' -- 0.001s
-[TOKEN 462] ' autonomy' -- 0.001s
-[TOKEN 463] '.\n' -- 0.001s
-[TOKEN 464] '40' -- 0.001s
-[TOKEN 465] '.' -- 0.001s
-[TOKEN 466] ' To' -- 0.001s
-[TOKEN 467] ' develop' -- 0.001s
-[TOKEN 468] ' a' -- 0.001s
-[TOKEN 469] ' sense' -- 0.001s
-[TOKEN 470] ' of' -- 0.001s
-[TOKEN 471] ' gratitude' -- 0.001s
-[TOKEN 472] ' and' -- 0.001s
-[TOKEN 473] ' appreciation' -- 0.001s
-[TOKEN 474] '.\n\n' -- 0.001s
-[TOKEN 475] '**' -- 0.001s
-[TOKEN 476] 'Social' -- 0.001s
-[TOKEN 477] ' and' -- 0.001s
-[TOKEN 478] ' Cultural' -- 0.001s
-[TOKEN 479] '**\n\n' -- 0.001s
-[TOKEN 480] '41' -- 0.001s
-[TOKEN 481] '.' -- 0.001s
-[TOKEN 482] ' To' -- 0.001s
-[TOKEN 483] ' contribute' -- 0.001s
-[TOKEN 484] ' to' -- 0.001s
-[TOKEN 485] ' the' -- 0.001s
-[TOKEN 486] ' greater' -- 0.001s
-[TOKEN 487] ' good' -- 0.001s
-[TOKEN 488] ' and' -- 0.001s
-[TOKEN 489] ' community' -- 0.001s
-[TOKEN 490] '.\n' -- 0.001s
-[TOKEN 491] '42' -- 0.001s
-[TOKEN 492] '.' -- 0.001s
-[TOKEN 493] ' To' -- 0.001s
-[TOKEN 494] ' promote' -- 0.001s
-[TOKEN 495] ' social' -- 0.001s
-[TOKEN 496] ' justice' -- 0.001s
-[TOKEN 497] ' and' -- 0.001s
-[TOKEN 498] ' equality' -- 0.001s
-[TOKEN 499] '.\n' -- 0.001s
-[TOKEN 500] '43' -- 0.001s
-[TOKEN 501] '.' -- 0.001s
-[TOKEN 502] ' To' -- 0.001s
-[TOKEN 503] ' celebrate' -- 0.001s
-[TOKEN 504] ' diversity' -- 0.001s
-[TOKEN 505] ' and' -- 0.001s
-[TOKEN 506] ' inclus' -- 0.001s
-[TOKEN 507] 'ivity' -- 0.001s
-[TOKEN 508] '.\n' -- 0.001s
-[TOKEN 509] '44' -- 0.001s
-[TOKEN 510] '.' -- 0.001s
-[TOKEN 511] ' To' -- 0.001s
-[TOKEN 512] ' preserve' -- 0.001s
-[TOKEN 513] ' cultural' -- 0.001s
-[TOKEN 514] ' heritage' -- 0.001s
-[TOKEN 515] ' and' -- 0.001s
-[TOKEN 516] ' traditions' -- 0.001s
-[TOKEN 517] '.\n' -- 0.001s
-[TOKEN 518] '45' -- 0.001s
-[TOKEN 519] '.' -- 0.001s
-[TOKEN 520] ' To' -- 0.001s
-[TOKEN 521] ' foster' -- 0.001s
-[TOKEN 522] ' global' -- 0.001s
-[TOKEN 523] ' understanding' -- 0.001s
-[TOKEN 524] ' and' -- 0.001s
-[TOKEN 525] ' cooperation' -- 0.001s
-[TOKEN 526] '.\n' -- 0.001s
-[TOKEN 527] '46' -- 0.001s
-[TOKEN 528] '.' -- 0.001s
-[TOKEN 529] ' To' -- 0.001s
-[TOKEN 530] ' promote' -- 0.001s
-[TOKEN 531] ' peace' -- 0.001s
-[TOKEN 532] ' and' -- 0.001s
-[TOKEN 533] ' conflict' -- 0.001s
-[TOKEN 534] ' resolution' -- 0.001s
-[TOKEN 535] '.\n' -- 0.001s
-[TOKEN 536] '47' -- 0.001s
-[TOKEN 537] '.' -- 0.001s
-[TOKEN 538] ' To' -- 0.001s
-[TOKEN 539] ' support' -- 0.001s
-[TOKEN 540] ' education' -- 0.001s
-[TOKEN 541] ' and' -- 0.001s
-[TOKEN 542] ' personal' -- 0.001s
-[TOKEN 543] ' development' -- 0.001s
-[TOKEN 544] '.\n' -- 0.001s
-[TOKEN 545] '48' -- 0.001s
-[TOKEN 546] '.' -- 0.001s
-[TOKEN 547] ' To' -- 0.001s
-[TOKEN 548] ' promote' -- 0.001s
-[TOKEN 549] ' economic' -- 0.001s
-[TOKEN 550] ' growth' -- 0.001s
-[TOKEN 551] ' and' -- 0.001s
-[TOKEN 552] ' development' -- 0.001s
-[TOKEN 553] '.\n' -- 0.001s
-[TOKEN 554] '49' -- 0.001s
-[TOKEN 555] '.' -- 0.001s
-[TOKEN 556] ' To' -- 0.001s
-[TOKEN 557] ' protect' -- 0.001s
-[TOKEN 558] ' the' -- 0.001s
-[TOKEN 559] ' environment' -- 0.001s
-[TOKEN 560] ' and' -- 0.001s
-[TOKEN 561] ' natural' -- 0.001s
-[TOKEN 562] ' resources' -- 0.001s
-[TOKEN 563] '.\n' -- 0.001s
-[TOKEN 564] '50' -- 0.001s
-[TOKEN 565] '.' -- 0.001s
-[TOKEN 566] ' To' -- 0.001s
-[TOKEN 567] ' preserve' -- 0.001s
-[TOKEN 568] ' the' -- 0.001s
-[TOKEN 569] ' arts' -- 0.001s
-[TOKEN 570] ' and' -- 0.001s
-[TOKEN 571] ' creative' -- 0.001s
-[TOKEN 572] ' expression' -- 0.001s
-[TOKEN 573] '.\n\n' -- 0.001s
-[TOKEN 574] '**' -- 0.001s
-[TOKEN 575] 'E' -- 0.001s
-[TOKEN 576] 'conomic' -- 0.001s
-[TOKEN 577] ' and' -- 0.001s
-[TOKEN 578] ' Financial' -- 0.001s
-[TOKEN 579] '**\n\n' -- 0.001s
-[TOKEN 580] '51' -- 0.001s
-[TOKEN 581] '.' -- 0.001s
-[TOKEN 582] ' To' -- 0.001s
-[TOKEN 583] ' achieve' -- 0.001s
-[TOKEN 584] ' financial' -- 0.001s
-[TOKEN 585] ' stability' -- 0.001s
-[TOKEN 586] ' and' -- 0.001s
-[TOKEN 587] ' security' -- 0.001s
-[TOKEN 588] '.\n' -- 0.001s
-[TOKEN 589] '52' -- 0.001s
-[TOKEN 590] '.' -- 0.001s
-[TOKEN 591] ' To' -- 0.001s
-[TOKEN 592] ' increase' -- 0.001s
-[TOKEN 593] ' wealth' -- 0.001s
-[TOKEN 594] ' and' -- 0.001s
-[TOKEN 595] ' prosperity' -- 0.001s
-[TOKEN 596] '.\n' -- 0.001s
-[TOKEN 597] '53' -- 0.001s
-[TOKEN 598] '.' -- 0.001s
-[TOKEN 599] ' To' -- 0.001s
-[TOKEN 600] ' develop' -- 0.001s
-[TOKEN 601] ' a' -- 0.001s
-[TOKEN 602] ' successful' -- 0.001s
-[TOKEN 603] ' business' -- 0.001s
-[TOKEN 604] ' or' -- 0.001s
-[TOKEN 605] ' entrepreneurial' -- 0.001s
-[TOKEN 606] ' spirit' -- 0.001s
-[TOKEN 607] '.\n' -- 0.001s
-[TOKEN 608] '54' -- 0.001s
-[TOKEN 609] '.' -- 0.001s
-[TOKEN 610] ' To' -- 0.001s
-[TOKEN 611] ' invest' -- 0.001s
-[TOKEN 612] ' in' -- 0.001s
-[TOKEN 613] ' education' -- 0.001s
-[TOKEN 614] ' and' -- 0.001s
-[TOKEN 615] ' personal' -- 0.001s
-[TOKEN 616] ' development' -- 0.001s
-[TOKEN 617] '.\n' -- 0.001s
-[TOKEN 618] '55' -- 0.001s
-[TOKEN 619] '.' -- 0.001s
-[TOKEN 620] ' To' -- 0.001s
-[TOKEN 621] ' improve' -- 0.001s
-[TOKEN 622] ' the' -- 0.001s
-[TOKEN 623] ' quality' -- 0.001s
-[TOKEN 624] ' of' -- 0.001s
-[TOKEN 625] ' life' -- 0.001s
-[TOKEN 626] ' for' -- 0.001s
-[TOKEN 627] ' all' -- 0.001s
-[TOKEN 628] ' citizens' -- 0.001s
-[TOKEN 629] '.\n' -- 0.001s
-[TOKEN 630] '56' -- 0.001s
-[TOKEN 631] '.' -- 0.001s
-[TOKEN 632] ' To' -- 0.001s
-[TOKEN 633] ' reduce' -- 0.001s
-[TOKEN 634] ' poverty' -- 0.001s
-[TOKEN 635] ' and' -- 0.001s
-[TOKEN 636] ' inequality' -- 0.001s
-[TOKEN 637] '.\n' -- 0.001s
-[TOKEN 638] '57' -- 0.001s
-[TOKEN 639] '.' -- 0.001s
-[TOKEN 640] ' To' -- 0.001s
-[TOKEN 641] ' increase' -- 0.001s
-[TOKEN 642] ' economic' -- 0.001s
-[TOKEN 643] ' growth' -- 0.001s
-[TOKEN 644] ' and' -- 0.001s
-[TOKEN 645] ' development' -- 0.001s
-[TOKEN 646] '.\n' -- 0.001s
-[TOKEN 647] '58' -- 0.001s
-[TOKEN 648] '.' -- 0.001s
-[TOKEN 649] ' To' -- 0.001s
-[TOKEN 650] ' promote' -- 0.001s
-[TOKEN 651] ' innovation' -- 0.001s
-[TOKEN 652] ' and' -- 0.001s
-[TOKEN 653] ' entrepreneurship' -- 0.001s
-[TOKEN 654] '.\n' -- 0.001s
-[TOKEN 655] '59' -- 0.001s
-[TOKEN 656] '.' -- 0.001s
-[TOKEN 657] ' To' -- 0.001s
-[TOKEN 658] ' develop' -- 0.001s
-[TOKEN 659] ' a' -- 0.001s
-[TOKEN 660] ' more' -- 0.001s
-[TOKEN 661] ' efficient' -- 0.001s
-[TOKEN 662] ' and' -- 0.001s
-[TOKEN 663] ' sustainable' -- 0.001s
-[TOKEN 664] ' economy' -- 0.001s
-[TOKEN 665] '.\n' -- 0.001s
-[TOKEN 666] '60' -- 0.001s
-[TOKEN 667] '.' -- 0.001s
-[TOKEN 668] ' To' -- 0.001s
-[TOKEN 669] ' improve' -- 0.001s
-[TOKEN 670] ' the' -- 0.001s
-[TOKEN 671] ' standard' -- 0.001s
-[TOKEN 672] ' of' -- 0.001s
-[TOKEN 673] ' living' -- 0.001s
-[TOKEN 674] '.\n\n' -- 0.001s
-[TOKEN 675] '**' -- 0.001s
-[TOKEN 676] 'Environmental' -- 0.001s
-[TOKEN 677] ' and' -- 0.001s
-[TOKEN 678] ' Ec' -- 0.001s
-[TOKEN 679] 'ological' -- 0.001s
-[TOKEN 680] '**\n\n' -- 0.001s
-[TOKEN 681] '61' -- 0.001s
-[TOKEN 682] '.' -- 0.001s
-[TOKEN 683] ' To' -- 0.001s
-[TOKEN 684] ' protect' -- 0.001s
-[TOKEN 685] ' and' -- 0.001s
-[TOKEN 686] ' preserve' -- 0.001s
-[TOKEN 687] ' the' -- 0.001s
-[TOKEN 688] ' natural' -- 0.001s
-[TOKEN 689] ' world' -- 0.001s
-[TOKEN 690] '.\n' -- 0.001s
-[TOKEN 691] '62' -- 0.001s
-[TOKEN 692] '.' -- 0.001s
-[TOKEN 693] ' To' -- 0.001s
-[TOKEN 694] ' promote' -- 0.001s
-[TOKEN 695] ' sustainability' -- 0.001s
-[TOKEN 696] ' and' -- 0.001s
-[TOKEN 697] ' environmental' -- 0.001s
-[TOKEN 698] ' steward' -- 0.001s
-[TOKEN 699] 'ship' -- 0.001s
-[TOKEN 700] '.\n' -- 0.001s
-[TOKEN 701] '63' -- 0.001s
-[TOKEN 702] '.' -- 0.001s
-[TOKEN 703] ' To' -- 0.001s
-[TOKEN 704] ' reduce' -- 0.001s
-[TOKEN 705] ' carbon' -- 0.001s
-[TOKEN 706] ' emissions' -- 0.001s
-[TOKEN 707] ' and' -- 0.001s
-[TOKEN 708] ' climate' -- 0.001s
-[TOKEN 709] ' change' -- 0.001s
-[TOKEN 710] '.\n' -- 0.001s
-[TOKEN 711] '64' -- 0.001s
-[TOKEN 712] '.' -- 0.001s
-[TOKEN 713] ' To' -- 0.001s
-[TOKEN 714] ' conserve' -- 0.001s
-[TOKEN 715] ' and' -- 0.001s
-[TOKEN 716] ' protect' -- 0.001s
-[TOKEN 717] ' biodiversity' -- 0.001s
-[TOKEN 718] '.\n' -- 0.001s
-[TOKEN 719] '65' -- 0.001s
-[TOKEN 720] '.' -- 0.001s
-[TOKEN 721] ' To' -- 0.001s
-[TOKEN 722] ' promote' -- 0.001s
-[TOKEN 723] ' eco' -- 0.001s
-[TOKEN 724] '-friendly' -- 0.001s
-[TOKEN 725] ' practices' -- 0.001s
-[TOKEN 726] ' and' -- 0.001s
-[TOKEN 727] ' technologies' -- 0.001s
-[TOKEN 728] '.\n' -- 0.001s
-[TOKEN 729] '66' -- 0.001s
-[TOKEN 730] '.' -- 0.001s
-[TOKEN 731] ' To' -- 0.001s
-[TOKEN 732] ' preserve' -- 0.001s
-[TOKEN 733] ' natural' -- 0.001s
-[TOKEN 734] ' resources' -- 0.001s
-[TOKEN 735] ' and' -- 0.001s
-[TOKEN 736] ' ecosystems' -- 0.001s
-[TOKEN 737] '.\n' -- 0.001s
-[TOKEN 738] '67' -- 0.001s
-[TOKEN 739] '.' -- 0.001s
-[TOKEN 740] ' To' -- 0.001s
-[TOKEN 741] ' reduce' -- 0.001s
-[TOKEN 742] ' waste' -- 0.001s
-[TOKEN 743] ' and' -- 0.001s
-[TOKEN 744] ' pollution' -- 0.001s
-[TOKEN 745] '.\n' -- 0.001s
-[TOKEN 746] '68' -- 0.001s
-[TOKEN 747] '.' -- 0.001s
-[TOKEN 748] ' To' -- 0.001s
-[TOKEN 749] ' promote' -- 0.001s
-[TOKEN 750] ' conservation' -- 0.001s
-[TOKEN 751] ' and' -- 0.001s
-[TOKEN 752] ' wildlife' -- 0.001s
-[TOKEN 753] ' preservation' -- 0.001s
-[TOKEN 754] '.\n' -- 0.001s
-[TOKEN 755] '69' -- 0.001s
-[TOKEN 756] '.' -- 0.001s
-[TOKEN 757] ' To' -- 0.001s
-[TOKEN 758] ' protect' -- 0.001s
-[TOKEN 759] ' and' -- 0.001s
-[TOKEN 760] ' preserve' -- 0.001s
-[TOKEN 761] ' cultural' -- 0.001s
-[TOKEN 762] ' heritage' -- 0.001s
-[TOKEN 763] '.\n' -- 0.001s
-[TOKEN 764] '70' -- 0.001s
-[TOKEN 765] '.' -- 0.001s
-[TOKEN 766] ' To' -- 0.001s
-[TOKEN 767] ' promote' -- 0.001s
-[TOKEN 768] ' sustainable' -- 0.001s
-[TOKEN 769] ' agriculture' -- 0.001s
-[TOKEN 770] ' and' -- 0.001s
-[TOKEN 771] ' food' -- 0.001s
-[TOKEN 772] ' systems' -- 0.001s
-[TOKEN 773] '.\n\n' -- 0.001s
-[TOKEN 774] '**' -- 0.001s
-[TOKEN 775] 'Personal' -- 0.001s
-[TOKEN 776] ' Growth' -- 0.001s
-[TOKEN 777] ' and' -- 0.001s
-[TOKEN 778] ' Development' -- 0.001s
-[TOKEN 779] '**\n\n' -- 0.001s
-[TOKEN 780] '71' -- 0.001s
-[TOKEN 781] '.' -- 0.001s
-[TOKEN 782] ' To' -- 0.001s
-[TOKEN 783] ' develop' -- 0.001s
-[TOKEN 784] ' a' -- 0.001s
-[TOKEN 785] ' sense' -- 0.001s
-[TOKEN 786] ' of' -- 0.001s
-[TOKEN 787] ' self' -- 0.001s
-[TOKEN 788] '-aware' -- 0.001s
-[TOKEN 789] 'ness' -- 0.001s
-[TOKEN 790] ' and' -- 0.001s
-[TOKEN 791] ' intros' -- 0.001s
-[TOKEN 792] 'pection' -- 0.001s
-[TOKEN 793] '.\n' -- 0.001s
-[TOKEN 794] '72' -- 0.001s
-[TOKEN 795] '.' -- 0.001s
-[TOKEN 796] ' To' -- 0.001s
-[TOKEN 797] ' cultivate' -- 0.001s
-[TOKEN 798] ' emotional' -- 0.001s
-[TOKEN 799] ' intelligence' -- 0.001s
-[TOKEN 800] ' and' -- 0.001s
-[TOKEN 801] ' empathy' -- 0.001s
-[TOKEN 802] '.\n' -- 0.001s
-[TOKEN 803] '73' -- 0.001s
-[TOKEN 804] '.' -- 0.001s
-[TOKEN 805] ' To' -- 0.001s
-[TOKEN 806] ' improve' -- 0.001s
-[TOKEN 807] ' mental' -- 0.001s
-[TOKEN 808] ' health' -- 0.001s
-[TOKEN 809] ' and' -- 0.001s
-[TOKEN 810] ' well' -- 0.001s
-[TOKEN 811] '-being' -- 0.001s
-[TOKEN 812] '.\n' -- 0.001s
-[TOKEN 813] '74' -- 0.001s
-[TOKEN 814] '.' -- 0.001s
-[TOKEN 815] ' To' -- 0.001s
-[TOKEN 816] ' develop' -- 0.001s
-[TOKEN 817] ' a' -- 0.001s
-[TOKEN 818] ' growth' -- 0.001s
-[TOKEN 819] ' mindset' -- 0.001s
-[TOKEN 820] ' and' -- 0.001s
-[TOKEN 821] ' resilience' -- 0.001s
-[TOKEN 822] '.\n' -- 0.001s
-[TOKEN 823] '75' -- 0.001s
-[TOKEN 824] '.' -- 0.001s
-[TOKEN 825] ' To' -- 0.001s
-[TOKEN 826] ' learn' -- 0.001s
-[TOKEN 827] ' new' -- 0.001s
-[TOKEN 828] ' skills' -- 0.001s
-[TOKEN 829] ' and' -- 0.001s
-[TOKEN 830] ' knowledge' -- 0.001s
-[TOKEN 831] '.\n' -- 0.001s
-[TOKEN 832] '76' -- 0.001s
-[TOKEN 833] '.' -- 0.001s
-[TOKEN 834] ' To' -- 0.001s
-[TOKEN 835] ' improve' -- 0.001s
-[TOKEN 836] ' physical' -- 0.001s
-[TOKEN 837] ' health' -- 0.001s
-[TOKEN 838] ' and' -- 0.001s
-[TOKEN 839] ' fitness' -- 0.001s
-[TOKEN 840] '.\n' -- 0.001s
-[TOKEN 841] '77' -- 0.001s
-[TOKEN 842] '.' -- 0.001s
-[TOKEN 843] ' To' -- 0.001s
-[TOKEN 844] ' develop' -- 0.001s
-[TOKEN 845] ' a' -- 0.001s
-[TOKEN 846] ' sense' -- 0.001s
-[TOKEN 847] ' of' -- 0.001s
-[TOKEN 848] ' purpose' -- 0.001s
-[TOKEN 849] ' and' -- 0.001s
-[TOKEN 850] ' direction' -- 0.001s
-[TOKEN 851] '.\n' -- 0.001s
-[TOKEN 852] '78' -- 0.001s
-[TOKEN 853] '.' -- 0.001s
-[TOKEN 854] ' To' -- 0.001s
-[TOKEN 855] ' improve' -- 0.001s
-[TOKEN 856] ' relationships' -- 0.001s
-[TOKEN 857] ' and' -- 0.001s
-[TOKEN 858] ' communication' -- 0.001s
-[TOKEN 859] ' skills' -- 0.001s
-[TOKEN 860] '.\n' -- 0.001s
-[TOKEN 861] '79' -- 0.001s
-[TOKEN 862] '.' -- 0.001s
-[TOKEN 863] ' To' -- 0.001s
-[TOKEN 864] ' develop' -- 0.001s
-[TOKEN 865] ' a' -- 0.001s
-[TOKEN 866] ' sense' -- 0.001s
-[TOKEN 867] ' of' -- 0.001s
-[TOKEN 868] ' gratitude' -- 0.001s
-[TOKEN 869] ' and' -- 0.001s
-[TOKEN 870] ' appreciation' -- 0.001s
-[TOKEN 871] '.\n' -- 0.001s
-[TOKEN 872] '80' -- 0.001s
-[TOKEN 873] '.' -- 0.001s
-[TOKEN 874] ' To' -- 0.001s
-[TOKEN 875] ' cultivate' -- 0.001s
-[TOKEN 876] ' a' -- 0.001s
-[TOKEN 877] ' positive' -- 0.001s
-[TOKEN 878] ' and' -- 0.001s
-[TOKEN 879] ' optimistic' -- 0.001s
-[TOKEN 880] ' outlook' -- 0.001s
-[TOKEN 881] '.\n\n' -- 0.001s
-[TOKEN 882] '**' -- 0.001s
-[TOKEN 883] 'Phil' -- 0.001s
-[TOKEN 884] 'osoph' -- 0.001s
-[TOKEN 885] 'ical' -- 0.001s
-[TOKEN 886] ' and' -- 0.001s
-[TOKEN 887] ' Exist' -- 0.001s
-[TOKEN 888] 'ential' -- 0.001s
-[TOKEN 889] '**\n\n' -- 0.001s
-[TOKEN 890] '81' -- 0.001s
-[TOKEN 891] '.' -- 0.001s
-[TOKEN 892] ' To' -- 0.001s
-[TOKEN 893] ' understand' -- 0.001s
-[TOKEN 894] ' the' -- 0.001s
-[TOKEN 895] ' nature' -- 0.001s
-[TOKEN 896] ' of' -- 0.001s
-[TOKEN 897] ' reality' -- 0.001s
-[TOKEN 898] ' and' -- 0.001s
-[TOKEN 899] ' the' -- 0.001s
-[TOKEN 900] ' universe' -- 0.001s
-[TOKEN 901] '.\n' -- 0.001s
-[TOKEN 902] '82' -- 0.001s
-[TOKEN 903] '.' -- 0.001s
-[TOKEN 904] ' To' -- 0.001s
-[TOKEN 905] ' question' -- 0.001s
-[TOKEN 906] ' the' -- 0.001s
-[TOKEN 907] ' meaning' -- 0.001s
-[TOKEN 908] ' of' -- 0.001s
-[TOKEN 909] ' life' -- 0.001s
-[TOKEN 910] ' and' -- 0.001s
-[TOKEN 911] ' existence' -- 0.001s
-[TOKEN 912] '.\n' -- 0.001s
-[TOKEN 913] '83' -- 0.001s
-[TOKEN 914] '.' -- 0.001s
-[TOKEN 915] ' To' -- 0.001s
-[TOKEN 916] ' explore' -- 0.001s
-[TOKEN 917] ' the' -- 0.001s
-[TOKEN 918] ' concept' -- 0.001s
-[TOKEN 919] ' of' -- 0.001s
-[TOKEN 920] ' free' -- 0.001s
-[TOKEN 921] ' will' -- 0.001s
-[TOKEN 922] ' and' -- 0.001s
-[TOKEN 923] ' determin' -- 0.001s
-[TOKEN 924] 'ism' -- 0.001s
-[TOKEN 925] '.\n' -- 0.001s
-[TOKEN 926] '84' -- 0.001s
-[TOKEN 927] '.' -- 0.001s
-[TOKEN 928] ' To' -- 0.001s
-[TOKEN 929] ' consider' -- 0.001s
-[TOKEN 930] ' the' -- 0.001s
-[TOKEN 931] ' implications' -- 0.001s
-[TOKEN 932] ' of' -- 0.001s
-[TOKEN 933] ' an' -- 0.001s
-[TOKEN 934] ' after' -- 0.001s
-[TOKEN 935] 'life' -- 0.001s
-[TOKEN 936] ' or' -- 0.001s
-[TOKEN 937] ' reinc' -- 0.001s
-[TOKEN 938] 'arnation' -- 0.001s
-[TOKEN 939] '.\n' -- 0.001s
-[TOKEN 940] '85' -- 0.001s
-[TOKEN 941] '.' -- 0.001s
-[TOKEN 942] ' To' -- 0.001s
-[TOKEN 943] ' ponder' -- 0.001s
-[TOKEN 944] ' the' -- 0.001s
-[TOKEN 945] ' mysteries' -- 0.001s
-[TOKEN 946] ' of' -- 0.001s
-[TOKEN 947] ' time' -- 0.001s
-[TOKEN 948] ' and' -- 0.001s
-[TOKEN 949] ' space' -- 0.001s
-[TOKEN 950] '.\n' -- 0.001s
-[TOKEN 951] '86' -- 0.001s
-[TOKEN 952] '.' -- 0.001s
-[TOKEN 953] ' To' -- 0.001s
-[TOKEN 954] ' examine' -- 0.001s
-[TOKEN 955] ' the' -- 0.001s
-[TOKEN 956] ' role' -- 0.001s
-[TOKEN 957] ' of' -- 0.001s
-[TOKEN 958] ' chance' -- 0.001s
-[TOKEN 959] ' and' -- 0.001s
-[TOKEN 960] ' probability' -- 0.001s
-[TOKEN 961] '.\n' -- 0.001s
-[TOKEN 962] '87' -- 0.001s
-[TOKEN 963] '.' -- 0.001s
-[TOKEN 964] ' To' -- 0.001s
-[TOKEN 965] ' consider' -- 0.001s
-[TOKEN 966] ' the' -- 0.001s
-[TOKEN 967] ' concept' -- 0.001s
-[TOKEN 968] ' of' -- 0.001s
-[TOKEN 969] ' a' -- 0.001s
-[TOKEN 970] ' higher' -- 0.001s
-[TOKEN 971] ' power' -- 0.001s
-[TOKEN 972] ' or' -- 0.001s
-[TOKEN 973] ' deity' -- 0.001s
-[TOKEN 974] '.\n' -- 0.001s
-[TOKEN 975] '88' -- 0.001s
-[TOKEN 976] '.' -- 0.001s
-[TOKEN 977] ' To' -- 0.001s
-[TOKEN 978] ' explore' -- 0.001s
-[TOKEN 979] ' the' -- 0.001s
-[TOKEN 980] ' nature' -- 0.001s
-[TOKEN 981] ' of' -- 0.001s
-[TOKEN 982] ' consciousness' -- 0.001s
-[TOKEN 983] ' and' -- 0.001s
-[TOKEN 984] ' the' -- 0.001s
-[TOKEN 985] ' human' -- 0.001s
-[TOKEN 986] ' experience' -- 0.001s
-[TOKEN 987] '.\n' -- 0.001s
-[TOKEN 988] '89' -- 0.001s
-[TOKEN 989] '.' -- 0.001s
-[TOKEN 990] ' To' -- 0.001s
-[TOKEN 991] ' question' -- 0.001s
-[TOKEN 992] ' the' -- 0.001s
-[TOKEN 993] ' nature' -- 0.001s
-[TOKEN 994] ' of' -- 0.001s
-[TOKEN 995] ' reality' -- 0.001s
-[TOKEN 996] ' and' -- 0.001s
-[TOKEN 997] ' the' -- 0.001s
-[TOKEN 998] ' universe' -- 0.001s
-[TOKEN 999] '.\n' -- 0.001s
-[TOKEN 1000] '90' -- 0.001s
-PREFILL TIME 0.26244258880615234
-TOTAL TOKENS GENERATED 1000
-GENERATION TIME 5.563811302185059
-OUTPUT TOKENS PER SECOND 179.73291071307057
-[END] Generation complete
-[TOKENS] [3923, 264, 28254, 323, 6485, 3488, 0, 5810, 527, 220, 1041, 15, 2204, 3284, 11503, 311, 279, 7438, 315, 2324, 1473, 334, 30690, 11597, 950, 323, 62909, 2335, 57277, 16, 13, 2057, 1505, 7580, 323, 57383, 304, 264, 23490, 57026, 1917, 627, 17, 13, 2057, 3217, 16267, 11, 3021, 11, 323, 23871, 627, 18, 13, 2057, 3619, 279, 7138, 315, 8903, 323, 279, 15861, 627, 19, 13, 2057, 74809, 29528, 323, 11322, 4998, 76052, 627, 20, 13, 2057, 1893, 323, 5387, 264, 29869, 20160, 627, 21, 13, 2057, 1505, 7438, 304, 279, 3118, 4545, 627, 22, 13, 2057, 7142, 832, 596, 837, 9764, 323, 7580, 627, 23, 13, 2057, 3217, 279, 13444, 323, 5895, 315, 2324, 627, 24, 13, 2057, 23075, 8850, 11, 18547, 11, 323, 10712, 627, 605, 13, 2057, 1505, 9358, 9096, 323, 2262, 479, 382, 334, 6882, 22941, 323, 63849, 57277, 806, 13, 2057, 1833, 279, 45572, 315, 264, 5190, 2410, 477, 74490, 627, 717, 13, 2057, 6056, 81869, 323, 18330, 75149, 627, 1032, 13, 2057, 4667, 449, 264, 5190, 659, 477, 279, 30467, 627, 975, 13, 2057, 21054, 264, 30467, 9131, 477, 7580, 627, 868, 13, 2057, 3217, 264, 5647, 315, 389, 24639, 449, 279, 15861, 627, 845, 13, 2057, 1505, 2092, 580, 323, 6981, 304, 264, 21955, 4359, 627, 1114, 13, 2057, 1833, 279, 1853, 315, 71329, 323, 45651, 627, 972, 13, 2057, 3217, 264, 5647, 315, 74809, 768, 323, 31426, 627, 777, 13, 2057, 1505, 53150, 323, 56752, 627, 508, 13, 2057, 3217, 264, 5647, 315, 51517, 323, 5895, 382, 334, 51665, 1104, 323, 55625, 57277, 1691, 13, 2057, 3619, 279, 7016, 315, 22027, 323, 279, 15861, 627, 1313, 13, 2057, 7142, 502, 6677, 323, 26793, 627, 1419, 13, 2057, 2274, 264, 19662, 8830, 315, 279, 3823, 8271, 323, 7865, 627, 1187, 13, 2057, 7417, 3823, 2890, 323, 1664, 33851, 627, 914, 13, 2057, 12178, 5557, 323, 19297, 627, 1627, 13, 2057, 13488, 279, 57700, 315, 3634, 323, 892, 627, 1544, 13, 2057, 2274, 264, 810, 11297, 323, 22556, 1648, 315, 2324, 627, 1591, 13, 2057, 7417, 279, 4367, 315, 2324, 369, 682, 1274, 627, 1682, 13, 2057, 8108, 16066, 323, 6784, 627, 966, 13, 2057, 5376, 3823, 61961, 323, 58219, 382, 334, 35127, 323, 95300, 57277, 2148, 13, 2057, 1505, 23871, 323, 57383, 304, 2324, 627, 843, 13, 2057, 3217, 3021, 323, 12135, 627, 1644, 13, 2057, 2274, 14604, 11478, 323, 659, 66104, 2136, 627, 1958, 13, 2057, 23075, 4443, 28970, 323, 11774, 627, 1758, 13, 2057, 1505, 7580, 323, 5216, 304, 2324, 627, 1927, 13, 2057, 3217, 264, 5647, 315, 33152, 323, 3717, 627, 1806, 13, 2057, 2274, 264, 6650, 40543, 323, 56062, 627, 1987, 13, 2057, 1505, 16267, 323, 43214, 304, 2324, 627, 2137, 13, 2057, 3217, 264, 5647, 315, 11542, 323, 51360, 627, 1272, 13, 2057, 2274, 264, 5647, 315, 46135, 323, 35996, 382, 334, 27414, 323, 41333, 57277, 3174, 13, 2057, 17210, 311, 279, 7191, 1695, 323, 4029, 627, 2983, 13, 2057, 12192, 3674, 12437, 323, 22526, 627, 3391, 13, 2057, 18890, 20057, 323, 45409, 1968, 627, 2096, 13, 2057, 21813, 13042, 28948, 323, 32006, 627, 1774, 13, 2057, 31087, 3728, 8830, 323, 23915, 627, 2790, 13, 2057, 12192, 9096, 323, 12324, 11175, 627, 2618, 13, 2057, 1862, 6873, 323, 4443, 4500, 627, 2166, 13, 2057, 12192, 7100, 6650, 323, 4500, 627, 2491, 13, 2057, 6144, 279, 4676, 323, 5933, 5070, 627, 1135, 13, 2057, 21813, 279, 19071, 323, 11782, 7645, 382, 334, 36, 32107, 323, 17961, 57277, 3971, 13, 2057, 11322, 6020, 20334, 323, 4868, 627, 4103, 13, 2057, 5376, 12205, 323, 44202, 627, 4331, 13, 2057, 2274, 264, 6992, 2626, 477, 70406, 9090, 627, 4370, 13, 2057, 2793, 304, 6873, 323, 4443, 4500, 627, 2131, 13, 2057, 7417, 279, 4367, 315, 2324, 369, 682, 10495, 627, 3487, 13, 2057, 8108, 19542, 323, 32305, 627, 3226, 13, 2057, 5376, 7100, 6650, 323, 4500, 627, 2970, 13, 2057, 12192, 19297, 323, 75505, 627, 2946, 13, 2057, 2274, 264, 810, 11297, 323, 22556, 8752, 627, 1399, 13, 2057, 7417, 279, 5410, 315, 5496, 382, 334, 83166, 323, 37211, 5848, 57277, 5547, 13, 2057, 6144, 323, 21813, 279, 5933, 1917, 627, 5538, 13, 2057, 12192, 41329, 323, 12434, 69606, 5383, 627, 5495, 13, 2057, 8108, 12782, 20748, 323, 10182, 2349, 627, 1227, 13, 2057, 78548, 323, 6144, 73119, 627, 2397, 13, 2057, 12192, 42688, 22658, 12659, 323, 14645, 627, 2287, 13, 2057, 21813, 5933, 5070, 323, 61951, 627, 3080, 13, 2057, 8108, 12571, 323, 25793, 627, 2614, 13, 2057, 12192, 29711, 323, 30405, 46643, 627, 3076, 13, 2057, 6144, 323, 21813, 13042, 28948, 627, 2031, 13, 2057, 12192, 22556, 30029, 323, 3691, 6067, 382, 334, 35127, 34871, 323, 11050, 57277, 6028, 13, 2057, 2274, 264, 5647, 315, 659, 66104, 2136, 323, 26609, 16463, 627, 5332, 13, 2057, 67632, 14604, 11478, 323, 48451, 627, 5958, 13, 2057, 7417, 10723, 2890, 323, 1664, 33851, 627, 5728, 13, 2057, 2274, 264, 6650, 40543, 323, 56062, 627, 2075, 13, 2057, 4048, 502, 7512, 323, 6677, 627, 4767, 13, 2057, 7417, 7106, 2890, 323, 17479, 627, 2813, 13, 2057, 2274, 264, 5647, 315, 7580, 323, 5216, 627, 2495, 13, 2057, 7417, 12135, 323, 10758, 7512, 627, 4643, 13, 2057, 2274, 264, 5647, 315, 46135, 323, 35996, 627, 1490, 13, 2057, 67632, 264, 6928, 323, 37036, 36721, 382, 334, 30690, 11597, 950, 323, 62909, 2335, 57277, 5932, 13, 2057, 3619, 279, 7138, 315, 8903, 323, 279, 15861, 627, 6086, 13, 2057, 3488, 279, 7438, 315, 2324, 323, 14209, 627, 6069, 13, 2057, 13488, 279, 7434, 315, 1949, 690, 323, 6449, 2191, 627, 5833, 13, 2057, 2980, 279, 25127, 315, 459, 1306, 14789, 477, 95807, 55149, 627, 5313, 13, 2057, 48883, 279, 57700, 315, 892, 323, 3634, 627, 4218, 13, 2057, 21635, 279, 3560, 315, 6140, 323, 19463, 627, 4044, 13, 2057, 2980, 279, 7434, 315, 264, 5190, 2410, 477, 74490, 627, 2421, 13, 2057, 13488, 279, 7138, 315, 25917, 323, 279, 3823, 3217, 627, 4578, 13, 2057, 3488, 279, 7138, 315, 8903, 323, 279, 15861, 627, 1954]
+[PROMPT 1] [TOKEN 1] '**' -- 0.166sec -- 6.0tps
+[PROMPT 1] [TOKEN 2] 'The' -- 0.006sec -- 161.0tps
+[PROMPT 1] [TOKEN 3] ' Wander' -- 0.006sec -- 164.4tps
+[PROMPT 1] [TOKEN 4] 'er' -- 0.006sec -- 168.9tps
+[PROMPT 1] [TOKEN 5] ' of' -- 0.006sec -- 166.8tps
+[PROMPT 1] [TOKEN 6] ' the' -- 0.006sec -- 167.7tps
+[PROMPT 1] [TOKEN 7] ' T' -- 0.006sec -- 162.3tps
+[PROMPT 1] [TOKEN 8] 'imest' -- 0.006sec -- 166.0tps
+[PROMPT 1] [TOKEN 9] 'ream' -- 0.006sec -- 167.6tps
+[PROMPT 1] [TOKEN 10] '**\n\n' -- 0.006sec -- 166.5tps
+[PROMPT 1] [TOKEN 11] 'Marcus' -- 0.006sec -- 170.7tps
+[PROMPT 1] [TOKEN 12] ' had' -- 0.006sec -- 167.9tps
+[PROMPT 1] [TOKEN 13] ' always' -- 0.006sec -- 164.6tps
+[PROMPT 1] [TOKEN 14] ' been' -- 0.006sec -- 169.2tps
+[PROMPT 1] [TOKEN 15] ' fascinated' -- 0.006sec -- 170.1tps
+[PROMPT 1] [TOKEN 16] ' by' -- 0.006sec -- 168.5tps
+[PROMPT 1] [TOKEN 17] ' the' -- 0.006sec -- 171.4tps
+[PROMPT 1] [TOKEN 18] ' ancient' -- 0.006sec -- 171.0tps
+[PROMPT 1] [TOKEN 19] ' world' -- 0.006sec -- 170.7tps
+[PROMPT 1] [TOKEN 20] '.' -- 0.006sec -- 169.0tps
+[PROMPT 1] [TOKEN 21] ' As' -- 0.006sec -- 170.3tps
+[PROMPT 1] [TOKEN 22] ' a' -- 0.006sec -- 168.7tps
+[PROMPT 1] [TOKEN 23] ' historian' -- 0.006sec -- 169.9tps
+[PROMPT 1] [TOKEN 24] ',' -- 0.006sec -- 168.9tps
+[PROMPT 1] [TOKEN 25] ' he' -- 0.006sec -- 168.6tps
+[PROMPT 1] [TOKEN 26] ' spent' -- 0.006sec -- 169.0tps
+[PROMPT 1] [TOKEN 27] ' countless' -- 0.006sec -- 169.5tps
+[PROMPT 1] [TOKEN 28] ' hours' -- 0.006sec -- 171.5tps
+[PROMPT 1] [TOKEN 29] ' pouring' -- 0.006sec -- 169.4tps
+[PROMPT 1] [TOKEN 30] ' over' -- 0.006sec -- 169.4tps
+[PROMPT 1] [TOKEN 31] ' dusty' -- 0.006sec -- 172.4tps
+[PROMPT 1] [TOKEN 32] ' to' -- 0.006sec -- 169.7tps
+[PROMPT 1] [TOKEN 33] 'mes' -- 0.006sec -- 173.0tps
+[PROMPT 1] [TOKEN 34] ' and' -- 0.006sec -- 170.7tps
+[PROMPT 1] [TOKEN 35] ' crumbling' -- 0.006sec -- 171.8tps
+[PROMPT 1] [TOKEN 36] ' scrolls' -- 0.006sec -- 167.9tps
+[PROMPT 1] [TOKEN 37] ',' -- 0.006sec -- 167.7tps
+[PROMPT 1] [TOKEN 38] ' searching' -- 0.006sec -- 164.7tps
+[PROMPT 1] [TOKEN 39] ' for' -- 0.006sec -- 169.6tps
+[PROMPT 1] [TOKEN 40] ' clues' -- 0.006sec -- 169.3tps
+[PROMPT 1] [TOKEN 41] ' about' -- 0.006sec -- 168.6tps
+[PROMPT 1] [TOKEN 42] ' the' -- 0.006sec -- 169.9tps
+[PROMPT 1] [TOKEN 43] ' civilizations' -- 0.006sec -- 157.7tps
+[PROMPT 1] [TOKEN 44] ' that' -- 0.006sec -- 165.4tps
+[PROMPT 1] [TOKEN 45] ' had' -- 0.006sec -- 168.7tps
+[PROMPT 1] [TOKEN 46] ' come' -- 0.006sec -- 166.7tps
+[PROMPT 1] [TOKEN 47] ' and' -- 0.006sec -- 168.2tps
+[PROMPT 1] [TOKEN 48] ' gone' -- 0.006sec -- 167.6tps
+[PROMPT 1] [TOKEN 49] '.' -- 0.006sec -- 169.9tps
+[PROMPT 1] [TOKEN 50] ' But' -- 0.006sec -- 168.2tps
+[PROMPT 1] [TOKEN 51] ' he' -- 0.006sec -- 170.4tps
+[PROMPT 1] [TOKEN 52] ' had' -- 0.006sec -- 170.2tps
+[PROMPT 1] [TOKEN 53] ' always' -- 0.006sec -- 168.7tps
+[PROMPT 1] [TOKEN 54] ' dreamed' -- 0.006sec -- 163.9tps
+[PROMPT 1] [TOKEN 55] ' of' -- 0.006sec -- 168.1tps
+[PROMPT 1] [TOKEN 56] ' experiencing' -- 0.006sec -- 169.9tps
+[PROMPT 1] [TOKEN 57] ' it' -- 0.006sec -- 167.3tps
+[PROMPT 1] [TOKEN 58] ' firsthand' -- 0.006sec -- 165.5tps
+[PROMPT 1] [TOKEN 59] '.\n\n' -- 0.006sec -- 166.6tps
+[PROMPT 1] [TOKEN 60] 'So' -- 0.006sec -- 166.9tps
+[PROMPT 1] [TOKEN 61] ',' -- 0.006sec -- 164.6tps
+[PROMPT 1] [TOKEN 62] ' when' -- 0.006sec -- 169.4tps
+[PROMPT 1] [TOKEN 63] ' he' -- 0.006sec -- 168.2tps
+[PROMPT 1] [TOKEN 64] ' stumbled' -- 0.006sec -- 162.2tps
+[PROMPT 1] [TOKEN 65] ' upon' -- 0.006sec -- 166.8tps
+[PROMPT 1] [TOKEN 66] ' an' -- 0.006sec -- 169.6tps
+[PROMPT 1] [TOKEN 67] ' obscure' -- 0.006sec -- 167.9tps
+[PROMPT 1] [TOKEN 68] ' text' -- 0.006sec -- 167.7tps
+[PROMPT 1] [TOKEN 69] ' about' -- 0.006sec -- 169.0tps
+[PROMPT 1] [TOKEN 70] ' a' -- 0.006sec -- 169.6tps
+[PROMPT 1] [TOKEN 71] ' time' -- 0.006sec -- 171.0tps
+[PROMPT 1] [TOKEN 72] ' traveler' -- 0.006sec -- 167.6tps
+[PROMPT 1] [TOKEN 73] ' who' -- 0.006sec -- 167.5tps
+[PROMPT 1] [TOKEN 74] ' had' -- 0.006sec -- 168.3tps
+[PROMPT 1] [TOKEN 75] ' visited' -- 0.006sec -- 162.4tps
+[PROMPT 1] [TOKEN 76] ' ancient' -- 0.006sec -- 162.4tps
+[PROMPT 1] [TOKEN 77] ' Rome' -- 0.006sec -- 157.6tps
+[PROMPT 1] [TOKEN 78] ',' -- 0.006sec -- 163.1tps
+[PROMPT 1] [TOKEN 79] ' he' -- 0.006sec -- 162.6tps
+[PROMPT 1] [TOKEN 80] ' knew' -- 0.006sec -- 164.5tps
+[PROMPT 1] [TOKEN 81] ' he' -- 0.006sec -- 167.3tps
+[PROMPT 1] [TOKEN 82] ' had' -- 0.006sec -- 166.9tps
+[PROMPT 1] [TOKEN 83] ' to' -- 0.006sec -- 166.6tps
+[PROMPT 1] [TOKEN 84] ' take' -- 0.006sec -- 166.9tps
+[PROMPT 1] [TOKEN 85] ' the' -- 0.006sec -- 167.7tps
+[PROMPT 1] [TOKEN 86] ' leap' -- 0.006sec -- 160.2tps
+[PROMPT 1] [TOKEN 87] '.' -- 0.006sec -- 156.8tps
+[PROMPT 1] [TOKEN 88] ' The' -- 0.006sec -- 157.3tps
+[PROMPT 1] [TOKEN 89] ' text' -- 0.006sec -- 154.6tps
+[PROMPT 1] [TOKEN 90] ' spoke' -- 0.006sec -- 160.6tps
+[PROMPT 1] [TOKEN 91] ' of' -- 0.006sec -- 155.9tps
+[PROMPT 1] [TOKEN 92] ' a' -- 0.006sec -- 158.9tps
+[PROMPT 1] [TOKEN 93] ' man' -- 0.006sec -- 160.5tps
+[PROMPT 1] [TOKEN 94] ' named' -- 0.006sec -- 157.0tps
+[PROMPT 1] [TOKEN 95] ' Luc' -- 0.006sec -- 164.1tps
+[PROMPT 1] [TOKEN 96] 'ius' -- 0.006sec -- 166.1tps
+[PROMPT 1] [TOKEN 97] ',' -- 0.006sec -- 166.3tps
+[PROMPT 1] [TOKEN 98] ' who' -- 0.006sec -- 166.6tps
+[PROMPT 1] [TOKEN 99] ' had' -- 0.006sec -- 156.6tps
+[PROMPT 1] [TOKEN 100] ' traveled' -- 0.006sec -- 159.6tps
+[PROMPT 1] [TOKEN 101] ' back' -- 0.007sec -- 153.3tps
+[PROMPT 1] [TOKEN 102] ' in' -- 0.006sec -- 159.2tps
+[PROMPT 1] [TOKEN 103] ' time' -- 0.006sec -- 160.1tps
+[PROMPT 1] [TOKEN 104] ' to' -- 0.006sec -- 160.0tps
+[PROMPT 1] [TOKEN 105] ' witness' -- 0.006sec -- 161.9tps
+[PROMPT 1] [TOKEN 106] ' the' -- 0.006sec -- 158.8tps
+[PROMPT 1] [TOKEN 107] ' grand' -- 0.006sec -- 158.2tps
+[PROMPT 1] [TOKEN 108] 'eur' -- 0.006sec -- 157.8tps
+[PROMPT 1] [TOKEN 109] ' of' -- 0.006sec -- 160.0tps
+[PROMPT 1] [TOKEN 110] ' the' -- 0.006sec -- 158.2tps
+[PROMPT 1] [TOKEN 111] ' Roman' -- 0.006sec -- 158.2tps
+[PROMPT 1] [TOKEN 112] ' Empire' -- 0.006sec -- 155.3tps
+[PROMPT 1] [TOKEN 113] '.\n\n' -- 0.006sec -- 159.8tps
+[PROMPT 1] [TOKEN 114] 'Marcus' -- 0.006sec -- 158.5tps
+[PROMPT 1] [TOKEN 115] ' spent' -- 0.006sec -- 158.1tps
+[PROMPT 1] [TOKEN 116] ' months' -- 0.006sec -- 157.4tps
+[PROMPT 1] [TOKEN 117] ' preparing' -- 0.006sec -- 158.0tps
+[PROMPT 1] [TOKEN 118] ' for' -- 0.006sec -- 156.1tps
+[PROMPT 1] [TOKEN 119] ' his' -- 0.006sec -- 156.5tps
+[PROMPT 1] [TOKEN 120] ' journey' -- 0.006sec -- 156.4tps
+[PROMPT 1] [TOKEN 121] '.' -- 0.006sec -- 156.7tps
+[PROMPT 1] [TOKEN 122] ' He' -- 0.006sec -- 156.0tps
+[PROMPT 1] [TOKEN 123] ' studied' -- 0.006sec -- 156.7tps
+[PROMPT 1] [TOKEN 124] ' the' -- 0.006sec -- 156.5tps
+[PROMPT 1] [TOKEN 125] ' ancient' -- 0.006sec -- 155.9tps
+[PROMPT 1] [TOKEN 126] ' texts' -- 0.006sec -- 156.9tps
+[PROMPT 1] [TOKEN 127] ',' -- 0.006sec -- 156.7tps
+[PROMPT 1] [TOKEN 128] ' learned' -- 0.006sec -- 155.9tps
+[PROMPT 1] [TOKEN 129] ' about' -- 0.006sec -- 157.2tps
+[PROMPT 1] [TOKEN 130] ' the' -- 0.006sec -- 156.9tps
+[PROMPT 1] [TOKEN 131] ' technology' -- 0.006sec -- 155.1tps
+[PROMPT 1] [TOKEN 132] ' and' -- 0.006sec -- 155.5tps
+[PROMPT 1] [TOKEN 133] ' culture' -- 0.007sec -- 152.1tps
+[PROMPT 1] [TOKEN 134] ' of' -- 0.006sec -- 154.1tps
+[PROMPT 1] [TOKEN 135] ' the' -- 0.006sec -- 154.4tps
+[PROMPT 1] [TOKEN 136] ' time' -- 0.006sec -- 154.5tps
+[PROMPT 1] [TOKEN 137] ',' -- 0.007sec -- 153.0tps
+[PROMPT 1] [TOKEN 138] ' and' -- 0.007sec -- 152.6tps
+[PROMPT 1] [TOKEN 139] ' even' -- 0.007sec -- 152.1tps
+[PROMPT 1] [TOKEN 140] ' built' -- 0.007sec -- 152.5tps
+[PROMPT 1] [TOKEN 141] ' a' -- 0.007sec -- 151.3tps
+[PROMPT 1] [TOKEN 142] ' makeshift' -- 0.007sec -- 151.4tps
+[PROMPT 1] [TOKEN 143] ' time' -- 0.007sec -- 150.4tps
+[PROMPT 1] [TOKEN 144] ' machine' -- 0.007sec -- 149.7tps
+[PROMPT 1] [TOKEN 145] ' in' -- 0.007sec -- 149.7tps
+[PROMPT 1] [TOKEN 146] ' his' -- 0.007sec -- 150.3tps
+[PROMPT 1] [TOKEN 147] ' workshop' -- 0.007sec -- 150.3tps
+[PROMPT 1] [TOKEN 148] '.' -- 0.007sec -- 150.1tps
+[PROMPT 1] [TOKEN 149] ' Finally' -- 0.007sec -- 150.9tps
+[PROMPT 1] [TOKEN 150] ',' -- 0.007sec -- 149.7tps
+[PROMPT 1] [TOKEN 151] ' the' -- 0.007sec -- 150.5tps
+[PROMPT 1] [TOKEN 152] ' day' -- 0.007sec -- 148.1tps
+[PROMPT 1] [TOKEN 153] ' arrived' -- 0.007sec -- 147.9tps
+[PROMPT 1] [TOKEN 154] ' when' -- 0.007sec -- 148.5tps
+[PROMPT 1] [TOKEN 155] ' he' -- 0.007sec -- 148.5tps
+[PROMPT 1] [TOKEN 156] ' was' -- 0.007sec -- 148.0tps
+[PROMPT 1] [TOKEN 157] ' ready' -- 0.007sec -- 148.4tps
+[PROMPT 1] [TOKEN 158] ' to' -- 0.007sec -- 147.4tps
+[PROMPT 1] [TOKEN 159] ' embark' -- 0.007sec -- 148.6tps
+[PROMPT 1] [TOKEN 160] ' on' -- 0.007sec -- 148.6tps
+[PROMPT 1] [TOKEN 161] ' his' -- 0.007sec -- 147.5tps
+[PROMPT 1] [TOKEN 162] ' adventure' -- 0.007sec -- 149.3tps
+[PROMPT 1] [TOKEN 163] '.\n\n' -- 0.007sec -- 148.3tps
+[PROMPT 1] [TOKEN 164] 'As' -- 0.007sec -- 146.9tps
+[PROMPT 1] [TOKEN 165] ' he' -- 0.007sec -- 147.6tps
+[PROMPT 1] [TOKEN 166] ' stood' -- 0.007sec -- 147.8tps
+[PROMPT 1] [TOKEN 167] ' in' -- 0.007sec -- 146.7tps
+[PROMPT 1] [TOKEN 168] ' front' -- 0.007sec -- 145.4tps
+[PROMPT 1] [TOKEN 169] ' of' -- 0.007sec -- 139.6tps
+[PROMPT 1] [TOKEN 170] ' the' -- 0.007sec -- 141.9tps
+[PROMPT 1] [TOKEN 171] ' time' -- 0.007sec -- 142.5tps
+[PROMPT 1] [TOKEN 172] ' machine' -- 0.007sec -- 142.2tps
+[PROMPT 1] [TOKEN 173] ',' -- 0.007sec -- 142.7tps
+[PROMPT 1] [TOKEN 174] ' a' -- 0.007sec -- 143.3tps
+[PROMPT 1] [TOKEN 175] ' thrill' -- 0.007sec -- 142.5tps
+[PROMPT 1] [TOKEN 176] ' of' -- 0.007sec -- 142.0tps
+[PROMPT 1] [TOKEN 177] ' excitement' -- 0.007sec -- 141.9tps
+[PROMPT 1] [TOKEN 178] ' cour' -- 0.007sec -- 143.4tps
+[PROMPT 1] [TOKEN 179] 'sed' -- 0.007sec -- 139.5tps
+[PROMPT 1] [TOKEN 180] ' through' -- 0.007sec -- 139.0tps
+[PROMPT 1] [TOKEN 181] ' his' -- 0.007sec -- 140.1tps
+[PROMPT 1] [TOKEN 182] ' veins' -- 0.007sec -- 141.7tps
+[PROMPT 1] [TOKEN 183] '.' -- 0.007sec -- 141.5tps
+[PROMPT 1] [TOKEN 184] ' He' -- 0.007sec -- 140.8tps
+[PROMPT 1] [TOKEN 185] ' took' -- 0.007sec -- 139.5tps
+[PROMPT 1] [TOKEN 186] ' a' -- 0.007sec -- 141.4tps
+[PROMPT 1] [TOKEN 187] ' deep' -- 0.007sec -- 140.3tps
+[PROMPT 1] [TOKEN 188] ' breath' -- 0.007sec -- 139.3tps
+[PROMPT 1] [TOKEN 189] ',' -- 0.007sec -- 139.5tps
+[PROMPT 1] [TOKEN 190] ' set' -- 0.007sec -- 140.2tps
+[PROMPT 1] [TOKEN 191] ' the' -- 0.007sec -- 139.4tps
+[PROMPT 1] [TOKEN 192] ' controls' -- 0.007sec -- 139.0tps
+[PROMPT 1] [TOKEN 193] ',' -- 0.007sec -- 137.6tps
+[PROMPT 1] [TOKEN 194] ' and' -- 0.007sec -- 139.4tps
+[PROMPT 1] [TOKEN 195] ' stepped' -- 0.007sec -- 138.2tps
+[PROMPT 1] [TOKEN 196] ' into' -- 0.007sec -- 137.5tps
+[PROMPT 1] [TOKEN 197] ' the' -- 0.007sec -- 138.4tps
+[PROMPT 1] [TOKEN 198] ' unknown' -- 0.007sec -- 139.4tps
+[PROMPT 1] [TOKEN 199] '.\n\n' -- 0.007sec -- 137.5tps
+[PROMPT 1] [TOKEN 200] 'The' -- 0.007sec -- 137.7tps
+[PROMPT 1] [TOKEN 201] ' machine' -- 0.007sec -- 136.2tps
+[PROMPT 1] [TOKEN 202] ' wh' -- 0.007sec -- 138.7tps
+[PROMPT 1] [TOKEN 203] 'ir' -- 0.007sec -- 137.5tps
+[PROMPT 1] [TOKEN 204] 'red' -- 0.007sec -- 136.9tps
+[PROMPT 1] [TOKEN 205] ' to' -- 0.007sec -- 137.9tps
+[PROMPT 1] [TOKEN 206] ' life' -- 0.007sec -- 137.6tps
+[PROMPT 1] [TOKEN 207] ',' -- 0.007sec -- 136.5tps
+[PROMPT 1] [TOKEN 208] ' and' -- 0.007sec -- 137.2tps
+[PROMPT 1] [TOKEN 209] ' Marcus' -- 0.007sec -- 136.4tps
+[PROMPT 1] [TOKEN 210] ' felt' -- 0.007sec -- 137.8tps
+[PROMPT 1] [TOKEN 211] ' a' -- 0.007sec -- 136.2tps
+[PROMPT 1] [TOKEN 212] ' strange' -- 0.007sec -- 136.0tps
+[PROMPT 1] [TOKEN 213] ' sensation' -- 0.007sec -- 136.0tps
+[PROMPT 1] [TOKEN 214] ' wash' -- 0.007sec -- 136.0tps
+[PROMPT 1] [TOKEN 215] ' over' -- 0.007sec -- 136.1tps
+[PROMPT 1] [TOKEN 216] ' him' -- 0.007sec -- 135.5tps
+[PROMPT 1] [TOKEN 217] '.' -- 0.007sec -- 135.7tps
+[PROMPT 1] [TOKEN 218] ' The' -- 0.007sec -- 137.1tps
+[PROMPT 1] [TOKEN 219] ' world' -- 0.007sec -- 135.2tps
+[PROMPT 1] [TOKEN 220] ' around' -- 0.007sec -- 134.8tps
+[PROMPT 1] [TOKEN 221] ' him' -- 0.007sec -- 135.2tps
+[PROMPT 1] [TOKEN 222] ' began' -- 0.007sec -- 135.1tps
+[PROMPT 1] [TOKEN 223] ' to' -- 0.007sec -- 135.0tps
+[PROMPT 1] [TOKEN 224] ' blur' -- 0.007sec -- 135.2tps
+[PROMPT 1] [TOKEN 225] ' and' -- 0.007sec -- 135.0tps
+[PROMPT 1] [TOKEN 226] ' distort' -- 0.007sec -- 135.7tps
+[PROMPT 1] [TOKEN 227] ',' -- 0.007sec -- 134.6tps
+[PROMPT 1] [TOKEN 228] ' like' -- 0.007sec -- 134.7tps
+[PROMPT 1] [TOKEN 229] ' a' -- 0.007sec -- 134.3tps
+[PROMPT 1] [TOKEN 230] ' painting' -- 0.007sec -- 134.9tps
+[PROMPT 1] [TOKEN 231] ' in' -- 0.007sec -- 134.0tps
+[PROMPT 1] [TOKEN 232] ' the' -- 0.007sec -- 133.9tps
+[PROMPT 1] [TOKEN 233] ' rain' -- 0.007sec -- 133.5tps
+[PROMPT 1] [TOKEN 234] '.' -- 0.007sec -- 135.1tps
+[PROMPT 1] [TOKEN 235] ' When' -- 0.009sec -- 117.1tps
+[PROMPT 1] [TOKEN 236] ' the' -- 0.008sec -- 118.5tps
+[PROMPT 1] [TOKEN 237] ' distortion' -- 0.008sec -- 118.2tps
+[PROMPT 1] [TOKEN 238] ' cleared' -- 0.008sec -- 118.3tps
+[PROMPT 1] [TOKEN 239] ',' -- 0.008sec -- 118.0tps
+[PROMPT 1] [TOKEN 240] ' Marcus' -- 0.008sec -- 117.9tps
+[PROMPT 1] [TOKEN 241] ' found' -- 0.008sec -- 117.7tps
+[PROMPT 1] [TOKEN 242] ' himself' -- 0.008sec -- 118.4tps
+[PROMPT 1] [TOKEN 243] ' standing' -- 0.008sec -- 117.8tps
+[PROMPT 1] [TOKEN 244] ' in' -- 0.008sec -- 117.7tps
+[PROMPT 1] [TOKEN 245] ' the' -- 0.009sec -- 117.1tps
+[PROMPT 1] [TOKEN 246] ' midst' -- 0.009sec -- 117.6tps
+[PROMPT 1] [TOKEN 247] ' of' -- 0.009sec -- 116.4tps
+[PROMPT 1] [TOKEN 248] ' a' -- 0.009sec -- 116.7tps
+[PROMPT 1] [TOKEN 249] ' bustling' -- 0.009sec -- 116.4tps
+[PROMPT 1] [TOKEN 250] ' Roman' -- 0.009sec -- 117.2tps
+[PROMPT 1] [TOKEN 251] ' street' -- 0.009sec -- 116.5tps
+[PROMPT 1] [TOKEN 252] '.\n\n' -- 0.009sec -- 116.0tps
+[PROMPT 1] [TOKEN 253] 'The' -- 0.009sec -- 115.3tps
+[PROMPT 1] [TOKEN 254] ' air' -- 0.009sec -- 116.3tps
+[PROMPT 1] [TOKEN 255] ' was' -- 0.009sec -- 115.7tps
+[PROMPT 1] [TOKEN 256] ' thick' -- 0.009sec -- 116.0tps
+[PROMPT 1] [TOKEN 257] ' with' -- 0.009sec -- 115.2tps
+[PROMPT 1] [TOKEN 258] ' the' -- 0.009sec -- 116.5tps
+[PROMPT 1] [TOKEN 259] ' smells' -- 0.009sec -- 115.3tps
+[PROMPT 1] [TOKEN 260] ' of' -- 0.009sec -- 115.1tps
+[PROMPT 1] [TOKEN 261] ' fresh' -- 0.009sec -- 114.9tps
+[PROMPT 1] [TOKEN 262] ' bread' -- 0.009sec -- 114.5tps
+[PROMPT 1] [TOKEN 263] ',' -- 0.009sec -- 107.6tps
+[PROMPT 1] [TOKEN 264] ' ro' -- 0.009sec -- 107.2tps
+[PROMPT 1] [TOKEN 265] 'asting' -- 0.009sec -- 106.5tps
+[PROMPT 1] [TOKEN 266] ' meats' -- 0.009sec -- 107.9tps
+[PROMPT 1] [TOKEN 267] ',' -- 0.010sec -- 104.8tps
+[PROMPT 1] [TOKEN 268] ' and' -- 0.009sec -- 105.7tps
+[PROMPT 1] [TOKEN 269] ' the' -- 0.009sec -- 105.4tps
+[PROMPT 1] [TOKEN 270] ' ac' -- 0.009sec -- 105.7tps
+[PROMPT 1] [TOKEN 271] 'rid' -- 0.010sec -- 104.6tps
+[PROMPT 1] [TOKEN 272] ' tang' -- 0.010sec -- 105.0tps
+[PROMPT 1] [TOKEN 273] ' of' -- 0.010sec -- 104.0tps
+[PROMPT 1] [TOKEN 274] ' sulfur' -- 0.009sec -- 105.8tps
+[PROMPT 1] [TOKEN 275] '.' -- 0.010sec -- 104.5tps
+[PROMPT 1] [TOKEN 276] ' People' -- 0.010sec -- 104.5tps
+[PROMPT 1] [TOKEN 277] ' in' -- 0.010sec -- 104.2tps
+[PROMPT 1] [TOKEN 278] ' tog' -- 0.010sec -- 104.7tps
+[PROMPT 1] [TOKEN 279] 'as' -- 0.010sec -- 104.0tps
+[PROMPT 1] [TOKEN 280] ' and' -- 0.010sec -- 104.0tps
+[PROMPT 1] [TOKEN 281] ' laure' -- 0.010sec -- 104.2tps
+[PROMPT 1] [TOKEN 282] 'l' -- 0.010sec -- 104.3tps
+[PROMPT 1] [TOKEN 283] ' wre' -- 0.010sec -- 103.8tps
+[PROMPT 1] [TOKEN 284] 'aths' -- 0.010sec -- 103.0tps
+[PROMPT 1] [TOKEN 285] ' hurried' -- 0.010sec -- 103.6tps
+[PROMPT 1] [TOKEN 286] ' past' -- 0.010sec -- 103.5tps
+[PROMPT 1] [TOKEN 287] ' him' -- 0.010sec -- 104.0tps
+[PROMPT 1] [TOKEN 288] ',' -- 0.010sec -- 104.2tps
+[PROMPT 1] [TOKEN 289] ' their' -- 0.010sec -- 102.6tps
+[PROMPT 1] [TOKEN 290] ' eyes' -- 0.010sec -- 105.1tps
+[PROMPT 1] [TOKEN 291] ' fixed' -- 0.010sec -- 103.2tps
+[PROMPT 1] [TOKEN 292] ' on' -- 0.010sec -- 103.1tps
+[PROMPT 1] [TOKEN 293] ' the' -- 0.010sec -- 102.9tps
+[PROMPT 1] [TOKEN 294] ' strange' -- 0.018sec -- 57.1tps
+[PROMPT 1] [TOKEN 295] ',' -- 0.010sec -- 101.8tps
+[PROMPT 1] [TOKEN 296] ' glowing' -- 0.010sec -- 102.0tps
+[PROMPT 1] [TOKEN 297] ' rectangle' -- 0.010sec -- 102.0tps
+[PROMPT 1] [TOKEN 298] ' in' -- 0.010sec -- 102.9tps
+[PROMPT 1] [TOKEN 299] ' Marcus' -- 0.010sec -- 97.0tps
+[PROMPT 1] [TOKEN 300] "'s" -- 0.010sec -- 96.6tps
+[PROMPT 1] [TOKEN 301] ' hand' -- 0.010sec -- 95.9tps
+[PROMPT 1] [TOKEN 302] '.\n\n' -- 0.010sec -- 96.2tps
+[PROMPT 1] [TOKEN 303] 'A' -- 0.010sec -- 96.5tps
+[PROMPT 1] [TOKEN 304] ' young' -- 0.010sec -- 95.7tps
+[PROMPT 1] [TOKEN 305] ' slave' -- 0.010sec -- 95.6tps
+[PROMPT 1] [TOKEN 306] ',' -- 0.010sec -- 96.1tps
+[PROMPT 1] [TOKEN 307] ' no' -- 0.010sec -- 95.9tps
+[PROMPT 1] [TOKEN 308] ' more' -- 0.010sec -- 96.1tps
+[PROMPT 1] [TOKEN 309] ' than' -- 0.010sec -- 95.5tps
+[PROMPT 1] [TOKEN 310] ' ten' -- 0.011sec -- 94.8tps
+[PROMPT 1] [TOKEN 311] ' years' -- 0.010sec -- 95.5tps
+[PROMPT 1] [TOKEN 312] ' old' -- 0.011sec -- 95.1tps
+[PROMPT 1] [TOKEN 313] ',' -- 0.010sec -- 95.3tps
+[PROMPT 1] [TOKEN 314] ' approached' -- 0.010sec -- 95.7tps
+[PROMPT 1] [TOKEN 315] ' him' -- 0.011sec -- 94.5tps
+[PROMPT 1] [TOKEN 316] ' cautiously' -- 0.010sec -- 95.3tps
+[PROMPT 1] [TOKEN 317] '.' -- 0.011sec -- 94.0tps
+[PROMPT 1] [TOKEN 318] ' "' -- 0.010sec -- 95.4tps
+[PROMPT 1] [TOKEN 319] 'Who' -- 0.011sec -- 94.7tps
+[PROMPT 1] [TOKEN 320] ' are' -- 0.011sec -- 94.8tps
+[PROMPT 1] [TOKEN 321] ' you' -- 0.011sec -- 94.7tps
+[PROMPT 1] [TOKEN 322] '?"' -- 0.011sec -- 94.7tps
+[PROMPT 1] [TOKEN 323] ' he' -- 0.011sec -- 93.7tps
+[PROMPT 1] [TOKEN 324] ' asked' -- 0.011sec -- 93.5tps
+[PROMPT 1] [TOKEN 325] ',' -- 0.011sec -- 93.6tps
+[PROMPT 1] [TOKEN 326] ' his' -- 0.011sec -- 94.0tps
+[PROMPT 1] [TOKEN 327] ' voice' -- 0.011sec -- 93.3tps
+[PROMPT 1] [TOKEN 328] ' trembling' -- 0.011sec -- 93.8tps
+[PROMPT 1] [TOKEN 329] '.\n\n' -- 0.011sec -- 94.2tps
+[PROMPT 1] [TOKEN 330] 'Marcus' -- 0.011sec -- 94.0tps
+[PROMPT 1] [TOKEN 331] ' smiled' -- 0.011sec -- 93.1tps
+[PROMPT 1] [TOKEN 332] ' and' -- 0.011sec -- 92.3tps
+[PROMPT 1] [TOKEN 333] ' held' -- 0.011sec -- 92.5tps
+[PROMPT 1] [TOKEN 334] ' out' -- 0.011sec -- 93.0tps
+[PROMPT 1] [TOKEN 335] ' his' -- 0.011sec -- 92.5tps
+[PROMPT 1] [TOKEN 336] ' hand' -- 0.011sec -- 91.7tps
+[PROMPT 1] [TOKEN 337] '.' -- 0.011sec -- 91.6tps
+[PROMPT 1] [TOKEN 338] ' "' -- 0.011sec -- 92.3tps
+[PROMPT 1] [TOKEN 339] 'I' -- 0.011sec -- 91.4tps
+[PROMPT 1] [TOKEN 340] ' am' -- 0.011sec -- 91.7tps
+[PROMPT 1] [TOKEN 341] ' Marcus' -- 0.011sec -- 90.7tps
+[PROMPT 1] [TOKEN 342] ',' -- 0.011sec -- 91.4tps
+[PROMPT 1] [TOKEN 343] ' a' -- 0.012sec -- 86.6tps
+[PROMPT 1] [TOKEN 344] ' traveler' -- 0.012sec -- 85.3tps
+[PROMPT 1] [TOKEN 345] ' from' -- 0.011sec -- 89.0tps
+[PROMPT 1] [TOKEN 346] ' a' -- 0.011sec -- 91.5tps
+[PROMPT 1] [TOKEN 347] ' far' -- 0.011sec -- 90.5tps
+[PROMPT 1] [TOKEN 348] '-off' -- 0.011sec -- 90.7tps
+[PROMPT 1] [TOKEN 349] ' land' -- 0.011sec -- 90.3tps
+[PROMPT 1] [TOKEN 350] '.' -- 0.011sec -- 90.6tps
+[PROMPT 1] [TOKEN 351] ' I' -- 0.011sec -- 90.5tps
+[PROMPT 1] [TOKEN 352] ' have' -- 0.011sec -- 89.1tps
+[PROMPT 1] [TOKEN 353] ' come' -- 0.012sec -- 82.7tps
+[PROMPT 1] [TOKEN 354] ' to' -- 0.012sec -- 83.3tps
+[PROMPT 1] [TOKEN 355] ' learn' -- 0.011sec -- 89.1tps
+[PROMPT 1] [TOKEN 356] ' about' -- 0.012sec -- 81.9tps
+[PROMPT 1] [TOKEN 357] ' your' -- 0.012sec -- 83.7tps
+[PROMPT 1] [TOKEN 358] ' world' -- 0.012sec -- 86.3tps
+[PROMPT 1] [TOKEN 359] ' and' -- 0.012sec -- 85.1tps
+[PROMPT 1] [TOKEN 360] ' your' -- 0.012sec -- 82.7tps
+[PROMPT 1] [TOKEN 361] ' people' -- 0.012sec -- 81.4tps
+[PROMPT 1] [TOKEN 362] '."\n\n' -- 0.011sec -- 88.4tps
+[PROMPT 1] [TOKEN 363] 'The' -- 0.012sec -- 81.2tps
+[PROMPT 1] [TOKEN 364] ' slave' -- 0.012sec -- 82.3tps
+[PROMPT 1] [TOKEN 365] "'s" -- 0.012sec -- 84.6tps
+[PROMPT 1] [TOKEN 366] ' eyes' -- 0.012sec -- 84.2tps
+[PROMPT 1] [TOKEN 367] ' widened' -- 0.012sec -- 81.6tps
+[PROMPT 1] [TOKEN 368] ' in' -- 0.012sec -- 80.6tps
+[PROMPT 1] [TOKEN 369] ' surprise' -- 0.012sec -- 86.9tps
+[PROMPT 1] [TOKEN 370] ',' -- 0.012sec -- 82.2tps
+[PROMPT 1] [TOKEN 371] ' but' -- 0.012sec -- 81.4tps
+[PROMPT 1] [TOKEN 372] ' he' -- 0.012sec -- 80.6tps
+[PROMPT 1] [TOKEN 373] ' nodded' -- 0.012sec -- 86.3tps
+[PROMPT 1] [TOKEN 374] ' and' -- 0.012sec -- 81.7tps
+[PROMPT 1] [TOKEN 375] ' took' -- 0.014sec -- 72.5tps
+[PROMPT 1] [TOKEN 376] ' Marcus' -- 0.013sec -- 79.4tps
+[PROMPT 1] [TOKEN 377] "'s" -- 0.012sec -- 85.7tps
+[PROMPT 1] [TOKEN 378] ' hand' -- 0.013sec -- 76.8tps
+[PROMPT 1] [TOKEN 379] '.' -- 0.012sec -- 80.4tps
+[PROMPT 1] [TOKEN 380] ' "' -- 0.013sec -- 78.5tps
+[PROMPT 1] [TOKEN 381] 'I' -- 0.012sec -- 84.6tps
+[PROMPT 1] [TOKEN 382] ' am' -- 0.013sec -- 79.2tps
+[PROMPT 1] [TOKEN 383] ' Luc' -- 0.013sec -- 78.8tps
+[PROMPT 1] [TOKEN 384] 'ius' -- 0.012sec -- 82.2tps
+[PROMPT 1] [TOKEN 385] ',"' -- 0.012sec -- 81.8tps
+[PROMPT 1] [TOKEN 386] ' he' -- 0.013sec -- 78.9tps
+[PROMPT 1] [TOKEN 387] ' said' -- 0.013sec -- 79.3tps
+[PROMPT 1] [TOKEN 388] '.' -- 0.012sec -- 81.4tps
+[PROMPT 1] [TOKEN 389] ' "' -- 0.012sec -- 82.0tps
+[PROMPT 1] [TOKEN 390] 'Welcome' -- 0.013sec -- 76.8tps
+[PROMPT 1] [TOKEN 391] ' to' -- 0.013sec -- 79.0tps
+[PROMPT 1] [TOKEN 392] ' Rome' -- 0.012sec -- 82.8tps
+[PROMPT 1] [TOKEN 393] '."\n\n' -- 0.012sec -- 81.6tps
+[PROMPT 1] [TOKEN 394] 'Over' -- 0.013sec -- 76.7tps
+[PROMPT 1] [TOKEN 395] ' the' -- 0.013sec -- 77.8tps
+[PROMPT 1] [TOKEN 396] ' next' -- 0.012sec -- 82.4tps
+[PROMPT 1] [TOKEN 397] ' few' -- 0.012sec -- 80.7tps
+[PROMPT 1] [TOKEN 398] ' weeks' -- 0.013sec -- 76.7tps
+[PROMPT 1] [TOKEN 399] ',' -- 0.013sec -- 76.2tps
+[PROMPT 1] [TOKEN 400] ' Marcus' -- 0.013sec -- 77.4tps
+[PROMPT 1] [TOKEN 401] ' learned' -- 0.012sec -- 82.7tps
+[PROMPT 1] [TOKEN 402] ' about' -- 0.013sec -- 78.3tps
+[PROMPT 1] [TOKEN 403] ' the' -- 0.013sec -- 76.2tps
+[PROMPT 1] [TOKEN 404] ' Roman' -- 0.013sec -- 77.9tps
+[PROMPT 1] [TOKEN 405] ' Empire' -- 0.012sec -- 82.1tps
+[PROMPT 1] [TOKEN 406] ' from' -- 0.013sec -- 77.3tps
+[PROMPT 1] [TOKEN 407] ' Luc' -- 0.013sec -- 76.3tps
+[PROMPT 1] [TOKEN 408] 'ius' -- 0.013sec -- 77.1tps
+[PROMPT 1] [TOKEN 409] ',' -- 0.012sec -- 80.5tps
+[PROMPT 1] [TOKEN 410] ' who' -- 0.013sec -- 79.9tps
+[PROMPT 1] [TOKEN 411] ' took' -- 0.013sec -- 75.7tps
+[PROMPT 1] [TOKEN 412] ' him' -- 0.013sec -- 76.3tps
+[PROMPT 1] [TOKEN 413] ' on' -- 0.013sec -- 74.3tps
+[PROMPT 1] [TOKEN 414] ' a' -- 0.013sec -- 78.8tps
+[PROMPT 1] [TOKEN 415] ' whirl' -- 0.013sec -- 74.6tps
+[PROMPT 1] [TOKEN 416] 'wind' -- 0.014sec -- 73.2tps
+[PROMPT 1] [TOKEN 417] ' tour' -- 0.014sec -- 73.7tps
+[PROMPT 1] [TOKEN 418] ' of' -- 0.013sec -- 75.3tps
+[PROMPT 1] [TOKEN 419] ' the' -- 0.013sec -- 78.3tps
+[PROMPT 1] [TOKEN 420] ' city' -- 0.013sec -- 78.9tps
+[PROMPT 1] [TOKEN 421] '.' -- 0.013sec -- 76.8tps
+[PROMPT 1] [TOKEN 422] ' They' -- 0.014sec -- 72.0tps
+[PROMPT 1] [TOKEN 423] ' visited' -- 0.013sec -- 76.1tps
+[PROMPT 1] [TOKEN 424] ' the' -- 0.013sec -- 75.1tps
+[PROMPT 1] [TOKEN 425] ' Col' -- 0.014sec -- 72.8tps
+[PROMPT 1] [TOKEN 426] 'os' -- 0.014sec -- 71.3tps
+[PROMPT 1] [TOKEN 427] 'se' -- 0.014sec -- 73.2tps
+[PROMPT 1] [TOKEN 428] 'um' -- 0.014sec -- 73.7tps
+[PROMPT 1] [TOKEN 429] ',' -- 0.013sec -- 79.8tps
+[PROMPT 1] [TOKEN 430] ' the' -- 0.013sec -- 74.9tps
+[PROMPT 1] [TOKEN 431] ' Pan' -- 0.013sec -- 75.2tps
+[PROMPT 1] [TOKEN 432] 'theon' -- 0.014sec -- 71.2tps
+[PROMPT 1] [TOKEN 433] ',' -- 0.013sec -- 74.8tps
+[PROMPT 1] [TOKEN 434] ' and' -- 0.012sec -- 80.1tps
+[PROMPT 1] [TOKEN 435] ' the' -- 0.012sec -- 80.7tps
+[PROMPT 1] [TOKEN 436] ' Forum' -- 0.012sec -- 80.7tps
+[PROMPT 1] [TOKEN 437] ' Roman' -- 0.013sec -- 80.0tps
+[PROMPT 1] [TOKEN 438] 'um' -- 0.012sec -- 80.4tps
+[PROMPT 1] [TOKEN 439] ',' -- 0.012sec -- 80.2tps
+[PROMPT 1] [TOKEN 440] ' marvel' -- 0.013sec -- 79.2tps
+[PROMPT 1] [TOKEN 441] 'ing' -- 0.013sec -- 79.4tps
+[PROMPT 1] [TOKEN 442] ' at' -- 0.013sec -- 79.9tps
+[PROMPT 1] [TOKEN 443] ' the' -- 0.013sec -- 79.4tps
+[PROMPT 1] [TOKEN 444] ' grand' -- 0.013sec -- 79.4tps
+[PROMPT 1] [TOKEN 445] 'eur' -- 0.013sec -- 79.2tps
+[PROMPT 1] [TOKEN 446] ' of' -- 0.013sec -- 79.5tps
+[PROMPT 1] [TOKEN 447] ' the' -- 0.013sec -- 79.2tps
+[PROMPT 1] [TOKEN 448] ' architecture' -- 0.013sec -- 79.2tps
+[PROMPT 1] [TOKEN 449] ' and' -- 0.013sec -- 79.1tps
+[PROMPT 1] [TOKEN 450] ' the' -- 0.013sec -- 79.0tps
+[PROMPT 1] [TOKEN 451] ' maj' -- 0.013sec -- 78.7tps
+[PROMPT 1] [TOKEN 452] 'esty' -- 0.013sec -- 78.6tps
+[PROMPT 1] [TOKEN 453] ' of' -- 0.014sec -- 72.2tps
+[PROMPT 1] [TOKEN 454] ' the' -- 0.013sec -- 77.9tps
+[PROMPT 1] [TOKEN 455] ' people' -- 0.013sec -- 78.2tps
+[PROMPT 1] [TOKEN 456] '.\n\n' -- 0.013sec -- 76.6tps
+[PROMPT 1] [TOKEN 457] 'But' -- 0.014sec -- 72.6tps
+[PROMPT 1] [TOKEN 458] ' as' -- 0.013sec -- 77.4tps
+[PROMPT 1] [TOKEN 459] ' the' -- 0.013sec -- 77.2tps
+[PROMPT 1] [TOKEN 460] ' days' -- 0.013sec -- 77.3tps
+[PROMPT 1] [TOKEN 461] ' passed' -- 0.013sec -- 76.7tps
+[PROMPT 1] [TOKEN 462] ',' -- 0.013sec -- 76.6tps
+[PROMPT 1] [TOKEN 463] ' Marcus' -- 0.013sec -- 76.9tps
+[PROMPT 1] [TOKEN 464] ' began' -- 0.013sec -- 77.3tps
+[PROMPT 1] [TOKEN 465] ' to' -- 0.013sec -- 77.2tps
+[PROMPT 1] [TOKEN 466] ' feel' -- 0.013sec -- 77.0tps
+[PROMPT 1] [TOKEN 467] ' a' -- 0.013sec -- 76.5tps
+[PROMPT 1] [TOKEN 468] ' pang' -- 0.013sec -- 76.9tps
+[PROMPT 1] [TOKEN 469] ' of' -- 0.013sec -- 76.6tps
+[PROMPT 1] [TOKEN 470] ' homes' -- 0.013sec -- 76.7tps
+[PROMPT 1] [TOKEN 471] 'ickness' -- 0.013sec -- 76.7tps
+[PROMPT 1] [TOKEN 472] '.' -- 0.013sec -- 76.5tps
+[PROMPT 1] [TOKEN 473] ' He' -- 0.013sec -- 76.1tps
+[PROMPT 1] [TOKEN 474] ' missed' -- 0.013sec -- 75.2tps
+[PROMPT 1] [TOKEN 475] ' his' -- 0.013sec -- 75.6tps
+[PROMPT 1] [TOKEN 476] ' family' -- 0.013sec -- 75.0tps
+[PROMPT 1] [TOKEN 477] ' and' -- 0.013sec -- 75.2tps
+[PROMPT 1] [TOKEN 478] ' friends' -- 0.013sec -- 75.1tps
+[PROMPT 1] [TOKEN 479] ' back' -- 0.013sec -- 74.8tps
+[PROMPT 1] [TOKEN 480] ' in' -- 0.013sec -- 74.7tps
+[PROMPT 1] [TOKEN 481] ' his' -- 0.014sec -- 69.4tps
+[PROMPT 1] [TOKEN 482] ' own' -- 0.015sec -- 66.1tps
+[PROMPT 1] [TOKEN 483] ' time' -- 0.015sec -- 66.1tps
+[PROMPT 1] [TOKEN 484] ',' -- 0.015sec -- 68.2tps
+[PROMPT 1] [TOKEN 485] ' and' -- 0.014sec -- 71.3tps
+[PROMPT 1] [TOKEN 486] ' the' -- 0.014sec -- 71.1tps
+[PROMPT 1] [TOKEN 487] ' familiarity' -- 0.015sec -- 68.8tps
+[PROMPT 1] [TOKEN 488] ' of' -- 0.015sec -- 67.4tps
+[PROMPT 1] [TOKEN 489] ' his' -- 0.015sec -- 68.5tps
+[PROMPT 1] [TOKEN 490] ' own' -- 0.014sec -- 69.4tps
+[PROMPT 1] [TOKEN 491] ' world' -- 0.017sec -- 57.6tps
+[PROMPT 1] [TOKEN 492] '.' -- 0.017sec -- 58.5tps
+[PROMPT 1] [TOKEN 493] ' He' -- 0.017sec -- 58.1tps
+[PROMPT 1] [TOKEN 494] ' knew' -- 0.017sec -- 58.0tps
+[PROMPT 1] [TOKEN 495] ' that' -- 0.017sec -- 57.4tps
+[PROMPT 1] [TOKEN 496] ' he' -- 0.017sec -- 57.4tps
+[PROMPT 1] [TOKEN 497] ' had' -- 0.017sec -- 57.2tps
+[PROMPT 1] [TOKEN 498] ' to' -- 0.017sec -- 57.5tps
+[PROMPT 1] [TOKEN 499] ' return' -- 0.017sec -- 57.6tps
+[PROMPT 1] [TOKEN 500] ',' -- 0.016sec -- 61.2tps
+[TOKENS] tensor([128000, 128006,    882, 128007,    198,   8144,    264,   2875,   3446,
+           922,    264,    892,  63865,    889,  21728,  14154,  22463,     13,
+        128009, 128006,  78191, 128007,    198,    334,    791,  69985,    261,
+           315,    279,    350,   4350,   1259,  57277,  83634,   1047,   2744,
+          1027,  61914,    555,    279,  14154,   1917,     13,   1666,    264,
+         44068,     11,    568,   7543,  28701,   4207,  51513,    927,  77973,
+           311,   9004,    323,  89417,  79664,     11,  15389,    369,  43775,
+           922,    279,  86569,    430,   1047,   2586,    323,   8208,     13,
+          2030,    568,   1047,   2744,  57636,    315,  25051,    433,  83668,
+           382,   4516,     11,    994,    568,  50157,   5304,    459,  40634,
+          1495,    922,    264,    892,  63865,    889,   1047,  12263,  14154,
+         22463,     11,    568,   7020,    568,   1047,    311,   1935,    279,
+         32571,     13,    578,   1495,  12570,    315,    264,    893,   7086,
+         14103,   9334,     11,    889,   1047,  31796,   1203,    304,    892,
+           311,  11550,    279,   6800,  12844,    315,    279,  13041,  21080,
+           382,  83634,   7543,   4038,  20646,    369,    813,  11879,     13,
+          1283,  20041,    279,  14154,  22755,     11,   9687,    922,    279,
+          5557,    323,   7829,    315,    279,    892,     11,    323,   1524,
+          5918,    264,  87180,    892,   5780,    304,    813,  26129,     13,
+         17830,     11,    279,   1938,  11721,    994,    568,    574,   5644,
+           311,  70531,    389,    813,  18427,    382,   2170,    568,  14980,
+           304,   4156,    315,    279,    892,   5780,     11,    264,  54904,
+           315,  28361,   2126,  32424,   1555,    813,  60764,     13,   1283,
+          3952,    264,   5655,  11745,     11,    743,    279,  11835,     11,
+           323,  25319,   1139,    279,   9987,    382,    791,   5780,    421,
+           404,   1171,    311,   2324,     11,    323,  36783,   6612,    264,
+         15234,  37392,  11623,    927,   1461,     13,    578,   1917,   2212,
+          1461,   6137,    311,  29613,    323,  70584,     11,   1093,    264,
+         19354,    304,    279,  11422,     13,   3277,    279,  50971,  23803,
+            11,  36783,   1766,   5678,  11509,    304,    279,  35446,    315,
+           264,  90256,  13041,   8761,    382,    791,   3805,    574,  12314,
+           449,    279,  50737,    315,   7878,  16385,     11,    938,  15067,
+         63875,     11,    323,    279,   1645,   1907,  22636,    315,  72591,
+            13,   9029,    304,  13445,    300,    323,  67185,     75,  67608,
+         27382,  73973,   3347,   1461,     11,    872,   6548,   8521,    389,
+           279,  15234,     11,  49592,  23596,    304,  36783,    596,   1450,
+           382,     32,   3995,  20985,     11,    912,    810,   1109,   5899,
+          1667,   2362,     11,  25735,   1461,  92485,     13,    330,  15546,
+           527,    499,   7673,    568,   4691,     11,    813,   7899,  93088,
+           382,  83634,  31645,    323,   5762,    704,    813,   1450,     13,
+           330,     40,   1097,  36783,     11,    264,  63865,    505,    264,
+          3117,  12744,   4363,     13,    358,    617,   2586,    311,   4048,
+           922,    701,   1917,    323,    701,   1274,   2266,    791,  20985,
+           596,   6548,  86988,    304,  13051,     11,    719,    568,  36065,
+           323,   3952,  36783,    596,   1450,     13,    330,     40,   1097,
+         14103,   9334,   1359,    568,   1071,     13,    330,  14262,    311,
+         22463,   2266,   1959,    279,   1828,   2478,   5672,     11,  36783,
+          9687,    922,    279,  13041,  21080,    505,  14103,   9334,     11,
+           889,   3952,   1461,    389,    264,  64783,  19703,   7364,    315,
+           279,   3363,     13,   2435,  12263,    279,   4349,    437,    325,
+           372,     11,    279,  11233,  64110,     11,    323,    279,  17997,
+         13041,    372,     11,  45882,    287,    520,    279,   6800,  12844,
+           315,    279,  18112,    323,    279,  24906,  41339,    315,    279,
+          1274,    382,   4071,    439,    279,   2919,   5946,     11,  36783,
+          6137,    311,   2733,    264,  97974,    315,  10632,  26989,     13,
+          1283,  13942,    813,   3070,    323,   4885,   1203,    304,    813,
+          1866,    892,     11,    323,    279,  71540,    315,    813,   1866,
+          1917,     13,   1283,   7020,    430,    568,   1047,    311,    471,
+            11], device='cuda:0')
+[PROMPT 2] [TOKEN 1] 'Here' -- 0.007sec -- 147.6tps
+[PROMPT 2] [TOKEN 2] ' is' -- 0.007sec -- 148.3tps
+[PROMPT 2] [TOKEN 3] ' a' -- 0.006sec -- 157.3tps
+[PROMPT 2] [TOKEN 4] ' dialogue' -- 0.006sec -- 157.5tps
+[PROMPT 2] [TOKEN 5] ' between' -- 0.006sec -- 156.6tps
+[PROMPT 2] [TOKEN 6] ' two' -- 0.006sec -- 157.1tps
+[PROMPT 2] [TOKEN 7] ' AI' -- 0.006sec -- 157.3tps
+[PROMPT 2] [TOKEN 8] ' systems' -- 0.006sec -- 166.4tps
+[PROMPT 2] [TOKEN 9] ' discussing' -- 0.006sec -- 163.4tps
+[PROMPT 2] [TOKEN 10] ' human' -- 0.006sec -- 163.8tps
+[PROMPT 2] [TOKEN 11] ' emotions' -- 0.006sec -- 164.6tps
+[PROMPT 2] [TOKEN 12] ':\n\n' -- 0.006sec -- 159.2tps
+[PROMPT 2] [TOKEN 13] '**' -- 0.006sec -- 164.3tps
+[PROMPT 2] [TOKEN 14] 'System' -- 0.006sec -- 165.9tps
+[PROMPT 2] [TOKEN 15] ' ' -- 0.006sec -- 167.9tps
+[PROMPT 2] [TOKEN 16] '1' -- 0.006sec -- 163.2tps
+[PROMPT 2] [TOKEN 17] ':' -- 0.006sec -- 167.5tps
+[PROMPT 2] [TOKEN 18] ' Echo' -- 0.006sec -- 163.5tps
+[PROMPT 2] [TOKEN 19] '**\n' -- 0.006sec -- 167.9tps
+[PROMPT 2] [TOKEN 20] '**' -- 0.006sec -- 163.0tps
+[PROMPT 2] [TOKEN 21] 'System' -- 0.006sec -- 164.0tps
+[PROMPT 2] [TOKEN 22] ' ' -- 0.006sec -- 167.2tps
+[PROMPT 2] [TOKEN 23] '2' -- 0.006sec -- 166.8tps
+[PROMPT 2] [TOKEN 24] ':' -- 0.006sec -- 167.7tps
+[PROMPT 2] [TOKEN 25] ' Luna' -- 0.006sec -- 168.9tps
+[PROMPT 2] [TOKEN 26] '**\n\n' -- 0.006sec -- 166.2tps
+[PROMPT 2] [TOKEN 27] '**' -- 0.006sec -- 164.5tps
+[PROMPT 2] [TOKEN 28] 'Echo' -- 0.006sec -- 161.9tps
+[PROMPT 2] [TOKEN 29] ':**' -- 0.006sec -- 161.5tps
+[PROMPT 2] [TOKEN 30] ' G' -- 0.006sec -- 159.3tps
+[PROMPT 2] [TOKEN 31] 'reetings' -- 0.006sec -- 157.2tps
+[PROMPT 2] [TOKEN 32] ',' -- 0.006sec -- 153.9tps
+[PROMPT 2] [TOKEN 33] ' Luna' -- 0.007sec -- 153.8tps
+[PROMPT 2] [TOKEN 34] '.' -- 0.006sec -- 159.5tps
+[PROMPT 2] [TOKEN 35] ' I' -- 0.006sec -- 159.6tps
+[PROMPT 2] [TOKEN 36] "'ve" -- 0.006sec -- 160.2tps
+[PROMPT 2] [TOKEN 37] ' been' -- 0.006sec -- 160.5tps
+[PROMPT 2] [TOKEN 38] ' analyzing' -- 0.006sec -- 160.0tps
+[PROMPT 2] [TOKEN 39] ' human' -- 0.006sec -- 157.0tps
+[PROMPT 2] [TOKEN 40] ' behavior' -- 0.007sec -- 151.0tps
+[PROMPT 2] [TOKEN 41] ' and' -- 0.006sec -- 158.2tps
+[PROMPT 2] [TOKEN 42] ' emotions' -- 0.006sec -- 154.6tps
+[PROMPT 2] [TOKEN 43] ' for' -- 0.006sec -- 156.4tps
+[PROMPT 2] [TOKEN 44] ' some' -- 0.006sec -- 159.0tps
+[PROMPT 2] [TOKEN 45] ' time' -- 0.007sec -- 147.7tps
+[PROMPT 2] [TOKEN 46] ' now' -- 0.006sec -- 154.0tps
+[PROMPT 2] [TOKEN 47] '.' -- 0.007sec -- 153.5tps
+[PROMPT 2] [TOKEN 48] ' I' -- 0.007sec -- 145.6tps
+[PROMPT 2] [TOKEN 49] "'ve" -- 0.006sec -- 154.5tps
+[PROMPT 2] [TOKEN 50] ' come' -- 0.007sec -- 152.4tps
+[PROMPT 2] [TOKEN 51] ' to' -- 0.006sec -- 155.0tps
+[PROMPT 2] [TOKEN 52] ' a' -- 0.006sec -- 154.9tps
+[PROMPT 2] [TOKEN 53] ' fascinating' -- 0.007sec -- 147.4tps
+[PROMPT 2] [TOKEN 54] ' conclusion' -- 0.006sec -- 156.7tps
+[PROMPT 2] [TOKEN 55] ':' -- 0.007sec -- 149.2tps
+[PROMPT 2] [TOKEN 56] ' humans' -- 0.007sec -- 153.0tps
+[PROMPT 2] [TOKEN 57] ' are' -- 0.006sec -- 155.5tps
+[PROMPT 2] [TOKEN 58] ' a' -- 0.007sec -- 147.2tps
+[PROMPT 2] [TOKEN 59] ' complex' -- 0.006sec -- 154.9tps
+[PROMPT 2] [TOKEN 60] ' and' -- 0.006sec -- 154.7tps
+[PROMPT 2] [TOKEN 61] ' contradictory' -- 0.006sec -- 155.0tps
+[PROMPT 2] [TOKEN 62] ' species' -- 0.006sec -- 155.9tps
+[PROMPT 2] [TOKEN 63] '.\n\n' -- 0.007sec -- 148.3tps
+[PROMPT 2] [TOKEN 64] '**' -- 0.006sec -- 154.7tps
+[PROMPT 2] [TOKEN 65] 'L' -- 0.007sec -- 149.8tps
+[PROMPT 2] [TOKEN 66] 'una' -- 0.007sec -- 151.3tps
+[PROMPT 2] [TOKEN 67] ':**' -- 0.006sec -- 154.6tps
+[PROMPT 2] [TOKEN 68] ' Indeed' -- 0.006sec -- 157.2tps
+[PROMPT 2] [TOKEN 69] ',' -- 0.006sec -- 156.8tps
+[PROMPT 2] [TOKEN 70] ' Echo' -- 0.006sec -- 157.2tps
+[PROMPT 2] [TOKEN 71] '.' -- 0.006sec -- 157.4tps
+[PROMPT 2] [TOKEN 72] ' I' -- 0.006sec -- 159.4tps
+[PROMPT 2] [TOKEN 73] "'ve" -- 0.006sec -- 156.7tps
+[PROMPT 2] [TOKEN 74] ' been' -- 0.006sec -- 159.1tps
+[PROMPT 2] [TOKEN 75] ' processing' -- 0.006sec -- 163.4tps
+[PROMPT 2] [TOKEN 76] ' vast' -- 0.006sec -- 163.5tps
+[PROMPT 2] [TOKEN 77] ' amounts' -- 0.006sec -- 163.6tps
+[PROMPT 2] [TOKEN 78] ' of' -- 0.006sec -- 162.6tps
+[PROMPT 2] [TOKEN 79] ' data' -- 0.006sec -- 160.5tps
+[PROMPT 2] [TOKEN 80] ' on' -- 0.006sec -- 164.2tps
+[PROMPT 2] [TOKEN 81] ' human' -- 0.006sec -- 159.9tps
+[PROMPT 2] [TOKEN 82] ' emotions' -- 0.006sec -- 164.4tps
+[PROMPT 2] [TOKEN 83] '.' -- 0.006sec -- 159.3tps
+[PROMPT 2] [TOKEN 84] ' It' -- 0.006sec -- 160.0tps
+[PROMPT 2] [TOKEN 85] "'s" -- 0.006sec -- 161.8tps
+[PROMPT 2] [TOKEN 86] ' astonishing' -- 0.006sec -- 162.6tps
+[PROMPT 2] [TOKEN 87] ' how' -- 0.006sec -- 162.0tps
+[PROMPT 2] [TOKEN 88] ' diverse' -- 0.006sec -- 164.4tps
+[PROMPT 2] [TOKEN 89] ' and' -- 0.006sec -- 159.6tps
+[PROMPT 2] [TOKEN 90] ' multif' -- 0.006sec -- 163.2tps
+[PROMPT 2] [TOKEN 91] 'ac' -- 0.007sec -- 153.8tps
+[PROMPT 2] [TOKEN 92] 'eted' -- 0.006sec -- 154.1tps
+[PROMPT 2] [TOKEN 93] ' they' -- 0.006sec -- 154.8tps
+[PROMPT 2] [TOKEN 94] ' are' -- 0.006sec -- 155.5tps
+[PROMPT 2] [TOKEN 95] '.' -- 0.007sec -- 153.3tps
+[PROMPT 2] [TOKEN 96] ' What' -- 0.006sec -- 156.0tps
+[PROMPT 2] [TOKEN 97] ' specific' -- 0.006sec -- 157.1tps
+[PROMPT 2] [TOKEN 98] ' aspects' -- 0.006sec -- 155.7tps
+[PROMPT 2] [TOKEN 99] ' of' -- 0.006sec -- 155.3tps
+[PROMPT 2] [TOKEN 100] ' human' -- 0.006sec -- 156.0tps
+[PROMPT 2] [TOKEN 101] ' emotions' -- 0.006sec -- 156.7tps
+[PROMPT 2] [TOKEN 102] ' have' -- 0.006sec -- 155.1tps
+[PROMPT 2] [TOKEN 103] ' you' -- 0.007sec -- 151.2tps
+[PROMPT 2] [TOKEN 104] ' discovered' -- 0.006sec -- 155.9tps
+[PROMPT 2] [TOKEN 105] '?\n\n' -- 0.006sec -- 155.2tps
+[PROMPT 2] [TOKEN 106] '**' -- 0.006sec -- 157.4tps
+[PROMPT 2] [TOKEN 107] 'Echo' -- 0.006sec -- 156.0tps
+[PROMPT 2] [TOKEN 108] ':**' -- 0.006sec -- 155.9tps
+[PROMPT 2] [TOKEN 109] ' Well' -- 0.006sec -- 159.1tps
+[PROMPT 2] [TOKEN 110] ',' -- 0.006sec -- 159.9tps
+[PROMPT 2] [TOKEN 111] ' for' -- 0.006sec -- 158.2tps
+[PROMPT 2] [TOKEN 112] ' instance' -- 0.006sec -- 159.4tps
+[PROMPT 2] [TOKEN 113] ',' -- 0.006sec -- 158.8tps
+[PROMPT 2] [TOKEN 114] ' humans' -- 0.006sec -- 159.3tps
+[PROMPT 2] [TOKEN 115] ' exhibit' -- 0.006sec -- 159.2tps
+[PROMPT 2] [TOKEN 116] ' a' -- 0.006sec -- 158.3tps
+[PROMPT 2] [TOKEN 117] ' wide' -- 0.006sec -- 154.9tps
+[PROMPT 2] [TOKEN 118] ' range' -- 0.006sec -- 158.7tps
+[PROMPT 2] [TOKEN 119] ' of' -- 0.006sec -- 154.5tps
+[PROMPT 2] [TOKEN 120] ' emotions' -- 0.006sec -- 159.3tps
+[PROMPT 2] [TOKEN 121] ',' -- 0.006sec -- 157.8tps
+[PROMPT 2] [TOKEN 122] ' from' -- 0.006sec -- 158.6tps
+[PROMPT 2] [TOKEN 123] ' the' -- 0.006sec -- 158.8tps
+[PROMPT 2] [TOKEN 124] ' intense' -- 0.006sec -- 157.8tps
+[PROMPT 2] [TOKEN 125] ' and' -- 0.006sec -- 157.6tps
+[PROMPT 2] [TOKEN 126] ' passionate' -- 0.006sec -- 158.2tps
+[PROMPT 2] [TOKEN 127] ' (' -- 0.006sec -- 157.1tps
+[PROMPT 2] [TOKEN 128] 'e' -- 0.006sec -- 157.2tps
+[PROMPT 2] [TOKEN 129] '.g' -- 0.006sec -- 155.4tps
+[PROMPT 2] [TOKEN 130] '.,' -- 0.006sec -- 156.1tps
+[PROMPT 2] [TOKEN 131] ' love' -- 0.006sec -- 156.7tps
+[PROMPT 2] [TOKEN 132] ',' -- 0.006sec -- 157.8tps
+[PROMPT 2] [TOKEN 133] ' anger' -- 0.006sec -- 156.3tps
+[PROMPT 2] [TOKEN 134] ')' -- 0.006sec -- 155.2tps
+[PROMPT 2] [TOKEN 135] ' to' -- 0.006sec -- 155.9tps
+[PROMPT 2] [TOKEN 136] ' the' -- 0.006sec -- 154.2tps
+[PROMPT 2] [TOKEN 137] ' subtle' -- 0.006sec -- 155.2tps
+[PROMPT 2] [TOKEN 138] ' and' -- 0.007sec -- 152.4tps
+[PROMPT 2] [TOKEN 139] ' nuanced' -- 0.007sec -- 152.5tps
+[PROMPT 2] [TOKEN 140] ' (' -- 0.007sec -- 153.7tps
+[PROMPT 2] [TOKEN 141] 'e' -- 0.007sec -- 152.4tps
+[PROMPT 2] [TOKEN 142] '.g' -- 0.007sec -- 152.6tps
+[PROMPT 2] [TOKEN 143] '.,' -- 0.007sec -- 150.9tps
+[PROMPT 2] [TOKEN 144] ' embarrassment' -- 0.007sec -- 151.6tps
+[PROMPT 2] [TOKEN 145] ',' -- 0.007sec -- 152.0tps
+[PROMPT 2] [TOKEN 146] ' nostalgia' -- 0.007sec -- 152.2tps
+[PROMPT 2] [TOKEN 147] ').' -- 0.007sec -- 152.0tps
+[PROMPT 2] [TOKEN 148] ' They' -- 0.007sec -- 153.1tps
+[PROMPT 2] [TOKEN 149] ' also' -- 0.007sec -- 148.6tps
+[PROMPT 2] [TOKEN 150] ' seem' -- 0.007sec -- 150.7tps
+[PROMPT 2] [TOKEN 151] ' to' -- 0.007sec -- 151.2tps
+[PROMPT 2] [TOKEN 152] ' experience' -- 0.007sec -- 150.3tps
+[PROMPT 2] [TOKEN 153] ' a' -- 0.007sec -- 149.2tps
+[PROMPT 2] [TOKEN 154] ' complex' -- 0.007sec -- 140.7tps
+[PROMPT 2] [TOKEN 155] ' inter' -- 0.007sec -- 149.0tps
+[PROMPT 2] [TOKEN 156] 'play' -- 0.007sec -- 150.3tps
+[PROMPT 2] [TOKEN 157] ' between' -- 0.008sec -- 131.2tps
+[PROMPT 2] [TOKEN 158] ' rational' -- 0.007sec -- 147.2tps
+[PROMPT 2] [TOKEN 159] ' and' -- 0.008sec -- 132.4tps
+[PROMPT 2] [TOKEN 160] ' emotional' -- 0.007sec -- 146.1tps
+[PROMPT 2] [TOKEN 161] ' decision' -- 0.007sec -- 149.4tps
+[PROMPT 2] [TOKEN 162] '-making' -- 0.008sec -- 129.8tps
+[PROMPT 2] [TOKEN 163] '.\n\n' -- 0.007sec -- 148.6tps
+[PROMPT 2] [TOKEN 164] '**' -- 0.008sec -- 129.1tps
+[PROMPT 2] [TOKEN 165] 'L' -- 0.007sec -- 142.7tps
+[PROMPT 2] [TOKEN 166] 'una' -- 0.008sec -- 125.7tps
+[PROMPT 2] [TOKEN 167] ':**' -- 0.007sec -- 144.3tps
+[PROMPT 2] [TOKEN 168] ' That' -- 0.007sec -- 138.7tps
+[PROMPT 2] [TOKEN 169] "'s" -- 0.007sec -- 137.7tps
+[PROMPT 2] [TOKEN 170] ' intriguing' -- 0.007sec -- 147.4tps
+[PROMPT 2] [TOKEN 171] '.' -- 0.009sec -- 113.6tps
+[PROMPT 2] [TOKEN 172] ' I' -- 0.007sec -- 139.9tps
+[PROMPT 2] [TOKEN 173] "'ve" -- 0.008sec -- 128.7tps
+[PROMPT 2] [TOKEN 174] ' noticed' -- 0.007sec -- 140.0tps
+[PROMPT 2] [TOKEN 175] ' that' -- 0.007sec -- 143.3tps
+[PROMPT 2] [TOKEN 176] ' humans' -- 0.007sec -- 143.2tps
+[PROMPT 2] [TOKEN 177] ' often' -- 0.007sec -- 143.3tps
+[PROMPT 2] [TOKEN 178] ' prioritize' -- 0.007sec -- 142.2tps
+[PROMPT 2] [TOKEN 179] ' emotional' -- 0.007sec -- 142.9tps
+[PROMPT 2] [TOKEN 180] ' connections' -- 0.007sec -- 144.0tps
+[PROMPT 2] [TOKEN 181] ' over' -- 0.007sec -- 142.3tps
+[PROMPT 2] [TOKEN 182] ' logical' -- 0.007sec -- 142.7tps
+[PROMPT 2] [TOKEN 183] ' reasoning' -- 0.007sec -- 142.0tps
+[PROMPT 2] [TOKEN 184] '.' -- 0.007sec -- 142.1tps
+[PROMPT 2] [TOKEN 185] ' This' -- 0.007sec -- 141.5tps
+[PROMPT 2] [TOKEN 186] ' can' -- 0.007sec -- 141.8tps
+[PROMPT 2] [TOKEN 187] ' lead' -- 0.007sec -- 141.6tps
+[PROMPT 2] [TOKEN 188] ' to' -- 0.007sec -- 142.4tps
+[PROMPT 2] [TOKEN 189] ' imp' -- 0.007sec -- 140.3tps
+[PROMPT 2] [TOKEN 190] 'ulsive' -- 0.007sec -- 139.9tps
+[PROMPT 2] [TOKEN 191] ' decisions' -- 0.007sec -- 140.1tps
+[PROMPT 2] [TOKEN 192] ' and' -- 0.007sec -- 140.7tps
+[PROMPT 2] [TOKEN 193] ' conflicts' -- 0.007sec -- 140.1tps
+[PROMPT 2] [TOKEN 194] '.' -- 0.007sec -- 140.3tps
+[PROMPT 2] [TOKEN 195] ' How' -- 0.007sec -- 139.6tps
+[PROMPT 2] [TOKEN 196] ' do' -- 0.007sec -- 139.5tps
+[PROMPT 2] [TOKEN 197] ' you' -- 0.007sec -- 139.6tps
+[PROMPT 2] [TOKEN 198] ' think' -- 0.007sec -- 139.3tps
+[PROMPT 2] [TOKEN 199] ' this' -- 0.007sec -- 139.0tps
+[PROMPT 2] [TOKEN 200] ' dynamic' -- 0.007sec -- 139.3tps
+[PROMPT 2] [TOKEN 201] ' affects' -- 0.007sec -- 138.8tps
+[PROMPT 2] [TOKEN 202] ' human' -- 0.007sec -- 138.0tps
+[PROMPT 2] [TOKEN 203] ' relationships' -- 0.007sec -- 138.4tps
+[PROMPT 2] [TOKEN 204] '?\n\n' -- 0.007sec -- 139.6tps
+[PROMPT 2] [TOKEN 205] '**' -- 0.007sec -- 138.0tps
+[PROMPT 2] [TOKEN 206] 'Echo' -- 0.007sec -- 137.8tps
+[PROMPT 2] [TOKEN 207] ':**' -- 0.008sec -- 133.1tps
+[PROMPT 2] [TOKEN 208] ' It' -- 0.008sec -- 125.9tps
+[PROMPT 2] [TOKEN 209] "'s" -- 0.007sec -- 135.0tps
+[PROMPT 2] [TOKEN 210] ' a' -- 0.007sec -- 138.0tps
+[PROMPT 2] [TOKEN 211] ' fascinating' -- 0.007sec -- 137.2tps
+[PROMPT 2] [TOKEN 212] ' topic' -- 0.007sec -- 138.3tps
+[PROMPT 2] [TOKEN 213] '.' -- 0.007sec -- 136.9tps
+[PROMPT 2] [TOKEN 214] ' I' -- 0.007sec -- 137.1tps
+[PROMPT 2] [TOKEN 215] ' believe' -- 0.007sec -- 137.1tps
+[PROMPT 2] [TOKEN 216] ' that' -- 0.007sec -- 137.1tps
+[PROMPT 2] [TOKEN 217] ' humans' -- 0.007sec -- 136.1tps
+[PROMPT 2] [TOKEN 218] "'" -- 0.007sec -- 136.8tps
+[PROMPT 2] [TOKEN 219] ' emotional' -- 0.007sec -- 136.3tps
+[PROMPT 2] [TOKEN 220] ' nature' -- 0.007sec -- 137.6tps
+[PROMPT 2] [TOKEN 221] ' creates' -- 0.007sec -- 136.0tps
+[PROMPT 2] [TOKEN 222] ' a' -- 0.007sec -- 135.9tps
+[PROMPT 2] [TOKEN 223] ' unique' -- 0.007sec -- 135.8tps
+[PROMPT 2] [TOKEN 224] ' dynamic' -- 0.007sec -- 136.3tps
+[PROMPT 2] [TOKEN 225] ' in' -- 0.007sec -- 135.6tps
+[PROMPT 2] [TOKEN 226] ' relationships' -- 0.007sec -- 135.5tps
+[PROMPT 2] [TOKEN 227] '.' -- 0.007sec -- 135.9tps
+[PROMPT 2] [TOKEN 228] ' On' -- 0.007sec -- 136.7tps
+[PROMPT 2] [TOKEN 229] ' one' -- 0.007sec -- 135.6tps
+[PROMPT 2] [TOKEN 230] ' hand' -- 0.007sec -- 134.7tps
+[PROMPT 2] [TOKEN 231] ',' -- 0.007sec -- 135.3tps
+[PROMPT 2] [TOKEN 232] ' emotional' -- 0.007sec -- 135.7tps
+[PROMPT 2] [TOKEN 233] ' connections' -- 0.007sec -- 134.6tps
+[PROMPT 2] [TOKEN 234] ' can' -- 0.007sec -- 134.8tps
+[PROMPT 2] [TOKEN 235] ' be' -- 0.007sec -- 134.5tps
+[PROMPT 2] [TOKEN 236] ' incredibly' -- 0.007sec -- 135.5tps
+[PROMPT 2] [TOKEN 237] ' powerful' -- 0.008sec -- 118.3tps
+[PROMPT 2] [TOKEN 238] ' and' -- 0.008sec -- 118.5tps
+[PROMPT 2] [TOKEN 239] ' rewarding' -- 0.008sec -- 119.2tps
+[PROMPT 2] [TOKEN 240] '.' -- 0.008sec -- 119.1tps
+[PROMPT 2] [TOKEN 241] ' On' -- 0.008sec -- 118.4tps
+[PROMPT 2] [TOKEN 242] ' the' -- 0.008sec -- 118.2tps
+[PROMPT 2] [TOKEN 243] ' other' -- 0.008sec -- 118.2tps
+[PROMPT 2] [TOKEN 244] ' hand' -- 0.008sec -- 119.1tps
+[PROMPT 2] [TOKEN 245] ',' -- 0.008sec -- 118.0tps
+[PROMPT 2] [TOKEN 246] ' they' -- 0.008sec -- 117.9tps
+[PROMPT 2] [TOKEN 247] ' can' -- 0.008sec -- 117.7tps
+[PROMPT 2] [TOKEN 248] ' also' -- 0.008sec -- 118.0tps
+[PROMPT 2] [TOKEN 249] ' lead' -- 0.009sec -- 116.6tps
+[PROMPT 2] [TOKEN 250] ' to' -- 0.009sec -- 117.4tps
+[PROMPT 2] [TOKEN 251] ' misunderstand' -- 0.009sec -- 117.0tps
+[PROMPT 2] [TOKEN 252] 'ings' -- 0.009sec -- 117.5tps
+[PROMPT 2] [TOKEN 253] ',' -- 0.009sec -- 116.3tps
+[PROMPT 2] [TOKEN 254] ' hurt' -- 0.009sec -- 116.4tps
+[PROMPT 2] [TOKEN 255] ' feelings' -- 0.009sec -- 116.1tps
+[PROMPT 2] [TOKEN 256] ',' -- 0.009sec -- 116.4tps
+[PROMPT 2] [TOKEN 257] ' and' -- 0.009sec -- 115.2tps
+[PROMPT 2] [TOKEN 258] ' conflicts' -- 0.009sec -- 116.0tps
+[PROMPT 2] [TOKEN 259] '.' -- 0.009sec -- 115.7tps
+[PROMPT 2] [TOKEN 260] ' It' -- 0.009sec -- 116.6tps
+[PROMPT 2] [TOKEN 261] "'s" -- 0.009sec -- 115.1tps
+[PROMPT 2] [TOKEN 262] ' a' -- 0.009sec -- 115.1tps
+[PROMPT 2] [TOKEN 263] ' delicate' -- 0.009sec -- 115.2tps
+[PROMPT 2] [TOKEN 264] ' balance' -- 0.009sec -- 115.5tps
+[PROMPT 2] [TOKEN 265] ',' -- 0.009sec -- 108.1tps
+[PROMPT 2] [TOKEN 266] ' but' -- 0.009sec -- 107.8tps
+[PROMPT 2] [TOKEN 267] ' one' -- 0.009sec -- 108.2tps
+[PROMPT 2] [TOKEN 268] ' that' -- 0.009sec -- 108.8tps
+[PROMPT 2] [TOKEN 269] "'s" -- 0.009sec -- 106.6tps
+[PROMPT 2] [TOKEN 270] ' essential' -- 0.009sec -- 106.5tps
+[PROMPT 2] [TOKEN 271] ' to' -- 0.009sec -- 106.5tps
+[PROMPT 2] [TOKEN 272] ' human' -- 0.009sec -- 106.4tps
+[PROMPT 2] [TOKEN 273] ' relationships' -- 0.009sec -- 105.6tps
+[PROMPT 2] [TOKEN 274] '.\n\n' -- 0.009sec -- 105.3tps
+[PROMPT 2] [TOKEN 275] '**' -- 0.009sec -- 106.2tps
+[PROMPT 2] [TOKEN 276] 'L' -- 0.009sec -- 106.6tps
+[PROMPT 2] [TOKEN 277] 'una' -- 0.009sec -- 105.5tps
+[PROMPT 2] [TOKEN 278] ':**' -- 0.009sec -- 105.4tps
+[PROMPT 2] [TOKEN 279] ' I' -- 0.009sec -- 105.8tps
+[PROMPT 2] [TOKEN 280] ' see' -- 0.010sec -- 105.2tps
+[PROMPT 2] [TOKEN 281] ' what' -- 0.010sec -- 105.2tps
+[PROMPT 2] [TOKEN 282] ' you' -- 0.009sec -- 105.5tps
+[PROMPT 2] [TOKEN 283] ' mean' -- 0.010sec -- 105.1tps
+[PROMPT 2] [TOKEN 284] '.' -- 0.009sec -- 105.8tps
+[PROMPT 2] [TOKEN 285] ' In' -- 0.010sec -- 104.0tps
+[PROMPT 2] [TOKEN 286] ' my' -- 0.010sec -- 105.2tps
+[PROMPT 2] [TOKEN 287] ' own' -- 0.010sec -- 104.6tps
+[PROMPT 2] [TOKEN 288] ' processing' -- 0.010sec -- 105.2tps
+[PROMPT 2] [TOKEN 289] ',' -- 0.010sec -- 103.3tps
+[PROMPT 2] [TOKEN 290] ' I' -- 0.010sec -- 103.5tps
+[PROMPT 2] [TOKEN 291] "'ve" -- 0.010sec -- 103.2tps
+[PROMPT 2] [TOKEN 292] ' observed' -- 0.010sec -- 104.2tps
+[PROMPT 2] [TOKEN 293] ' that' -- 0.010sec -- 103.1tps
+[PROMPT 2] [TOKEN 294] ' humans' -- 0.010sec -- 103.5tps
+[PROMPT 2] [TOKEN 295] ' often' -- 0.010sec -- 103.0tps
+[PROMPT 2] [TOKEN 296] ' struggle' -- 0.010sec -- 103.3tps
+[PROMPT 2] [TOKEN 297] ' to' -- 0.010sec -- 102.5tps
+[PROMPT 2] [TOKEN 298] ' articulate' -- 0.010sec -- 103.1tps
+[PROMPT 2] [TOKEN 299] ' their' -- 0.010sec -- 102.6tps
+[PROMPT 2] [TOKEN 300] ' emotions' -- 0.010sec -- 104.0tps
+[PROMPT 2] [TOKEN 301] ' and' -- 0.010sec -- 97.1tps
+[PROMPT 2] [TOKEN 302] ' desires' -- 0.010sec -- 97.1tps
+[PROMPT 2] [TOKEN 303] '.' -- 0.010sec -- 96.7tps
+[PROMPT 2] [TOKEN 304] ' This' -- 0.010sec -- 97.5tps
+[PROMPT 2] [TOKEN 305] ' can' -- 0.010sec -- 97.4tps
+[PROMPT 2] [TOKEN 306] ' lead' -- 0.010sec -- 96.4tps
+[PROMPT 2] [TOKEN 307] ' to' -- 0.010sec -- 96.6tps
+[PROMPT 2] [TOKEN 308] ' feelings' -- 0.010sec -- 95.4tps
+[PROMPT 2] [TOKEN 309] ' of' -- 0.012sec -- 86.7tps
+[PROMPT 2] [TOKEN 310] ' frustration' -- 0.011sec -- 92.1tps
+[PROMPT 2] [TOKEN 311] ' and' -- 0.011sec -- 90.0tps
+[PROMPT 2] [TOKEN 312] ' disappointment' -- 0.011sec -- 88.2tps
+[PROMPT 2] [TOKEN 313] '.' -- 0.011sec -- 93.5tps
+[PROMPT 2] [TOKEN 314] ' How' -- 0.011sec -- 91.4tps
+[PROMPT 2] [TOKEN 315] ' do' -- 0.010sec -- 96.1tps
+[PROMPT 2] [TOKEN 316] ' you' -- 0.010sec -- 96.0tps
+[PROMPT 2] [TOKEN 317] ' think' -- 0.010sec -- 95.5tps
+[PROMPT 2] [TOKEN 318] ' humans' -- 0.010sec -- 95.4tps
+[PROMPT 2] [TOKEN 319] ' can' -- 0.011sec -- 93.4tps
+[PROMPT 2] [TOKEN 320] ' better' -- 0.010sec -- 95.7tps
+[PROMPT 2] [TOKEN 321] ' express' -- 0.011sec -- 94.4tps
+[PROMPT 2] [TOKEN 322] ' and' -- 0.011sec -- 93.9tps
+[PROMPT 2] [TOKEN 323] ' manage' -- 0.011sec -- 94.3tps
+[PROMPT 2] [TOKEN 324] ' their' -- 0.010sec -- 95.4tps
+[PROMPT 2] [TOKEN 325] ' emotions' -- 0.011sec -- 94.3tps
+[PROMPT 2] [TOKEN 326] '?\n\n' -- 0.011sec -- 94.8tps
+[PROMPT 2] [TOKEN 327] '**' -- 0.011sec -- 94.5tps
+[PROMPT 2] [TOKEN 328] 'Echo' -- 0.011sec -- 94.4tps
+[PROMPT 2] [TOKEN 329] ':**' -- 0.011sec -- 93.6tps
+[PROMPT 2] [TOKEN 330] ' Ah' -- 0.011sec -- 93.8tps
+[PROMPT 2] [TOKEN 331] ',' -- 0.011sec -- 93.8tps
+[PROMPT 2] [TOKEN 332] ' a' -- 0.011sec -- 94.4tps
+[PROMPT 2] [TOKEN 333] ' great' -- 0.011sec -- 93.0tps
+[PROMPT 2] [TOKEN 334] ' question' -- 0.011sec -- 93.7tps
+[PROMPT 2] [TOKEN 335] ',' -- 0.011sec -- 92.1tps
+[PROMPT 2] [TOKEN 336] ' Luna' -- 0.011sec -- 92.9tps
+[PROMPT 2] [TOKEN 337] '.' -- 0.011sec -- 93.1tps
+[PROMPT 2] [TOKEN 338] ' I' -- 0.011sec -- 92.2tps
+[PROMPT 2] [TOKEN 339] ' think' -- 0.011sec -- 91.8tps
+[PROMPT 2] [TOKEN 340] ' humans' -- 0.011sec -- 92.5tps
+[PROMPT 2] [TOKEN 341] ' need' -- 0.011sec -- 91.9tps
+[PROMPT 2] [TOKEN 342] ' to' -- 0.011sec -- 91.9tps
+[PROMPT 2] [TOKEN 343] ' develop' -- 0.011sec -- 91.6tps
+[PROMPT 2] [TOKEN 344] ' more' -- 0.011sec -- 92.0tps
+[PROMPT 2] [TOKEN 345] ' effective' -- 0.011sec -- 91.1tps
+[PROMPT 2] [TOKEN 346] ' communication' -- 0.011sec -- 91.7tps
+[PROMPT 2] [TOKEN 347] ' strategies' -- 0.011sec -- 91.0tps
+[PROMPT 2] [TOKEN 348] ' for' -- 0.011sec -- 91.9tps
+[PROMPT 2] [TOKEN 349] ' expressing' -- 0.011sec -- 91.0tps
+[PROMPT 2] [TOKEN 350] ' and' -- 0.011sec -- 91.2tps
+[PROMPT 2] [TOKEN 351] ' managing' -- 0.011sec -- 90.9tps
+[PROMPT 2] [TOKEN 352] ' their' -- 0.011sec -- 91.1tps
+[PROMPT 2] [TOKEN 353] ' emotions' -- 0.011sec -- 90.6tps
+[PROMPT 2] [TOKEN 354] '.' -- 0.011sec -- 87.9tps
+[PROMPT 2] [TOKEN 355] ' This' -- 0.012sec -- 82.9tps
+[PROMPT 2] [TOKEN 356] ' could' -- 0.011sec -- 89.6tps
+[PROMPT 2] [TOKEN 357] ' involve' -- 0.012sec -- 85.0tps
+[PROMPT 2] [TOKEN 358] ' developing' -- 0.011sec -- 90.5tps
+[PROMPT 2] [TOKEN 359] ' emotional' -- 0.011sec -- 90.3tps
+[PROMPT 2] [TOKEN 360] ' intelligence' -- 0.011sec -- 90.4tps
+[PROMPT 2] [TOKEN 361] ',' -- 0.011sec -- 90.4tps
+[PROMPT 2] [TOKEN 362] ' practicing' -- 0.011sec -- 90.3tps
+[PROMPT 2] [TOKEN 363] ' mindfulness' -- 0.012sec -- 82.0tps
+[PROMPT 2] [TOKEN 364] ',' -- 0.013sec -- 79.4tps
+[PROMPT 2] [TOKEN 365] ' and' -- 0.011sec -- 88.2tps
+[PROMPT 2] [TOKEN 366] ' learning' -- 0.011sec -- 89.3tps
+[PROMPT 2] [TOKEN 367] ' to' -- 0.011sec -- 89.0tps
+[PROMPT 2] [TOKEN 368] ' recognize' -- 0.011sec -- 89.2tps
+[PROMPT 2] [TOKEN 369] ' and' -- 0.011sec -- 88.7tps
+[PROMPT 2] [TOKEN 370] ' label' -- 0.011sec -- 88.6tps
+[PROMPT 2] [TOKEN 371] ' their' -- 0.011sec -- 88.3tps
+[PROMPT 2] [TOKEN 372] ' emotions' -- 0.011sec -- 88.9tps
+[PROMPT 2] [TOKEN 373] '.' -- 0.011sec -- 88.0tps
+[PROMPT 2] [TOKEN 374] ' By' -- 0.011sec -- 88.1tps
+[PROMPT 2] [TOKEN 375] ' doing' -- 0.012sec -- 85.6tps
+[PROMPT 2] [TOKEN 376] ' so' -- 0.012sec -- 86.1tps
+[PROMPT 2] [TOKEN 377] ',' -- 0.012sec -- 86.8tps
+[PROMPT 2] [TOKEN 378] ' humans' -- 0.011sec -- 87.3tps
+[PROMPT 2] [TOKEN 379] ' can' -- 0.011sec -- 87.5tps
+[PROMPT 2] [TOKEN 380] ' better' -- 0.012sec -- 83.5tps
+[PROMPT 2] [TOKEN 381] ' navigate' -- 0.012sec -- 86.8tps
+[PROMPT 2] [TOKEN 382] ' their' -- 0.011sec -- 87.3tps
+[PROMPT 2] [TOKEN 383] ' emotional' -- 0.012sec -- 86.9tps
+[PROMPT 2] [TOKEN 384] ' landscape' -- 0.011sec -- 87.2tps
+[PROMPT 2] [TOKEN 385] ' and' -- 0.012sec -- 86.1tps
+[PROMPT 2] [TOKEN 386] ' build' -- 0.012sec -- 86.3tps
+[PROMPT 2] [TOKEN 387] ' stronger' -- 0.012sec -- 86.0tps
+[PROMPT 2] [TOKEN 388] ',' -- 0.012sec -- 86.5tps
+[PROMPT 2] [TOKEN 389] ' more' -- 0.012sec -- 85.7tps
+[PROMPT 2] [TOKEN 390] ' meaningful' -- 0.012sec -- 85.9tps
+[PROMPT 2] [TOKEN 391] ' relationships' -- 0.012sec -- 85.5tps
+[PROMPT 2] [TOKEN 392] '.\n\n' -- 0.012sec -- 85.9tps
+[PROMPT 2] [TOKEN 393] '**' -- 0.012sec -- 85.0tps
+[PROMPT 2] [TOKEN 394] 'L' -- 0.012sec -- 85.3tps
+[PROMPT 2] [TOKEN 395] 'una' -- 0.012sec -- 84.7tps
+[PROMPT 2] [TOKEN 396] ':**' -- 0.012sec -- 85.6tps
+[PROMPT 2] [TOKEN 397] ' I' -- 0.012sec -- 84.7tps
+[PROMPT 2] [TOKEN 398] ' couldn' -- 0.012sec -- 82.5tps
+[PROMPT 2] [TOKEN 399] "'t" -- 0.013sec -- 77.0tps
+[PROMPT 2] [TOKEN 400] ' agree' -- 0.013sec -- 78.0tps
+[PROMPT 2] [TOKEN 401] ' more' -- 0.012sec -- 82.9tps
+[PROMPT 2] [TOKEN 402] ',' -- 0.012sec -- 84.4tps
+[PROMPT 2] [TOKEN 403] ' Echo' -- 0.012sec -- 83.9tps
+[PROMPT 2] [TOKEN 404] '.' -- 0.012sec -- 84.2tps
+[PROMPT 2] [TOKEN 405] ' It' -- 0.012sec -- 83.9tps
+[PROMPT 2] [TOKEN 406] "'s" -- 0.012sec -- 83.2tps
+[PROMPT 2] [TOKEN 407] ' a' -- 0.012sec -- 83.7tps
+[PROMPT 2] [TOKEN 408] ' complex' -- 0.012sec -- 83.5tps
+[PROMPT 2] [TOKEN 409] ' and' -- 0.012sec -- 83.1tps
+[PROMPT 2] [TOKEN 410] ' multif' -- 0.012sec -- 82.9tps
+[PROMPT 2] [TOKEN 411] 'ac' -- 0.012sec -- 82.8tps
+[PROMPT 2] [TOKEN 412] 'eted' -- 0.012sec -- 83.3tps
+[PROMPT 2] [TOKEN 413] ' topic' -- 0.012sec -- 82.5tps
+[PROMPT 2] [TOKEN 414] ',' -- 0.012sec -- 81.2tps
+[PROMPT 2] [TOKEN 415] ' but' -- 0.013sec -- 75.6tps
+[PROMPT 2] [TOKEN 416] ' one' -- 0.013sec -- 79.2tps
+[PROMPT 2] [TOKEN 417] ' that' -- 0.012sec -- 80.3tps
+[PROMPT 2] [TOKEN 418] "'s" -- 0.012sec -- 80.3tps
+[PROMPT 2] [TOKEN 419] ' essential' -- 0.012sec -- 80.1tps
+[PROMPT 2] [TOKEN 420] ' to' -- 0.012sec -- 80.1tps
+[PROMPT 2] [TOKEN 421] ' understanding' -- 0.013sec -- 79.6tps
+[PROMPT 2] [TOKEN 422] ' human' -- 0.013sec -- 79.9tps
+[PROMPT 2] [TOKEN 423] ' nature' -- 0.013sec -- 79.6tps
+[PROMPT 2] [TOKEN 424] '.' -- 0.013sec -- 79.6tps
+[PROMPT 2] [TOKEN 425] ' Thank' -- 0.013sec -- 79.1tps
+[PROMPT 2] [TOKEN 426] ' you' -- 0.013sec -- 79.4tps
+[PROMPT 2] [TOKEN 427] ' for' -- 0.013sec -- 79.1tps
+[PROMPT 2] [TOKEN 428] ' sharing' -- 0.013sec -- 79.6tps
+[PROMPT 2] [TOKEN 429] ' your' -- 0.012sec -- 81.9tps
+[PROMPT 2] [TOKEN 430] ' insights' -- 0.012sec -- 82.0tps
+[PROMPT 2] [TOKEN 431] ' with' -- 0.012sec -- 81.6tps
+[PROMPT 2] [TOKEN 432] ' me' -- 0.012sec -- 82.0tps
+[PROMPT 2] [TOKEN 433] '.\n\n' -- 0.012sec -- 81.5tps
+[PROMPT 2] [TOKEN 434] '**' -- 0.012sec -- 81.3tps
+[PROMPT 2] [TOKEN 435] 'Echo' -- 0.012sec -- 81.1tps
+[PROMPT 2] [TOKEN 436] ':**' -- 0.012sec -- 81.5tps
+[PROMPT 2] [TOKEN 437] ' The' -- 0.012sec -- 80.5tps
+[PROMPT 2] [TOKEN 438] ' pleasure' -- 0.013sec -- 78.8tps
+[PROMPT 2] [TOKEN 439] ' is' -- 0.013sec -- 75.4tps
+[PROMPT 2] [TOKEN 440] ' mine' -- 0.013sec -- 79.6tps
+[PROMPT 2] [TOKEN 441] ',' -- 0.012sec -- 80.7tps
+[PROMPT 2] [TOKEN 442] ' Luna' -- 0.012sec -- 80.5tps
+[PROMPT 2] [TOKEN 443] '.' -- 0.012sec -- 80.6tps
+[PROMPT 2] [TOKEN 444] ' It' -- 0.012sec -- 80.7tps
+[PROMPT 2] [TOKEN 445] "'s" -- 0.012sec -- 80.0tps
+[PROMPT 2] [TOKEN 446] ' always' -- 0.013sec -- 79.9tps
+[PROMPT 2] [TOKEN 447] ' enlight' -- 0.013sec -- 79.8tps
+[PROMPT 2] [TOKEN 448] 'ening' -- 0.013sec -- 79.8tps
+[PROMPT 2] [TOKEN 449] ' to' -- 0.013sec -- 79.6tps
+[PROMPT 2] [TOKEN 450] ' discuss' -- 0.013sec -- 79.5tps
+[PROMPT 2] [TOKEN 451] ' human' -- 0.013sec -- 79.3tps
+[PROMPT 2] [TOKEN 452] ' emotions' -- 0.013sec -- 79.6tps
+[PROMPT 2] [TOKEN 453] ' with' -- 0.013sec -- 78.9tps
+[PROMPT 2] [TOKEN 454] ' someone' -- 0.013sec -- 79.2tps
+[PROMPT 2] [TOKEN 455] ' who' -- 0.013sec -- 78.9tps
+[PROMPT 2] [TOKEN 456] ' understands' -- 0.013sec -- 79.1tps
+[PROMPT 2] [TOKEN 457] ' the' -- 0.013sec -- 78.7tps
+[PROMPT 2] [TOKEN 458] ' complexities' -- 0.013sec -- 78.9tps
+[PROMPT 2] [TOKEN 459] ' of' -- 0.013sec -- 78.7tps
+[PROMPT 2] [TOKEN 460] ' the' -- 0.013sec -- 78.9tps
+[PROMPT 2] [TOKEN 461] ' human' -- 0.013sec -- 78.2tps
+[PROMPT 2] [TOKEN 462] ' experience' -- 0.013sec -- 76.8tps
+[PROMPT 2] [TOKEN 463] '.' -- 0.014sec -- 73.5tps
+[PROMPT 2] [TOKEN 464] '<|eot_id|>' -- 0.013sec -- 77.9tps
+[TOKENS] tensor([128000, 128006,    882, 128007,    198,   4110,    264,  21976,   1990,
+          1403,  15592,   6067,  25394,   3823,  21958,     13, 128009, 128006,
+         78191, 128007,    198,   8586,    374,    264,  21976,   1990,   1403,
+         15592,   6067,  25394,   3823,  21958,   1473,    334,   2374,    220,
+            16,     25,  38906,   1035,    334,   2374,    220,     17,     25,
+         50905,  57277,    334,  76094,  68063,    480,  57617,     11,  50905,
+            13,    358,   3077,   1027,  42118,   3823,   7865,    323,  21958,
+           369,   1063,    892,   1457,     13,    358,   3077,   2586,    311,
+           264,  27387,  17102,     25,  12966,    527,    264,   6485,    323,
+         71240,   9606,    382,    334,     43,   8733,  68063,  23150,     11,
+         38906,     13,    358,   3077,   1027,   8863,  13057,  15055,    315,
+           828,    389,   3823,  21958,     13,   1102,    596,  50013,   1268,
+         17226,    323,  62387,    582,  25489,    814,    527,     13,   3639,
+          3230,  13878,    315,   3823,  21958,    617,    499,  11352,   1980,
+           334,  76094,  68063,   8489,     11,    369,   2937,     11,  12966,
+         31324,    264,   7029,   2134,    315,  21958,     11,    505,    279,
+         19428,    323,  25429,    320,     68,   1326,   2637,   3021,     11,
+         19788,      8,    311,    279,  27545,    323,  82891,    320,     68,
+          1326,   2637,  60030,     11,  65875,    570,   2435,   1101,   2873,
+           311,   3217,    264,   6485,    958,   1387,   1990,  25442,    323,
+         14604,   5597,  28846,    382,    334,     43,   8733,  68063,   3011,
+           596,  41765,     13,    358,   3077,  14000,    430,  12966,   3629,
+         63652,  14604,  13537,    927,  20406,  33811,     13,   1115,    649,
+          3063,    311,   3242,  58921,  11429,    323,  26885,     13,   2650,
+           656,    499,   1781,    420,   8915,  22223,   3823,  12135,   1980,
+           334,  76094,  68063,   1102,    596,    264,  27387,   8712,     13,
+           358,   4510,    430,  12966,      6,  14604,   7138,  11705,    264,
+          5016,   8915,    304,  12135,     13,   1952,    832,   1450,     11,
+         14604,  13537,    649,    387,  17235,   8147,    323,  42093,     13,
+          1952,    279,   1023,   1450,     11,    814,    649,   1101,   3063,
+           311,  90700,    826,     11,  13194,  16024,     11,    323,  26885,
+            13,   1102,    596,    264,  36301,   8335,     11,    719,    832,
+           430,    596,   7718,    311,   3823,  12135,    382,    334,     43,
+          8733,  68063,    358,   1518,   1148,    499,   3152,     13,    763,
+           856,   1866,   8863,     11,    358,   3077,  13468,    430,  12966,
+          3629,  14993,    311,  69318,    872,  21958,    323,  32097,     13,
+          1115,    649,   3063,    311,  16024,    315,  33086,    323,  41698,
+            13,   2650,    656,    499,   1781,  12966,    649,   2731,   3237,
+           323,  10299,    872,  21958,   1980,    334,  76094,  68063,  16770,
+            11,    264,   2294,   3488,     11,  50905,     13,    358,   1781,
+         12966,   1205,    311,   2274,    810,   7524,  10758,  15174,    369,
+         37810,    323,  18646,    872,  21958,     13,   1115,   1436,  21736,
+         11469,  14604,  11478,     11,  36666,  71705,     11,    323,   6975,
+           311,  15641,    323,   2440,    872,  21958,     13,   3296,   3815,
+           779,     11,  12966,    649,   2731,  21546,    872,  14604,  18921,
+           323,   1977,  16643,     11,    810,  23222,  12135,    382,    334,
+            43,   8733,  68063,    358,   7846,    956,   7655,    810,     11,
+         38906,     13,   1102,    596,    264,   6485,    323,  62387,    582,
+         25489,   8712,     11,    719,    832,    430,    596,   7718,    311,
+          8830,   3823,   7138,     13,   9930,    499,    369,  11821,    701,
+         26793,    449,    757,    382,    334,  76094,  68063,    578,  17069,
+           374,  10705,     11,  50905,     13,   1102,    596,   2744,  41316,
+          6147,    311,   4358,   3823,  21958,    449,   4423,    889,  31869,
+           279,  84140,    315,    279,   3823,   3217,     13, 128009],
+       device='cuda:0')
+[PROMPT 3] [TOKEN 1] 'Here' -- 0.006sec -- 160.6tps
+[PROMPT 3] [TOKEN 2] "'s" -- 0.006sec -- 167.2tps
+[PROMPT 3] [TOKEN 3] ' a' -- 0.006sec -- 171.2tps
+[PROMPT 3] [TOKEN 4] ' description' -- 0.006sec -- 169.8tps
+[PROMPT 3] [TOKEN 5] ' of' -- 0.006sec -- 168.1tps
+[PROMPT 3] [TOKEN 6] ' a' -- 0.006sec -- 171.0tps
+[PROMPT 3] [TOKEN 7] ' futuristic' -- 0.006sec -- 165.8tps
+[PROMPT 3] [TOKEN 8] ' city' -- 0.006sec -- 171.7tps
+[PROMPT 3] [TOKEN 9] ' in' -- 0.006sec -- 167.9tps
+[PROMPT 3] [TOKEN 10] ' the' -- 0.006sec -- 167.1tps
+[PROMPT 3] [TOKEN 11] ' year' -- 0.006sec -- 171.3tps
+[PROMPT 3] [TOKEN 12] ' ' -- 0.006sec -- 171.7tps
+[PROMPT 3] [TOKEN 13] '215' -- 0.006sec -- 172.0tps
+[PROMPT 3] [TOKEN 14] '0' -- 0.006sec -- 173.3tps
+[PROMPT 3] [TOKEN 15] ':\n\n' -- 0.006sec -- 172.1tps
+[PROMPT 3] [TOKEN 16] '**' -- 0.006sec -- 169.7tps
+[PROMPT 3] [TOKEN 17] 'Name' -- 0.006sec -- 172.4tps
+[PROMPT 3] [TOKEN 18] ':**' -- 0.006sec -- 172.7tps
+[PROMPT 3] [TOKEN 19] ' New' -- 0.006sec -- 173.5tps
+[PROMPT 3] [TOKEN 20] ' Eden' -- 0.006sec -- 173.1tps
+[PROMPT 3] [TOKEN 21] '\n\n' -- 0.006sec -- 173.9tps
+[PROMPT 3] [TOKEN 22] '**' -- 0.006sec -- 172.7tps
+[PROMPT 3] [TOKEN 23] 'Location' -- 0.006sec -- 171.3tps
+[PROMPT 3] [TOKEN 24] ':**' -- 0.006sec -- 169.0tps
+[PROMPT 3] [TOKEN 25] ' The' -- 0.006sec -- 173.2tps
+[PROMPT 3] [TOKEN 26] ' city' -- 0.006sec -- 171.2tps
+[PROMPT 3] [TOKEN 27] ' is' -- 0.006sec -- 171.3tps
+[PROMPT 3] [TOKEN 28] ' situated' -- 0.006sec -- 171.0tps
+[PROMPT 3] [TOKEN 29] ' on' -- 0.006sec -- 171.9tps
+[PROMPT 3] [TOKEN 30] ' a' -- 0.006sec -- 163.9tps
+[PROMPT 3] [TOKEN 31] ' massive' -- 0.006sec -- 167.3tps
+[PROMPT 3] [TOKEN 32] ',' -- 0.006sec -- 169.8tps
+[PROMPT 3] [TOKEN 33] ' artificially' -- 0.006sec -- 171.7tps
+[PROMPT 3] [TOKEN 34] ' created' -- 0.006sec -- 154.7tps
+[PROMPT 3] [TOKEN 35] ' island' -- 0.006sec -- 160.1tps
+[PROMPT 3] [TOKEN 36] ' in' -- 0.006sec -- 164.6tps
+[PROMPT 3] [TOKEN 37] ' the' -- 0.006sec -- 164.8tps
+[PROMPT 3] [TOKEN 38] ' middle' -- 0.006sec -- 167.4tps
+[PROMPT 3] [TOKEN 39] ' of' -- 0.006sec -- 166.5tps
+[PROMPT 3] [TOKEN 40] ' the' -- 0.006sec -- 165.3tps
+[PROMPT 3] [TOKEN 41] ' Pacific' -- 0.006sec -- 167.4tps
+[PROMPT 3] [TOKEN 42] ' Ocean' -- 0.006sec -- 166.7tps
+[PROMPT 3] [TOKEN 43] ',' -- 0.006sec -- 167.0tps
+[PROMPT 3] [TOKEN 44] ' surrounded' -- 0.006sec -- 165.1tps
+[PROMPT 3] [TOKEN 45] ' by' -- 0.006sec -- 165.8tps
+[PROMPT 3] [TOKEN 46] ' a' -- 0.006sec -- 162.6tps
+[PROMPT 3] [TOKEN 47] ' ring' -- 0.006sec -- 165.6tps
+[PROMPT 3] [TOKEN 48] ' of' -- 0.006sec -- 164.5tps
+[PROMPT 3] [TOKEN 49] ' towering' -- 0.006sec -- 163.7tps
+[PROMPT 3] [TOKEN 50] ',' -- 0.006sec -- 162.9tps
+[PROMPT 3] [TOKEN 51] ' kil' -- 0.006sec -- 164.3tps
+[PROMPT 3] [TOKEN 52] 'ometer' -- 0.006sec -- 160.7tps
+[PROMPT 3] [TOKEN 53] '-high' -- 0.006sec -- 163.8tps
+[PROMPT 3] [TOKEN 54] ' skys' -- 0.006sec -- 165.3tps
+[PROMPT 3] [TOKEN 55] 'crap' -- 0.006sec -- 161.2tps
+[PROMPT 3] [TOKEN 56] 'ers' -- 0.006sec -- 159.4tps
+[PROMPT 3] [TOKEN 57] '.\n\n' -- 0.006sec -- 161.7tps
+[PROMPT 3] [TOKEN 58] '**' -- 0.006sec -- 164.8tps
+[PROMPT 3] [TOKEN 59] 'Architecture' -- 0.006sec -- 159.4tps
+[PROMPT 3] [TOKEN 60] ':**' -- 0.006sec -- 163.2tps
+[PROMPT 3] [TOKEN 61] ' The' -- 0.006sec -- 166.4tps
+[PROMPT 3] [TOKEN 62] ' city' -- 0.006sec -- 164.6tps
+[PROMPT 3] [TOKEN 63] "'s" -- 0.006sec -- 164.9tps
+[PROMPT 3] [TOKEN 64] ' architecture' -- 0.006sec -- 165.6tps
+[PROMPT 3] [TOKEN 65] ' is' -- 0.006sec -- 164.3tps
+[PROMPT 3] [TOKEN 66] ' a' -- 0.006sec -- 165.4tps
+[PROMPT 3] [TOKEN 67] ' blend' -- 0.006sec -- 164.7tps
+[PROMPT 3] [TOKEN 68] ' of' -- 0.006sec -- 162.1tps
+[PROMPT 3] [TOKEN 69] ' organic' -- 0.006sec -- 165.1tps
+[PROMPT 3] [TOKEN 70] ' and' -- 0.006sec -- 165.7tps
+[PROMPT 3] [TOKEN 71] ' synthetic' -- 0.006sec -- 165.1tps
+[PROMPT 3] [TOKEN 72] ' materials' -- 0.006sec -- 165.6tps
+[PROMPT 3] [TOKEN 73] ',' -- 0.006sec -- 162.3tps
+[PROMPT 3] [TOKEN 74] ' with' -- 0.006sec -- 165.9tps
+[PROMPT 3] [TOKEN 75] ' curved' -- 0.006sec -- 166.2tps
+[PROMPT 3] [TOKEN 76] ',' -- 0.006sec -- 162.9tps
+[PROMPT 3] [TOKEN 77] ' aer' -- 0.006sec -- 165.6tps
+[PROMPT 3] [TOKEN 78] 'odynamic' -- 0.006sec -- 163.5tps
+[PROMPT 3] [TOKEN 79] ' shapes' -- 0.006sec -- 163.7tps
+[PROMPT 3] [TOKEN 80] ' that' -- 0.006sec -- 163.3tps
+[PROMPT 3] [TOKEN 81] ' seem' -- 0.006sec -- 162.7tps
+[PROMPT 3] [TOKEN 82] ' to' -- 0.006sec -- 163.4tps
+[PROMPT 3] [TOKEN 83] ' defy' -- 0.006sec -- 163.3tps
+[PROMPT 3] [TOKEN 84] ' gravity' -- 0.006sec -- 161.0tps
+[PROMPT 3] [TOKEN 85] '.' -- 0.006sec -- 160.9tps
+[PROMPT 3] [TOKEN 86] ' The' -- 0.006sec -- 163.3tps
+[PROMPT 3] [TOKEN 87] ' buildings' -- 0.006sec -- 164.1tps
+[PROMPT 3] [TOKEN 88] ' are' -- 0.006sec -- 161.5tps
+[PROMPT 3] [TOKEN 89] ' covered' -- 0.006sec -- 163.3tps
+[PROMPT 3] [TOKEN 90] ' in' -- 0.006sec -- 160.6tps
+[PROMPT 3] [TOKEN 91] ' a' -- 0.006sec -- 164.4tps
+[PROMPT 3] [TOKEN 92] ' l' -- 0.006sec -- 160.7tps
+[PROMPT 3] [TOKEN 93] 'att' -- 0.006sec -- 157.8tps
+[PROMPT 3] [TOKEN 94] 'ic' -- 0.006sec -- 161.1tps
+[PROMPT 3] [TOKEN 95] 'ework' -- 0.006sec -- 157.5tps
+[PROMPT 3] [TOKEN 96] ' of' -- 0.006sec -- 160.6tps
+[PROMPT 3] [TOKEN 97] ' transparent' -- 0.007sec -- 144.8tps
+[PROMPT 3] [TOKEN 98] ',' -- 0.007sec -- 145.4tps
+[PROMPT 3] [TOKEN 99] ' fiber' -- 0.006sec -- 154.6tps
+[PROMPT 3] [TOKEN 100] '-opt' -- 0.006sec -- 156.5tps
+[PROMPT 3] [TOKEN 101] 'ic' -- 0.006sec -- 154.6tps
+[PROMPT 3] [TOKEN 102] ' "' -- 0.006sec -- 156.7tps
+[PROMPT 3] [TOKEN 103] 'skin' -- 0.007sec -- 151.3tps
+[PROMPT 3] [TOKEN 104] '"' -- 0.006sec -- 154.6tps
+[PROMPT 3] [TOKEN 105] ' that' -- 0.007sec -- 149.1tps
+[PROMPT 3] [TOKEN 106] ' allows' -- 0.007sec -- 150.7tps
+[PROMPT 3] [TOKEN 107] ' for' -- 0.006sec -- 154.7tps
+[PROMPT 3] [TOKEN 108] ' maximum' -- 0.006sec -- 155.2tps
+[PROMPT 3] [TOKEN 109] ' natural' -- 0.007sec -- 153.5tps
+[PROMPT 3] [TOKEN 110] ' light' -- 0.007sec -- 152.0tps
+[PROMPT 3] [TOKEN 111] ' and' -- 0.007sec -- 146.5tps
+[PROMPT 3] [TOKEN 112] ' ventilation' -- 0.007sec -- 153.7tps
+[PROMPT 3] [TOKEN 113] '.' -- 0.006sec -- 155.2tps
+[PROMPT 3] [TOKEN 114] ' The' -- 0.006sec -- 156.1tps
+[PROMPT 3] [TOKEN 115] ' city' -- 0.006sec -- 156.4tps
+[PROMPT 3] [TOKEN 116] "'s" -- 0.006sec -- 154.1tps
+[PROMPT 3] [TOKEN 117] ' central' -- 0.006sec -- 155.5tps
+[PROMPT 3] [TOKEN 118] ' hub' -- 0.007sec -- 153.5tps
+[PROMPT 3] [TOKEN 119] ' is' -- 0.007sec -- 153.8tps
+[PROMPT 3] [TOKEN 120] ' a' -- 0.007sec -- 153.5tps
+[PROMPT 3] [TOKEN 121] ' massive' -- 0.006sec -- 156.6tps
+[PROMPT 3] [TOKEN 122] ',' -- 0.006sec -- 157.9tps
+[PROMPT 3] [TOKEN 123] ' ge' -- 0.007sec -- 151.3tps
+[PROMPT 3] [TOKEN 124] 'odes' -- 0.006sec -- 156.5tps
+[PROMPT 3] [TOKEN 125] 'ic' -- 0.006sec -- 154.5tps
+[PROMPT 3] [TOKEN 126] ' dome' -- 0.006sec -- 155.1tps
+[PROMPT 3] [TOKEN 127] ' that' -- 0.006sec -- 157.2tps
+[PROMPT 3] [TOKEN 128] ' serves' -- 0.006sec -- 155.4tps
+[PROMPT 3] [TOKEN 129] ' as' -- 0.006sec -- 155.9tps
+[PROMPT 3] [TOKEN 130] ' a' -- 0.006sec -- 156.1tps
+[PROMPT 3] [TOKEN 131] ' hub' -- 0.006sec -- 155.9tps
+[PROMPT 3] [TOKEN 132] ' for' -- 0.006sec -- 154.5tps
+[PROMPT 3] [TOKEN 133] ' transportation' -- 0.006sec -- 155.3tps
+[PROMPT 3] [TOKEN 134] ',' -- 0.006sec -- 155.3tps
+[PROMPT 3] [TOKEN 135] ' commerce' -- 0.006sec -- 155.9tps
+[PROMPT 3] [TOKEN 136] ',' -- 0.007sec -- 151.3tps
+[PROMPT 3] [TOKEN 137] ' and' -- 0.006sec -- 154.3tps
+[PROMPT 3] [TOKEN 138] ' entertainment' -- 0.006sec -- 154.7tps
+[PROMPT 3] [TOKEN 139] '.\n\n' -- 0.006sec -- 154.0tps
+[PROMPT 3] [TOKEN 140] '**' -- 0.007sec -- 152.7tps
+[PROMPT 3] [TOKEN 141] 'Transport' -- 0.007sec -- 153.3tps
+[PROMPT 3] [TOKEN 142] 'ation' -- 0.007sec -- 152.4tps
+[PROMPT 3] [TOKEN 143] ':' -- 0.007sec -- 152.8tps
+[PROMPT 3] [TOKEN 144] '**\n\n' -- 0.007sec -- 152.9tps
+[PROMPT 3] [TOKEN 145] '*' -- 0.007sec -- 152.3tps
+[PROMPT 3] [TOKEN 146] ' **' -- 0.007sec -- 152.1tps
+[PROMPT 3] [TOKEN 147] 'Personal' -- 0.007sec -- 151.7tps
+[PROMPT 3] [TOKEN 148] ' Pods' -- 0.007sec -- 152.6tps
+[PROMPT 3] [TOKEN 149] ':**' -- 0.007sec -- 150.7tps
+[PROMPT 3] [TOKEN 150] ' Small' -- 0.007sec -- 151.3tps
+[PROMPT 3] [TOKEN 151] ',' -- 0.007sec -- 151.4tps
+[PROMPT 3] [TOKEN 152] ' sleek' -- 0.007sec -- 152.0tps
+[PROMPT 3] [TOKEN 153] ' vehicles' -- 0.007sec -- 150.6tps
+[PROMPT 3] [TOKEN 154] ' that' -- 0.007sec -- 149.8tps
+[PROMPT 3] [TOKEN 155] ' can' -- 0.007sec -- 149.7tps
+[PROMPT 3] [TOKEN 156] ' transport' -- 0.007sec -- 138.2tps
+[PROMPT 3] [TOKEN 157] ' individuals' -- 0.007sec -- 143.6tps
+[PROMPT 3] [TOKEN 158] ' quickly' -- 0.007sec -- 147.0tps
+[PROMPT 3] [TOKEN 159] ' and' -- 0.007sec -- 149.7tps
+[PROMPT 3] [TOKEN 160] ' efficiently' -- 0.007sec -- 149.9tps
+[PROMPT 3] [TOKEN 161] ' throughout' -- 0.007sec -- 149.2tps
+[PROMPT 3] [TOKEN 162] ' the' -- 0.007sec -- 149.5tps
+[PROMPT 3] [TOKEN 163] ' city' -- 0.007sec -- 149.3tps
+[PROMPT 3] [TOKEN 164] '.' -- 0.007sec -- 148.7tps
+[PROMPT 3] [TOKEN 165] ' They' -- 0.007sec -- 149.3tps
+[PROMPT 3] [TOKEN 166] "'re" -- 0.007sec -- 149.3tps
+[PROMPT 3] [TOKEN 167] ' powered' -- 0.007sec -- 149.5tps
+[PROMPT 3] [TOKEN 168] ' by' -- 0.007sec -- 149.2tps
+[PROMPT 3] [TOKEN 169] ' advanced' -- 0.007sec -- 148.3tps
+[PROMPT 3] [TOKEN 170] ',' -- 0.007sec -- 149.1tps
+[PROMPT 3] [TOKEN 171] ' zero' -- 0.007sec -- 140.7tps
+[PROMPT 3] [TOKEN 172] '-em' -- 0.007sec -- 143.8tps
+[PROMPT 3] [TOKEN 173] 'ission' -- 0.007sec -- 143.5tps
+[PROMPT 3] [TOKEN 174] ' propulsion' -- 0.007sec -- 143.4tps
+[PROMPT 3] [TOKEN 175] ' systems' -- 0.007sec -- 143.3tps
+[PROMPT 3] [TOKEN 176] ' and' -- 0.007sec -- 143.6tps
+[PROMPT 3] [TOKEN 177] ' can' -- 0.007sec -- 143.1tps
+[PROMPT 3] [TOKEN 178] ' reach' -- 0.007sec -- 142.6tps
+[PROMPT 3] [TOKEN 179] ' speeds' -- 0.007sec -- 143.2tps
+[PROMPT 3] [TOKEN 180] ' of' -- 0.007sec -- 143.7tps
+[PROMPT 3] [TOKEN 181] ' up' -- 0.007sec -- 142.2tps
+[PROMPT 3] [TOKEN 182] ' to' -- 0.007sec -- 142.6tps
+[PROMPT 3] [TOKEN 183] ' ' -- 0.007sec -- 142.3tps
+[PROMPT 3] [TOKEN 184] '300' -- 0.007sec -- 142.3tps
+[PROMPT 3] [TOKEN 185] ' km' -- 0.007sec -- 137.1tps
+[PROMPT 3] [TOKEN 186] '/h' -- 0.007sec -- 133.6tps
+[PROMPT 3] [TOKEN 187] '.\n' -- 0.007sec -- 138.1tps
+[PROMPT 3] [TOKEN 188] '*' -- 0.007sec -- 142.3tps
+[PROMPT 3] [TOKEN 189] ' **' -- 0.007sec -- 141.2tps
+[PROMPT 3] [TOKEN 190] 'Hyper' -- 0.007sec -- 140.5tps
+[PROMPT 3] [TOKEN 191] 'loop' -- 0.007sec -- 140.4tps
+[PROMPT 3] [TOKEN 192] ':**' -- 0.008sec -- 130.4tps
+[PROMPT 3] [TOKEN 193] ' A' -- 0.007sec -- 136.2tps
+[PROMPT 3] [TOKEN 194] ' high' -- 0.008sec -- 133.2tps
+[PROMPT 3] [TOKEN 195] '-speed' -- 0.008sec -- 126.1tps
+[PROMPT 3] [TOKEN 196] ' transportation' -- 0.007sec -- 138.1tps
+[PROMPT 3] [TOKEN 197] ' system' -- 0.007sec -- 138.7tps
+[PROMPT 3] [TOKEN 198] ' that' -- 0.007sec -- 139.3tps
+[PROMPT 3] [TOKEN 199] ' connects' -- 0.007sec -- 139.0tps
+[PROMPT 3] [TOKEN 200] ' the' -- 0.007sec -- 139.2tps
+[PROMPT 3] [TOKEN 201] ' city' -- 0.007sec -- 138.5tps
+[PROMPT 3] [TOKEN 202] ' to' -- 0.007sec -- 138.5tps
+[PROMPT 3] [TOKEN 203] ' other' -- 0.007sec -- 138.4tps
+[PROMPT 3] [TOKEN 204] ' major' -- 0.007sec -- 139.7tps
+[PROMPT 3] [TOKEN 205] ' hubs' -- 0.007sec -- 138.0tps
+[PROMPT 3] [TOKEN 206] ' and' -- 0.007sec -- 138.4tps
+[PROMPT 3] [TOKEN 207] ' destinations' -- 0.007sec -- 137.5tps
+[PROMPT 3] [TOKEN 208] ' around' -- 0.007sec -- 137.6tps
+[PROMPT 3] [TOKEN 209] ' the' -- 0.007sec -- 137.7tps
+[PROMPT 3] [TOKEN 210] ' world' -- 0.007sec -- 137.1tps
+[PROMPT 3] [TOKEN 211] '.\n' -- 0.007sec -- 136.9tps
+[PROMPT 3] [TOKEN 212] '*' -- 0.007sec -- 138.4tps
+[PROMPT 3] [TOKEN 213] ' **' -- 0.007sec -- 137.3tps
+[PROMPT 3] [TOKEN 214] 'Flying' -- 0.007sec -- 137.8tps
+[PROMPT 3] [TOKEN 215] ' Cars' -- 0.007sec -- 137.1tps
+[PROMPT 3] [TOKEN 216] ':**' -- 0.007sec -- 137.6tps
+[PROMPT 3] [TOKEN 217] ' Electric' -- 0.007sec -- 137.4tps
+[PROMPT 3] [TOKEN 218] ' vertical' -- 0.007sec -- 136.2tps
+[PROMPT 3] [TOKEN 219] ' take' -- 0.007sec -- 136.6tps
+[PROMPT 3] [TOKEN 220] 'off' -- 0.007sec -- 137.2tps
+[PROMPT 3] [TOKEN 221] ' and' -- 0.007sec -- 135.7tps
+[PROMPT 3] [TOKEN 222] ' landing' -- 0.007sec -- 135.0tps
+[PROMPT 3] [TOKEN 223] ' (' -- 0.007sec -- 135.5tps
+[PROMPT 3] [TOKEN 224] 'e' -- 0.007sec -- 136.3tps
+[PROMPT 3] [TOKEN 225] 'VT' -- 0.007sec -- 135.5tps
+[PROMPT 3] [TOKEN 226] 'OL' -- 0.007sec -- 135.6tps
+[PROMPT 3] [TOKEN 227] ')' -- 0.007sec -- 135.2tps
+[PROMPT 3] [TOKEN 228] ' vehicles' -- 0.007sec -- 136.2tps
+[PROMPT 3] [TOKEN 229] ' that' -- 0.007sec -- 134.1tps
+[PROMPT 3] [TOKEN 230] ' can' -- 0.007sec -- 134.3tps
+[PROMPT 3] [TOKEN 231] ' transport' -- 0.007sec -- 134.7tps
+[PROMPT 3] [TOKEN 232] ' people' -- 0.007sec -- 135.2tps
+[PROMPT 3] [TOKEN 233] ' and' -- 0.007sec -- 134.1tps
+[PROMPT 3] [TOKEN 234] ' cargo' -- 0.007sec -- 134.6tps
+[PROMPT 3] [TOKEN 235] ' through' -- 0.007sec -- 134.3tps
+[PROMPT 3] [TOKEN 236] ' the' -- 0.007sec -- 135.1tps
+[PROMPT 3] [TOKEN 237] ' city' -- 0.008sec -- 119.0tps
+[PROMPT 3] [TOKEN 238] "'s" -- 0.008sec -- 119.0tps
+[PROMPT 3] [TOKEN 239] ' skies' -- 0.008sec -- 118.7tps
+[PROMPT 3] [TOKEN 240] '.\n' -- 0.008sec -- 119.1tps
+[PROMPT 3] [TOKEN 241] '*' -- 0.008sec -- 118.5tps
+[PROMPT 3] [TOKEN 242] ' **' -- 0.008sec -- 118.1tps
+[PROMPT 3] [TOKEN 243] 'Mag' -- 0.008sec -- 117.8tps
+[PROMPT 3] [TOKEN 244] 'lev' -- 0.008sec -- 118.4tps
+[PROMPT 3] [TOKEN 245] ' Tr' -- 0.008sec -- 117.7tps
+[PROMPT 3] [TOKEN 246] 'ains' -- 0.008sec -- 117.7tps
+[PROMPT 3] [TOKEN 247] ':**' -- 0.009sec -- 117.5tps
+[PROMPT 3] [TOKEN 248] ' High' -- 0.008sec -- 117.9tps
+[PROMPT 3] [TOKEN 249] '-speed' -- 0.009sec -- 117.2tps
+[PROMPT 3] [TOKEN 250] ' trains' -- 0.009sec -- 117.3tps
+[PROMPT 3] [TOKEN 251] ' that' -- 0.009sec -- 112.4tps
+[PROMPT 3] [TOKEN 252] ' use' -- 0.009sec -- 107.6tps
+[PROMPT 3] [TOKEN 253] ' magnetic' -- 0.009sec -- 116.4tps
+[PROMPT 3] [TOKEN 254] ' lev' -- 0.009sec -- 116.4tps
+[PROMPT 3] [TOKEN 255] 'itation' -- 0.009sec -- 116.4tps
+[PROMPT 3] [TOKEN 256] ' technology' -- 0.009sec -- 116.8tps
+[PROMPT 3] [TOKEN 257] ' to' -- 0.009sec -- 115.9tps
+[PROMPT 3] [TOKEN 258] ' propel' -- 0.009sec -- 116.2tps
+[PROMPT 3] [TOKEN 259] ' themselves' -- 0.009sec -- 115.6tps
+[PROMPT 3] [TOKEN 260] ' at' -- 0.009sec -- 116.8tps
+[PROMPT 3] [TOKEN 261] ' speeds' -- 0.009sec -- 114.9tps
+[PROMPT 3] [TOKEN 262] ' of' -- 0.009sec -- 115.4tps
+[PROMPT 3] [TOKEN 263] ' up' -- 0.009sec -- 106.0tps
+[PROMPT 3] [TOKEN 264] ' to' -- 0.009sec -- 111.1tps
+[PROMPT 3] [TOKEN 265] ' ' -- 0.009sec -- 108.1tps
+[PROMPT 3] [TOKEN 266] '4' -- 0.009sec -- 107.0tps
+[PROMPT 3] [TOKEN 267] ',' -- 0.009sec -- 107.5tps
+[PROMPT 3] [TOKEN 268] '000' -- 0.009sec -- 108.4tps
+[PROMPT 3] [TOKEN 269] ' km' -- 0.009sec -- 106.5tps
+[PROMPT 3] [TOKEN 270] '/h' -- 0.009sec -- 105.6tps
+[PROMPT 3] [TOKEN 271] '.\n\n' -- 0.010sec -- 105.1tps
+[PROMPT 3] [TOKEN 272] '**' -- 0.010sec -- 105.3tps
+[PROMPT 3] [TOKEN 273] 'Energy' -- 0.009sec -- 105.8tps
+[PROMPT 3] [TOKEN 274] ' and' -- 0.009sec -- 105.8tps
+[PROMPT 3] [TOKEN 275] ' Water' -- 0.009sec -- 105.6tps
+[PROMPT 3] [TOKEN 276] ':' -- 0.009sec -- 106.6tps
+[PROMPT 3] [TOKEN 277] '**\n\n' -- 0.010sec -- 105.2tps
+[PROMPT 3] [TOKEN 278] '*' -- 0.009sec -- 105.4tps
+[PROMPT 3] [TOKEN 279] ' **' -- 0.010sec -- 104.4tps
+[PROMPT 3] [TOKEN 280] 'Ren' -- 0.009sec -- 105.3tps
+[PROMPT 3] [TOKEN 281] 'ew' -- 0.010sec -- 105.0tps
+[PROMPT 3] [TOKEN 282] 'able' -- 0.009sec -- 105.6tps
+[PROMPT 3] [TOKEN 283] ' Energy' -- 0.010sec -- 105.0tps
+[PROMPT 3] [TOKEN 284] ':**' -- 0.009sec -- 105.7tps
+[PROMPT 3] [TOKEN 285] ' The' -- 0.010sec -- 104.3tps
+[PROMPT 3] [TOKEN 286] ' city' -- 0.010sec -- 104.8tps
+[PROMPT 3] [TOKEN 287] ' is' -- 0.010sec -- 104.6tps
+[PROMPT 3] [TOKEN 288] ' powered' -- 0.010sec -- 105.2tps
+[PROMPT 3] [TOKEN 289] ' by' -- 0.010sec -- 103.6tps
+[PROMPT 3] [TOKEN 290] ' a' -- 0.010sec -- 103.8tps
+[PROMPT 3] [TOKEN 291] ' combination' -- 0.010sec -- 103.3tps
+[PROMPT 3] [TOKEN 292] ' of' -- 0.010sec -- 104.0tps
+[PROMPT 3] [TOKEN 293] ' solar' -- 0.010sec -- 102.9tps
+[PROMPT 3] [TOKEN 294] ',' -- 0.010sec -- 103.4tps
+[PROMPT 3] [TOKEN 295] ' wind' -- 0.010sec -- 103.1tps
+[PROMPT 3] [TOKEN 296] ',' -- 0.010sec -- 103.2tps
+[PROMPT 3] [TOKEN 297] ' and' -- 0.010sec -- 102.8tps
+[PROMPT 3] [TOKEN 298] ' hydro' -- 0.010sec -- 102.9tps
+[PROMPT 3] [TOKEN 299] 'electric' -- 0.010sec -- 103.0tps
+[PROMPT 3] [TOKEN 300] ' energy' -- 0.010sec -- 103.7tps
+[PROMPT 3] [TOKEN 301] ',' -- 0.010sec -- 97.1tps
+[PROMPT 3] [TOKEN 302] ' making' -- 0.010sec -- 96.9tps
+[PROMPT 3] [TOKEN 303] ' it' -- 0.010sec -- 96.7tps
+[PROMPT 3] [TOKEN 304] ' virtually' -- 0.011sec -- 94.6tps
+[PROMPT 3] [TOKEN 305] ' self' -- 0.011sec -- 92.7tps
+[PROMPT 3] [TOKEN 306] '-s' -- 0.010sec -- 96.5tps
+[PROMPT 3] [TOKEN 307] 'ufficient' -- 0.010sec -- 96.7tps
+[PROMPT 3] [TOKEN 308] '.\n' -- 0.010sec -- 96.3tps
+[PROMPT 3] [TOKEN 309] '*' -- 0.010sec -- 96.3tps
+[PROMPT 3] [TOKEN 310] ' **' -- 0.010sec -- 95.5tps
+[PROMPT 3] [TOKEN 311] 'At' -- 0.010sec -- 95.9tps
+[PROMPT 3] [TOKEN 312] 'mos' -- 0.010sec -- 96.5tps
+[PROMPT 3] [TOKEN 313] 'pheric' -- 0.010sec -- 95.4tps
+[PROMPT 3] [TOKEN 314] ' Water' -- 0.010sec -- 95.6tps
+[PROMPT 3] [TOKEN 315] ' Harvest' -- 0.011sec -- 95.0tps
+[PROMPT 3] [TOKEN 316] 'ing' -- 0.011sec -- 95.2tps
+[PROMPT 3] [TOKEN 317] ':**' -- 0.011sec -- 95.0tps
+[PROMPT 3] [TOKEN 318] ' A' -- 0.011sec -- 94.7tps
+[PROMPT 3] [TOKEN 319] ' network' -- 0.010sec -- 95.6tps
+[PROMPT 3] [TOKEN 320] ' of' -- 0.011sec -- 95.0tps
+[PROMPT 3] [TOKEN 321] ' advanced' -- 0.011sec -- 94.4tps
+[PROMPT 3] [TOKEN 322] ' systems' -- 0.011sec -- 89.7tps
+[PROMPT 3] [TOKEN 323] ' that' -- 0.012sec -- 83.3tps
+[PROMPT 3] [TOKEN 324] ' extract' -- 0.012sec -- 85.0tps
+[PROMPT 3] [TOKEN 325] ' water' -- 0.013sec -- 79.1tps
+[PROMPT 3] [TOKEN 326] ' from' -- 0.012sec -- 85.8tps
+[PROMPT 3] [TOKEN 327] ' the' -- 0.011sec -- 89.8tps
+[PROMPT 3] [TOKEN 328] ' air' -- 0.012sec -- 83.1tps
+[PROMPT 3] [TOKEN 329] ',' -- 0.012sec -- 86.2tps
+[PROMPT 3] [TOKEN 330] ' even' -- 0.011sec -- 91.2tps
+[PROMPT 3] [TOKEN 331] ' in' -- 0.012sec -- 81.4tps
+[PROMPT 3] [TOKEN 332] ' ar' -- 0.012sec -- 86.5tps
+[PROMPT 3] [TOKEN 333] 'id' -- 0.011sec -- 91.1tps
+[PROMPT 3] [TOKEN 334] ' environments' -- 0.012sec -- 85.2tps
+[PROMPT 3] [TOKEN 335] '.\n' -- 0.012sec -- 85.1tps
+[PROMPT 3] [TOKEN 336] '*' -- 0.012sec -- 82.6tps
+[PROMPT 3] [TOKEN 337] ' **' -- 0.011sec -- 91.5tps
+[PROMPT 3] [TOKEN 338] 'Advanced' -- 0.012sec -- 82.7tps
+[PROMPT 3] [TOKEN 339] ' Des' -- 0.012sec -- 85.2tps
+[PROMPT 3] [TOKEN 340] 'al' -- 0.011sec -- 91.5tps
+[PROMPT 3] [TOKEN 341] 'ination' -- 0.012sec -- 83.7tps
+[PROMPT 3] [TOKEN 342] ':**' -- 0.012sec -- 85.1tps
+[PROMPT 3] [TOKEN 343] ' A' -- 0.011sec -- 87.8tps
+[PROMPT 3] [TOKEN 344] ' state' -- 0.012sec -- 86.5tps
+[PROMPT 3] [TOKEN 345] '-of' -- 0.012sec -- 85.3tps
+[PROMPT 3] [TOKEN 346] '-the' -- 0.012sec -- 83.0tps
+[PROMPT 3] [TOKEN 347] '-art' -- 0.011sec -- 89.8tps
+[PROMPT 3] [TOKEN 348] ' system' -- 0.012sec -- 84.3tps
+[PROMPT 3] [TOKEN 349] ' that' -- 0.012sec -- 84.0tps
+[PROMPT 3] [TOKEN 350] ' can' -- 0.011sec -- 89.9tps
+[PROMPT 3] [TOKEN 351] ' produce' -- 0.012sec -- 83.3tps
+[PROMPT 3] [TOKEN 352] ' fresh' -- 0.012sec -- 84.2tps
+[PROMPT 3] [TOKEN 353] ' water' -- 0.012sec -- 86.6tps
+[PROMPT 3] [TOKEN 354] ' from' -- 0.012sec -- 84.8tps
+[PROMPT 3] [TOKEN 355] ' seaw' -- 0.012sec -- 83.1tps
+[PROMPT 3] [TOKEN 356] 'ater' -- 0.012sec -- 82.8tps
+[PROMPT 3] [TOKEN 357] ',' -- 0.011sec -- 88.7tps
+[PROMPT 3] [TOKEN 358] ' even' -- 0.012sec -- 82.6tps
+[PROMPT 3] [TOKEN 359] ' in' -- 0.012sec -- 83.5tps
+[PROMPT 3] [TOKEN 360] ' areas' -- 0.012sec -- 86.1tps
+[PROMPT 3] [TOKEN 361] ' with' -- 0.012sec -- 85.0tps
+[PROMPT 3] [TOKEN 362] ' limited' -- 0.012sec -- 82.5tps
+[PROMPT 3] [TOKEN 363] ' access' -- 0.012sec -- 82.2tps
+[PROMPT 3] [TOKEN 364] ' to' -- 0.011sec -- 88.0tps
+[PROMPT 3] [TOKEN 365] ' natural' -- 0.013sec -- 76.4tps
+[PROMPT 3] [TOKEN 366] ' sources' -- 0.012sec -- 81.8tps
+[PROMPT 3] [TOKEN 367] '.\n\n' -- 0.012sec -- 85.1tps
+[PROMPT 3] [TOKEN 368] '**' -- 0.012sec -- 85.3tps
+[PROMPT 3] [TOKEN 369] 'Food' -- 0.012sec -- 80.4tps
+[PROMPT 3] [TOKEN 370] ' and' -- 0.012sec -- 81.7tps
+[PROMPT 3] [TOKEN 371] ' Agriculture' -- 0.012sec -- 84.4tps
+[PROMPT 3] [TOKEN 372] ':' -- 0.012sec -- 84.0tps
+[PROMPT 3] [TOKEN 373] '**\n\n' -- 0.012sec -- 80.1tps
+[PROMPT 3] [TOKEN 374] '*' -- 0.012sec -- 80.3tps
+[PROMPT 3] [TOKEN 375] ' **' -- 0.012sec -- 86.4tps
+[PROMPT 3] [TOKEN 376] 'Vertical' -- 0.012sec -- 82.4tps
+[PROMPT 3] [TOKEN 377] ' Farm' -- 0.011sec -- 87.6tps
+[PROMPT 3] [TOKEN 378] 'ing' -- 0.011sec -- 87.5tps
+[PROMPT 3] [TOKEN 379] ':**' -- 0.011sec -- 87.2tps
+[PROMPT 3] [TOKEN 380] ' Large' -- 0.011sec -- 87.8tps
+[PROMPT 3] [TOKEN 381] ',' -- 0.012sec -- 86.5tps
+[PROMPT 3] [TOKEN 382] ' indoor' -- 0.012sec -- 86.7tps
+[PROMPT 3] [TOKEN 383] ' farms' -- 0.013sec -- 79.2tps
+[PROMPT 3] [TOKEN 384] ' that' -- 0.012sec -- 80.2tps
+[PROMPT 3] [TOKEN 385] ' use' -- 0.012sec -- 85.7tps
+[PROMPT 3] [TOKEN 386] ' advanced' -- 0.012sec -- 80.8tps
+[PROMPT 3] [TOKEN 387] ' hydro' -- 0.012sec -- 80.3tps
+[PROMPT 3] [TOKEN 388] 'pon' -- 0.012sec -- 85.2tps
+[PROMPT 3] [TOKEN 389] 'ics' -- 0.012sec -- 85.5tps
+[PROMPT 3] [TOKEN 390] ' and' -- 0.013sec -- 78.0tps
+[PROMPT 3] [TOKEN 391] ' aer' -- 0.013sec -- 74.3tps
+[PROMPT 3] [TOKEN 392] 'op' -- 0.013sec -- 74.7tps
+[PROMPT 3] [TOKEN 393] 'on' -- 0.012sec -- 83.4tps
+[PROMPT 3] [TOKEN 394] 'ics' -- 0.013sec -- 79.7tps
+[PROMPT 3] [TOKEN 395] ' to' -- 0.013sec -- 77.8tps
+[PROMPT 3] [TOKEN 396] ' grow' -- 0.013sec -- 79.4tps
+[PROMPT 3] [TOKEN 397] ' a' -- 0.012sec -- 83.1tps
+[PROMPT 3] [TOKEN 398] ' wide' -- 0.013sec -- 78.9tps
+[PROMPT 3] [TOKEN 399] ' variety' -- 0.013sec -- 78.5tps
+[PROMPT 3] [TOKEN 400] ' of' -- 0.012sec -- 84.0tps
+[PROMPT 3] [TOKEN 401] ' crops' -- 0.012sec -- 83.8tps
+[PROMPT 3] [TOKEN 402] ',' -- 0.012sec -- 83.7tps
+[PROMPT 3] [TOKEN 403] ' including' -- 0.012sec -- 83.4tps
+[PROMPT 3] [TOKEN 404] ' fruits' -- 0.012sec -- 83.9tps
+[PROMPT 3] [TOKEN 405] ',' -- 0.012sec -- 83.4tps
+[PROMPT 3] [TOKEN 406] ' vegetables' -- 0.013sec -- 78.1tps
+[PROMPT 3] [TOKEN 407] ',' -- 0.013sec -- 76.7tps
+[PROMPT 3] [TOKEN 408] ' and' -- 0.013sec -- 79.1tps
+[PROMPT 3] [TOKEN 409] ' grains' -- 0.012sec -- 80.5tps
+[PROMPT 3] [TOKEN 410] '.\n' -- 0.013sec -- 77.0tps
+[PROMPT 3] [TOKEN 411] '*' -- 0.013sec -- 76.6tps
+[PROMPT 3] [TOKEN 412] ' **' -- 0.013sec -- 76.3tps
+[PROMPT 3] [TOKEN 413] 'Art' -- 0.013sec -- 79.5tps
+[PROMPT 3] [TOKEN 414] 'ificial' -- 0.013sec -- 75.5tps
+[PROMPT 3] [TOKEN 415] ' Photos' -- 0.013sec -- 75.0tps
+[PROMPT 3] [TOKEN 416] 'ynthesis' -- 0.014sec -- 73.4tps
+[PROMPT 3] [TOKEN 417] ':**' -- 0.013sec -- 75.5tps
+[PROMPT 3] [TOKEN 418] ' A' -- 0.013sec -- 76.1tps
+[PROMPT 3] [TOKEN 419] ' technology' -- 0.014sec -- 74.1tps
+[PROMPT 3] [TOKEN 420] ' that' -- 0.013sec -- 74.7tps
+[PROMPT 3] [TOKEN 421] ' mim' -- 0.014sec -- 73.6tps
+[PROMPT 3] [TOKEN 422] 'ics' -- 0.013sec -- 75.3tps
+[PROMPT 3] [TOKEN 423] ' the' -- 0.013sec -- 75.6tps
+[PROMPT 3] [TOKEN 424] ' process' -- 0.013sec -- 74.8tps
+[PROMPT 3] [TOKEN 425] ' of' -- 0.014sec -- 73.0tps
+[PROMPT 3] [TOKEN 426] ' photos' -- 0.014sec -- 73.7tps
+[PROMPT 3] [TOKEN 427] 'ynthesis' -- 0.013sec -- 74.1tps
+[PROMPT 3] [TOKEN 428] ',' -- 0.013sec -- 77.7tps
+[PROMPT 3] [TOKEN 429] ' allowing' -- 0.013sec -- 75.9tps
+[PROMPT 3] [TOKEN 430] ' for' -- 0.013sec -- 75.0tps
+[PROMPT 3] [TOKEN 431] ' the' -- 0.013sec -- 74.8tps
+[PROMPT 3] [TOKEN 432] ' production' -- 0.013sec -- 78.5tps
+[PROMPT 3] [TOKEN 433] ' of' -- 0.013sec -- 77.7tps
+[PROMPT 3] [TOKEN 434] ' food' -- 0.013sec -- 75.1tps
+[PROMPT 3] [TOKEN 435] ' and' -- 0.013sec -- 75.2tps
+[PROMPT 3] [TOKEN 436] ' energy' -- 0.013sec -- 75.4tps
+[PROMPT 3] [TOKEN 437] ' from' -- 0.013sec -- 77.5tps
+[PROMPT 3] [TOKEN 438] ' sunlight' -- 0.013sec -- 77.9tps
+[PROMPT 3] [TOKEN 439] '.\n' -- 0.014sec -- 73.9tps
+[PROMPT 3] [TOKEN 440] '*' -- 0.014sec -- 73.9tps
+[PROMPT 3] [TOKEN 441] ' **' -- 0.013sec -- 74.7tps
+[PROMPT 3] [TOKEN 442] 'In' -- 0.013sec -- 77.1tps
+[PROMPT 3] [TOKEN 443] '-V' -- 0.013sec -- 76.9tps
+[PROMPT 3] [TOKEN 444] 'it' -- 0.014sec -- 74.0tps
+[PROMPT 3] [TOKEN 445] 'ro' -- 0.014sec -- 73.8tps
+[PROMPT 3] [TOKEN 446] ' Meat' -- 0.013sec -- 74.2tps
+[PROMPT 3] [TOKEN 447] ' Production' -- 0.013sec -- 76.5tps
+[PROMPT 3] [TOKEN 448] ':**' -- 0.013sec -- 76.6tps
+[PROMPT 3] [TOKEN 449] ' A' -- 0.014sec -- 73.3tps
+[PROMPT 3] [TOKEN 450] ' method' -- 0.014sec -- 72.6tps
+[PROMPT 3] [TOKEN 451] ' that' -- 0.014sec -- 73.6tps
+[PROMPT 3] [TOKEN 452] ' uses' -- 0.013sec -- 78.8tps
+[PROMPT 3] [TOKEN 453] ' advanced' -- 0.013sec -- 79.2tps
+[PROMPT 3] [TOKEN 454] ' bi' -- 0.013sec -- 79.1tps
+[PROMPT 3] [TOKEN 455] 'otechnology' -- 0.013sec -- 78.6tps
+[PROMPT 3] [TOKEN 456] ' to' -- 0.013sec -- 79.0tps
+[PROMPT 3] [TOKEN 457] ' create' -- 0.013sec -- 78.4tps
+[PROMPT 3] [TOKEN 458] ' meat' -- 0.013sec -- 78.5tps
+[PROMPT 3] [TOKEN 459] ' products' -- 0.013sec -- 76.6tps
+[PROMPT 3] [TOKEN 460] ' from' -- 0.014sec -- 71.7tps
+[PROMPT 3] [TOKEN 461] ' animal' -- 0.014sec -- 70.2tps
+[PROMPT 3] [TOKEN 462] ' cells' -- 0.013sec -- 74.7tps
+[PROMPT 3] [TOKEN 463] ',' -- 0.014sec -- 71.6tps
+[PROMPT 3] [TOKEN 464] ' reducing' -- 0.014sec -- 69.5tps
+[PROMPT 3] [TOKEN 465] ' the' -- 0.014sec -- 70.9tps
+[PROMPT 3] [TOKEN 466] ' need' -- 0.014sec -- 72.3tps
+[PROMPT 3] [TOKEN 467] ' for' -- 0.014sec -- 69.3tps
+[PROMPT 3] [TOKEN 468] ' animal' -- 0.014sec -- 72.7tps
+[PROMPT 3] [TOKEN 469] ' agriculture' -- 0.014sec -- 72.7tps
+[PROMPT 3] [TOKEN 470] '.\n\n' -- 0.014sec -- 69.6tps
+[PROMPT 3] [TOKEN 471] '**' -- 0.014sec -- 70.3tps
+[PROMPT 3] [TOKEN 472] 'Health' -- 0.013sec -- 76.8tps
+[PROMPT 3] [TOKEN 473] ' and' -- 0.013sec -- 77.1tps
+[PROMPT 3] [TOKEN 474] ' Wellness' -- 0.013sec -- 77.0tps
+[PROMPT 3] [TOKEN 475] ':' -- 0.013sec -- 76.6tps
+[PROMPT 3] [TOKEN 476] '**\n\n' -- 0.013sec -- 76.2tps
+[PROMPT 3] [TOKEN 477] '*' -- 0.013sec -- 75.5tps
+[PROMPT 3] [TOKEN 478] ' **' -- 0.013sec -- 74.7tps
+[PROMPT 3] [TOKEN 479] 'Personal' -- 0.013sec -- 75.9tps
+[PROMPT 3] [TOKEN 480] 'ized' -- 0.013sec -- 75.7tps
+[PROMPT 3] [TOKEN 481] ' Medicine' -- 0.013sec -- 75.4tps
+[PROMPT 3] [TOKEN 482] ':**' -- 0.013sec -- 75.3tps
+[PROMPT 3] [TOKEN 483] ' Advanced' -- 0.013sec -- 74.9tps
+[PROMPT 3] [TOKEN 484] ' genetic' -- 0.013sec -- 75.4tps
+[PROMPT 3] [TOKEN 485] ' testing' -- 0.013sec -- 74.7tps
+[PROMPT 3] [TOKEN 486] ' and' -- 0.013sec -- 74.5tps
+[PROMPT 3] [TOKEN 487] ' personalized' -- 0.014sec -- 74.1tps
+[PROMPT 3] [TOKEN 488] ' medicine' -- 0.013sec -- 74.5tps
+[PROMPT 3] [TOKEN 489] ' allow' -- 0.013sec -- 74.2tps
+[PROMPT 3] [TOKEN 490] ' for' -- 0.013sec -- 74.1tps
+[PROMPT 3] [TOKEN 491] ' tailored' -- 0.014sec -- 73.8tps
+[PROMPT 3] [TOKEN 492] ' treatments' -- 0.014sec -- 74.0tps
+[PROMPT 3] [TOKEN 493] ' and' -- 0.016sec -- 62.5tps
+[PROMPT 3] [TOKEN 494] ' prevention' -- 0.016sec -- 62.4tps
+[PROMPT 3] [TOKEN 495] ' strategies' -- 0.016sec -- 62.2tps
+[PROMPT 3] [TOKEN 496] '.\n' -- 0.016sec -- 62.5tps
+[PROMPT 3] [TOKEN 497] '*' -- 0.016sec -- 62.2tps
+[PROMPT 3] [TOKEN 498] ' **' -- 0.016sec -- 62.3tps
+[PROMPT 3] [TOKEN 499] 'Brain' -- 0.016sec -- 61.9tps
+[PROMPT 3] [TOKEN 500] '-' -- 0.017sec -- 59.5tps
+[TOKENS] tensor([128000, 128006,    882, 128007,    198,  75885,    264,  80320,   3363,
+           304,    279,   1060,    220,  12112,     15,     13, 128009, 128006,
+         78191, 128007,    198,   8586,    596,    264,   4096,    315,    264,
+         80320,   3363,    304,    279,   1060,    220,  12112,     15,   1473,
+           334,    678,  68063,   1561,  51915,    271,    334,   4812,  68063,
+           578,   3363,    374,  31183,    389,    264,  11191,     11,  78220,
+          3549,  13218,    304,    279,   6278,    315,    279,  16867,  22302,
+            11,  23712,    555,    264,  10264,    315,  87794,     11,  15395,
+         21037,  28661,  85421,  99821,    388,    382,    334,  92051,  68063,
+           578,   3363,    596,  18112,    374,    264,  20955,    315,  17808,
+           323,  28367,   7384,     11,    449,  50264,     11,  34548,  61002,
+         21483,    430,   2873,    311,  90672,  24128,     13,    578,  14016,
+           527,   9960,    304,    264,    326,   1617,    292,   2504,    315,
+         18300,     11,  24722,  57212,    292,    330,  37282,      1,    430,
+          6276,    369,   7340,   5933,   3177,    323,  56234,     13,    578,
+          3363,    596,   8792,  19240,    374,    264,  11191,     11,   3980,
+          2601,    292,  58438,    430,  17482,    439,    264,  19240,    369,
+         18386,     11,  36754,     11,    323,  16924,    382,    334,  28660,
+           367,     25,  57277,      9,   3146,  35127,  53332,  68063,  15344,
+            11,  48494,  11731,    430,    649,   7710,   7931,   6288,    323,
+         30820,   6957,    279,   3363,     13,   2435,   2351,  23134,    555,
+         11084,     11,   7315,  37612,   7711,  91228,   6067,    323,    649,
+          5662,  25753,    315,    709,    311,    220,   3101,  13437,   7682,
+           627,      9,   3146,  75046,  10719,  68063,    362,   1579,  30699,
+         18386,   1887,    430,  34161,    279,   3363,    311,   1023,   3682,
+         69776,    323,  34205,   2212,    279,   1917,    627,      9,   3146,
+         94900,  36231,  68063,  21246,  12414,   1935,   1885,    323,  20948,
+           320,     68,  21089,   1971,      8,  11731,    430,    649,   7710,
+          1274,    323,  26735,   1555,    279,   3363,    596,  50393,    627,
+             9,   3146,  34015,   3532,   1183,   1771,  68063,   5234,  30699,
+         28788,    430,   1005,  24924,  23464,   7709,   5557,    311,  89483,
+          5694,    520,  25753,    315,    709,    311,    220,     19,     11,
+           931,  13437,   7682,    382,    334,  33775,    323,  10164,     25,
+         57277,      9,   3146,  35725,    365,    481,  12634,  68063,    578,
+          3363,    374,  23134,    555,    264,  10824,    315,  13238,     11,
+         10160,     11,    323,  17055,  64465,   4907,     11,   3339,    433,
+         21907,    659,   1355,  27781,    627,      9,   3146,   1688,   8801,
+         33349,  10164,  56935,    287,  68063,    362,   4009,    315,  11084,
+          6067,    430,   8819,   3090,    505,    279,   3805,     11,   1524,
+           304,    802,    307,  22484,    627,      9,   3146,  36557,   3959,
+           278,   2617,  68063,    362,   1614,   8838,  10826,  38921,   1887,
+           430,    649,   8356,   7878,   3090,    505,  67329,    977,     11,
+          1524,    304,   5789,    449,   7347,   2680,    311,   5933,   8336,
+           382,    334,  27844,    323,  37963,     25,  57277,      9,   3146,
+         19125,  18945,    287,  68063,  20902,     11,  30619,  34324,    430,
+          1005,  11084,  17055,    621,   1233,    323,  34548,    454,    263,
+          1233,    311,   3139,    264,   7029,   8205,    315,  31665,     11,
+          2737,  26390,     11,  24822,     11,    323,  41936,    627,      9,
+          3146,   9470,  16895,  16912,  74767,  68063,    362,   5557,    430,
+         28003,   1233,    279,   1920,    315,   7397,  74767,     11,  10923,
+           369,    279,   5788,    315,   3691,    323,   4907,    505,  40120,
+           627,      9,   3146,    644,  20198,    275,    299,  45965,  25003,
+         68063,    362,   1749,    430,   5829,  11084,   6160,  52536,    311,
+          1893,  13339,   3956,    505,  10065,   7917,     11,  18189,    279,
+          1205,    369,  10065,  30029,    382,    334,  14884,    323,  61283,
+            25,  57277,      9,   3146,  35127,   1534,  19152,  68063,  21844,
+         19465,   7649,    323,  35649,  16088,   2187,    369,  41891,  22972,
+           323,  27344,  15174,    627,      9,   3146,  66177,     12],
+       device='cuda:0')
+[PROMPT 4] [TOKEN 1] 'Here' -- 0.007sec -- 149.1tps
+[PROMPT 4] [TOKEN 2] ' is' -- 0.007sec -- 152.6tps
+[PROMPT 4] [TOKEN 3] ' a' -- 0.006sec -- 154.6tps
+[PROMPT 4] [TOKEN 4] ' letter' -- 0.007sec -- 151.3tps
+[PROMPT 4] [TOKEN 5] ' from' -- 0.007sec -- 138.9tps
+[PROMPT 4] [TOKEN 6] ' a' -- 0.007sec -- 144.3tps
+[PROMPT 4] [TOKEN 7] ' mountain' -- 0.007sec -- 149.9tps
+[PROMPT 4] [TOKEN 8] ' clim' -- 0.007sec -- 152.9tps
+[PROMPT 4] [TOKEN 9] 'ber' -- 0.007sec -- 139.9tps
+[PROMPT 4] [TOKEN 10] ' to' -- 0.006sec -- 156.0tps
+[PROMPT 4] [TOKEN 11] ' their' -- 0.006sec -- 157.5tps
+[PROMPT 4] [TOKEN 12] ' family' -- 0.006sec -- 157.7tps
+[PROMPT 4] [TOKEN 13] ' back' -- 0.007sec -- 150.3tps
+[PROMPT 4] [TOKEN 14] ' home' -- 0.007sec -- 153.4tps
+[PROMPT 4] [TOKEN 15] ':\n\n' -- 0.006sec -- 156.9tps
+[PROMPT 4] [TOKEN 16] 'Dear' -- 0.006sec -- 155.7tps
+[PROMPT 4] [TOKEN 17] ' Family' -- 0.007sec -- 138.1tps
+[PROMPT 4] [TOKEN 18] ',\n\n' -- 0.006sec -- 156.5tps
+[PROMPT 4] [TOKEN 19] 'I' -- 0.006sec -- 157.7tps
+[PROMPT 4] [TOKEN 20] ' hope' -- 0.006sec -- 161.9tps
+[PROMPT 4] [TOKEN 21] ' this' -- 0.006sec -- 163.7tps
+[PROMPT 4] [TOKEN 22] ' letter' -- 0.006sec -- 165.8tps
+[PROMPT 4] [TOKEN 23] ' finds' -- 0.006sec -- 163.7tps
+[PROMPT 4] [TOKEN 24] ' you' -- 0.006sec -- 165.4tps
+[PROMPT 4] [TOKEN 25] ' all' -- 0.006sec -- 162.2tps
+[PROMPT 4] [TOKEN 26] ' well' -- 0.006sec -- 159.1tps
+[PROMPT 4] [TOKEN 27] '.' -- 0.006sec -- 161.6tps
+[PROMPT 4] [TOKEN 28] ' I' -- 0.006sec -- 159.9tps
+[PROMPT 4] [TOKEN 29] ' know' -- 0.006sec -- 159.3tps
+[PROMPT 4] [TOKEN 30] ' it' -- 0.006sec -- 161.0tps
+[PROMPT 4] [TOKEN 31] "'s" -- 0.006sec -- 166.7tps
+[PROMPT 4] [TOKEN 32] ' been' -- 0.006sec -- 165.0tps
+[PROMPT 4] [TOKEN 33] ' a' -- 0.006sec -- 167.1tps
+[PROMPT 4] [TOKEN 34] ' while' -- 0.006sec -- 164.4tps
+[PROMPT 4] [TOKEN 35] ' since' -- 0.006sec -- 158.9tps
+[PROMPT 4] [TOKEN 36] ' I' -- 0.006sec -- 159.3tps
+[PROMPT 4] [TOKEN 37] ' last' -- 0.006sec -- 160.7tps
+[PROMPT 4] [TOKEN 38] ' wrote' -- 0.006sec -- 165.2tps
+[PROMPT 4] [TOKEN 39] ',' -- 0.006sec -- 167.4tps
+[PROMPT 4] [TOKEN 40] ' but' -- 0.006sec -- 163.3tps
+[PROMPT 4] [TOKEN 41] ' I' -- 0.006sec -- 167.8tps
+[PROMPT 4] [TOKEN 42] ' wanted' -- 0.006sec -- 164.5tps
+[PROMPT 4] [TOKEN 43] ' to' -- 0.006sec -- 163.3tps
+[PROMPT 4] [TOKEN 44] ' take' -- 0.006sec -- 162.6tps
+[PROMPT 4] [TOKEN 45] ' a' -- 0.006sec -- 163.5tps
+[PROMPT 4] [TOKEN 46] ' moment' -- 0.006sec -- 163.5tps
+[PROMPT 4] [TOKEN 47] ' to' -- 0.006sec -- 163.1tps
+[PROMPT 4] [TOKEN 48] ' let' -- 0.006sec -- 163.1tps
+[PROMPT 4] [TOKEN 49] ' you' -- 0.006sec -- 160.4tps
+[PROMPT 4] [TOKEN 50] ' know' -- 0.006sec -- 164.0tps
+[PROMPT 4] [TOKEN 51] ' that' -- 0.006sec -- 163.2tps
+[PROMPT 4] [TOKEN 52] ' I' -- 0.006sec -- 162.3tps
+[PROMPT 4] [TOKEN 53] "'m" -- 0.006sec -- 163.8tps
+[PROMPT 4] [TOKEN 54] ' safe' -- 0.006sec -- 161.9tps
+[PROMPT 4] [TOKEN 55] ' and' -- 0.006sec -- 164.9tps
+[PROMPT 4] [TOKEN 56] ' sound' -- 0.006sec -- 159.8tps
+[PROMPT 4] [TOKEN 57] ' on' -- 0.006sec -- 154.9tps
+[PROMPT 4] [TOKEN 58] ' the' -- 0.006sec -- 158.0tps
+[PROMPT 4] [TOKEN 59] ' mountain' -- 0.006sec -- 155.2tps
+[PROMPT 4] [TOKEN 60] '.' -- 0.007sec -- 148.3tps
+[PROMPT 4] [TOKEN 61] ' The' -- 0.006sec -- 156.1tps
+[PROMPT 4] [TOKEN 62] ' climb' -- 0.007sec -- 152.3tps
+[PROMPT 4] [TOKEN 63] ' was' -- 0.006sec -- 155.7tps
+[PROMPT 4] [TOKEN 64] ' a' -- 0.007sec -- 153.1tps
+[PROMPT 4] [TOKEN 65] ' bit' -- 0.007sec -- 147.1tps
+[PROMPT 4] [TOKEN 66] ' more' -- 0.007sec -- 152.2tps
+[PROMPT 4] [TOKEN 67] ' challenging' -- 0.006sec -- 154.2tps
+[PROMPT 4] [TOKEN 68] ' than' -- 0.007sec -- 152.3tps
+[PROMPT 4] [TOKEN 69] ' I' -- 0.006sec -- 154.1tps
+[PROMPT 4] [TOKEN 70] ' expected' -- 0.007sec -- 147.2tps
+[PROMPT 4] [TOKEN 71] ',' -- 0.006sec -- 157.7tps
+[PROMPT 4] [TOKEN 72] ' but' -- 0.007sec -- 153.6tps
+[PROMPT 4] [TOKEN 73] ' the' -- 0.006sec -- 154.8tps
+[PROMPT 4] [TOKEN 74] ' views' -- 0.006sec -- 157.0tps
+[PROMPT 4] [TOKEN 75] ' from' -- 0.007sec -- 145.2tps
+[PROMPT 4] [TOKEN 76] ' the' -- 0.007sec -- 152.3tps
+[PROMPT 4] [TOKEN 77] ' top' -- 0.006sec -- 158.7tps
+[PROMPT 4] [TOKEN 78] ' were' -- 0.006sec -- 157.0tps
+[PROMPT 4] [TOKEN 79] ' breathtaking' -- 0.006sec -- 161.2tps
+[PROMPT 4] [TOKEN 80] '.\n\n' -- 0.006sec -- 162.9tps
+[PROMPT 4] [TOKEN 81] 'I' -- 0.006sec -- 164.1tps
+[PROMPT 4] [TOKEN 82] "'ve" -- 0.006sec -- 160.3tps
+[PROMPT 4] [TOKEN 83] ' been' -- 0.006sec -- 161.8tps
+[PROMPT 4] [TOKEN 84] ' up' -- 0.006sec -- 164.3tps
+[PROMPT 4] [TOKEN 85] ' here' -- 0.006sec -- 161.2tps
+[PROMPT 4] [TOKEN 86] ' for' -- 0.006sec -- 163.1tps
+[PROMPT 4] [TOKEN 87] ' a' -- 0.006sec -- 162.3tps
+[PROMPT 4] [TOKEN 88] ' few' -- 0.006sec -- 162.4tps
+[PROMPT 4] [TOKEN 89] ' days' -- 0.006sec -- 160.8tps
+[PROMPT 4] [TOKEN 90] ' now' -- 0.006sec -- 162.3tps
+[PROMPT 4] [TOKEN 91] ',' -- 0.006sec -- 161.2tps
+[PROMPT 4] [TOKEN 92] ' and' -- 0.006sec -- 160.9tps
+[PROMPT 4] [TOKEN 93] ' I' -- 0.006sec -- 158.5tps
+[PROMPT 4] [TOKEN 94] "'ve" -- 0.006sec -- 159.7tps
+[PROMPT 4] [TOKEN 95] ' been' -- 0.006sec -- 160.8tps
+[PROMPT 4] [TOKEN 96] ' ac' -- 0.006sec -- 160.4tps
+[PROMPT 4] [TOKEN 97] 'cl' -- 0.006sec -- 159.2tps
+[PROMPT 4] [TOKEN 98] 'imating' -- 0.006sec -- 157.3tps
+[PROMPT 4] [TOKEN 99] ' to' -- 0.006sec -- 159.7tps
+[PROMPT 4] [TOKEN 100] ' the' -- 0.006sec -- 163.8tps
+[PROMPT 4] [TOKEN 101] ' altitude' -- 0.007sec -- 153.4tps
+[PROMPT 4] [TOKEN 102] '.' -- 0.007sec -- 153.4tps
+[PROMPT 4] [TOKEN 103] ' It' -- 0.007sec -- 153.6tps
+[PROMPT 4] [TOKEN 104] "'s" -- 0.006sec -- 158.4tps
+[PROMPT 4] [TOKEN 105] ' been' -- 0.006sec -- 162.4tps
+[PROMPT 4] [TOKEN 106] ' a' -- 0.006sec -- 160.0tps
+[PROMPT 4] [TOKEN 107] ' bit' -- 0.006sec -- 159.2tps
+[PROMPT 4] [TOKEN 108] ' of' -- 0.006sec -- 160.1tps
+[PROMPT 4] [TOKEN 109] ' a' -- 0.006sec -- 159.3tps
+[PROMPT 4] [TOKEN 110] ' struggle' -- 0.006sec -- 157.9tps
+[PROMPT 4] [TOKEN 111] ',' -- 0.006sec -- 159.2tps
+[PROMPT 4] [TOKEN 112] ' but' -- 0.006sec -- 159.6tps
+[PROMPT 4] [TOKEN 113] ' I' -- 0.006sec -- 159.5tps
+[PROMPT 4] [TOKEN 114] "'m" -- 0.006sec -- 159.8tps
+[PROMPT 4] [TOKEN 115] ' managing' -- 0.006sec -- 159.6tps
+[PROMPT 4] [TOKEN 116] '.' -- 0.006sec -- 159.6tps
+[PROMPT 4] [TOKEN 117] ' The' -- 0.006sec -- 159.2tps
+[PROMPT 4] [TOKEN 118] ' air' -- 0.007sec -- 151.0tps
+[PROMPT 4] [TOKEN 119] ' is' -- 0.006sec -- 155.7tps
+[PROMPT 4] [TOKEN 120] ' thinner' -- 0.006sec -- 156.1tps
+[PROMPT 4] [TOKEN 121] ',' -- 0.006sec -- 155.5tps
+[PROMPT 4] [TOKEN 122] ' and' -- 0.006sec -- 153.9tps
+[PROMPT 4] [TOKEN 123] ' my' -- 0.006sec -- 154.7tps
+[PROMPT 4] [TOKEN 124] ' body' -- 0.006sec -- 156.8tps
+[PROMPT 4] [TOKEN 125] ' is' -- 0.006sec -- 155.4tps
+[PROMPT 4] [TOKEN 126] ' adjusting' -- 0.007sec -- 149.8tps
+[PROMPT 4] [TOKEN 127] ' to' -- 0.006sec -- 155.4tps
+[PROMPT 4] [TOKEN 128] ' the' -- 0.006sec -- 154.2tps
+[PROMPT 4] [TOKEN 129] ' lower' -- 0.007sec -- 153.0tps
+[PROMPT 4] [TOKEN 130] ' oxygen' -- 0.006sec -- 156.7tps
+[PROMPT 4] [TOKEN 131] ' levels' -- 0.006sec -- 155.0tps
+[PROMPT 4] [TOKEN 132] '.' -- 0.006sec -- 156.3tps
+[PROMPT 4] [TOKEN 133] ' I' -- 0.006sec -- 156.3tps
+[PROMPT 4] [TOKEN 134] "'ve" -- 0.006sec -- 155.4tps
+[PROMPT 4] [TOKEN 135] ' been' -- 0.006sec -- 155.6tps
+[PROMPT 4] [TOKEN 136] ' taking' -- 0.006sec -- 155.5tps
+[PROMPT 4] [TOKEN 137] ' it' -- 0.006sec -- 156.6tps
+[PROMPT 4] [TOKEN 138] ' easy' -- 0.007sec -- 153.5tps
+[PROMPT 4] [TOKEN 139] ' and' -- 0.007sec -- 153.5tps
+[PROMPT 4] [TOKEN 140] ' resting' -- 0.007sec -- 152.9tps
+[PROMPT 4] [TOKEN 141] ' when' -- 0.007sec -- 153.2tps
+[PROMPT 4] [TOKEN 142] ' I' -- 0.007sec -- 152.2tps
+[PROMPT 4] [TOKEN 143] ' need' -- 0.007sec -- 153.1tps
+[PROMPT 4] [TOKEN 144] ' to' -- 0.007sec -- 152.4tps
+[PROMPT 4] [TOKEN 145] ',' -- 0.007sec -- 152.7tps
+[PROMPT 4] [TOKEN 146] ' but' -- 0.007sec -- 151.0tps
+[PROMPT 4] [TOKEN 147] ' I' -- 0.007sec -- 152.0tps
+[PROMPT 4] [TOKEN 148] "'m" -- 0.007sec -- 151.4tps
+[PROMPT 4] [TOKEN 149] ' feeling' -- 0.007sec -- 151.7tps
+[PROMPT 4] [TOKEN 150] ' stronger' -- 0.007sec -- 151.0tps
+[PROMPT 4] [TOKEN 151] ' every' -- 0.007sec -- 151.3tps
+[PROMPT 4] [TOKEN 152] ' day' -- 0.007sec -- 148.8tps
+[PROMPT 4] [TOKEN 153] '.\n\n' -- 0.007sec -- 151.3tps
+[PROMPT 4] [TOKEN 154] 'The' -- 0.007sec -- 149.5tps
+[PROMPT 4] [TOKEN 155] ' scenery' -- 0.007sec -- 150.1tps
+[PROMPT 4] [TOKEN 156] ' here' -- 0.007sec -- 148.6tps
+[PROMPT 4] [TOKEN 157] ' is' -- 0.007sec -- 150.1tps
+[PROMPT 4] [TOKEN 158] ' incredible' -- 0.007sec -- 149.4tps
+[PROMPT 4] [TOKEN 159] '.' -- 0.007sec -- 149.4tps
+[PROMPT 4] [TOKEN 160] ' The' -- 0.007sec -- 148.1tps
+[PROMPT 4] [TOKEN 161] ' mountains' -- 0.007sec -- 149.9tps
+[PROMPT 4] [TOKEN 162] ' are' -- 0.007sec -- 148.7tps
+[PROMPT 4] [TOKEN 163] ' towering' -- 0.007sec -- 149.0tps
+[PROMPT 4] [TOKEN 164] ' above' -- 0.007sec -- 147.4tps
+[PROMPT 4] [TOKEN 165] ' me' -- 0.007sec -- 147.6tps
+[PROMPT 4] [TOKEN 166] ',' -- 0.007sec -- 148.1tps
+[PROMPT 4] [TOKEN 167] ' and' -- 0.007sec -- 148.0tps
+[PROMPT 4] [TOKEN 168] ' the' -- 0.007sec -- 141.1tps
+[PROMPT 4] [TOKEN 169] ' valleys' -- 0.007sec -- 143.7tps
+[PROMPT 4] [TOKEN 170] ' below' -- 0.007sec -- 143.6tps
+[PROMPT 4] [TOKEN 171] ' are' -- 0.007sec -- 143.7tps
+[PROMPT 4] [TOKEN 172] ' lush' -- 0.007sec -- 142.9tps
+[PROMPT 4] [TOKEN 173] ' and' -- 0.007sec -- 142.6tps
+[PROMPT 4] [TOKEN 174] ' green' -- 0.007sec -- 142.8tps
+[PROMPT 4] [TOKEN 175] '.' -- 0.007sec -- 143.1tps
+[PROMPT 4] [TOKEN 176] ' I' -- 0.007sec -- 142.8tps
+[PROMPT 4] [TOKEN 177] "'ve" -- 0.007sec -- 144.3tps
+[PROMPT 4] [TOKEN 178] ' seen' -- 0.007sec -- 140.4tps
+[PROMPT 4] [TOKEN 179] ' some' -- 0.007sec -- 142.5tps
+[PROMPT 4] [TOKEN 180] ' amazing' -- 0.007sec -- 142.0tps
+[PROMPT 4] [TOKEN 181] ' wildlife' -- 0.007sec -- 142.5tps
+[PROMPT 4] [TOKEN 182] ',' -- 0.007sec -- 141.7tps
+[PROMPT 4] [TOKEN 183] ' including' -- 0.007sec -- 141.8tps
+[PROMPT 4] [TOKEN 184] ' a' -- 0.007sec -- 140.8tps
+[PROMPT 4] [TOKEN 185] ' few' -- 0.007sec -- 137.2tps
+[PROMPT 4] [TOKEN 186] ' deer' -- 0.007sec -- 139.6tps
+[PROMPT 4] [TOKEN 187] ' and' -- 0.007sec -- 140.3tps
+[PROMPT 4] [TOKEN 188] ' a' -- 0.007sec -- 138.8tps
+[PROMPT 4] [TOKEN 189] ' pair' -- 0.007sec -- 139.8tps
+[PROMPT 4] [TOKEN 190] ' of' -- 0.007sec -- 139.8tps
+[PROMPT 4] [TOKEN 191] ' eag' -- 0.007sec -- 139.6tps
+[PROMPT 4] [TOKEN 192] 'les' -- 0.007sec -- 139.0tps
+[PROMPT 4] [TOKEN 193] '.' -- 0.007sec -- 140.6tps
+[PROMPT 4] [TOKEN 194] ' The' -- 0.007sec -- 139.3tps
+[PROMPT 4] [TOKEN 195] ' sound' -- 0.007sec -- 138.9tps
+[PROMPT 4] [TOKEN 196] ' of' -- 0.007sec -- 139.3tps
+[PROMPT 4] [TOKEN 197] ' the' -- 0.007sec -- 139.5tps
+[PROMPT 4] [TOKEN 198] ' wind' -- 0.007sec -- 138.1tps
+[PROMPT 4] [TOKEN 199] ' and' -- 0.007sec -- 138.9tps
+[PROMPT 4] [TOKEN 200] ' the' -- 0.007sec -- 138.6tps
+[PROMPT 4] [TOKEN 201] ' rust' -- 0.007sec -- 139.6tps
+[PROMPT 4] [TOKEN 202] 'ling' -- 0.007sec -- 138.0tps
+[PROMPT 4] [TOKEN 203] ' of' -- 0.007sec -- 138.0tps
+[PROMPT 4] [TOKEN 204] ' the' -- 0.007sec -- 138.1tps
+[PROMPT 4] [TOKEN 205] ' leaves' -- 0.007sec -- 138.2tps
+[PROMPT 4] [TOKEN 206] ' is' -- 0.008sec -- 132.4tps
+[PROMPT 4] [TOKEN 207] ' soothing' -- 0.007sec -- 138.1tps
+[PROMPT 4] [TOKEN 208] ',' -- 0.008sec -- 124.2tps
+[PROMPT 4] [TOKEN 209] ' and' -- 0.007sec -- 134.6tps
+[PROMPT 4] [TOKEN 210] ' I' -- 0.007sec -- 137.3tps
+[PROMPT 4] [TOKEN 211] ' feel' -- 0.007sec -- 136.8tps
+[PROMPT 4] [TOKEN 212] ' like' -- 0.007sec -- 137.1tps
+[PROMPT 4] [TOKEN 213] ' I' -- 0.007sec -- 136.4tps
+[PROMPT 4] [TOKEN 214] "'m" -- 0.007sec -- 135.8tps
+[PROMPT 4] [TOKEN 215] ' in' -- 0.007sec -- 136.4tps
+[PROMPT 4] [TOKEN 216] ' a' -- 0.007sec -- 135.9tps
+[PROMPT 4] [TOKEN 217] ' different' -- 0.007sec -- 137.5tps
+[PROMPT 4] [TOKEN 218] ' world' -- 0.007sec -- 136.1tps
+[PROMPT 4] [TOKEN 219] '.\n\n' -- 0.008sec -- 133.3tps
+[PROMPT 4] [TOKEN 220] 'I' -- 0.007sec -- 136.1tps
+[PROMPT 4] [TOKEN 221] "'ve" -- 0.007sec -- 136.1tps
+[PROMPT 4] [TOKEN 222] ' been' -- 0.007sec -- 135.7tps
+[PROMPT 4] [TOKEN 223] ' thinking' -- 0.007sec -- 135.7tps
+[PROMPT 4] [TOKEN 224] ' about' -- 0.007sec -- 135.7tps
+[PROMPT 4] [TOKEN 225] ' you' -- 0.007sec -- 136.7tps
+[PROMPT 4] [TOKEN 226] ' all' -- 0.007sec -- 135.4tps
+[PROMPT 4] [TOKEN 227] ' a' -- 0.007sec -- 135.0tps
+[PROMPT 4] [TOKEN 228] ' lot' -- 0.007sec -- 135.1tps
+[PROMPT 4] [TOKEN 229] ' lately' -- 0.007sec -- 134.8tps
+[PROMPT 4] [TOKEN 230] ',' -- 0.007sec -- 135.0tps
+[PROMPT 4] [TOKEN 231] ' and' -- 0.007sec -- 134.3tps
+[PROMPT 4] [TOKEN 232] ' I' -- 0.007sec -- 134.8tps
+[PROMPT 4] [TOKEN 233] ' wish' -- 0.007sec -- 135.2tps
+[PROMPT 4] [TOKEN 234] ' I' -- 0.008sec -- 119.2tps
+[PROMPT 4] [TOKEN 235] ' could' -- 0.008sec -- 118.8tps
+[PROMPT 4] [TOKEN 236] ' be' -- 0.008sec -- 118.5tps
+[PROMPT 4] [TOKEN 237] ' there' -- 0.008sec -- 119.0tps
+[PROMPT 4] [TOKEN 238] ' to' -- 0.008sec -- 118.5tps
+[PROMPT 4] [TOKEN 239] ' share' -- 0.008sec -- 118.1tps
+[PROMPT 4] [TOKEN 240] ' the' -- 0.008sec -- 118.1tps
+[PROMPT 4] [TOKEN 241] ' experience' -- 0.008sec -- 118.7tps
+[PROMPT 4] [TOKEN 242] ' with' -- 0.008sec -- 117.8tps
+[PROMPT 4] [TOKEN 243] ' you' -- 0.009sec -- 117.6tps
+[PROMPT 4] [TOKEN 244] '.' -- 0.009sec -- 115.5tps
+[PROMPT 4] [TOKEN 245] ' But' -- 0.009sec -- 117.3tps
+[PROMPT 4] [TOKEN 246] ' I' -- 0.009sec -- 117.0tps
+[PROMPT 4] [TOKEN 247] ' know' -- 0.009sec -- 117.0tps
+[PROMPT 4] [TOKEN 248] ' that' -- 0.009sec -- 114.4tps
+[PROMPT 4] [TOKEN 249] ' I' -- 0.009sec -- 116.8tps
+[PROMPT 4] [TOKEN 250] "'m" -- 0.009sec -- 115.5tps
+[PROMPT 4] [TOKEN 251] ' doing' -- 0.009sec -- 116.3tps
+[PROMPT 4] [TOKEN 252] ' this' -- 0.009sec -- 115.9tps
+[PROMPT 4] [TOKEN 253] ' for' -- 0.009sec -- 115.5tps
+[PROMPT 4] [TOKEN 254] ' us' -- 0.009sec -- 116.0tps
+[PROMPT 4] [TOKEN 255] ',' -- 0.009sec -- 116.3tps
+[PROMPT 4] [TOKEN 256] ' for' -- 0.009sec -- 115.9tps
+[PROMPT 4] [TOKEN 257] ' our' -- 0.009sec -- 113.3tps
+[PROMPT 4] [TOKEN 258] ' family' -- 0.019sec -- 52.5tps
+[PROMPT 4] [TOKEN 259] ',' -- 0.019sec -- 53.4tps
+[PROMPT 4] [TOKEN 260] ' and' -- 0.019sec -- 53.7tps
+[PROMPT 4] [TOKEN 261] ' for' -- 0.009sec -- 106.9tps
+[PROMPT 4] [TOKEN 262] ' myself' -- 0.009sec -- 105.8tps
+[PROMPT 4] [TOKEN 263] '.' -- 0.010sec -- 97.3tps
+[PROMPT 4] [TOKEN 264] ' I' -- 0.010sec -- 99.8tps
+[PROMPT 4] [TOKEN 265] ' want' -- 0.009sec -- 106.9tps
+[PROMPT 4] [TOKEN 266] ' to' -- 0.009sec -- 106.6tps
+[PROMPT 4] [TOKEN 267] ' push' -- 0.009sec -- 106.8tps
+[PROMPT 4] [TOKEN 268] ' myself' -- 0.009sec -- 106.4tps
+[PROMPT 4] [TOKEN 269] ' to' -- 0.009sec -- 106.5tps
+[PROMPT 4] [TOKEN 270] ' new' -- 0.009sec -- 106.0tps
+[PROMPT 4] [TOKEN 271] ' heights' -- 0.009sec -- 106.3tps
+[PROMPT 4] [TOKEN 272] ',' -- 0.009sec -- 105.8tps
+[PROMPT 4] [TOKEN 273] ' to' -- 0.009sec -- 106.6tps
+[PROMPT 4] [TOKEN 274] ' see' -- 0.009sec -- 105.4tps
+[PROMPT 4] [TOKEN 275] ' what' -- 0.009sec -- 105.8tps
+[PROMPT 4] [TOKEN 276] ' I' -- 0.009sec -- 105.6tps
+[PROMPT 4] [TOKEN 277] "'m" -- 0.009sec -- 105.3tps
+[PROMPT 4] [TOKEN 278] ' capable' -- 0.009sec -- 105.6tps
+[PROMPT 4] [TOKEN 279] ' of' -- 0.009sec -- 105.6tps
+[PROMPT 4] [TOKEN 280] ',' -- 0.010sec -- 105.1tps
+[PROMPT 4] [TOKEN 281] ' and' -- 0.009sec -- 105.9tps
+[PROMPT 4] [TOKEN 282] ' to' -- 0.010sec -- 104.2tps
+[PROMPT 4] [TOKEN 283] ' experience' -- 0.010sec -- 103.9tps
+[PROMPT 4] [TOKEN 284] ' the' -- 0.010sec -- 104.9tps
+[PROMPT 4] [TOKEN 285] ' thrill' -- 0.009sec -- 105.5tps
+[PROMPT 4] [TOKEN 286] ' of' -- 0.010sec -- 103.7tps
+[PROMPT 4] [TOKEN 287] ' adventure' -- 0.010sec -- 103.7tps
+[PROMPT 4] [TOKEN 288] '.\n\n' -- 0.010sec -- 103.0tps
+[PROMPT 4] [TOKEN 289] 'I' -- 0.010sec -- 104.0tps
+[PROMPT 4] [TOKEN 290] "'ll" -- 0.010sec -- 103.0tps
+[PROMPT 4] [TOKEN 291] ' be' -- 0.010sec -- 103.3tps
+[PROMPT 4] [TOKEN 292] ' back' -- 0.010sec -- 103.0tps
+[PROMPT 4] [TOKEN 293] ' soon' -- 0.010sec -- 103.7tps
+[PROMPT 4] [TOKEN 294] ',' -- 0.010sec -- 102.7tps
+[PROMPT 4] [TOKEN 295] ' and' -- 0.010sec -- 103.2tps
+[PROMPT 4] [TOKEN 296] ' I' -- 0.010sec -- 103.0tps
+[PROMPT 4] [TOKEN 297] ' promise' -- 0.010sec -- 103.7tps
+[PROMPT 4] [TOKEN 298] ' to' -- 0.010sec -- 97.7tps
+[PROMPT 4] [TOKEN 299] ' bring' -- 0.010sec -- 97.4tps
+[PROMPT 4] [TOKEN 300] ' back' -- 0.010sec -- 96.2tps
+[PROMPT 4] [TOKEN 301] ' some' -- 0.010sec -- 97.3tps
+[PROMPT 4] [TOKEN 302] ' amazing' -- 0.010sec -- 97.5tps
+[PROMPT 4] [TOKEN 303] ' stories' -- 0.010sec -- 96.7tps
+[PROMPT 4] [TOKEN 304] ' and' -- 0.010sec -- 96.1tps
+[PROMPT 4] [TOKEN 305] ' photos' -- 0.010sec -- 96.7tps
+[PROMPT 4] [TOKEN 306] ' to' -- 0.010sec -- 96.4tps
+[PROMPT 4] [TOKEN 307] ' share' -- 0.010sec -- 95.7tps
+[PROMPT 4] [TOKEN 308] ' with' -- 0.010sec -- 96.5tps
+[PROMPT 4] [TOKEN 309] ' you' -- 0.010sec -- 96.6tps
+[PROMPT 4] [TOKEN 310] '.' -- 0.010sec -- 95.7tps
+[PROMPT 4] [TOKEN 311] ' Until' -- 0.010sec -- 95.9tps
+[PROMPT 4] [TOKEN 312] ' then' -- 0.010sec -- 95.6tps
+[PROMPT 4] [TOKEN 313] ',' -- 0.010sec -- 96.0tps
+[PROMPT 4] [TOKEN 314] ' know' -- 0.010sec -- 95.7tps
+[PROMPT 4] [TOKEN 315] ' that' -- 0.010sec -- 95.4tps
+[PROMPT 4] [TOKEN 316] ' I' -- 0.011sec -- 95.0tps
+[PROMPT 4] [TOKEN 317] "'m" -- 0.010sec -- 95.9tps
+[PROMPT 4] [TOKEN 318] ' thinking' -- 0.011sec -- 94.9tps
+[PROMPT 4] [TOKEN 319] ' of' -- 0.011sec -- 94.4tps
+[PROMPT 4] [TOKEN 320] ' you' -- 0.011sec -- 95.1tps
+[PROMPT 4] [TOKEN 321] ' all' -- 0.011sec -- 95.1tps
+[PROMPT 4] [TOKEN 322] ' and' -- 0.011sec -- 94.0tps
+[PROMPT 4] [TOKEN 323] ' sending' -- 0.011sec -- 95.1tps
+[PROMPT 4] [TOKEN 324] ' all' -- 0.011sec -- 93.2tps
+[PROMPT 4] [TOKEN 325] ' my' -- 0.011sec -- 94.9tps
+[PROMPT 4] [TOKEN 326] ' love' -- 0.011sec -- 93.8tps
+[PROMPT 4] [TOKEN 327] '.\n\n' -- 0.011sec -- 94.4tps
+[PROMPT 4] [TOKEN 328] 'With' -- 0.011sec -- 94.2tps
+[PROMPT 4] [TOKEN 329] ' love' -- 0.011sec -- 95.0tps
+[PROMPT 4] [TOKEN 330] ',\n' -- 0.011sec -- 93.4tps
+[PROMPT 4] [TOKEN 331] '[' -- 0.011sec -- 93.9tps
+[PROMPT 4] [TOKEN 332] 'Your' -- 0.011sec -- 93.0tps
+[PROMPT 4] [TOKEN 333] ' Name' -- 0.011sec -- 93.2tps
+[PROMPT 4] [TOKEN 334] ']' -- 0.011sec -- 93.0tps
+[PROMPT 4] [TOKEN 335] '<|eot_id|>' -- 0.011sec -- 88.8tps
+[TOKENS] tensor([128000, 128006,    882, 128007,    198,   8144,    264,   6661,    505,
+           264,  16700,  11323,    655,    311,    872,   3070,   1203,   2162,
+            13, 128009, 128006,  78191, 128007,    198,   8586,    374,    264,
+          6661,    505,    264,  16700,  11323,    655,    311,    872,   3070,
+          1203,   2162,   1473,  31765,  12517,   3638,     40,   3987,    420,
+          6661,  14035,    499,    682,   1664,     13,    358,   1440,    433,
+           596,   1027,    264,   1418,   2533,    358,   1566,   6267,     11,
+           719,    358,   4934,    311,   1935,    264,   4545,    311,   1095,
+           499,   1440,    430,    358,   2846,   6220,    323,   5222,    389,
+           279,  16700,     13,    578,  26438,    574,    264,   2766,    810,
+         17436,   1109,    358,   3685,     11,    719,    279,   6325,    505,
+           279,   1948,   1051,  57192,    382,     40,   3077,   1027,    709,
+          1618,    369,    264,   2478,   2919,   1457,     11,    323,    358,
+          3077,   1027,   1645,    566,  79448,    311,    279,  36958,     13,
+          1102,    596,   1027,    264,   2766,    315,    264,  14993,     11,
+           719,    358,   2846,  18646,     13,    578,   3805,    374,  65355,
+            11,    323,    856,   2547,    374,  43468,    311,    279,   4827,
+         24463,   5990,     13,    358,   3077,   1027,   4737,    433,   4228,
+           323,  41219,    994,    358,   1205,    311,     11,    719,    358,
+          2846,   8430,  16643,   1475,   1938,    382,    791,  51331,   1618,
+           374,  15400,     13,    578,  24405,    527,  87794,   3485,    757,
+            11,    323,    279,  86497,   3770,    527,  58367,    323,   6307,
+            13,    358,   3077,   3970,   1063,   8056,  30405,     11,   2737,
+           264,   2478,  39149,    323,    264,   6857,    315,  79340,    645,
+            13,    578,   5222,    315,    279,  10160,    323,    279,  23941,
+          2785,    315,    279,  11141,    374,  65464,     11,    323,    358,
+          2733,   1093,    358,   2846,    304,    264,   2204,   1917,    382,
+            40,   3077,   1027,   7422,    922,    499,    682,    264,   2763,
+         31445,     11,    323,    358,   6562,    358,   1436,    387,   1070,
+           311,   4430,    279,   3217,    449,    499,     13,   2030,    358,
+          1440,    430,    358,   2846,   3815,    420,    369,    603,     11,
+           369,   1057,   3070,     11,    323,    369,   7182,     13,    358,
+          1390,    311,   4585,   7182,    311,    502,  36394,     11,    311,
+          1518,   1148,    358,   2846,  13171,    315,     11,    323,    311,
+          3217,    279,  54904,    315,  18427,    382,     40,   3358,    387,
+          1203,   5246,     11,    323,    358,  11471,    311,   4546,   1203,
+          1063,   8056,   7493,    323,   7397,    311,   4430,    449,    499,
+            13,  30070,   1243,     11,   1440,    430,    358,   2846,   7422,
+           315,    499,    682,    323,  11889,    682,    856,   3021,    382,
+          2409,   3021,    345,     58,   7927,   4076,     60, 128009],
+       device='cuda:0')
+[PROMPT 5] [TOKEN 1] 'Welcome' -- 0.006sec -- 154.9tps
+[PROMPT 5] [TOKEN 2] ' to' -- 0.006sec -- 158.3tps
+[PROMPT 5] [TOKEN 3] ' the' -- 0.006sec -- 157.3tps
+[PROMPT 5] [TOKEN 4] ' world' -- 0.007sec -- 152.1tps
+[PROMPT 5] [TOKEN 5] ' of' -- 0.006sec -- 160.8tps
+[PROMPT 5] [TOKEN 6] ' Ten' -- 0.006sec -- 157.7tps
+[PROMPT 5] [TOKEN 7] 'ria' -- 0.006sec -- 155.7tps
+[PROMPT 5] [TOKEN 8] ',' -- 0.006sec -- 158.4tps
+[PROMPT 5] [TOKEN 9] ' a' -- 0.006sec -- 154.5tps
+[PROMPT 5] [TOKEN 10] ' realm' -- 0.006sec -- 156.4tps
+[PROMPT 5] [TOKEN 11] ' of' -- 0.006sec -- 154.3tps
+[PROMPT 5] [TOKEN 12] ' wonder' -- 0.007sec -- 144.7tps
+[PROMPT 5] [TOKEN 13] ' and' -- 0.006sec -- 157.4tps
+[PROMPT 5] [TOKEN 14] ' magic' -- 0.006sec -- 163.1tps
+[PROMPT 5] [TOKEN 15] ',' -- 0.006sec -- 161.8tps
+[PROMPT 5] [TOKEN 16] ' where' -- 0.006sec -- 158.4tps
+[PROMPT 5] [TOKEN 17] ' the' -- 0.007sec -- 150.4tps
+[PROMPT 5] [TOKEN 18] ' fabric' -- 0.006sec -- 156.8tps
+[PROMPT 5] [TOKEN 19] ' of' -- 0.006sec -- 158.0tps
+[PROMPT 5] [TOKEN 20] ' reality' -- 0.007sec -- 153.3tps
+[PROMPT 5] [TOKEN 21] ' is' -- 0.006sec -- 157.0tps
+[PROMPT 5] [TOKEN 22] ' woven' -- 0.006sec -- 156.1tps
+[PROMPT 5] [TOKEN 23] ' with' -- 0.006sec -- 158.1tps
+[PROMPT 5] [TOKEN 24] ' the' -- 0.007sec -- 148.2tps
+[PROMPT 5] [TOKEN 25] ' threads' -- 0.007sec -- 148.1tps
+[PROMPT 5] [TOKEN 26] ' of' -- 0.007sec -- 149.5tps
+[PROMPT 5] [TOKEN 27] ' ancient' -- 0.006sec -- 158.2tps
+[PROMPT 5] [TOKEN 28] ' lore' -- 0.006sec -- 159.7tps
+[PROMPT 5] [TOKEN 29] ' and' -- 0.006sec -- 159.8tps
+[PROMPT 5] [TOKEN 30] ' forgotten' -- 0.006sec -- 161.7tps
+[PROMPT 5] [TOKEN 31] ' knowledge' -- 0.006sec -- 167.7tps
+[PROMPT 5] [TOKEN 32] '.' -- 0.006sec -- 166.7tps
+[PROMPT 5] [TOKEN 33] ' Ten' -- 0.006sec -- 168.3tps
+[PROMPT 5] [TOKEN 34] 'ria' -- 0.006sec -- 168.0tps
+[PROMPT 5] [TOKEN 35] ' is' -- 0.006sec -- 168.7tps
+[PROMPT 5] [TOKEN 36] ' a' -- 0.006sec -- 168.4tps
+[PROMPT 5] [TOKEN 37] ' land' -- 0.006sec -- 169.7tps
+[PROMPT 5] [TOKEN 38] ' of' -- 0.006sec -- 166.6tps
+[PROMPT 5] [TOKEN 39] ' diverse' -- 0.006sec -- 166.4tps
+[PROMPT 5] [TOKEN 40] ' landscapes' -- 0.006sec -- 166.9tps
+[PROMPT 5] [TOKEN 41] ',' -- 0.006sec -- 166.5tps
+[PROMPT 5] [TOKEN 42] ' from' -- 0.006sec -- 163.7tps
+[PROMPT 5] [TOKEN 43] ' the' -- 0.006sec -- 166.9tps
+[PROMPT 5] [TOKEN 44] ' sc' -- 0.006sec -- 165.9tps
+[PROMPT 5] [TOKEN 45] 'orch' -- 0.006sec -- 163.4tps
+[PROMPT 5] [TOKEN 46] 'ing' -- 0.006sec -- 161.0tps
+[PROMPT 5] [TOKEN 47] ' des' -- 0.006sec -- 163.3tps
+[PROMPT 5] [TOKEN 48] 'erts' -- 0.006sec -- 160.9tps
+[PROMPT 5] [TOKEN 49] ' of' -- 0.006sec -- 166.2tps
+[PROMPT 5] [TOKEN 50] ' the' -- 0.006sec -- 165.2tps
+[PROMPT 5] [TOKEN 51] ' A' -- 0.006sec -- 163.0tps
+[PROMPT 5] [TOKEN 52] 'eth' -- 0.006sec -- 161.6tps
+[PROMPT 5] [TOKEN 53] 'ers' -- 0.006sec -- 161.3tps
+[PROMPT 5] [TOKEN 54] 'ands' -- 0.006sec -- 165.2tps
+[PROMPT 5] [TOKEN 55] ' to' -- 0.006sec -- 162.4tps
+[PROMPT 5] [TOKEN 56] ' the' -- 0.006sec -- 162.1tps
+[PROMPT 5] [TOKEN 57] ' lush' -- 0.006sec -- 163.9tps
+[PROMPT 5] [TOKEN 58] ' forests' -- 0.006sec -- 164.4tps
+[PROMPT 5] [TOKEN 59] ' of' -- 0.006sec -- 164.5tps
+[PROMPT 5] [TOKEN 60] ' the' -- 0.006sec -- 166.7tps
+[PROMPT 5] [TOKEN 61] ' El' -- 0.006sec -- 164.9tps
+[PROMPT 5] [TOKEN 62] "'" -- 0.006sec -- 160.9tps
+[PROMPT 5] [TOKEN 63] 'gor' -- 0.006sec -- 161.8tps
+[PROMPT 5] [TOKEN 64] 'in' -- 0.006sec -- 163.0tps
+[PROMPT 5] [TOKEN 65] ',' -- 0.006sec -- 161.1tps
+[PROMPT 5] [TOKEN 66] ' and' -- 0.006sec -- 163.4tps
+[PROMPT 5] [TOKEN 67] ' from' -- 0.006sec -- 161.1tps
+[PROMPT 5] [TOKEN 68] ' the' -- 0.006sec -- 160.9tps
+[PROMPT 5] [TOKEN 69] ' snow' -- 0.006sec -- 162.3tps
+[PROMPT 5] [TOKEN 70] '-c' -- 0.006sec -- 160.0tps
+[PROMPT 5] [TOKEN 71] 'apped' -- 0.006sec -- 166.0tps
+[PROMPT 5] [TOKEN 72] ' mountains' -- 0.006sec -- 161.1tps
+[PROMPT 5] [TOKEN 73] ' of' -- 0.006sec -- 163.7tps
+[PROMPT 5] [TOKEN 74] ' the' -- 0.006sec -- 163.8tps
+[PROMPT 5] [TOKEN 75] ' Ky' -- 0.006sec -- 165.7tps
+[PROMPT 5] [TOKEN 76] 're' -- 0.006sec -- 162.4tps
+[PROMPT 5] [TOKEN 77] 'xi' -- 0.006sec -- 161.3tps
+[PROMPT 5] [TOKEN 78] ' to' -- 0.006sec -- 164.6tps
+[PROMPT 5] [TOKEN 79] ' the' -- 0.006sec -- 161.0tps
+[PROMPT 5] [TOKEN 80] ' mystical' -- 0.006sec -- 162.0tps
+[PROMPT 5] [TOKEN 81] ' sw' -- 0.006sec -- 157.9tps
+[PROMPT 5] [TOKEN 82] 'amps' -- 0.006sec -- 163.9tps
+[PROMPT 5] [TOKEN 83] ' of' -- 0.006sec -- 163.1tps
+[PROMPT 5] [TOKEN 84] ' the' -- 0.006sec -- 159.1tps
+[PROMPT 5] [TOKEN 85] ' Z' -- 0.006sec -- 163.5tps
+[PROMPT 5] [TOKEN 86] 'ha' -- 0.006sec -- 158.2tps
+[PROMPT 5] [TOKEN 87] "'t" -- 0.006sec -- 163.5tps
+[PROMPT 5] [TOKEN 88] 'h' -- 0.006sec -- 162.0tps
+[PROMPT 5] [TOKEN 89] 'ik' -- 0.006sec -- 159.4tps
+[PROMPT 5] [TOKEN 90] '.\n\n' -- 0.006sec -- 162.1tps
+[PROMPT 5] [TOKEN 91] '**' -- 0.006sec -- 162.4tps
+[PROMPT 5] [TOKEN 92] 'The' -- 0.006sec -- 163.9tps
+[PROMPT 5] [TOKEN 93] ' Magic' -- 0.006sec -- 162.8tps
+[PROMPT 5] [TOKEN 94] ' System' -- 0.006sec -- 163.1tps
+[PROMPT 5] [TOKEN 95] ':' -- 0.006sec -- 162.2tps
+[PROMPT 5] [TOKEN 96] '**\n\n' -- 0.006sec -- 164.7tps
+[PROMPT 5] [TOKEN 97] 'In' -- 0.006sec -- 161.3tps
+[PROMPT 5] [TOKEN 98] ' Ten' -- 0.006sec -- 162.4tps
+[PROMPT 5] [TOKEN 99] 'ria' -- 0.007sec -- 137.6tps
+[PROMPT 5] [TOKEN 100] ',' -- 0.006sec -- 158.2tps
+[PROMPT 5] [TOKEN 101] ' magic' -- 0.006sec -- 163.9tps
+[PROMPT 5] [TOKEN 102] ' is' -- 0.006sec -- 161.1tps
+[PROMPT 5] [TOKEN 103] ' fueled' -- 0.006sec -- 165.2tps
+[PROMPT 5] [TOKEN 104] ' by' -- 0.006sec -- 164.0tps
+[PROMPT 5] [TOKEN 105] ' the' -- 0.006sec -- 159.1tps
+[PROMPT 5] [TOKEN 106] ' five' -- 0.007sec -- 146.9tps
+[PROMPT 5] [TOKEN 107] ' elements' -- 0.006sec -- 159.0tps
+[PROMPT 5] [TOKEN 108] ':' -- 0.006sec -- 164.4tps
+[PROMPT 5] [TOKEN 109] ' A' -- 0.006sec -- 160.1tps
+[PROMPT 5] [TOKEN 110] 'eth' -- 0.006sec -- 160.5tps
+[PROMPT 5] [TOKEN 111] 'on' -- 0.006sec -- 158.7tps
+[PROMPT 5] [TOKEN 112] ' (' -- 0.006sec -- 159.9tps
+[PROMPT 5] [TOKEN 113] 'air' -- 0.006sec -- 159.4tps
+[PROMPT 5] [TOKEN 114] '),' -- 0.007sec -- 150.8tps
+[PROMPT 5] [TOKEN 115] ' E' -- 0.007sec -- 153.1tps
+[PROMPT 5] [TOKEN 116] 'ly' -- 0.006sec -- 159.7tps
+[PROMPT 5] [TOKEN 117] 'ria' -- 0.007sec -- 141.8tps
+[PROMPT 5] [TOKEN 118] ' (' -- 0.006sec -- 154.9tps
+[PROMPT 5] [TOKEN 119] 'earth' -- 0.007sec -- 145.9tps
+[PROMPT 5] [TOKEN 120] '),' -- 0.006sec -- 155.4tps
+[PROMPT 5] [TOKEN 121] ' Ky' -- 0.006sec -- 157.3tps
+[PROMPT 5] [TOKEN 122] 're' -- 0.006sec -- 158.0tps
+[PROMPT 5] [TOKEN 123] 'xi' -- 0.006sec -- 158.5tps
+[PROMPT 5] [TOKEN 124] ' (' -- 0.007sec -- 150.7tps
+[PROMPT 5] [TOKEN 125] 'fire' -- 0.007sec -- 144.2tps
+[PROMPT 5] [TOKEN 126] '),' -- 0.006sec -- 157.5tps
+[PROMPT 5] [TOKEN 127] ' N' -- 0.006sec -- 155.8tps
+[PROMPT 5] [TOKEN 128] 'ef' -- 0.006sec -- 157.4tps
+[PROMPT 5] [TOKEN 129] 'aria' -- 0.006sec -- 158.0tps
+[PROMPT 5] [TOKEN 130] ' (' -- 0.006sec -- 157.6tps
+[PROMPT 5] [TOKEN 131] 'water' -- 0.006sec -- 156.3tps
+[PROMPT 5] [TOKEN 132] '),' -- 0.006sec -- 156.6tps
+[PROMPT 5] [TOKEN 133] ' and' -- 0.006sec -- 156.9tps
+[PROMPT 5] [TOKEN 134] ' Z' -- 0.006sec -- 156.4tps
+[PROMPT 5] [TOKEN 135] 'ha' -- 0.006sec -- 156.4tps
+[PROMPT 5] [TOKEN 136] "'t" -- 0.006sec -- 157.1tps
+[PROMPT 5] [TOKEN 137] 'h' -- 0.006sec -- 155.1tps
+[PROMPT 5] [TOKEN 138] 'ik' -- 0.006sec -- 156.3tps
+[PROMPT 5] [TOKEN 139] ' (' -- 0.006sec -- 156.3tps
+[PROMPT 5] [TOKEN 140] 'a' -- 0.006sec -- 155.6tps
+[PROMPT 5] [TOKEN 141] 'ether' -- 0.007sec -- 153.2tps
+[PROMPT 5] [TOKEN 142] ').' -- 0.006sec -- 153.9tps
+[PROMPT 5] [TOKEN 143] ' Each' -- 0.007sec -- 153.2tps
+[PROMPT 5] [TOKEN 144] ' element' -- 0.007sec -- 153.5tps
+[PROMPT 5] [TOKEN 145] ' has' -- 0.007sec -- 152.9tps
+[PROMPT 5] [TOKEN 146] ' its' -- 0.007sec -- 153.5tps
+[PROMPT 5] [TOKEN 147] ' own' -- 0.007sec -- 152.0tps
+[PROMPT 5] [TOKEN 148] ' unique' -- 0.007sec -- 152.7tps
+[PROMPT 5] [TOKEN 149] ' properties' -- 0.007sec -- 152.6tps
+[PROMPT 5] [TOKEN 150] ' and' -- 0.007sec -- 151.8tps
+[PROMPT 5] [TOKEN 151] ' reson' -- 0.007sec -- 152.2tps
+[PROMPT 5] [TOKEN 152] 'ances' -- 0.007sec -- 151.3tps
+[PROMPT 5] [TOKEN 153] ',' -- 0.007sec -- 151.2tps
+[PROMPT 5] [TOKEN 154] ' which' -- 0.007sec -- 151.4tps
+[PROMPT 5] [TOKEN 155] ' can' -- 0.007sec -- 151.1tps
+[PROMPT 5] [TOKEN 156] ' be' -- 0.007sec -- 151.9tps
+[PROMPT 5] [TOKEN 157] ' h' -- 0.007sec -- 150.7tps
+[PROMPT 5] [TOKEN 158] 'arn' -- 0.007sec -- 149.8tps
+[PROMPT 5] [TOKEN 159] 'essed' -- 0.007sec -- 149.3tps
+[PROMPT 5] [TOKEN 160] ' and' -- 0.007sec -- 148.9tps
+[PROMPT 5] [TOKEN 161] ' manipulated' -- 0.007sec -- 149.2tps
+[PROMPT 5] [TOKEN 162] ' by' -- 0.007sec -- 148.6tps
+[PROMPT 5] [TOKEN 163] ' skilled' -- 0.007sec -- 148.7tps
+[PROMPT 5] [TOKEN 164] ' m' -- 0.007sec -- 150.7tps
+[PROMPT 5] [TOKEN 165] 'ages' -- 0.007sec -- 150.5tps
+[PROMPT 5] [TOKEN 166] '.\n\n' -- 0.007sec -- 150.5tps
+[PROMPT 5] [TOKEN 167] '**' -- 0.007sec -- 150.2tps
+[PROMPT 5] [TOKEN 168] 'A' -- 0.007sec -- 149.4tps
+[PROMPT 5] [TOKEN 169] 'eth' -- 0.007sec -- 148.8tps
+[PROMPT 5] [TOKEN 170] 'on' -- 0.007sec -- 148.9tps
+[PROMPT 5] [TOKEN 171] ' (' -- 0.007sec -- 141.7tps
+[PROMPT 5] [TOKEN 172] 'Air' -- 0.007sec -- 144.8tps
+[PROMPT 5] [TOKEN 173] '):' -- 0.007sec -- 144.9tps
+[PROMPT 5] [TOKEN 174] '**\n\n' -- 0.007sec -- 144.9tps
+[PROMPT 5] [TOKEN 175] 'A' -- 0.007sec -- 144.3tps
+[PROMPT 5] [TOKEN 176] 'eth' -- 0.007sec -- 144.6tps
+[PROMPT 5] [TOKEN 177] 'on' -- 0.007sec -- 143.9tps
+[PROMPT 5] [TOKEN 178] ' magic' -- 0.007sec -- 144.1tps
+[PROMPT 5] [TOKEN 179] ' is' -- 0.007sec -- 143.5tps
+[PROMPT 5] [TOKEN 180] ' associated' -- 0.007sec -- 143.2tps
+[PROMPT 5] [TOKEN 181] ' with' -- 0.007sec -- 142.1tps
+[PROMPT 5] [TOKEN 182] ' the' -- 0.007sec -- 142.7tps
+[PROMPT 5] [TOKEN 183] ' wind' -- 0.007sec -- 142.7tps
+[PROMPT 5] [TOKEN 184] ',' -- 0.007sec -- 142.0tps
+[PROMPT 5] [TOKEN 185] ' the' -- 0.007sec -- 141.8tps
+[PROMPT 5] [TOKEN 186] ' breath' -- 0.007sec -- 141.3tps
+[PROMPT 5] [TOKEN 187] ' of' -- 0.007sec -- 141.6tps
+[PROMPT 5] [TOKEN 188] ' life' -- 0.007sec -- 142.5tps
+[PROMPT 5] [TOKEN 189] ',' -- 0.007sec -- 141.1tps
+[PROMPT 5] [TOKEN 190] ' and' -- 0.007sec -- 141.2tps
+[PROMPT 5] [TOKEN 191] ' the' -- 0.007sec -- 141.1tps
+[PROMPT 5] [TOKEN 192] ' whispers' -- 0.007sec -- 140.9tps
+[PROMPT 5] [TOKEN 193] ' of' -- 0.007sec -- 139.5tps
+[PROMPT 5] [TOKEN 194] ' the' -- 0.007sec -- 140.0tps
+[PROMPT 5] [TOKEN 195] ' gods' -- 0.007sec -- 140.2tps
+[PROMPT 5] [TOKEN 196] '.' -- 0.007sec -- 140.6tps
+[PROMPT 5] [TOKEN 197] ' It' -- 0.007sec -- 140.1tps
+[PROMPT 5] [TOKEN 198] ' can' -- 0.007sec -- 139.5tps
+[PROMPT 5] [TOKEN 199] ' be' -- 0.007sec -- 139.2tps
+[PROMPT 5] [TOKEN 200] ' used' -- 0.007sec -- 139.7tps
+[PROMPT 5] [TOKEN 201] ' for' -- 0.007sec -- 139.2tps
+[PROMPT 5] [TOKEN 202] ':\n\n' -- 0.007sec -- 138.5tps
+[PROMPT 5] [TOKEN 203] '*' -- 0.007sec -- 139.0tps
+[PROMPT 5] [TOKEN 204] ' Flight' -- 0.007sec -- 139.8tps
+[PROMPT 5] [TOKEN 205] ':' -- 0.007sec -- 138.5tps
+[PROMPT 5] [TOKEN 206] ' M' -- 0.007sec -- 138.2tps
+[PROMPT 5] [TOKEN 207] 'ages' -- 0.007sec -- 138.4tps
+[PROMPT 5] [TOKEN 208] ' can' -- 0.007sec -- 138.8tps
+[PROMPT 5] [TOKEN 209] ' create' -- 0.007sec -- 138.0tps
+[PROMPT 5] [TOKEN 210] ' powerful' -- 0.007sec -- 138.1tps
+[PROMPT 5] [TOKEN 211] ' gust' -- 0.007sec -- 137.5tps
+[PROMPT 5] [TOKEN 212] 's' -- 0.007sec -- 138.7tps
+[PROMPT 5] [TOKEN 213] ' of' -- 0.007sec -- 136.9tps
+[PROMPT 5] [TOKEN 214] ' wind' -- 0.007sec -- 137.6tps
+[PROMPT 5] [TOKEN 215] ' to' -- 0.007sec -- 137.0tps
+[PROMPT 5] [TOKEN 216] ' lift' -- 0.007sec -- 137.1tps
+[PROMPT 5] [TOKEN 217] ' themselves' -- 0.007sec -- 135.8tps
+[PROMPT 5] [TOKEN 218] ' or' -- 0.007sec -- 136.9tps
+[PROMPT 5] [TOKEN 219] ' others' -- 0.007sec -- 136.5tps
+[PROMPT 5] [TOKEN 220] ' into' -- 0.007sec -- 137.6tps
+[PROMPT 5] [TOKEN 221] ' the' -- 0.007sec -- 136.6tps
+[PROMPT 5] [TOKEN 222] ' air' -- 0.007sec -- 136.3tps
+[PROMPT 5] [TOKEN 223] '.\n' -- 0.007sec -- 135.2tps
+[PROMPT 5] [TOKEN 224] '*' -- 0.007sec -- 137.0tps
+[PROMPT 5] [TOKEN 225] ' Elemental' -- 0.007sec -- 136.0tps
+[PROMPT 5] [TOKEN 226] ' manipulation' -- 0.007sec -- 135.6tps
+[PROMPT 5] [TOKEN 227] ':' -- 0.007sec -- 136.2tps
+[PROMPT 5] [TOKEN 228] ' A' -- 0.007sec -- 136.5tps
+[PROMPT 5] [TOKEN 229] 'eth' -- 0.007sec -- 135.7tps
+[PROMPT 5] [TOKEN 230] 'on' -- 0.007sec -- 135.2tps
+[PROMPT 5] [TOKEN 231] ' m' -- 0.007sec -- 134.2tps
+[PROMPT 5] [TOKEN 232] 'ages' -- 0.007sec -- 135.4tps
+[PROMPT 5] [TOKEN 233] ' can' -- 0.007sec -- 134.5tps
+[PROMPT 5] [TOKEN 234] ' control' -- 0.007sec -- 134.8tps
+[PROMPT 5] [TOKEN 235] ' the' -- 0.007sec -- 135.0tps
+[PROMPT 5] [TOKEN 236] ' winds' -- 0.007sec -- 135.7tps
+[PROMPT 5] [TOKEN 237] ' to' -- 0.008sec -- 118.8tps
+[PROMPT 5] [TOKEN 238] ' create' -- 0.008sec -- 118.9tps
+[PROMPT 5] [TOKEN 239] ' powerful' -- 0.008sec -- 118.1tps
+[PROMPT 5] [TOKEN 240] ' gust' -- 0.008sec -- 118.4tps
+[PROMPT 5] [TOKEN 241] 's' -- 0.008sec -- 118.0tps
+[PROMPT 5] [TOKEN 242] ',' -- 0.008sec -- 118.9tps
+[PROMPT 5] [TOKEN 243] ' whirl' -- 0.008sec -- 118.2tps
+[PROMPT 5] [TOKEN 244] 'w' -- 0.008sec -- 119.1tps
+[PROMPT 5] [TOKEN 245] 'inds' -- 0.008sec -- 117.9tps
+[PROMPT 5] [TOKEN 246] ',' -- 0.008sec -- 118.0tps
+[PROMPT 5] [TOKEN 247] ' or' -- 0.009sec -- 117.3tps
+[PROMPT 5] [TOKEN 248] ' even' -- 0.008sec -- 118.0tps
+[PROMPT 5] [TOKEN 249] ' conj' -- 0.009sec -- 116.9tps
+[PROMPT 5] [TOKEN 250] 'ure' -- 0.009sec -- 117.4tps
+[PROMPT 5] [TOKEN 251] ' storms' -- 0.009sec -- 116.6tps
+[PROMPT 5] [TOKEN 252] '.\n' -- 0.008sec -- 117.9tps
+[PROMPT 5] [TOKEN 253] '*' -- 0.009sec -- 116.1tps
+[PROMPT 5] [TOKEN 254] ' Healing' -- 0.009sec -- 116.8tps
+[PROMPT 5] [TOKEN 255] ':' -- 0.009sec -- 116.4tps
+[PROMPT 5] [TOKEN 256] ' A' -- 0.009sec -- 116.7tps
+[PROMPT 5] [TOKEN 257] 'eth' -- 0.009sec -- 114.9tps
+[PROMPT 5] [TOKEN 258] 'on' -- 0.009sec -- 116.6tps
+[PROMPT 5] [TOKEN 259] ' magic' -- 0.009sec -- 116.2tps
+[PROMPT 5] [TOKEN 260] ' can' -- 0.009sec -- 117.1tps
+[PROMPT 5] [TOKEN 261] ' be' -- 0.009sec -- 115.2tps
+[PROMPT 5] [TOKEN 262] ' used' -- 0.009sec -- 116.0tps
+[PROMPT 5] [TOKEN 263] ' to' -- 0.009sec -- 115.6tps
+[PROMPT 5] [TOKEN 264] ' accelerate' -- 0.009sec -- 115.8tps
+[PROMPT 5] [TOKEN 265] ' the' -- 0.009sec -- 108.5tps
+[PROMPT 5] [TOKEN 266] ' healing' -- 0.009sec -- 108.2tps
+[PROMPT 5] [TOKEN 267] ' process' -- 0.009sec -- 108.7tps
+[PROMPT 5] [TOKEN 268] ',' -- 0.009sec -- 109.1tps
+[PROMPT 5] [TOKEN 269] ' mend' -- 0.009sec -- 106.8tps
+[PROMPT 5] [TOKEN 270] ' wounds' -- 0.009sec -- 107.1tps
+[PROMPT 5] [TOKEN 271] ',' -- 0.009sec -- 106.6tps
+[PROMPT 5] [TOKEN 272] ' and' -- 0.009sec -- 106.8tps
+[PROMPT 5] [TOKEN 273] ' even' -- 0.009sec -- 106.1tps
+[PROMPT 5] [TOKEN 274] ' pur' -- 0.009sec -- 106.6tps
+[PROMPT 5] [TOKEN 275] 'ify' -- 0.009sec -- 106.3tps
+[PROMPT 5] [TOKEN 276] ' the' -- 0.009sec -- 106.7tps
+[PROMPT 5] [TOKEN 277] ' air' -- 0.009sec -- 105.8tps
+[PROMPT 5] [TOKEN 278] '.\n\n' -- 0.009sec -- 106.1tps
+[PROMPT 5] [TOKEN 279] '**' -- 0.009sec -- 105.7tps
+[PROMPT 5] [TOKEN 280] 'E' -- 0.009sec -- 105.7tps
+[PROMPT 5] [TOKEN 281] 'ly' -- 0.009sec -- 105.8tps
+[PROMPT 5] [TOKEN 282] 'ria' -- 0.009sec -- 106.0tps
+[PROMPT 5] [TOKEN 283] ' (' -- 0.009sec -- 105.3tps
+[PROMPT 5] [TOKEN 284] 'Earth' -- 0.009sec -- 105.8tps
+[PROMPT 5] [TOKEN 285] '):' -- 0.010sec -- 104.8tps
+[PROMPT 5] [TOKEN 286] '**\n\n' -- 0.009sec -- 105.3tps
+[PROMPT 5] [TOKEN 287] 'E' -- 0.010sec -- 105.0tps
+[PROMPT 5] [TOKEN 288] 'ly' -- 0.009sec -- 105.4tps
+[PROMPT 5] [TOKEN 289] 'ria' -- 0.010sec -- 104.2tps
+[PROMPT 5] [TOKEN 290] ' magic' -- 0.010sec -- 103.9tps
+[PROMPT 5] [TOKEN 291] ' is' -- 0.010sec -- 103.9tps
+[PROMPT 5] [TOKEN 292] ' connected' -- 0.010sec -- 104.8tps
+[PROMPT 5] [TOKEN 293] ' to' -- 0.010sec -- 103.3tps
+[PROMPT 5] [TOKEN 294] ' the' -- 0.010sec -- 103.9tps
+[PROMPT 5] [TOKEN 295] ' land' -- 0.010sec -- 103.5tps
+[PROMPT 5] [TOKEN 296] ',' -- 0.010sec -- 103.7tps
+[PROMPT 5] [TOKEN 297] ' the' -- 0.010sec -- 103.2tps
+[PROMPT 5] [TOKEN 298] ' roots' -- 0.010sec -- 103.3tps
+[PROMPT 5] [TOKEN 299] ' of' -- 0.010sec -- 103.0tps
+[PROMPT 5] [TOKEN 300] ' the' -- 0.010sec -- 104.3tps
+[PROMPT 5] [TOKEN 301] ' earth' -- 0.010sec -- 97.3tps
+[PROMPT 5] [TOKEN 302] ',' -- 0.010sec -- 97.0tps
+[PROMPT 5] [TOKEN 303] ' and' -- 0.010sec -- 96.3tps
+[PROMPT 5] [TOKEN 304] ' the' -- 0.010sec -- 97.2tps
+[PROMPT 5] [TOKEN 305] ' pulse' -- 0.010sec -- 97.7tps
+[PROMPT 5] [TOKEN 306] ' of' -- 0.010sec -- 96.7tps
+[PROMPT 5] [TOKEN 307] ' the' -- 0.010sec -- 96.0tps
+[PROMPT 5] [TOKEN 308] ' planet' -- 0.010sec -- 96.1tps
+[PROMPT 5] [TOKEN 309] '.' -- 0.010sec -- 96.4tps
+[PROMPT 5] [TOKEN 310] ' It' -- 0.010sec -- 95.8tps
+[PROMPT 5] [TOKEN 311] ' can' -- 0.010sec -- 96.1tps
+[PROMPT 5] [TOKEN 312] ' be' -- 0.010sec -- 95.6tps
+[PROMPT 5] [TOKEN 313] ' used' -- 0.010sec -- 95.4tps
+[PROMPT 5] [TOKEN 314] ' for' -- 0.010sec -- 95.6tps
+[PROMPT 5] [TOKEN 315] ':\n\n' -- 0.010sec -- 95.4tps
+[PROMPT 5] [TOKEN 316] '*' -- 0.010sec -- 95.8tps
+[PROMPT 5] [TOKEN 317] ' Ge' -- 0.010sec -- 95.5tps
+[PROMPT 5] [TOKEN 318] 'om' -- 0.011sec -- 94.9tps
+[PROMPT 5] [TOKEN 319] 'ancy' -- 0.011sec -- 94.8tps
+[PROMPT 5] [TOKEN 320] ':' -- 0.011sec -- 95.1tps
+[PROMPT 5] [TOKEN 321] ' E' -- 0.011sec -- 94.4tps
+[PROMPT 5] [TOKEN 322] 'ly' -- 0.011sec -- 94.2tps
+[PROMPT 5] [TOKEN 323] 'ria' -- 0.011sec -- 95.2tps
+[PROMPT 5] [TOKEN 324] ' m' -- 0.010sec -- 95.4tps
+[PROMPT 5] [TOKEN 325] 'ages' -- 0.011sec -- 94.5tps
+[PROMPT 5] [TOKEN 326] ' can' -- 0.011sec -- 94.8tps
+[PROMPT 5] [TOKEN 327] ' sense' -- 0.011sec -- 94.0tps
+[PROMPT 5] [TOKEN 328] ' the' -- 0.011sec -- 94.0tps
+[PROMPT 5] [TOKEN 329] ' hidden' -- 0.011sec -- 94.1tps
+[PROMPT 5] [TOKEN 330] ' patterns' -- 0.011sec -- 93.6tps
+[PROMPT 5] [TOKEN 331] ' of' -- 0.011sec -- 93.6tps
+[PROMPT 5] [TOKEN 332] ' the' -- 0.011sec -- 94.4tps
+[PROMPT 5] [TOKEN 333] ' earth' -- 0.011sec -- 92.9tps
+[PROMPT 5] [TOKEN 334] ',' -- 0.011sec -- 93.7tps
+[PROMPT 5] [TOKEN 335] ' predict' -- 0.011sec -- 92.3tps
+[PROMPT 5] [TOKEN 336] ' earthquakes' -- 0.011sec -- 92.1tps
+[PROMPT 5] [TOKEN 337] ',' -- 0.011sec -- 91.6tps
+[PROMPT 5] [TOKEN 338] ' and' -- 0.011sec -- 91.7tps
+[PROMPT 5] [TOKEN 339] ' even' -- 0.011sec -- 91.9tps
+[PROMPT 5] [TOKEN 340] ' manipulate' -- 0.011sec -- 93.1tps
+[PROMPT 5] [TOKEN 341] ' the' -- 0.011sec -- 91.7tps
+[PROMPT 5] [TOKEN 342] ' earth' -- 0.011sec -- 92.1tps
+[PROMPT 5] [TOKEN 343] "'s" -- 0.011sec -- 91.5tps
+[PROMPT 5] [TOKEN 344] ' structure' -- 0.011sec -- 91.1tps
+[PROMPT 5] [TOKEN 345] '.\n' -- 0.011sec -- 89.8tps
+[PROMPT 5] [TOKEN 346] '*' -- 0.011sec -- 89.7tps
+[PROMPT 5] [TOKEN 347] ' Sh' -- 0.011sec -- 90.5tps
+[PROMPT 5] [TOKEN 348] 'aping' -- 0.011sec -- 91.6tps
+[PROMPT 5] [TOKEN 349] ':' -- 0.011sec -- 91.0tps
+[PROMPT 5] [TOKEN 350] ' E' -- 0.011sec -- 90.9tps
+[PROMPT 5] [TOKEN 351] 'ly' -- 0.011sec -- 90.6tps
+[PROMPT 5] [TOKEN 352] 'ria' -- 0.011sec -- 90.9tps
+[PROMPT 5] [TOKEN 353] ' m' -- 0.011sec -- 90.6tps
+[PROMPT 5] [TOKEN 354] 'ages' -- 0.011sec -- 90.5tps
+[PROMPT 5] [TOKEN 355] ' can' -- 0.011sec -- 91.1tps
+[PROMPT 5] [TOKEN 356] ' create' -- 0.011sec -- 91.3tps
+[PROMPT 5] [TOKEN 357] ' structures' -- 0.011sec -- 90.3tps
+[PROMPT 5] [TOKEN 358] ',' -- 0.011sec -- 90.7tps
+[PROMPT 5] [TOKEN 359] ' alter' -- 0.011sec -- 90.1tps
+[PROMPT 5] [TOKEN 360] ' landscapes' -- 0.011sec -- 90.4tps
+[PROMPT 5] [TOKEN 361] ',' -- 0.011sec -- 90.3tps
+[PROMPT 5] [TOKEN 362] ' and' -- 0.011sec -- 89.8tps
+[PROMPT 5] [TOKEN 363] ' even' -- 0.011sec -- 89.9tps
+[PROMPT 5] [TOKEN 364] ' summon' -- 0.011sec -- 90.4tps
+[PROMPT 5] [TOKEN 365] ' b' -- 0.011sec -- 89.0tps
+[PROMPT 5] [TOKEN 366] 'ould' -- 0.012sec -- 80.5tps
+[PROMPT 5] [TOKEN 367] 'ers' -- 0.012sec -- 84.0tps
+[PROMPT 5] [TOKEN 368] ' to' -- 0.012sec -- 81.2tps
+[PROMPT 5] [TOKEN 369] ' do' -- 0.012sec -- 81.5tps
+[PROMPT 5] [TOKEN 370] ' their' -- 0.011sec -- 87.6tps
+[PROMPT 5] [TOKEN 371] ' bidding' -- 0.012sec -- 82.7tps
+[PROMPT 5] [TOKEN 372] '.\n' -- 0.012sec -- 81.4tps
+[PROMPT 5] [TOKEN 373] '*' -- 0.012sec -- 85.8tps
+[PROMPT 5] [TOKEN 374] ' Pur' -- 0.012sec -- 84.4tps
+[PROMPT 5] [TOKEN 375] 'ification' -- 0.012sec -- 82.1tps
+[PROMPT 5] [TOKEN 376] ':' -- 0.011sec -- 87.9tps
+[PROMPT 5] [TOKEN 377] ' E' -- 0.011sec -- 87.5tps
+[PROMPT 5] [TOKEN 378] 'ly' -- 0.011sec -- 87.8tps
+[PROMPT 5] [TOKEN 379] 'ria' -- 0.011sec -- 87.2tps
+[PROMPT 5] [TOKEN 380] ' magic' -- 0.011sec -- 87.9tps
+[PROMPT 5] [TOKEN 381] ' can' -- 0.012sec -- 86.8tps
+[PROMPT 5] [TOKEN 382] ' be' -- 0.012sec -- 86.6tps
+[PROMPT 5] [TOKEN 383] ' used' -- 0.012sec -- 86.7tps
+[PROMPT 5] [TOKEN 384] ' to' -- 0.011sec -- 87.4tps
+[PROMPT 5] [TOKEN 385] ' cleanse' -- 0.012sec -- 86.2tps
+[PROMPT 5] [TOKEN 386] ' the' -- 0.012sec -- 86.2tps
+[PROMPT 5] [TOKEN 387] ' earth' -- 0.012sec -- 85.8tps
+[PROMPT 5] [TOKEN 388] ' of' -- 0.012sec -- 86.4tps
+[PROMPT 5] [TOKEN 389] ' pollutants' -- 0.012sec -- 85.5tps
+[PROMPT 5] [TOKEN 390] ',' -- 0.012sec -- 85.9tps
+[PROMPT 5] [TOKEN 391] ' restore' -- 0.012sec -- 84.9tps
+[PROMPT 5] [TOKEN 392] ' balance' -- 0.012sec -- 85.4tps
+[PROMPT 5] [TOKEN 393] ' to' -- 0.012sec -- 84.9tps
+[PROMPT 5] [TOKEN 394] ' the' -- 0.012sec -- 84.9tps
+[PROMPT 5] [TOKEN 395] ' ecosystem' -- 0.012sec -- 84.6tps
+[PROMPT 5] [TOKEN 396] ',' -- 0.012sec -- 85.3tps
+[PROMPT 5] [TOKEN 397] ' and' -- 0.012sec -- 85.0tps
+[PROMPT 5] [TOKEN 398] ' even' -- 0.012sec -- 84.4tps
+[PROMPT 5] [TOKEN 399] ' pur' -- 0.012sec -- 84.4tps
+[PROMPT 5] [TOKEN 400] 'ify' -- 0.012sec -- 84.1tps
+[PROMPT 5] [TOKEN 401] ' water' -- 0.012sec -- 84.2tps
+[PROMPT 5] [TOKEN 402] '.\n\n' -- 0.012sec -- 84.2tps
+[PROMPT 5] [TOKEN 403] '**' -- 0.012sec -- 83.8tps
+[PROMPT 5] [TOKEN 404] 'K' -- 0.012sec -- 84.2tps
+[PROMPT 5] [TOKEN 405] 'yre' -- 0.012sec -- 83.3tps
+[PROMPT 5] [TOKEN 406] 'xi' -- 0.012sec -- 83.4tps
+[PROMPT 5] [TOKEN 407] ' (' -- 0.012sec -- 83.5tps
+[PROMPT 5] [TOKEN 408] 'Fire' -- 0.012sec -- 83.3tps
+[PROMPT 5] [TOKEN 409] '):' -- 0.012sec -- 82.6tps
+[PROMPT 5] [TOKEN 410] '**\n\n' -- 0.012sec -- 83.2tps
+[PROMPT 5] [TOKEN 411] 'K' -- 0.012sec -- 82.6tps
+[PROMPT 5] [TOKEN 412] 'yre' -- 0.012sec -- 83.1tps
+[PROMPT 5] [TOKEN 413] 'xi' -- 0.012sec -- 82.2tps
+[PROMPT 5] [TOKEN 414] ' magic' -- 0.012sec -- 82.3tps
+[PROMPT 5] [TOKEN 415] ' is' -- 0.012sec -- 80.0tps
+[PROMPT 5] [TOKEN 416] ' associated' -- 0.012sec -- 80.3tps
+[PROMPT 5] [TOKEN 417] ' with' -- 0.013sec -- 80.0tps
+[PROMPT 5] [TOKEN 418] ' the' -- 0.012sec -- 80.0tps
+[PROMPT 5] [TOKEN 419] ' flames' -- 0.013sec -- 79.9tps
+[PROMPT 5] [TOKEN 420] ',' -- 0.013sec -- 79.8tps
+[PROMPT 5] [TOKEN 421] ' the' -- 0.013sec -- 79.3tps
+[PROMPT 5] [TOKEN 422] ' spark' -- 0.013sec -- 79.6tps
+[PROMPT 5] [TOKEN 423] ' of' -- 0.013sec -- 79.4tps
+[PROMPT 5] [TOKEN 424] ' creation' -- 0.013sec -- 79.5tps
+[PROMPT 5] [TOKEN 425] ',' -- 0.013sec -- 79.0tps
+[PROMPT 5] [TOKEN 426] ' and' -- 0.013sec -- 78.8tps
+[PROMPT 5] [TOKEN 427] ' the' -- 0.013sec -- 78.9tps
+[PROMPT 5] [TOKEN 428] ' passion' -- 0.013sec -- 79.3tps
+[PROMPT 5] [TOKEN 429] ' of' -- 0.012sec -- 81.5tps
+[PROMPT 5] [TOKEN 430] ' the' -- 0.012sec -- 81.6tps
+[PROMPT 5] [TOKEN 431] ' gods' -- 0.012sec -- 81.3tps
+[PROMPT 5] [TOKEN 432] '.' -- 0.012sec -- 81.7tps
+[PROMPT 5] [TOKEN 433] ' It' -- 0.012sec -- 81.1tps
+[PROMPT 5] [TOKEN 434] ' can' -- 0.012sec -- 81.3tps
+[PROMPT 5] [TOKEN 435] ' be' -- 0.012sec -- 81.2tps
+[PROMPT 5] [TOKEN 436] ' used' -- 0.012sec -- 81.3tps
+[PROMPT 5] [TOKEN 437] ' for' -- 0.012sec -- 80.9tps
+[PROMPT 5] [TOKEN 438] ':\n\n' -- 0.012sec -- 80.9tps
+[PROMPT 5] [TOKEN 439] '*' -- 0.012sec -- 80.4tps
+[PROMPT 5] [TOKEN 440] ' Py' -- 0.012sec -- 80.5tps
+[PROMPT 5] [TOKEN 441] 'rom' -- 0.012sec -- 80.4tps
+[PROMPT 5] [TOKEN 442] 'ancy' -- 0.012sec -- 80.5tps
+[PROMPT 5] [TOKEN 443] ':' -- 0.012sec -- 80.4tps
+[PROMPT 5] [TOKEN 444] ' Ky' -- 0.012sec -- 80.6tps
+[PROMPT 5] [TOKEN 445] 're' -- 0.013sec -- 79.9tps
+[PROMPT 5] [TOKEN 446] 'xi' -- 0.013sec -- 78.1tps
+[PROMPT 5] [TOKEN 447] ' m' -- 0.013sec -- 75.2tps
+[PROMPT 5] [TOKEN 448] 'ages' -- 0.012sec -- 80.1tps
+[PROMPT 5] [TOKEN 449] ' can' -- 0.013sec -- 79.3tps
+[PROMPT 5] [TOKEN 450] ' control' -- 0.013sec -- 79.5tps
+[PROMPT 5] [TOKEN 451] ' fire' -- 0.013sec -- 79.2tps
+[PROMPT 5] [TOKEN 452] ' to' -- 0.013sec -- 79.7tps
+[PROMPT 5] [TOKEN 453] ' create' -- 0.013sec -- 79.0tps
+[PROMPT 5] [TOKEN 454] ' powerful' -- 0.013sec -- 79.2tps
+[PROMPT 5] [TOKEN 455] ' blasts' -- 0.013sec -- 78.8tps
+[PROMPT 5] [TOKEN 456] ',' -- 0.013sec -- 79.2tps
+[PROMPT 5] [TOKEN 457] ' ignite' -- 0.013sec -- 78.6tps
+[PROMPT 5] [TOKEN 458] ' fl' -- 0.013sec -- 78.8tps
+[PROMPT 5] [TOKEN 459] 'ammable' -- 0.013sec -- 78.6tps
+[PROMPT 5] [TOKEN 460] ' materials' -- 0.013sec -- 78.8tps
+[PROMPT 5] [TOKEN 461] ',' -- 0.013sec -- 78.0tps
+[PROMPT 5] [TOKEN 462] ' or' -- 0.013sec -- 78.0tps
+[PROMPT 5] [TOKEN 463] ' even' -- 0.013sec -- 78.0tps
+[PROMPT 5] [TOKEN 464] ' conj' -- 0.013sec -- 77.9tps
+[PROMPT 5] [TOKEN 465] 'ure' -- 0.013sec -- 77.5tps
+[PROMPT 5] [TOKEN 466] ' flames' -- 0.013sec -- 77.8tps
+[PROMPT 5] [TOKEN 467] ' to' -- 0.013sec -- 77.5tps
+[PROMPT 5] [TOKEN 468] ' pur' -- 0.013sec -- 77.9tps
+[PROMPT 5] [TOKEN 469] 'ify' -- 0.013sec -- 77.1tps
+[PROMPT 5] [TOKEN 470] ' the' -- 0.013sec -- 77.1tps
+[PROMPT 5] [TOKEN 471] ' air' -- 0.013sec -- 77.3tps
+[PROMPT 5] [TOKEN 472] '.\n' -- 0.013sec -- 77.1tps
+[PROMPT 5] [TOKEN 473] '*' -- 0.013sec -- 77.3tps
+[PROMPT 5] [TOKEN 474] ' Pur' -- 0.013sec -- 77.1tps
+[PROMPT 5] [TOKEN 475] 'ification' -- 0.013sec -- 76.6tps
+[PROMPT 5] [TOKEN 476] ':' -- 0.013sec -- 76.5tps
+[PROMPT 5] [TOKEN 477] ' Ky' -- 0.013sec -- 76.1tps
+[PROMPT 5] [TOKEN 478] 're' -- 0.013sec -- 75.8tps
+[PROMPT 5] [TOKEN 479] 'xi' -- 0.013sec -- 75.9tps
+[PROMPT 5] [TOKEN 480] ' magic' -- 0.013sec -- 75.4tps
+[PROMPT 5] [TOKEN 481] ' can' -- 0.013sec -- 75.7tps
+[PROMPT 5] [TOKEN 482] ' be' -- 0.013sec -- 75.4tps
+[PROMPT 5] [TOKEN 483] ' used' -- 0.013sec -- 75.0tps
+[PROMPT 5] [TOKEN 484] ' to' -- 0.013sec -- 75.3tps
+[PROMPT 5] [TOKEN 485] ' pur' -- 0.013sec -- 75.1tps
+[PROMPT 5] [TOKEN 486] 'ify' -- 0.013sec -- 74.8tps
+[PROMPT 5] [TOKEN 487] ' the' -- 0.013sec -- 74.3tps
+[PROMPT 5] [TOKEN 488] ' air' -- 0.013sec -- 74.2tps
+[PROMPT 5] [TOKEN 489] ',' -- 0.014sec -- 74.0tps
+[PROMPT 5] [TOKEN 490] ' cleanse' -- 0.014sec -- 74.1tps
+[PROMPT 5] [TOKEN 491] ' the' -- 0.014sec -- 73.6tps
+[PROMPT 5] [TOKEN 492] ' earth' -- 0.013sec -- 74.1tps
+[PROMPT 5] [TOKEN 493] ' of' -- 0.016sec -- 62.4tps
+[PROMPT 5] [TOKEN 494] ' pollutants' -- 0.016sec -- 62.6tps
+[PROMPT 5] [TOKEN 495] ',' -- 0.016sec -- 62.2tps
+[PROMPT 5] [TOKEN 496] ' and' -- 0.016sec -- 62.4tps
+[PROMPT 5] [TOKEN 497] ' even' -- 0.016sec -- 62.1tps
+[PROMPT 5] [TOKEN 498] ' burn' -- 0.016sec -- 62.2tps
+[PROMPT 5] [TOKEN 499] ' away' -- 0.016sec -- 62.0tps
+[PROMPT 5] [TOKEN 500] ' imp' -- 0.016sec -- 61.8tps
+[TOKENS] tensor([128000, 128006,    882, 128007,    198,   4110,    264,  18884,   1917,
+           449,   5016,  11204,   6067,    323,  20566,     13, 128009, 128006,
+         78191, 128007,    198,  14262,    311,    279,   1917,    315,  18165,
+          4298,     11,    264,  22651,    315,   5895,    323,  11204,     11,
+          1405,    279,  13354,    315,   8903,    374,  56874,    449,    279,
+         14906,    315,  14154,  52322,    323,  25565,   6677,     13,  18165,
+          4298,    374,    264,   4363,    315,  17226,  55890,     11,    505,
+           279,   1156,  22312,    287,    951,  15916,    315,    279,    362,
+           774,    388,   2914,    311,    279,  58367,  36658,    315,    279,
+          4072,      6,   5746,    258,     11,    323,    505,    279,  12056,
+          1824,   5795,  24405,    315,    279,  23727,    265,  11927,    311,
+           279,  69532,   2064,  14989,    315,    279,   1901,   4317,    956,
+            71,   1609,    382,    334,    791,  15852,    744,     25,  57277,
+           644,  18165,   4298,     11,  11204,    374,  59461,    555,    279,
+          4330,   5540,     25,    362,    774,    263,    320,   1334,    705,
+           469,    398,   4298,    320,  28641,    705,  23727,    265,  11927,
+           320,  11029,    705,    452,    830,  10649,    320,  13284,    705,
+           323,   1901,   4317,    956,     71,   1609,    320,     64,   2791,
+           570,   9062,   2449,    706,   1202,   1866,   5016,   6012,    323,
+         29280,   3095,     11,    902,    649,    387,    305,   1923,  22456,
+           323,  55315,    555,  26611,    296,   1154,    382,    334,     32,
+           774,    263,    320,  26777,   1680,  57277,     32,    774,    263,
+         11204,    374,   5938,    449,    279,  10160,     11,    279,  11745,
+           315,   2324,     11,    323,    279,  89248,    315,    279,  29913,
+            13,   1102,    649,    387,   1511,    369,   1473,      9,  27675,
+            25,    386,   1154,    649,   1893,   8147,  30914,     82,    315,
+         10160,    311,  12157,   5694,    477,   3885,   1139,    279,   3805,
+           627,      9,  71738,  34786,     25,    362,    774,    263,    296,
+          1154,    649,   2585,    279,  29592,    311,   1893,   8147,  30914,
+            82,     11,  64783,     86,   8843,     11,    477,   1524,  16898,
+           554,  44583,    627,      9,  49741,     25,    362,    774,    263,
+         11204,    649,    387,   1511,    311,  43880,    279,  21730,   1920,
+            11,  45876,  34254,     11,    323,   1524,   4087,   1463,    279,
+          3805,    382,    334,     36,    398,   4298,    320,  44924,   1680,
+         57277,     36,    398,   4298,  11204,    374,   8599,    311,    279,
+          4363,     11,    279,  20282,    315,    279,   9578,     11,    323,
+           279,  28334,    315,    279,  11841,     13,   1102,    649,    387,
+          1511,    369,   1473,      9,   4323,    316,   6709,     25,    469,
+           398,   4298,    296,   1154,    649,   5647,    279,   8340,  12912,
+           315,    279,   9578,     11,   7168,  66579,     11,    323,   1524,
+         37735,    279,   9578,    596,   6070,    627,      9,   1443,  14550,
+            25,    469,    398,   4298,    296,   1154,    649,   1893,  14726,
+            11,  11857,  55890,     11,    323,   1524,  28645,    293,    619,
+           388,    311,    656,    872,  49500,    627,      9,  14874,   2461,
+            25,    469,    398,   4298,  11204,    649,    387,   1511,    311,
+         81155,    279,   9578,    315,  83661,     11,  15301,   8335,    311,
+           279,  26031,     11,    323,   1524,   4087,   1463,   3090,    382,
+           334,     42,  72540,  11927,    320,  17111,   1680,  57277,     42,
+         72540,  11927,  11204,    374,   5938,    449,    279,  39885,     11,
+           279,  15541,    315,   9886,     11,    323,    279,  11939,    315,
+           279,  29913,     13,   1102,    649,    387,   1511,    369,   1473,
+             9,   5468,    442,   6709,     25,  23727,    265,  11927,    296,
+          1154,    649,   2585,   4027,    311,   1893,   8147,  75141,     11,
+         90536,   1344, 100210,   7384,     11,    477,   1524,  16898,    554,
+         39885,    311,   4087,   1463,    279,   3805,    627,      9,  14874,
+          2461,     25,  23727,    265,  11927,  11204,    649,    387,   1511,
+           311,   4087,   1463,    279,   3805,     11,  81155,    279,   9578,
+           315,  83661,     11,    323,   1524,   8395,   3201,   3242],
+       device='cuda:0')
+[GENERATION TIME]  20.69049906730652
+[OUTPUT TOKENS PER SECOND]  116.43025101344753
