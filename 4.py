@@ -85,6 +85,7 @@ with torch.no_grad():
         if pos == max_len - 1:
             x_last = rms_norm(x, model["norm.weight"], config.norm_eps)
             last_logits = (x_last @ model["output.weight"].T).float()
+    prefill_end = time.time()
 
     next_token = torch.argmax(last_logits, dim=-1)
     finished = torch.zeros(config.batch_size, dtype=torch.bool, device=device)
@@ -130,5 +131,5 @@ with torch.no_grad():
         print(tokenizer.decode(full))
         
     total_new = sum(len(lst) for lst in generated)
-    print(f"[PREFILL] Done in {time.time() - prefill_start:.2f}s")
+    print(f"[PREFILL] Done in {prefill_end - prefill_start:.2f}s")
     print(f"\n\n[GENERATION] Produced {total_new} tokens in {gen_time:.2f}s — {total_new / gen_time:.1f} tok/s")
