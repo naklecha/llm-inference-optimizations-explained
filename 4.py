@@ -31,10 +31,10 @@ def forward_transformer_block(x, model, k_cache, v_cache, pos, config, freqs_cis
         if config.kv_mult > 1:
             k = k.repeat_interleave(config.kv_mult, dim=1)
             v = v.repeat_interleave(config.kv_mult, dim=1)
-        k_cache[layer_index] = torch.cat((k_cache[layer_index], k.unsqueeze(0)), dim=0)
-        v_cache[layer_index] = torch.cat((v_cache[layer_index], v.unsqueeze(0)), dim=0)
-        k_all = k_cache[layer_index].permute(1, 2, 0, 3)
-        v_all = v_cache[layer_index].permute(1, 2, 0, 3)
+        k_cache[layer_index, pos] = k
+        v_cache[layer_index, pos] = v
+        k_all = k_cache[layer_index, : pos + 1].permute(1, 2, 0, 3)
+        v_all = v_cache[layer_index, : pos + 1].permute(1, 2, 0, 3)
         attn_out = F.scaled_dot_product_attention(q.unsqueeze(2), k_all, v_all, scale=1.0 / (config.head_dim ** 0.5), is_causal=False).squeeze(2)
         attn_out = attn_out.reshape(config.batch_size, config.dim)
         x = x + attn_out @ model[f"layers.{layer_index}.attention.wo.weight"].T
@@ -44,6 +44,7 @@ def forward_transformer_block(x, model, k_cache, v_cache, pos, config, freqs_cis
         ffn_out = (torch.nn.functional.silu(x_ffn_norm @ w1.T) * (x_ffn_norm @ w3.T)) @ w2.T
         x = x + ffn_out
     return x
+
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.set_default_device(device)
@@ -73,9 +74,9 @@ with torch.no_grad():
     prompt_tokens = torch.full((config.batch_size, max_len), pad_id, dtype=torch.long, device=device)
     for i, t in enumerate(enc): prompt_tokens[i, : t.numel()] = t.to(device)
 
-    k_cache = [torch.empty((0, config.batch_size, config.n_heads, config.head_dim), dtype=torch.bfloat16, device=device) for _ in range(config.n_layers)]
-    v_cache = [torch.empty((0, config.batch_size, config.n_heads, config.head_dim), dtype=torch.bfloat16, device=device) for _ in range(config.n_layers)]
-
+    k_cache = torch.empty(config.n_layers, MAX_TOTAL_TOKENS, config.batch_size, config.n_heads, config.head_dim, dtype=torch.bfloat16, device=device)
+    v_cache = torch.empty_like(k_cache)
+    
     print(f"[PREFILL] Processing {max_len} prompt tokens …")
     gen_start = prefill_start = time.time()
     for pos in range(max_len):
@@ -94,33 +95,35 @@ with torch.no_grad():
     step = 0
     while step < MAX_TOKENS_TO_GENERATE and not torch.all(finished):
         token_start = time.time()
+
         changed = False
         for i, token in enumerate(next_token):
             if not finished[i]:
                 generated[i].append(token.item())
                 if token == eot_id:
-                    finished[i] = changed = True
-                
+                    finished[i] = True
+                    changed = True
+                    
         if changed:
-            active_mask = ~finished
-            finished = finished[active_mask]
-            next_token = next_token[active_mask]
-            x = embed(next_token).to(torch.bfloat16).to(device)
-            for layer_index in range(config.n_layers):
-                k_cache[layer_index] = k_cache[layer_index][:, active_mask, :, :]
-                v_cache[layer_index] = v_cache[layer_index][:, active_mask, :, :]
-            config.batch_size = len(next_token)
-        else:
-            x = embed(next_token).to(torch.bfloat16).to(device)
-            
-        pos = k_cache[0].shape[0]
-        x = forward_transformer_block(x, model, k_cache, v_cache, pos, config, freqs_cis)
+            k_cache = k_cache[:, :, ~finished, :, :]
+            v_cache = v_cache[:, :, ~finished, :, :]
+            next_token = next_token[~finished]
+            finished = finished[~finished]
+            config.batch_size = next_token.shape[0]
+
+        x = embed(next_token).to(torch.bfloat16)
+
+        pos = max_len + step
+        x = forward_transformer_block(
+            x, model, k_cache, v_cache, pos, config, freqs_cis
+        )
         x = rms_norm(x, model["norm.weight"], config.norm_eps)
         logits = (x @ model["output.weight"].T).float()
         next_token = torch.argmax(logits, dim=-1)
-        step += 1
 
+        step += 1
         token_end = time.time()
+        active = (~finished).sum().item()
         print(f"[STEP {step}] [TOKENS GENERATED IN THIS STEP {config.batch_size}] -- {token_end - token_start:.3f}sec -- {config.batch_size / (token_end - token_start):.1f}tps")
 
     gen_time = time.time() - gen_start
