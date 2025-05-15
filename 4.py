@@ -4,11 +4,13 @@ import torch.nn.functional as F
 from prompts import prompts
 from config import Config
 
+@torch.jit.script
 def get_freqs_cis(max_tokens: int, *, rope_theta: float, device: torch.device):
     idx = torch.arange(32, device=device) / 32.0
     freqs_for_each_token = torch.outer(torch.arange(max_tokens, device=device), 1.0 / (rope_theta ** idx))
     return torch.polar(torch.ones_like(freqs_for_each_token), freqs_for_each_token)
 
+@torch.jit.script
 def rms_norm(x: torch.Tensor, weight: torch.Tensor, eps: float):
     return (x * torch.rsqrt(x.pow(2).mean(-1, keepdim=True) + eps)) * weight
 
@@ -44,7 +46,6 @@ def forward_transformer_block(x, model, k_cache, v_cache, pos, config, freqs_cis
         ffn_out = (torch.nn.functional.silu(x_ffn_norm @ w1.T) * (x_ffn_norm @ w3.T)) @ w2.T
         x = x + ffn_out
     return x
-
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.set_default_device(device)
@@ -89,28 +90,16 @@ with torch.no_grad():
     prefill_end = time.time()
 
     next_token = torch.argmax(last_logits, dim=-1)
-    finished = torch.zeros(config.batch_size, dtype=torch.bool, device=device)
     generated = [[] for _ in range(config.batch_size)]
 
     step = 0
-    while step < MAX_TOKENS_TO_GENERATE and not torch.all(finished):
+    while step < MAX_TOKENS_TO_GENERATE:
         token_start = time.time()
 
         changed = False
-        for i, token in enumerate(next_token):
-            if not finished[i]:
-                generated[i].append(token.item())
-                if token == eot_id:
-                    finished[i] = True
-                    changed = True
+        for i, token in enumerate(next_token.cpu().tolist()):
+            generated[i].append(token)
                     
-        if changed:
-            k_cache = k_cache[:, :, ~finished, :, :]
-            v_cache = v_cache[:, :, ~finished, :, :]
-            next_token = next_token[~finished]
-            finished = finished[~finished]
-            config.batch_size = next_token.shape[0]
-
         x = embed(next_token).to(torch.bfloat16)
 
         pos = max_len + step
@@ -118,12 +107,11 @@ with torch.no_grad():
             x, model, k_cache, v_cache, pos, config, freqs_cis
         )
         x = rms_norm(x, model["norm.weight"], config.norm_eps)
-        logits = (x @ model["output.weight"].T).float()
+        logits = (x @ model["output.weight"].T)
         next_token = torch.argmax(logits, dim=-1)
 
         step += 1
         token_end = time.time()
-        active = (~finished).sum().item()
         print(f"[STEP {step}] [TOKENS GENERATED IN THIS STEP {config.batch_size}] -- {token_end - token_start:.3f}sec -- {config.batch_size / (token_end - token_start):.1f}tps")
 
     gen_time = time.time() - gen_start
