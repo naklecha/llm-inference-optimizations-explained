@@ -1,6 +1,7 @@
 # implementing llm inference and making it go faster
-in this repository, i'm going to implement increasingly complex llm inference optimizations
-to understand the basics of how llms work, refer to my other respository where i implement llama3 from scratch and explain how llms work on matrix multiplication at a time:
+in this repository, i'm going to implement increasingly complex llm inference optimizations!
+
+to understand the basics of how llms work, refer to my other respository where i implement llama3 from scratch and explain how llms work one matrix multiplication at a time:
 https://github.com/naklecha/llama3-from-scratch; this repo of mine has like 15k stars, kinda wild!
 
 (this repo is currently wip)
