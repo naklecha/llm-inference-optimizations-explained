@@ -1,0 +1,11 @@
+CompileFlags:
+  Add: 
+    - "-I/home/naklecha/libtorch/include"
+    - "-I/home/naklecha/libtorch/include/torch/csrc/api/include"
+    - "-I/home/naklecha/libtorch/lib"
+    - "-I/home/naklecha/libtorch/lib/libtorch_cpu.so"
+    - "-I/home/naklecha/libtorch/lib/libtorch_cpu.so.1"
+    - "-I/home/naklecha/libtorch/lib/libtorch_cpu.so.1.13"
+    - "-I/home/naklecha/libtorch/lib/libtorch_cpu.so.1.13.1"
+    - "-I/home/naklecha/libtorch/lib/libtorch_cpu.so.1.13.1.1"
+    - "-I./cnpy"
