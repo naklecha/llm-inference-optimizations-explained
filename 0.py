@@ -1,4 +1,5 @@
 from config import Config
+from pathlib import Path
 import torch
 import time
 
@@ -8,7 +9,7 @@ torch.set_default_device(device)
 with torch.no_grad():
     config = Config(
         # "/Users/naklecha/.llama/checkpoints/Llama3.2-1B-Instruct"
-        path="/home/naklecha/.llama/checkpoints/Llama3.2-1B-Instruct",
+        path=f"{Path.home()}/.llama/checkpoints/Llama3.2-1B-Instruct",
         device=device
     )
 
