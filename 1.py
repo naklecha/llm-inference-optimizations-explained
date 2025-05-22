@@ -1,5 +1,6 @@
 from prompts import prompts
 from config import Config
+from pathlib import Path
 import torch
 import time
 
@@ -7,7 +8,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.set_default_device(device)
 
 with torch.no_grad():
-    config = Config(path="/home/naklecha/.llama/checkpoints/Llama3.2-1B-Instruct", device=device)
+    config = Config(path=f"{Path.home()}/.llama/checkpoints/Llama3.2-1B-Instruct", device=device)
     tokenizer, model = config.tokenizer, config.model
 
     def get_freqs_cis(max_tokens):

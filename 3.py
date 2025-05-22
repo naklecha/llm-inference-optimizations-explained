@@ -1,5 +1,6 @@
 from prompts import prompts
 from config import Config
+from pathlib import Path
 import torch
 import time
 
@@ -24,7 +25,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.set_default_device(device)
 
 with torch.no_grad():
-    cfg = Config(path="/home/naklecha/.llama/checkpoints/Llama3.2-1B-Instruct", device=device)
+    cfg = Config(path=f"{Path.home()}/.llama/checkpoints/Llama3.2-1B-Instruct", device=device)
     tokenizer, model = cfg.tokenizer, cfg.model
 
     formatted = [

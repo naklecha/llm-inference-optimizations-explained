@@ -3,6 +3,7 @@ import torch
 import torch.nn.functional as F
 from prompts import prompts
 from config import Config
+from pathlib import Path
 
 @torch.jit.script
 def get_freqs_cis(max_tokens: int, *, rope_theta: float, device: torch.device):
@@ -53,7 +54,7 @@ torch.backends.cuda.matmul.allow_tf32 = True
 torch.backends.cudnn.allow_tf32 = True
 
 with torch.no_grad():
-    config = Config(path="/home/naklecha/.llama/checkpoints/Llama3.2-1B-Instruct", device=device)
+    config = Config(path=f"{Path.home()}/.llama/checkpoints/Llama3.2-1B-Instruct", device=device)
     tokenizer, model = config.tokenizer, config.model
     embed = torch.nn.Embedding(config.vocab_size, config.dim, _weight=model["tok_embeddings.weight"]).to(device)
     formatted = [
